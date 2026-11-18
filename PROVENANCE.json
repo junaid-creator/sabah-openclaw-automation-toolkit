@@ -741,5 +741,54 @@
     "source_mapping": "docs/missing-implementation-sources.json",
     "changes": "Owner-authorized independent portable reconstruction; private configuration/assets excluded",
     "ownership": "Original release engineering under repository license; protocol documentation referenced, no vendor SDK copied"
+  },
+  {
+    "source": "product-catalog",
+    "destination": "toolkit/product_media.py",
+    "source_mapping": "docs/complete-capability-audit.json",
+    "changes": "Original release integration against audited behavior; explicit boundaries, no private state/assets copied",
+    "ownership": "Owner-authorized original toolkit implementation under repository license"
+  },
+  {
+    "source": "product-catalog",
+    "destination": "toolkit/source_reconciliation.py",
+    "source_mapping": "docs/complete-capability-audit.json",
+    "changes": "Original release integration against audited behavior; explicit boundaries, no private state/assets copied",
+    "ownership": "Owner-authorized original toolkit implementation under repository license"
+  },
+  {
+    "source": "customer-reply-runtime-recovery",
+    "destination": "toolkit/reply_recovery.py",
+    "source_mapping": "docs/complete-capability-audit.json",
+    "changes": "Original release integration against audited behavior; explicit boundaries, no private state/assets copied",
+    "ownership": "Owner-authorized original toolkit implementation under repository license"
+  },
+  {
+    "source": "customer-support-policy",
+    "destination": "toolkit/support_policy.py",
+    "source_mapping": "docs/complete-capability-audit.json",
+    "changes": "Original release integration against audited behavior; explicit boundaries, no private state/assets copied",
+    "ownership": "Owner-authorized original toolkit implementation under repository license"
+  },
+  {
+    "source": "social-scheduling",
+    "destination": "toolkit/schedule_dispatch.py",
+    "source_mapping": "docs/complete-capability-audit.json",
+    "changes": "Original release integration against audited behavior; explicit boundaries, no private state/assets copied",
+    "ownership": "Owner-authorized original toolkit implementation under repository license"
+  },
+  {
+    "source": "seo-blog-engine",
+    "destination": "toolkit/seo_workflow.py",
+    "source_mapping": "docs/complete-capability-audit.json",
+    "changes": "Original release integration against audited behavior; explicit boundaries, no private state/assets copied",
+    "ownership": "Owner-authorized original toolkit implementation under repository license"
+  },
+  {
+    "source": "other:woocommerce-verify-badges.py",
+    "destination": "toolkit/browser_verification.py",
+    "source_mapping": "docs/complete-capability-audit.json",
+    "changes": "Original release integration against audited behavior; explicit boundaries, no private state/assets copied",
+    "ownership": "Owner-authorized original toolkit implementation under repository license"
   }
 ]

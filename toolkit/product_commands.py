@@ -18,6 +18,19 @@ def dispatch(engine, envelope):
         raise PermissionError('Attested transport envelope required')
     event, signature = envelope['event'], envelope['signature']
     text = event.get('text','')
+    if text.startswith('MEDIA '):
+        media = getattr(engine, 'media', None)
+        if media is None: raise PermissionError('Media intake not configured')
+        if text.startswith('MEDIA PLAN '):
+            return media.plan(event, signature)
+        parts = text.split(' ')
+        if len(parts) != 3: raise ValueError('Exact media command required')
+        command, jid = parts[1:]
+        if command == 'REVIEW':
+            return media.challenge(jid, event, signature, envelope.get('review_receipt', {}))
+        if command == 'EXECUTE': return media.execute(jid, event, signature)
+        if command == 'REVOKE': return media.revoke(jid, event, signature)
+        raise ValueError('Unsupported media command; reconcile via trusted read-only adapter')
     if text.startswith('PRODUCT PLAN '):
         if 'review_receipt' in envelope: raise ValueError('Unexpected review receipt')
         return engine.plan(event,signature)
@@ -32,6 +45,15 @@ def dispatch(engine, envelope):
         # Resolve only the stored challenge; external job IDs cannot rebind it.
         with engine.db() as db:
             rows=db.execute('SELECT id FROM product_jobs WHERE challenge=?',(words[1],)).fetchall()
+        if not rows and getattr(engine, 'media', None):
+            matched = []
+            for path in engine.home.glob('media-*.json'):
+                row = engine.media.load(path.stem)
+                if row.get('challenge') == words[1]: matched.append(row)
+            if len(matched) == 1:
+                owner = engine.owner(event, signature, matched[0]['binding']['site'])
+                if owner != matched[0]['binding']['owner']: raise PermissionError('Wrong media owner')
+                return engine.bridge.confirm(event, signature, words[1])
         if len(rows)!=1: raise PermissionError('Unknown product challenge')
         return engine.confirm(rows[0]['id'],event,signature)
     raise ValueError('One exact product command required; quoted commands do not authorize')
@@ -63,6 +85,9 @@ def main(argv=None):
             return Woo(site,os.environ[site['username_env']],os.environ[site['password_env']],
                        allow_network=args.network,allow_write=args.writes)
         engine=Products(home,bridge,sites,factory,enabled=args.writes)
+        if config.get('media_root'):
+            from .product_media import Media
+            engine.media = Media(engine, config['media_root'])
         raw=sys.stdin.read(131073)
         if len(raw)>131072: raise ValueError('Envelope too large')
         print(json.dumps(dispatch(engine,json.loads(raw)),ensure_ascii=False))

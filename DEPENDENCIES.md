@@ -17,7 +17,7 @@ No new third-party dependency is added by setup_scaffold or trusted_bridge. Thei
 | Google | Official GOG + OAuth credentials / Sheets API permissions | Lead sync supported; original multi-tab SEO tracker still missing |
 | WordPress | Site REST API, application password, SEO-field plugin | Generic adapter supported; site-specific SEO/visual acceptance remains |
 | Meta | Authorized Graph API app, account scopes, owned media host | Adapter mocked; integrated worker and live verification remain |
-| TikTok | Authorized Business API app, scopes, external OAuth refresh | No shipped OAuth service; live app acceptance needed |
+| TikTok | Authorized Business API app, scopes, independently configured OAuth | Business/Login Kit token libraries shipped separately; consent web host/live acceptance needed |
 | Overture | Official downloader, data/license compliance | Acquisition/qualification supported; enrichment/orchestration incomplete |
 | Apify | Actor, token, billing evidence, allowed cap | History bounded to 2,000 runs; evidence monitor still unported |
 | Six posters | Source-derived renderer/CSS, operator fonts/assets, optional Playwright 1.64 | 18 local synthetic language/layout renders pass; genuine QR/semantic/provider integration incomplete |

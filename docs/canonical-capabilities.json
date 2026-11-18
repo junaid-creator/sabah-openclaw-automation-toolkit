@@ -6923,5 +6923,7 @@
     }
   ],
   "current_register": "complete-capability-audit.json",
-  "scope": "Legacy 460 mapping register retained; 51-group fresh reconciliation is authoritative in current_register."
+  "scope": "Legacy 460 mapping register retained; 51-group fresh reconciliation is authoritative in current_register.",
+  "superseded_by": "docs/complete-capability-audit.json",
+  "historical_snapshot": true
 }

@@ -13,7 +13,7 @@
     "original_publishable_skill_packages": 22,
     "original_skill_packages_present": 22,
     "total_repository_skill_packages": 24,
-    "python_runtime_modules": 52,
+    "python_runtime_modules": 59,
     "original_group_status_counts": {
       "PARTIALLY PORTED": 46,
       "VERIFIED AND PORTABLE": 5
@@ -98,7 +98,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:add-model-provider",
@@ -149,7 +151,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:apple-notes",
@@ -202,7 +206,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:apple-reminders",
@@ -255,7 +261,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:automation-adapter-verification",
@@ -342,7 +350,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:bear-notes",
@@ -395,7 +405,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:blogwatcher",
@@ -448,7 +460,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:blucli",
@@ -501,7 +515,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:browser-automation",
@@ -547,7 +563,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:camsnap",
@@ -600,7 +618,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:canvas",
@@ -648,7 +668,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:capped-external-api-pilot",
@@ -700,7 +722,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:clawhub",
@@ -753,7 +777,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:cloud-image-bake",
@@ -804,7 +830,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:coding-agent",
@@ -857,7 +885,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:configure-channel",
@@ -908,7 +938,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:control-ui",
@@ -973,7 +1005,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:diagnose-gateway",
@@ -1024,7 +1058,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:diagram-maker",
@@ -1089,7 +1125,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:eightctl",
@@ -1142,7 +1180,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:gateway-outage-reliability-audit",
@@ -1203,7 +1243,9 @@
           "tests/test_recovery_snapshot.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:gemini",
@@ -1256,7 +1298,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:generated-asset-checkpoint-recovery",
@@ -1322,7 +1366,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:gh-issues",
@@ -1375,7 +1421,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:gifgrep",
@@ -1428,7 +1476,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:github",
@@ -1483,7 +1533,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:gog",
@@ -1536,7 +1588,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "blocked:gog-clean",
@@ -1591,7 +1645,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Source explicitly identifies derivative ancestry; upstream redistribution/license chain is unresolved. All six original blocked records remain excluded."
+      "missing_functionality_or_restrictions": "Source explicitly identifies derivative ancestry; upstream redistribution/license chain is unresolved. All six original blocked records remain excluded.",
+      "completion_classification": "LICENSE/ACCESS BLOCKED",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:google-sheets-readiness",
@@ -1643,7 +1699,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:goplaces",
@@ -1696,7 +1754,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:healthcheck",
@@ -1749,7 +1809,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:himalaya",
@@ -1814,7 +1876,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:mcporter",
@@ -1867,7 +1931,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:meme-maker",
@@ -1932,7 +1998,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:model-usage",
@@ -2003,7 +2071,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:multi-platform-publication-recovery",
@@ -2069,7 +2139,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:nano-pdf",
@@ -2122,7 +2194,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:node-connect",
@@ -2175,7 +2249,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:node-inspect-debugger",
@@ -2228,7 +2304,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:notion",
@@ -2281,7 +2359,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:obsidian",
@@ -2334,7 +2414,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:openai-whisper",
@@ -2387,7 +2469,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:openai-whisper-api",
@@ -2446,7 +2530,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:openhue",
@@ -2499,7 +2585,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:oracle",
@@ -2552,7 +2640,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:ordercli",
@@ -2605,7 +2695,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:peekaboo",
@@ -2658,7 +2750,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:poster-template-integration",
@@ -2710,7 +2804,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "skill:private-mobile-gateway-pairing",
@@ -2762,7 +2858,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:python-debugpy",
@@ -2815,7 +2913,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:sabah-daily-seo-blog",
@@ -2866,7 +2966,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:sag",
@@ -2919,7 +3021,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:seo-marketing-pro",
@@ -2970,7 +3074,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:sherpa-onnx-tts",
@@ -3023,7 +3129,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:skill-creator",
@@ -3106,7 +3214,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:smgc-publication-intake-diagnosis",
@@ -3158,7 +3268,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "skill:smgc-social-media",
@@ -3210,7 +3322,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:songsee",
@@ -3263,7 +3377,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:sonoscli",
@@ -3316,7 +3432,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:spike",
@@ -3369,7 +3487,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:spotify-player",
@@ -3422,7 +3542,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:summarize",
@@ -3475,7 +3597,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:supplied-image-intake",
@@ -3527,7 +3651,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "skill:system-management-model-routing",
@@ -3579,7 +3705,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:things-mac",
@@ -3632,7 +3760,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:tmux",
@@ -3697,7 +3827,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:trello",
@@ -3750,7 +3882,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:visualize",
@@ -3803,7 +3937,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:wacli",
@@ -3849,7 +3985,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:weather",
@@ -3902,7 +4040,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "skill:woocommerce-cart-checkout-diagnosis",
@@ -3954,7 +4094,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "skill:woocommerce-catalog-reconciliation",
@@ -4027,7 +4169,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "skill:woocommerce-price-display-audit",
@@ -4079,7 +4223,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "skill:woocommerce-product-content-seo",
@@ -4138,7 +4284,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "skill:wordpress-additive-content-update",
@@ -4190,7 +4338,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "skill:wordpress-child-theme-readiness",
@@ -4242,7 +4392,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "skill:wordpress-page-style-correction",
@@ -4294,7 +4446,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "blocked:wordpress-rest-api-clean",
@@ -4349,7 +4503,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Source explicitly identifies derivative ancestry; upstream redistribution/license chain is unresolved. All six original blocked records remain excluded."
+      "missing_functionality_or_restrictions": "Source explicitly identifies derivative ancestry; upstream redistribution/license chain is unresolved. All six original blocked records remain excluded.",
+      "completion_classification": "LICENSE/ACCESS BLOCKED",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:xurl",
@@ -4402,7 +4558,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "other:woocommerce-verify-badges.py",
@@ -4425,17 +4583,19 @@
       "unique_source_hashes": 1,
       "overlapping_records": 0,
       "published_modules": [
-        "toolkit/badge_audit.py"
+        "toolkit/badge_audit.py",
+        "toolkit/browser_verification.py"
       ],
       "published_skill": null,
-      "reason": "Executable exact badge HTML audit with bounded allowlisted GET. Computed CSS, live cart/checkout and native website acceptance remain unverified.",
+      "reason": "Server HTML audit plus actual desktop/mobile local Chromium visibility/text/count checks verified. Live cart/checkout, JavaScript hydration and authenticated website operations remain separate acceptance.",
       "purpose": "other:woocommerce verify badges.py",
       "trigger": "See original source and reference procedure; runtime trigger not independently exercised",
       "original_execution_mechanism": "Original source mechanism recorded; integrated execution not independently traced for every branch",
       "authentication": "Trusted host identity and scope for privileged commands; raw customer/quoted text never grants authority. Read-only procedures do not authorize writes.",
       "accounts_and_permissions": "Configured native host tools and explicitly authorized target account; exact permissions need deployment validation",
       "public_implementation_paths": [
-        "toolkit/badge_audit.py"
+        "toolkit/badge_audit.py",
+        "toolkit/browser_verification.py"
       ],
       "source_paths_and_hashes": [
         {
@@ -4464,14 +4624,17 @@
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "41 new offline tests; no live acceptance",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
         "fresh_live_e2e": false,
         "paths": [
-          "tests/test_missing_implementations.py",
-          "tests/test_missing_business_oauth.py"
+          "tests/browser_fixture_acceptance.py",
+          "tests/test_missing_business_oauth.py",
+          "tests/test_missing_implementations.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Executable exact badge HTML audit with bounded allowlisted GET. Computed CSS, live cart/checkout and native website acceptance remain unverified."
+      "missing_functionality_or_restrictions": "Server HTML audit plus actual desktop/mobile local Chromium visibility/text/count checks verified. Live cart/checkout, JavaScript hydration and authenticated website operations remain separate acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "seo-blog-engine",
@@ -4582,15 +4745,16 @@
       "overlapping_records": 2,
       "published_modules": [
         "blog_controller",
-        "blog_publication",
         "blog_gates",
-        "wordpress",
+        "blog_publication",
+        "content_ledger",
         "draft_primitives",
         "reliability",
-        "content_ledger"
+        "toolkit/seo_workflow.py",
+        "wordpress"
       ],
       "published_skill": null,
-      "reason": "Portable stages, create-once, publication gates and uncertain-write recovery are implemented. Native research/image/message tool bridges, site-specific SEO REST registration and full tracker orchestration are not wired as a fresh deployment.",
+      "reason": "Integrated inventory/research/article/image-task/three-WebP/CMS-draft/validation/owner-receipt pipeline added. Three-tab tracker schema, SEO-plugin fields, inline media URL rewriting, semantic/source quality and native provider adapters remain deployment-specific.",
       "purpose": "seo blog engine",
       "trigger": "Owner article request/approval or independently authorized daily trigger",
       "original_execution_mechanism": "Trusted owner/standing daily policy -> controller/frozen run -> research/image gates -> WP post/SEO -> independent REST/public readback -> tracker/outbox",
@@ -4603,6 +4767,7 @@
         "toolkit/content_ledger.py",
         "toolkit/draft_primitives.py",
         "toolkit/reliability.py",
+        "toolkit/seo_workflow.py",
         "toolkit/wordpress.py"
       ],
       "source_paths_and_hashes": [
@@ -4908,16 +5073,19 @@
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
         "fresh_live_e2e": false,
         "paths": [
           "tests/test_blog_controller.py",
           "tests/test_core.py",
           "tests/test_platform_adapters.py",
-          "tests/test_product_workflow.py"
+          "tests/test_product_workflow.py",
+          "tests/test_seo_workflow.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Portable stages, create-once, publication gates and uncertain-write recovery are implemented. Native research/image/message tool bridges, site-specific SEO REST registration and full tracker orchestration are not wired as a fresh deployment."
+      "missing_functionality_or_restrictions": "Integrated inventory/research/article/image-task/three-WebP/CMS-draft/validation/owner-receipt pipeline added. Three-tab tracker schema, SEO-plugin fields, inline media URL rewriting, semantic/source quality and native provider adapters remain deployment-specific.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "social-scheduling",
@@ -5006,10 +5174,11 @@
       "overlapping_records": 9,
       "published_modules": [
         "product_rotation",
-        "schedule_core"
+        "schedule_core",
+        "toolkit/schedule_dispatch.py"
       ],
       "published_skill": null,
-      "reason": "Explicit date parser, durable outbox and six-position product/template assignment are implemented. Authenticated inbound schedule challenge/confirmation bridge and daemon admission wiring remain unported.",
+      "reason": "Signed exact-content/time approval, revocation, due/grace admission and no-repeat dispatch added. No timer activation; native routing and provider worker acceptance required.",
       "purpose": "social scheduling",
       "trigger": "Owner exact date/time/timezone request",
       "original_execution_mechanism": "Trusted review/owner challenge -> schedule parser and durable outbox -> due receipt admission -> worker -> platform/report evidence",
@@ -5017,7 +5186,8 @@
       "accounts_and_permissions": "Timezone, owner route, separately authorized scheduler",
       "public_implementation_paths": [
         "toolkit/product_rotation.py",
-        "toolkit/schedule_core.py"
+        "toolkit/schedule_core.py",
+        "toolkit/schedule_dispatch.py"
       ],
       "source_paths_and_hashes": [
         {
@@ -5202,13 +5372,16 @@
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
         "fresh_live_e2e": false,
         "paths": [
-          "tests/test_engines.py"
+          "tests/test_engines.py",
+          "tests/test_schedule_dispatch.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Explicit date parser, durable outbox and six-position product/template assignment are implemented. Authenticated inbound schedule challenge/confirmation bridge and daemon admission wiring remain unported."
+      "missing_functionality_or_restrictions": "Signed exact-content/time approval, revocation, due/grace admission and no-repeat dispatch added. No timer activation; native routing and provider worker acceptance required.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "deployment-specific-utilities",
@@ -5305,7 +5478,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Supporting test/package/deployment-utility records, not additional standalone skills; retained in record accounting rather than reimplemented individually."
+      "missing_functionality_or_restrictions": "Supporting test/package/deployment-utility records, not additional standalone skills; retained in record accounting rather than reimplemented individually.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "verification-harnesses",
@@ -5440,7 +5615,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Supporting test/package/deployment-utility records, not additional standalone skills; retained in record accounting rather than reimplemented individually."
+      "missing_functionality_or_restrictions": "Supporting test/package/deployment-utility records, not additional standalone skills; retained in record accounting rather than reimplemented individually.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "tiktok-auth",
@@ -5566,7 +5743,9 @@
           "tests/test_missing_business_oauth.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Independent Login Kit and Business Accounts v1.3 exchange/rotation with private stores and publisher token-provider integration. Business consent URL needs operator-reviewed app configuration; live OAuth, revocation and encrypted vault acceptance required."
+      "missing_functionality_or_restrictions": "Independent Login Kit and Business Accounts v1.3 exchange/rotation with private stores and publisher token-provider integration. Business consent URL needs operator-reviewed app configuration; live OAuth, revocation and encrypted vault acceptance required.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "social-publishing",
@@ -5920,7 +6099,9 @@
           "tests/test_platform_adapters.py"
         ]
       },
-      "missing_functionality_or_restrictions": "FB/IG adapter, TikTok adapter and durable approval/revocation are implemented. The original multi-platform Engine worker, exact visual/asset binding and autonomous recovery dispatcher still require a portable integrated harness."
+      "missing_functionality_or_restrictions": "FB/IG adapter, TikTok adapter and durable approval/revocation are implemented. The original multi-platform Engine worker, exact visual/asset binding and autonomous recovery dispatcher still require a portable integrated harness.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "notification-delivery",
@@ -5979,10 +6160,12 @@
       "published_modules": [
         "notification_outbox",
         "report_outbox",
+        "toolkit/reply_recovery.py",
+        "toolkit/seo_workflow.py",
         "trusted_bridge"
       ],
       "published_skill": null,
-      "reason": "Outbox primitives and native product review-receipt capture source are supplied. Full multi-workflow native sender/recovery routing and live delivery remain NOT TESTED.",
+      "reason": "Exact owner/customer receipt correlation and unknown-send fencing integrated. Native transport/account delivery remain live acceptance required; missing notification proof never authorizes republishing.",
       "purpose": "notification delivery",
       "trigger": "See original source and reference procedure; runtime trigger not independently exercised",
       "original_execution_mechanism": "Original source mechanism recorded; integrated execution not independently traced for every branch",
@@ -5991,7 +6174,9 @@
       "public_implementation_paths": [
         "plugins/product-owner-bridge/bridge.mjs",
         "toolkit/notification_outbox.py",
+        "toolkit/reply_recovery.py",
         "toolkit/report_outbox.py",
+        "toolkit/seo_workflow.py",
         "toolkit/trusted_bridge.py"
       ],
       "source_paths_and_hashes": [
@@ -6099,17 +6284,21 @@
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
         "fresh_live_e2e": false,
         "paths": [
           "tests/test_blog_controller.py",
           "tests/test_engines.py",
           "tests/test_product_native_bridge.mjs",
           "tests/test_product_workflow.py",
+          "tests/test_reply_recovery.py",
+          "tests/test_seo_workflow.py",
           "tests/test_trusted_bridge.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Outbox primitives and native product review-receipt capture source are supplied. Full multi-workflow native sender/recovery routing and live delivery remain NOT TESTED."
+      "missing_functionality_or_restrictions": "Exact owner/customer receipt correlation and unknown-send fencing integrated. Native transport/account delivery remain live acceptance required; missing notification proof never authorizes republishing.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "product-catalog",
@@ -6176,13 +6365,15 @@
       "overlapping_records": 5,
       "published_modules": [
         "product_api",
+        "product_commands",
         "product_plan",
-        "product_workflow",
         "product_recovery",
-        "product_commands"
+        "product_workflow",
+        "toolkit/product_media.py",
+        "toolkit/source_reconciliation.py"
       ],
       "published_skill": null,
-      "reason": "Actual configurable Woo draft/edit/publish/scoped-restore engine, signed native hook source, before snapshots, independent revocation and no-replay reconciliation are tested offline. No full SQL backup/restore, Sheet/formula source bridge, binary media upload, promotion-copy substitutions, private family aliases, storefront/cart or live native-channel acceptance.",
+      "reason": "Native MEDIA plan/review/confirm/execute/revoke, rights/hash-bound upload, source/formula snapshot and exact Sheet mirror added. Configured source adapter/exclusive writer and live storefront/native acceptance required; SQL restore is not safely equivalent to REST.",
       "purpose": "product catalog",
       "trigger": "Owner ADD/UPDATE/CHECK/APPROVE PRODUCT row commands; portable PRODUCT PLAN/REVIEW/CONFIRM/EXECUTE",
       "original_execution_mechanism": "Native before_dispatch trusted direct sender/account -> exact frozen plan -> bounded Python engine -> Woo REST (reference used WP-CLI) -> independent readback and native message_sent receipt",
@@ -6192,9 +6383,11 @@
         "plugins/product-owner-bridge/index.mjs",
         "toolkit/product_api.py",
         "toolkit/product_commands.py",
+        "toolkit/product_media.py",
         "toolkit/product_plan.py",
         "toolkit/product_recovery.py",
-        "toolkit/product_workflow.py"
+        "toolkit/product_workflow.py",
+        "toolkit/source_reconciliation.py"
       ],
       "source_paths_and_hashes": [
         {
@@ -6327,14 +6520,17 @@
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
         "fresh_live_e2e": false,
         "paths": [
+          "tests/test_product_extensions.py",
           "tests/test_product_native_bridge.mjs",
           "tests/test_product_workflow.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Actual configurable Woo draft/edit/publish/scoped-restore engine, signed native hook source, before snapshots, independent revocation and no-replay reconciliation are tested offline. No full SQL backup/restore, Sheet/formula source bridge, binary media upload, promotion-copy substitutions, private family aliases, storefront/cart or live native-channel acceptance."
+      "missing_functionality_or_restrictions": "Native MEDIA plan/review/confirm/execute/revoke, rights/hash-bound upload, source/formula snapshot and exact Sheet mirror added. Configured source adapter/exclusive writer and live storefront/native acceptance required; SQL restore is not safely equivalent to REST.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "watchdog",
@@ -6514,7 +6710,9 @@
           "tests/test_watchdog.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Task lifecycle, stalls, endpoint health and inquiry failure reader are implemented. Native runtime-event ingestion and production-specific result watchers/delivery daemon remain outside the standalone adapter."
+      "missing_functionality_or_restrictions": "Task lifecycle, stalls, endpoint health and inquiry failure reader are implemented. Native runtime-event ingestion and production-specific result watchers/delivery daemon remain outside the standalone adapter.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "apify-budgeted-acquisition",
@@ -6633,7 +6831,9 @@
           "tests/test_engines.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Capped start/collection and independent policy/credit guards are implemented and mocked. Complete account inventory now uses bounded pagination (100 rows/page, 20 pages), validates metadata and run states, and rechecks the head before admission. Histories exceeding 2,000 runs, changing/unknown inventory and active runs fail closed. Scheduled owner billing-evidence monitoring and native routing remain unported; concurrent starts by other clients cannot be atomically excluded."
+      "missing_functionality_or_restrictions": "Capped start/collection and independent policy/credit guards are implemented and mocked. Complete account inventory now uses bounded pagination (100 rows/page, 20 pages), validates metadata and run states, and rechecks the head before admission. Histories exceeding 2,000 runs, changing/unknown inventory and active runs fail closed. Scheduled owner billing-evidence monitoring and native routing remain unported; concurrent starts by other clients cannot be atomically excluded.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "social-draft-review",
@@ -6787,7 +6987,9 @@
           "tests/test_missing_business_oauth.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Durable create/revise/review/exact approval/dispatch integrated with six layouts and publication ledgers. Native sender, hosted-byte immutability, Sheets create/revise sync, media generation and automatic recovery require deployment adapters and acceptance."
+      "missing_functionality_or_restrictions": "Durable create/revise/review/exact approval/dispatch integrated with six layouts and publication ledgers. Native sender, hosted-byte immutability, Sheets create/revise sync, media generation and automatic recovery require deployment adapters and acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "poster-generation",
@@ -6881,13 +7083,13 @@
       "overlapping_records": 1,
       "published_modules": [
         "image_intake",
-        "poster_reference",
         "poster_catalog",
         "poster_cobrand",
+        "poster_reference",
         "poster_render"
       ],
       "published_skill": null,
-      "reason": "Original six layout structures and crop/brand geometry are adapted with replaceable synthetic assets and operator fonts; build tests and local Chromium render evidence are supplied separately. Native image generation, genuine QR validation, independent exact-artifact semantic review and integrated draft pipeline remain incomplete.",
+      "reason": "Six templates rendered through durable draft/review/approval dispatch with simulated hosting/publication; 18 language renders passed. Genuine QR/semantic review, brand rights, public hosting and real provider acceptance required.",
       "purpose": "poster generation",
       "trigger": "See original source and reference procedure; runtime trigger not independently exercised",
       "original_execution_mechanism": "Original source mechanism recorded; integrated execution not independently traced for every branch",
@@ -7149,14 +7351,17 @@
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
         "fresh_live_e2e": false,
         "paths": [
+          "tests/social_render_acceptance.py",
           "tests/test_image_intake.py",
           "tests/test_poster_layouts.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original six layout structures and crop/brand geometry are adapted with replaceable synthetic assets and operator fonts; build tests and local Chromium render evidence are supplied separately. Native image generation, genuine QR validation, independent exact-artifact semantic review and integrated draft pipeline remain incomplete."
+      "missing_functionality_or_restrictions": "Six templates rendered through durable draft/review/approval dispatch with simulated hosting/publication; 18 language renders passed. Genuine QR/semantic review, brand rights, public hosting and real provider acceptance required.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "blog-image-recovery",
@@ -7356,7 +7561,9 @@
           "tests/test_blog_controller.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Receipt-bound three-image validation/recovery is implemented. Provider-task capture/replay bridge and original marker/crop quality reviewer depend on host-owned task and artifact contracts not ported."
+      "missing_functionality_or_restrictions": "Receipt-bound three-image validation/recovery is implemented. Provider-task capture/replay bridge and original marker/crop quality reviewer depend on host-owned task and artifact contracts not ported.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "lead-acquisition",
@@ -7475,7 +7682,9 @@
           "tests/test_google_sheets.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Overture acquisition, conversion, qualification, dedup and approved Google lead merge/readback are implemented. Original verified-site/geography-specific enrichment and weekly notification orchestration are not generalized."
+      "missing_functionality_or_restrictions": "Overture acquisition, conversion, qualification, dedup and approved Google lead merge/readback are implemented. Original verified-site/geography-specific enrichment and weekly notification orchestration are not generalized.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "campaign-language",
@@ -7534,7 +7743,9 @@
           "tests/test_core.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original local language-selection/validation behavior ported and regression-tested."
+      "missing_functionality_or_restrictions": "Original local language-selection/validation behavior ported and regression-tested.",
+      "completion_classification": "VERIFIED PORTABLE",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "wordpress-client",
@@ -7595,7 +7806,9 @@
           "tests/test_product_workflow.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Authenticated REST read/update/media functionality is provided by the portable WordPress client; production-bound shell invocation and credentials are intentionally not copied. Live account integration is NOT TESTED."
+      "missing_functionality_or_restrictions": "Authenticated REST read/update/media functionality is provided by the portable WordPress client; production-bound shell invocation and credentials are intentionally not copied. Live account integration is NOT TESTED.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "google-sheets-adapter",
@@ -7623,11 +7836,12 @@
       "unique_source_hashes": 1,
       "overlapping_records": 0,
       "published_modules": [
+        "google_readiness",
         "google_sheets",
-        "google_readiness"
+        "toolkit/source_reconciliation.py"
       ],
       "published_skill": null,
-      "reason": "Generic GOG lead synchronization is implemented. The original multi-tab SEO tracker adapter/schema and process-bound coordination remain separate unported integration work.",
+      "reason": "Stable source rows/formulas, mapped product requests and no-replay exact Sheet mirror added. Private multi-tab schemas are not assumed; authenticated account and exclusive writer acceptance required.",
       "purpose": "google sheets adapter",
       "trigger": "Authorized source/tracker/lead synchronization",
       "original_execution_mechanism": "Trusted workflow scope -> inspect schema/rows -> literal scoped updates -> independent row readback; mirror never publication authority",
@@ -7635,7 +7849,8 @@
       "accounts_and_permissions": "Operator Google account, Sheet/tab scopes and exclusive-writer discipline",
       "public_implementation_paths": [
         "toolkit/google_readiness.py",
-        "toolkit/google_sheets.py"
+        "toolkit/google_sheets.py",
+        "toolkit/source_reconciliation.py"
       ],
       "source_paths_and_hashes": [
         {
@@ -7674,14 +7889,17 @@
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
         "fresh_live_e2e": false,
         "paths": [
           "tests/test_content_review.py",
-          "tests/test_google_sheets.py"
+          "tests/test_google_sheets.py",
+          "tests/test_product_extensions.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Generic GOG lead synchronization is implemented. The original multi-tab SEO tracker adapter/schema and process-bound coordination remain separate unported integration work."
+      "missing_functionality_or_restrictions": "Stable source rows/formulas, mapped product requests and no-replay exact Sheet mirror added. Private multi-tab schemas are not assumed; authenticated account and exclusive writer acceptance required.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "seo-local-tools",
@@ -7797,7 +8015,9 @@
           "tests/test_elementor_plan.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original local SEO helpers and inert Elementor command-plan generation reproduced; the original wrapper did not execute Elementor. Real browser/analytics operations remain upstream/account dependencies."
+      "missing_functionality_or_restrictions": "Original local SEO helpers and inert Elementor command-plan generation reproduced; the original wrapper did not execute Elementor. Real browser/analytics operations remain upstream/account dependencies.",
+      "completion_classification": "VERIFIED PORTABLE",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "customer-knowledge",
@@ -7890,7 +8110,9 @@
           "tests/test_core.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original bounded public knowledge snapshot behavior generalized and fixture-tested; original first-page-only limitation remains explicit. Fresh live account/scheduler acceptance not claimed."
+      "missing_functionality_or_restrictions": "Original bounded public knowledge snapshot behavior generalized and fixture-tested; original first-page-only limitation remains explicit. Fresh live account/scheduler acceptance not claimed.",
+      "completion_classification": "VERIFIED PORTABLE",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:a2a",
@@ -7934,7 +8156,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:active-memory",
@@ -7978,7 +8202,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:admin-http-rpc",
@@ -8022,7 +8248,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:agentsapi",
@@ -8066,7 +8294,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:alibaba",
@@ -8110,7 +8340,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:anthropic",
@@ -8154,7 +8386,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:apple-fm",
@@ -8198,7 +8432,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:azure-speech",
@@ -8242,7 +8478,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:beam",
@@ -8286,7 +8524,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:bonjour",
@@ -8330,7 +8570,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:browser",
@@ -8374,7 +8616,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:clawrouter",
@@ -8418,7 +8662,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:code-mode-quickjs",
@@ -8462,7 +8708,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:copilot-proxy",
@@ -8506,7 +8754,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:crabbox",
@@ -8550,7 +8800,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:cua-computer",
@@ -8594,7 +8846,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:deepgram",
@@ -8638,7 +8892,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:device-pair",
@@ -8682,7 +8938,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:document-extract",
@@ -8726,7 +8984,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:elevenlabs",
@@ -8770,7 +9030,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:fal",
@@ -8814,7 +9076,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:file-transfer",
@@ -8858,7 +9122,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:geolocation",
@@ -8902,7 +9168,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:github-copilot",
@@ -8946,7 +9214,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:google",
@@ -8990,7 +9260,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:huggingface",
@@ -9034,7 +9306,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:imap",
@@ -9078,7 +9352,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:kie",
@@ -9122,7 +9398,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:linux-node",
@@ -9166,7 +9444,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:litellm",
@@ -9210,7 +9490,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:llm-task",
@@ -9254,7 +9536,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:lmstudio",
@@ -9298,7 +9582,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:logbook",
@@ -9342,7 +9628,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:memory-core",
@@ -9386,7 +9674,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:memory-wiki",
@@ -9430,7 +9720,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:microsoft",
@@ -9474,7 +9766,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:microsoft-foundry",
@@ -9518,7 +9812,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:migrate-claude",
@@ -9562,7 +9858,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:migrate-hermes",
@@ -9606,7 +9904,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:minimax",
@@ -9650,7 +9950,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:nvidia",
@@ -9694,7 +9996,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:oc-path",
@@ -9738,7 +10042,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:ollama",
@@ -9782,7 +10088,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:onepassword",
@@ -9826,7 +10134,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:openai",
@@ -9870,7 +10180,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:opencode-go",
@@ -9914,7 +10226,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:openrouter",
@@ -9958,7 +10272,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:policy",
@@ -10002,7 +10318,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:reef",
@@ -10046,7 +10364,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:runway",
@@ -10090,7 +10410,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:senseaudio",
@@ -10134,7 +10456,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:session-share",
@@ -10178,7 +10502,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:sglang",
@@ -10222,7 +10548,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:talk-voice",
@@ -10266,7 +10594,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:telegram",
@@ -10310,7 +10640,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:together",
@@ -10354,7 +10686,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:tts-local-cli",
@@ -10398,7 +10732,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:vault",
@@ -10442,7 +10778,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:vllm",
@@ -10486,7 +10824,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:web-readability",
@@ -10530,7 +10870,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:workboard",
@@ -10574,7 +10916,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:xai",
@@ -10618,7 +10962,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:apify-openclaw-plugin",
@@ -10662,7 +11008,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:codex",
@@ -10706,7 +11054,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:parallel",
@@ -10750,7 +11100,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:whatsapp",
@@ -10794,7 +11146,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:boot-md",
@@ -10838,7 +11192,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:bootstrap-extra-files",
@@ -10882,7 +11238,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:command-logger",
@@ -10926,7 +11284,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:compaction-notifier",
@@ -10970,7 +11330,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream:session-memory",
@@ -11014,7 +11376,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "gateway-monitor",
@@ -11099,7 +11463,9 @@
           "tests/test_gateway_monitor.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Independent alert-only HTTP probe, durable incident/unknown-send fencing and optional configured Telegram transport plus inert service templates are executable. Actual natural service invocation and owner delivery NOT TESTED; no Gateway control."
+      "missing_functionality_or_restrictions": "Independent alert-only HTTP probe, durable incident/unknown-send fencing and optional configured Telegram transport plus inert service templates are executable. Actual natural service invocation and owner delivery NOT TESTED; no Gateway control.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "deployment-adapters",
@@ -11323,7 +11689,9 @@
           "tests/test_trusted_bridge.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original service/timer definitions contain host-specific executables, identities and environment bindings. They remain excluded from automatic installation; no production schedules are activated. Inert two-workspace scaffolder implemented and tested; no fresh Gateway or service installation acceptance."
+      "missing_functionality_or_restrictions": "Original service/timer definitions contain host-specific executables, identities and environment bindings. They remain excluded from automatic installation; no production schedules are activated. Inert two-workspace scaffolder implemented and tested; no fresh Gateway or service installation acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream:openclaw-runtime",
@@ -11367,7 +11735,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+      "missing_functionality_or_restrictions": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "customer-support-policy",
@@ -11383,16 +11753,20 @@
       "unique_source_hashes": 1,
       "overlapping_records": 0,
       "published_modules": [
+        "toolkit/reply_recovery.py",
+        "toolkit/support_policy.py",
         "trusted_bridge"
       ],
       "published_skill": null,
-      "reason": "Targeted supplemental discovery: original support language/inquiry/privacy/tool policy generalized with test-only allowlisted routing. Static guard checks pass; fresh-agent/model behavior and actual customer delivery are NOT TESTED. Signed routing, denied sensitive actions, opt-in send reservation and exact receipt validation are now executable and offline tested. Independent semantic policy callback and native ingress/sender still required.",
+      "reason": "Executable locale/intent-bound reviewed phrase policy plus durable reply path. Arbitrary free-form semantic correctness is not certified by static rules; classifier/reviewer and fresh-agent acceptance remain required.",
       "purpose": "customer support policy",
       "trigger": "Routed customer inquiry",
       "original_execution_mechanism": "Trusted channel/account routing -> isolated support policy/knowledge -> bounded response/escalation -> guarded delivery -> actual receipt",
       "authentication": "Trusted host identity and scope for privileged commands; raw customer/quoted text never grants authority. Read-only procedures do not authorize writes.",
       "accounts_and_permissions": "Native channel, configured model and isolated reviewed knowledge",
       "public_implementation_paths": [
+        "toolkit/reply_recovery.py",
+        "toolkit/support_policy.py",
         "toolkit/trusted_bridge.py"
       ],
       "source_paths_and_hashes": [
@@ -11415,14 +11789,17 @@
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
         "fresh_live_e2e": false,
         "paths": [
           "tests/test_product_workflow.py",
+          "tests/test_support_reviewed_policy.py",
           "tests/test_trusted_bridge.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Targeted supplemental discovery: original support language/inquiry/privacy/tool policy generalized with test-only allowlisted routing. Static guard checks pass; fresh-agent/model behavior and actual customer delivery are NOT TESTED. Signed routing, denied sensitive actions, opt-in send reservation and exact receipt validation are now executable and offline tested. Independent semantic policy callback and native ingress/sender still required."
+      "missing_functionality_or_restrictions": "Executable locale/intent-bound reviewed phrase policy plus durable reply path. Arbitrary free-form semantic correctness is not certified by static rules; classifier/reviewer and fresh-agent acceptance remain required.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "skill:public-toolkit-release",
@@ -11469,7 +11846,9 @@
           "tests/release_gate.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
+      "missing_functionality_or_restrictions": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "local-speech-recognition",
@@ -11516,7 +11895,9 @@
           "tests/test_local_voice.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Executable adapter and synthetic subprocess tests; actual model/license/accuracy/native attachment acceptance NOT TESTED."
+      "missing_functionality_or_restrictions": "Executable adapter and synthetic subprocess tests; actual model/license/accuracy/native attachment acceptance NOT TESTED.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "local-voice-synthesis",
@@ -11563,7 +11944,9 @@
           "tests/test_local_voice.py"
         ]
       },
-      "missing_functionality_or_restrictions": "No model or voice redistributed. Actual model quality/licensing, native voice reply and audio/text priority NOT TESTED."
+      "missing_functionality_or_restrictions": "No model or voice redistributed. Actual model quality/licensing, native voice reply and audio/text priority NOT TESTED.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "voice-runtime-control",
@@ -11658,7 +12041,9 @@
           "tests/test_missing_business_oauth.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Executable opt-in isolated voice settings, merge/CAS/history rollback and local_voice configuration. No Gateway configuration activation; native model quality/licensing and channel acceptance required."
+      "missing_functionality_or_restrictions": "Executable opt-in isolated voice settings, merge/CAS/history rollback and local_voice configuration. No Gateway configuration activation; native model quality/licensing and channel acceptance required.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "customer-support-control",
@@ -11711,7 +12096,9 @@
           "tests/test_support_guards.mjs"
         ]
       },
-      "missing_functionality_or_restrictions": "Local mode state is executable. Original authenticated owner command/config-patch integration and exact native send-policy merge are not ported or fresh-host validated."
+      "missing_functionality_or_restrictions": "Local mode state is executable. Original authenticated owner command/config-patch integration and exact native send-policy merge are not ported or fresh-host validated.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "integrity-guard",
@@ -11777,7 +12164,9 @@
           "tests/test_gateway_monitor.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Generic manifest checks exist. Native plugin source attestation, exact DB schemas, startup fencing and deliberate stop-policy service adapter remain unported; no stop/restart behavior added."
+      "missing_functionality_or_restrictions": "Generic manifest checks exist. Native plugin source attestation, exact DB schemas, startup fencing and deliberate stop-policy service adapter remain unported; no stop/restart behavior added.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "native-rate-limit",
@@ -11824,7 +12213,9 @@
           "tests/test_support_guards.mjs"
         ]
       },
-      "missing_functionality_or_restrictions": "Actual disposable SQLite tests pass. Callable library only, not activated native interception. Retains tombstones rather than original seven-day deletion."
+      "missing_functionality_or_restrictions": "Actual disposable SQLite tests pass. Callable library only, not activated native interception. Retains tombstones rather than original seven-day deletion.",
+      "completion_classification": "VERIFIED PORTABLE",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "native-delivery-guard",
@@ -11871,7 +12262,9 @@
           "tests/test_support_guards.mjs"
         ]
       },
-      "missing_functionality_or_restrictions": "Callable admission guard verified with SQLite; no delivery guarantee or native transport activation. Missing mode fails closed; callback needs its own durable receipt ledger."
+      "missing_functionality_or_restrictions": "Callable admission guard verified with SQLite; no delivery guarantee or native transport activation. Missing mode fails closed; callback needs its own durable receipt ledger.",
+      "completion_classification": "VERIFIED PORTABLE",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "customer-reply-runtime-recovery",
@@ -11880,9 +12273,11 @@
         "customer-support"
       ],
       "record_ids": [],
-      "published_modules": [],
+      "published_modules": [
+        "toolkit/reply_recovery.py"
+      ],
       "published_skill": null,
-      "reason": "Existing portable outboxes/attestation do not port the native final-result/transcript lookup and per-inquiry runtime recovery. Native source coupling and privacy boundary require separate adaptation and tests.",
+      "reason": "Durable inquiry/task/final-result correlation and exact delivery reconciliation added. Authorized native result-reader and messaging callbacks remain deployment integrations; no private transcript reading or guessed API.",
       "new": true,
       "trigger": "Native inquiry and reply lifecycle",
       "purpose": "Durable inbound turn, timeout, final-result lookup and reply reconciliation",
@@ -11892,6 +12287,7 @@
       "accounts_and_permissions": "Configured native host tools and explicitly authorized target account; exact permissions need deployment validation",
       "public_implementation_paths": [
         "toolkit/notification_outbox.py",
+        "toolkit/reply_recovery.py",
         "toolkit/trusted_bridge.py"
       ],
       "source_paths_and_hashes": [
@@ -11913,15 +12309,18 @@
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
         "fresh_live_e2e": false,
         "paths": [
           "tests/test_engines.py",
           "tests/test_product_workflow.py",
+          "tests/test_reply_recovery.py",
           "tests/test_trusted_bridge.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Existing portable outboxes/attestation do not port the native final-result/transcript lookup and per-inquiry runtime recovery. Native source coupling and privacy boundary require separate adaptation and tests."
+      "missing_functionality_or_restrictions": "Durable inquiry/task/final-result correlation and exact delivery reconciliation added. Authorized native result-reader and messaging callbacks remain deployment integrations; no private transcript reading or guessed API.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {
       "id": "upstream-patched-whatsapp",
@@ -11976,7 +12375,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Patched upstream distribution is not an original standalone implementation; exact patch/attribution/license and supported host contract have not been reconstructed. Link official distribution, do not redistribute installed bundles."
+      "missing_functionality_or_restrictions": "Patched upstream distribution is not an original standalone implementation; exact patch/attribution/license and supported host contract have not been reconstructed. Link official distribution, do not redistribute installed bundles.",
+      "completion_classification": "LICENSE/ACCESS BLOCKED",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "upstream-system-and-runtime",
@@ -12125,7 +12526,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Official runtime, OS and binary dependencies; no redistribution."
+      "missing_functionality_or_restrictions": "Official runtime, OS and binary dependencies; no redistribution.",
+      "completion_classification": "UPSTREAM DEPENDENCY",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "historical-supporting-artifacts",
@@ -12234,7 +12637,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Historical backup/test candidate, not an additional active original capability. Excluded from release."
+      "missing_functionality_or_restrictions": "Historical backup/test candidate, not an additional active original capability. Excluded from release.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "Not claimed; see functional scope"
     },
     {
       "id": "unresolved-source-attribution",
@@ -12270,7 +12675,9 @@
         "fresh_live_e2e": false,
         "paths": []
       },
-      "missing_functionality_or_restrictions": "Source identity observed but behavior/ownership not fully traced; NOT TESTED. No completeness claim."
+      "missing_functionality_or_restrictions": "Source identity observed but behavior/ownership not fully traced; NOT TESTED. No completeness claim.",
+      "completion_classification": "PARTIAL",
+      "live_acceptance": "Not claimed; see functional scope"
     }
   ],
   "access_limits": [
@@ -18943,10 +19350,10 @@
   ],
   "continuation": {
     "baseline": "26fdce2b",
-    "batch": "four missing implementations",
+    "batch": "independent integrated workflow adapters",
     "new_groups": 0,
     "missing_groups_now": 0,
-    "new_tests": 41,
+    "new_tests": 72,
     "acceptance": "OFFLINE ONLY; PARTIAL"
   }
 }

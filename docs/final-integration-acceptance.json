@@ -1,0 +1,62 @@
+{
+  "scope": "Fresh isolated install; offline providers; actual network-denied Chromium",
+  "python_tests": 387,
+  "node_tests": 21,
+  "new_python_tests_since_baseline": 72,
+  "browser_fixture_cases": 4,
+  "actual_language_renders": 18,
+  "six_template_workflow": {
+    "cases": [
+      {
+        "template": 1,
+        "actual_render": true,
+        "artifact_sha256": "b61a9f21c3f3252f2bbc41e5cbbccd0c9e068f05d30564d634e71d563071ba38",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      },
+      {
+        "template": 2,
+        "actual_render": true,
+        "artifact_sha256": "9c45ea5737505ebbf0924370989e20933ac7f92d98b1a3e143810b4446c45c81",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      },
+      {
+        "template": 3,
+        "actual_render": true,
+        "artifact_sha256": "118d00b88d5c654cc1989772fa2f3f3f301040e25af4691e452ba5e1ede2cf48",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      },
+      {
+        "template": 4,
+        "actual_render": true,
+        "artifact_sha256": "6d413853a61fa58e1a918d4c927717617c7dcafe9c8864d235de34b22c3414b9",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      },
+      {
+        "template": 5,
+        "actual_render": true,
+        "artifact_sha256": "eb7ad27a59eb2658383b181bf7279fcebc1d56bf6b78a14a36385cba6857f267",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      },
+      {
+        "template": 6,
+        "actual_render": true,
+        "artifact_sha256": "2de000e4487a3e41e922b1f43e0c62d6a6b618d82463f93e602d30b0673cb3d8",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      }
+    ],
+    "rendered": 6,
+    "simulated_review_receipts": 6,
+    "simulated_platform_submissions": 18,
+    "replay_submissions": 0,
+    "live_provider_acceptance": false
+  },
+  "live_external_acceptance": 0,
+  "booted_wordpress_woocommerce_acceptance": false,
+  "first_social_render_attempt": "Fixture output-root missing; correctly latched PREPARATION_UNKNOWN. Retained failure; corrected fresh fixture passed without weakening controls."
+}

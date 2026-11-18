@@ -50,6 +50,18 @@ test('review requires actual matching sent receipt',async()=>{
   await f.bridge.before({...event('PRODUCT REVIEW '+job),messageId:'in-3'},{...ctx,messageId:'in-3'});
   assert.equal(f.calls[1].review_receipt.message_id,'out-1');
 });
+test('media commands require exact native review receipt',async()=>{
+  const job='media-'+'d'.repeat(24);const binding={job,sha256:'fixture'};
+  const f=fixture(()=>({job_id:job,binding,state:'DRAFT'}));
+  const reply=await f.bridge.before(event('MEDIA PLAN {}'),ctx);
+  assert.equal(f.calls.length,1);
+  await f.bridge.before({...event('MEDIA REVIEW '+job),messageId:'media-2'},{...ctx,messageId:'media-2'});
+  assert.equal(f.calls.length,1);
+  await f.bridge.sent({success:true,messageId:'media-out',content:reply.text,to:'telegram:test-owner'},ctx);
+  await f.bridge.before({...event('MEDIA REVIEW '+job),messageId:'media-3'},{...ctx,messageId:'media-3'});
+  assert.equal(f.calls[1].review_receipt.message_id,'media-out');
+});
+
 test('failure and ambiguous delivery cannot fabricate review',async()=>{
   const job='product-'+'b'.repeat(24);const f=fixture(()=>({job_id:job,plan:{x:1},binding:{job}}));
   const reply=await f.bridge.before(event('PRODUCT PLAN {}'),ctx);

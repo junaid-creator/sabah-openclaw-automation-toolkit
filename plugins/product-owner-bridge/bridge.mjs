@@ -86,7 +86,7 @@ export function createBridge(config,{store=new Store(config.stateDir),run=env=>r
   };
   async function before(event,ctx) {
     const text=event?.content;
-    if(typeof text!=='string' || (!text.startsWith('PRODUCT ') && !text.startsWith('CONFIRM ')))return undefined;
+    if(typeof text!=='string' || (!text.startsWith('PRODUCT ') && !text.startsWith('MEDIA ') && !text.startsWith('CONFIRM ')))return undefined;
     if(text.length>60000 || /[\x00-\x1f\x7f]/.test(text))return {handled:true,text:'Product command rejected: one bounded exact command required.'};
     const route=ownerRoute(event,ctx,config.routes);
     if(!route)return {handled:true,text:'Product command rejected: trusted direct owner route required.'};
@@ -103,7 +103,7 @@ export function createBridge(config,{store=new Store(config.stateDir),run=env=>r
         attested.timestamp=previous.timestamp;
       } else await store.putOnce('event-'+id,attested);
       const envelope={event:attested,signature:createHmac('sha256',key).update(canonical(attested)).digest('hex')};
-      const review=text.match(/^PRODUCT REVIEW (product-[a-f0-9]{24})$/);
+      const review=text.match(/^(?:PRODUCT|MEDIA) REVIEW ((?:product|media)-[a-f0-9]{24})$/);
       if(review) {
         const proof=await store.get('review-'+review[1]);
         if(!proof || proof.peer!==route.peer || proof.channel!==route.channel || proof.account!==route.account)throw Error('REAL_REVIEW_RECEIPT_REQUIRED');
@@ -112,7 +112,7 @@ export function createBridge(config,{store=new Store(config.stateDir),run=env=>r
       const result=await run(envelope);
       const reply=canonical(result);
       if(reply.length>12000)throw Error('REVIEW_TOO_LARGE_FOR_INLINE_DELIVERY');
-      if(result.plan && result.binding && safeId(result.job_id))remember(result.job_id,result.binding,reply,route,ctx);
+      if(result.binding && safeId(result.job_id))remember(result.job_id,result.binding,reply,route,ctx);
       if(result.challenge_id && safeId(result.challenge_id))await store.putOnce('challenge-'+result.challenge_id,{job:review?.[1]??null});
       return {handled:true,text:reply};
     }catch {
