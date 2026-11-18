@@ -48,6 +48,16 @@ class SEOTests(unittest.TestCase):
         def sender(a,r,p):calls.append(p);return {'delivered':True,'account':a,'recipient':r,'message_id':'receipt-1'}
         self.s.deliver(sender=sender,enabled=True);self.s.deliver(sender=sender,enabled=True)
         self.assertEqual(len(calls),1);self.assertEqual(self.c.load()['stages']['report']['state'],'verified')
+    def test_three_tab_tracker_before_owner_report(self):
+        import test_workflow_tracker as tracker_fixture
+        fixture=tracker_fixture.TrackerTests();fixture.setUp();self.addCleanup(fixture.doCleanups)
+        self.prepare()
+        for _ in range(2):
+            self.s.draft(validate=lambda result,plan:{'passed':True,'plan_sha256':fingerprint(plan)},tracker=fixture.t,tracker_tabs={'draft_tab':'Drafts','topic_tab':'Topics','run_tab':'Runs'})
+        self.assertEqual(len(fixture.calls),3)
+        rows=json.loads((self.root/'owner-outbox.json').read_text())
+        self.assertEqual(rows[self.c.rid]['payload']['sheets'],'Three tracker tabs VERIFIED')
+
     def test_pending_images_resume_same_task(self):
         self.assertEqual(self.prepare(True)['state'],'WAITING_IMAGES');self.prepare();self.assertEqual(self.starts,1)
     def test_unknown_upload_no_repeat(self):

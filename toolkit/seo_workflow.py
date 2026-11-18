@@ -36,7 +36,7 @@ class SEO:
             self.c.recover_image_assets(receipt)
         return {'state':'READY','run_id':self.c.rid}
 
-    def draft(self,*,validate):
+    def draft(self,*,validate,tracker=None,tracker_tabs=None):
         if not self.enabled:raise PermissionError('Draft writes disabled')
         state=self.c.load();article=state['stages']['article']['result']
         if set(article)!={'title','content','excerpt','slug','keyword'} or not all(isinstance(v,str) and v.strip() for v in article.values()):
@@ -83,8 +83,14 @@ class SEO:
                 raise ValueError('Independent exact-plan validation required')
             return proof
         self.c.step('validation',verify)
+        tracker_status='Separate tracker adapter required'
+        if tracker is not None:
+            if not isinstance(tracker_tabs,dict) or set(tracker_tabs)!={'draft_tab','topic_tab','run_tab'}:
+                raise ValueError('Explicit three-tab tracker configuration required')
+            tracker.sync_seo_draft(result,article,run_id=self.c.rid,enabled=self.enabled,**tracker_tabs)
+            tracker_status='Three tracker tabs VERIFIED'
         box=Outbox(self.c.root/'owner-outbox.json',account=self.c.account,recipient=self.c.recipient)
-        box.prepare(self.c.rid,{'title':article['title'],'post_id':result['post_id'],'topic':article['title'],'keyword':article['keyword'],'status':'Draft','url':result['url'],'sheets':'Separate tracker adapter required','blocker':''})
+        box.prepare(self.c.rid,{'title':article['title'],'post_id':result['post_id'],'topic':article['title'],'keyword':article['keyword'],'status':'Draft','url':result['url'],'sheets':tracker_status,'blocker':''})
         return result
 
     def deliver(self,*,sender,enabled=False):

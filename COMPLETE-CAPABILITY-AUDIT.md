@@ -61,7 +61,7 @@ The four missing groups now have executable implementations and 41 offline tests
 
 ## Integration continuation
 
-60 runtime modules, 24 packaged skills. Added reviewed binary media/native commands,
+61 runtime modules, 24 packaged skills. Added reviewed binary media/native commands,
 source/formula/Sheet reconciliation, customer result/delivery recovery, reviewed-response
 policy, exact schedule admission, SEO draft workflow, and desktop/mobile checks.
 Six actual renders traversed draft/review/approval with simulated publication
@@ -74,3 +74,9 @@ See [product](docs/product-extensions.md), [recovery](docs/recovery-integrations
 Native social owner commands and revision-bound delivery receipt capture are now
 implemented. See [final guide](FINAL-IMPLEMENTATION.md) and the exhaustive-to-register
 [disposition list](docs/final-dispositions.json). Coverage remains 5 portable / 46 partial.
+
+
+Dedicated [workflow tracking](docs/workflow-tracker.md) is now executable for social
+drafts and three-tab SEO reporting through the existing configured GOG adapter.
+Exact preflight, frozen plans, per-tab intent/readback and no blind replay are tested.
+No existing private Sheet schema is migrated or inferred, and no live Google call occurred.

@@ -13,7 +13,7 @@
     "original_publishable_skill_packages": 22,
     "original_skill_packages_present": 22,
     "total_repository_skill_packages": 24,
-    "python_runtime_modules": 60,
+    "python_runtime_modules": 61,
     "original_group_status_counts": {
       "PARTIALLY PORTED": 46,
       "VERIFIED AND PORTABLE": 5
@@ -4751,10 +4751,11 @@
         "draft_primitives",
         "reliability",
         "toolkit/seo_workflow.py",
+        "toolkit/workflow_tracker.py",
         "wordpress"
       ],
       "published_skill": null,
-      "reason": "Integrated inventory/research/article/image-task/three-WebP/CMS-draft/validation/owner-receipt pipeline added. Three-tab tracker schema, SEO-plugin fields, inline media URL rewriting, semantic/source quality and native provider adapters remain deployment-specific.",
+      "reason": "Integrated inventory/research/article/image-task/three-WebP/CMS-draft/validation/owner-receipt pipeline added. Three-tab tracker schema, SEO-plugin fields, inline media URL rewriting, semantic/source quality and native provider adapters remain deployment-specific. Dedicated configurable multi-tab GOG tracker now executes social draft sync and three-tab SEO sync before owner reporting, with durable per-tab uncertainty/readback. Existing private publisher/source schemas still need explicit mapping; formula cells and live Google acceptance remain excluded.",
       "purpose": "seo blog engine",
       "trigger": "Owner article request/approval or independently authorized daily trigger",
       "original_execution_mechanism": "Trusted owner/standing daily policy -> controller/frozen run -> research/image gates -> WP post/SEO -> independent REST/public readback -> tracker/outbox",
@@ -4768,7 +4769,8 @@
         "toolkit/draft_primitives.py",
         "toolkit/reliability.py",
         "toolkit/seo_workflow.py",
-        "toolkit/wordpress.py"
+        "toolkit/wordpress.py",
+        "toolkit/workflow_tracker.py"
       ],
       "source_paths_and_hashes": [
         {
@@ -5069,7 +5071,8 @@
       "configuration_and_installation": [
         "COMPLETE-SETUP-GUIDE.md",
         "CONFIGURATION-REFERENCE.md",
-        "DEPENDENCIES.md"
+        "DEPENDENCIES.md",
+        "docs/workflow-tracker.md"
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
@@ -5080,10 +5083,11 @@
           "tests/test_core.py",
           "tests/test_platform_adapters.py",
           "tests/test_product_workflow.py",
-          "tests/test_seo_workflow.py"
+          "tests/test_seo_workflow.py",
+          "tests/test_workflow_tracker.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Integrated inventory/research/article/image-task/three-WebP/CMS-draft/validation/owner-receipt pipeline added. Three-tab tracker schema, SEO-plugin fields, inline media URL rewriting, semantic/source quality and native provider adapters remain deployment-specific.",
+      "missing_functionality_or_restrictions": "Integrated inventory/research/article/image-task/three-WebP/CMS-draft/validation/owner-receipt pipeline added. Three-tab tracker schema, SEO-plugin fields, inline media URL rewriting, semantic/source quality and native provider adapters remain deployment-specific. Dedicated configurable multi-tab GOG tracker now executes social draft sync and three-tab SEO sync before owner reporting, with durable per-tab uncertainty/readback. Existing private publisher/source schemas still need explicit mapping; formula cells and live Google acceptance remain excluded.",
       "completion_classification": "PARTIAL",
       "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
@@ -6886,10 +6890,11 @@
         "plugins/social-owner-bridge/index.mjs",
         "toolkit/social_commands.py",
         "toolkit/social_publish_gate.py",
-        "toolkit/social_review.py"
+        "toolkit/social_review.py",
+        "toolkit/workflow_tracker.py"
       ],
       "published_skill": null,
-      "reason": "Durable six-template create/revise/review/exact approval plus native owner hook/command executable added. Exact native receipt renewal, revocation and command isolation tested. Owned HTTPS static hosting, Sheets synchronization, natural-language/image-generation adapters, publication worker wiring and live native/provider acceptance remain partial.",
+      "reason": "Durable six-template create/revise/review/exact approval plus native owner hook/command executable added. Exact native receipt renewal, revocation and command isolation tested. Owned HTTPS static hosting, Sheets synchronization, natural-language/image-generation adapters, publication worker wiring and live native/provider acceptance remain partial. Dedicated configurable multi-tab GOG tracker now executes social draft sync and three-tab SEO sync before owner reporting, with durable per-tab uncertainty/readback. Existing private publisher/source schemas still need explicit mapping; formula cells and live Google acceptance remain excluded.",
       "purpose": "social draft review",
       "trigger": "Owner campaign/draft/media/revision request",
       "original_execution_mechanism": "Trusted owner -> stable request ID -> original draft controller -> Sheets/media/render -> exact owner preview; no implied publish",
@@ -6900,7 +6905,8 @@
         "plugins/social-owner-bridge/index.mjs",
         "toolkit/social_commands.py",
         "toolkit/social_publish_gate.py",
-        "toolkit/social_review.py"
+        "toolkit/social_review.py",
+        "toolkit/workflow_tracker.py"
       ],
       "source_paths_and_hashes": [
         {
@@ -6983,6 +6989,7 @@
         "CONFIGURATION-REFERENCE.md",
         "DEPENDENCIES.md",
         "docs/missing-implementations.md",
+        "docs/workflow-tracker.md",
         "plugins/social-owner-bridge/README.md"
       ],
       "test_evidence": {
@@ -6990,13 +6997,15 @@
         "boundary": "41 new offline tests; no live acceptance",
         "fresh_live_e2e": false,
         "paths": [
-          "tests/test_missing_implementations.py",
           "tests/test_missing_business_oauth.py",
+          "tests/test_missing_implementations.py",
+          "tests/test_product_native_bridge.mjs",
+          "tests/test_seo_workflow.py",
           "tests/test_social_commands.py",
-          "tests/test_product_native_bridge.mjs"
+          "tests/test_workflow_tracker.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Durable six-template create/revise/review/exact approval plus native owner hook/command executable added. Exact native receipt renewal, revocation and command isolation tested. Owned HTTPS static hosting, Sheets synchronization, natural-language/image-generation adapters, publication worker wiring and live native/provider acceptance remain partial.",
+      "missing_functionality_or_restrictions": "Durable six-template create/revise/review/exact approval plus native owner hook/command executable added. Exact native receipt renewal, revocation and command isolation tested. Owned HTTPS static hosting, Sheets synchronization, natural-language/image-generation adapters, publication worker wiring and live native/provider acceptance remain partial. Dedicated configurable multi-tab GOG tracker now executes social draft sync and three-tab SEO sync before owner reporting, with durable per-tab uncertainty/readback. Existing private publisher/source schemas still need explicit mapping; formula cells and live Google acceptance remain excluded.",
       "completion_classification": "PARTIAL",
       "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
@@ -7847,10 +7856,11 @@
       "published_modules": [
         "google_readiness",
         "google_sheets",
-        "toolkit/source_reconciliation.py"
+        "toolkit/source_reconciliation.py",
+        "toolkit/workflow_tracker.py"
       ],
       "published_skill": null,
-      "reason": "Stable source rows/formulas, mapped product requests and no-replay exact Sheet mirror added. Private multi-tab schemas are not assumed; authenticated account and exclusive writer acceptance required.",
+      "reason": "Stable source rows/formulas, mapped product requests and no-replay exact Sheet mirror added. Private multi-tab schemas are not assumed; authenticated account and exclusive writer acceptance required. Dedicated configurable multi-tab GOG tracker now executes social draft sync and three-tab SEO sync before owner reporting, with durable per-tab uncertainty/readback. Existing private publisher/source schemas still need explicit mapping; formula cells and live Google acceptance remain excluded.",
       "purpose": "google sheets adapter",
       "trigger": "Authorized source/tracker/lead synchronization",
       "original_execution_mechanism": "Trusted workflow scope -> inspect schema/rows -> literal scoped updates -> independent row readback; mirror never publication authority",
@@ -7859,7 +7869,8 @@
       "public_implementation_paths": [
         "toolkit/google_readiness.py",
         "toolkit/google_sheets.py",
-        "toolkit/source_reconciliation.py"
+        "toolkit/source_reconciliation.py",
+        "toolkit/workflow_tracker.py"
       ],
       "source_paths_and_hashes": [
         {
@@ -7894,7 +7905,8 @@
       "configuration_and_installation": [
         "COMPLETE-SETUP-GUIDE.md",
         "CONFIGURATION-REFERENCE.md",
-        "DEPENDENCIES.md"
+        "DEPENDENCIES.md",
+        "docs/workflow-tracker.md"
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
@@ -7903,10 +7915,12 @@
         "paths": [
           "tests/test_content_review.py",
           "tests/test_google_sheets.py",
-          "tests/test_product_extensions.py"
+          "tests/test_product_extensions.py",
+          "tests/test_seo_workflow.py",
+          "tests/test_workflow_tracker.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Stable source rows/formulas, mapped product requests and no-replay exact Sheet mirror added. Private multi-tab schemas are not assumed; authenticated account and exclusive writer acceptance required.",
+      "missing_functionality_or_restrictions": "Stable source rows/formulas, mapped product requests and no-replay exact Sheet mirror added. Private multi-tab schemas are not assumed; authenticated account and exclusive writer acceptance required. Dedicated configurable multi-tab GOG tracker now executes social draft sync and three-tab SEO sync before owner reporting, with durable per-tab uncertainty/readback. Existing private publisher/source schemas still need explicit mapping; formula cells and live Google acceptance remain excluded.",
       "completion_classification": "PARTIAL",
       "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
@@ -19359,10 +19373,10 @@
   ],
   "continuation": {
     "baseline": "26fdce2b",
-    "batch": "native social bridge and reproducible acceptance",
+    "batch": "durable multi-tab social and SEO tracking",
     "new_groups": 0,
     "missing_groups_now": 0,
-    "new_tests": 77,
+    "new_tests": 87,
     "acceptance": "OFFLINE ONLY; PARTIAL"
   }
 }

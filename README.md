@@ -94,6 +94,12 @@ Four previously missing groups now have executable offline-tested partial ports:
 ## Current release acceptance
 
 See [final implementation guide](FINAL-IMPLEMENTATION.md) for executable setup,
-60 runtime modules / 24 skills, 392 Python and 25 Node tests, actual local browser
+61 runtime modules / 24 skills, 402 Python and 25 Node tests, actual local browser
 and six-template workflow acceptance, production preservation and exact limitations.
 This is a verified public release, not 100% reproduction or live-provider acceptance.
+
+
+Dedicated [workflow tracking](docs/workflow-tracker.md) is now executable for social
+drafts and three-tab SEO reporting through the existing configured GOG adapter.
+Exact preflight, frozen plans, per-tab intent/readback and no blind replay are tested.
+No existing private Sheet schema is migrated or inferred, and no live Google call occurred.

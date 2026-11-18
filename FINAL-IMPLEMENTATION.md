@@ -9,7 +9,7 @@ This continues the existing repository, not a replacement inventory. The current
 - Native social owner bridge with revision-bound real delivery receipts, approval and revocation; no automatic publication.
 - Six actual template renders traversed the durable workflow with simulated hosting/publication; 18 simulated submissions and zero duplicate replays. Separately, 18 English/Arabic/bilingual renders passed.
 
-60 runtime Python modules (excluding package initializer), 24 packaged skills. The 51 original groups remain **5 VERIFIED PORTABLE, 46 PARTIAL, 0 MISSING**. Three separate derivative/native-bundle groups remain LICENSE/ACCESS BLOCKED; upstream groups are dependencies, not copied code. More modules do not establish full workflow parity.
+61 runtime Python modules (excluding package initializer), 24 packaged skills. The 51 original groups remain **5 VERIFIED PORTABLE, 46 PARTIAL, 0 MISSING**. Three separate derivative/native-bundle groups remain LICENSE/ACCESS BLOCKED; upstream groups are dependencies, not copied code. More modules do not establish full workflow parity.
 
 ## Fresh isolated install
 
@@ -48,3 +48,9 @@ Every original group has an explicit implementation/test boundary and remaining 
 Install only on a separate authorized target; retain the public commit/tree and private config/ledger backup. Roll back code by selecting a prior reviewed release, not by deleting receipts or restoring whole private runtime directories. Disable only newly installed target adapters before rollback. Unknown remote outcomes remain fenced; reconcile existing IDs read-only, never recreate jobs to bypass a latch. Revocation cannot undo an already admitted remote request. Never import production approvals into a new deployment.
 
 See [missing groups](docs/missing-implementations.md), [products](docs/product-extensions.md), [SEO](docs/seo-workflow.md), [recovery/schedules](docs/recovery-integrations.md), [native social](plugins/social-owner-bridge/README.md), and [browser checks](docs/browser-verification.md).
+
+
+Dedicated [workflow tracking](docs/workflow-tracker.md) is now executable for social
+drafts and three-tab SEO reporting through the existing configured GOG adapter.
+Exact preflight, frozen plans, per-tab intent/readback and no blind replay are tested.
+No existing private Sheet schema is migrated or inferred, and no live Google call occurred.

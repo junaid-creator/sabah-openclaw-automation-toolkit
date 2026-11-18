@@ -1,8 +1,8 @@
 {
   "scope": "Fresh isolated install; offline providers; actual network-denied Chromium",
-  "python_tests": 392,
+  "python_tests": 402,
   "node_tests": 25,
-  "new_python_tests_since_baseline": 77,
+  "new_python_tests_since_baseline": 87,
   "browser_fixture_cases": 4,
   "actual_language_renders": 18,
   "six_template_workflow": {
@@ -61,5 +61,7 @@
   "first_social_render_attempt": "Fixture output-root missing; correctly latched PREPARATION_UNKNOWN. Retained failure; corrected fresh fixture passed without weakening controls.",
   "fresh_install_steps": 7,
   "fresh_install_provider_credentials_inherited": false,
-  "dependency_audit": "No known vulnerabilities for both pinned requirement sets"
+  "dependency_audit": "No known vulnerabilities for both pinned requirement sets",
+  "workflow_tracker_tests": 9,
+  "integrated_seo_tracker_tests": 1
 }

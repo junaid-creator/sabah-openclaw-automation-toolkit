@@ -804,5 +804,12 @@
     "source_mapping": "docs/complete-capability-audit.json",
     "changes": "Original release integration; references installed upstream SDK without redistributing runtime",
     "ownership": "Owner-authorized original implementation under repository license"
+  },
+  {
+    "source": "google-sheets-adapter / SEO and social tracker orchestration",
+    "destination": "toolkit/workflow_tracker.py",
+    "source_mapping": "docs/complete-capability-audit.json",
+    "changes": "Original configurable dedicated-tab reconstruction using existing GOG adapter; no private spreadsheet schema/config/state copied",
+    "ownership": "Owner-authorized original implementation under repository license"
   }
 ]

@@ -10,8 +10,13 @@ Construct `Controller(stable_daily_id, private_root, account=..., recipient=...,
 
 `deliver(sender=..., enabled=True)` reserves the owner outbox before the host messaging callback and requires exact account/recipient/message receipt. Unknown delivery never resends; verified repeats reuse the receipt. No native SDK API is guessed.
 
-Five integration tests exercise actual synthetic WebPs and durable state through a disposable CMS protocol fixture and simulated transport. This is not a booted WordPress server. Three-tab tracker schema, SEO-plugin metadata registration, inline media URL rewriting, semantic review and real account acceptance remain explicit limitations. `source_reconciliation` provides safe exact-range tracker primitives, not an assumed private schema.
+Six integration tests exercise actual synthetic WebPs and durable state through a disposable CMS protocol fixture and simulated transport. This is not a booted WordPress server. Existing private tracker schema mapping, SEO-plugin metadata registration, inline media URL rewriting, semantic review and real account acceptance remain explicit limitations. `source_reconciliation` provides safe exact-range tracker primitives, not an assumed private schema.
 
 Rollback: deactivate only the separately installed new runner, preserve all state and remote IDs, revert code. Never clear uncertainty to recreate objects. Removing drafts/media requires separate operator authorization.
 
 Run `python -m unittest discover -s tests -p test_seo_workflow.py -v`.
+
+
+Optional tracker integration now synchronizes three configured dedicated tabs before
+owner outbox preparation. See [workflow tracker](workflow-tracker.md). Supply tracker
+and tracker_tabs to draft() from its first execution; all retries reuse the same frozen plan.

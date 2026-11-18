@@ -14,7 +14,7 @@ No new third-party dependency is added by setup_scaffold or trusted_bridge. Thei
 | Capability | External dependency | Makes reproduction complete by itself? |
 |---|---|---|
 | Agents, models, native tools | Official OpenClaw + authorized model provider | No; configure isolation/routing and run fresh-agent acceptance |
-| Google | Official GOG + OAuth credentials / Sheets API permissions | Lead sync supported; original multi-tab SEO tracker still missing |
+| Google | Official GOG + OAuth credentials / Sheets API permissions | Lead sync and configurable multi-tab workflow tracker supplied; private schemas/live account need acceptance |
 | WordPress | Site REST API, application password, SEO-field plugin | Generic adapter supported; site-specific SEO/visual acceptance remains |
 | Meta | Authorized Graph API app, account scopes, owned media host | Adapter mocked; integrated worker and live verification remain |
 | TikTok | Authorized Business API app, scopes, independently configured OAuth | Business/Login Kit token libraries shipped separately; consent web host/live acceptance needed |
