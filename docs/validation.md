@@ -19,3 +19,7 @@ Validation host: Linux x86_64, Python 3.14.4. Python 3.10+ is the source compati
 - CI YAML was reviewed for read-only permissions, pinned checkout, no stored checkout credentials, finite timeout, no pull_request_target and no deployment. Remote GitHub Actions execution is not established by local testing.
 - Gitleaks and targeted checks are not an exhaustive security guarantee. Transitive dependency vulnerability status must also be reviewed in GitHub and before deployment.
 - No automatic schedules are installed. Knowledge snapshots retain a documented first-page-only limit. The original production engines remain ADAPT in the inventory.
+
+## Public readback and CI correction
+
+Anonymous GitHub API readback verified public ownership and all 45 file paths, with an exact Git tree match to the reviewed candidate. A fresh public clone passed all 25 tests and the upstream skill frontmatter validator. The first GitHub CI run also passed all 25 tests, but the supplemental gate mistakenly included its installed virtual environment. The gate now excludes the local .venv while explicitly rejecting any tracked .venv content. This is a test-environment boundary correction, not an exclusion for release source. Git is required for that check. The corrected remote run must be inspected before claiming CI success.

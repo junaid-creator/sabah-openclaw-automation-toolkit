@@ -3,12 +3,16 @@ import ast
 import json
 from pathlib import Path
 import re
+import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
 files = []
+tracked = subprocess.run(["git", "ls-files", "-z"], cwd=ROOT, capture_output=True, check=True).stdout.decode().split(chr(0))
+if any((p == ".venv" or p.startswith(".venv/")) for p in tracked):
+    errors.append("Installed .venv must not be tracked as release content")
 for p in ROOT.rglob('*'):
-    if '.git' in p.parts or '__pycache__' in p.parts:
+    if '.git' in p.parts or '__pycache__' in p.parts or p.relative_to(ROOT).parts[0] == '.venv':
         continue
     if p.is_symlink():
         errors.append(str(p.relative_to(ROOT)) + ': symlink')
