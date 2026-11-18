@@ -1,0 +1,61 @@
+{
+  "bridge_key_env": "PRODUCT_BRIDGE_KEY",
+  "routes": [
+    {
+      "channel": "trusted-channel",
+      "account": "shop-account",
+      "peer": "owner-peer",
+      "role": "owner"
+    },
+    {
+      "channel": "trusted-channel",
+      "account": "shop-account",
+      "peer": "customer-peer",
+      "role": "customer"
+    },
+    {
+      "channel": "telegram",
+      "account": "second-shop-account",
+      "peer": "second-owner-peer",
+      "role": "owner"
+    }
+  ],
+  "sites": [
+    {
+      "id": "demo",
+      "origin": "https://shop.example",
+      "wp_user_id": 7,
+      "username_env": "PRODUCT_WP_USER",
+      "password_env": "PRODUCT_WP_PASSWORD",
+      "metadata_keys": [
+        "display_note"
+      ],
+      "exclusive_writer_confirmed": false,
+      "owners": [
+        {
+          "channel": "trusted-channel",
+          "account": "shop-account",
+          "peer": "owner-peer"
+        }
+      ]
+    },
+    {
+      "id": "second-shop",
+      "origin": "https://second-shop.example",
+      "wp_user_id": 9,
+      "username_env": "SECOND_SHOP_WP_USER",
+      "password_env": "SECOND_SHOP_WP_PASSWORD",
+      "metadata_keys": [
+        "display_note"
+      ],
+      "exclusive_writer_confirmed": false,
+      "owners": [
+        {
+          "channel": "telegram",
+          "account": "second-shop-account",
+          "peer": "second-owner-peer"
+        }
+      ]
+    }
+  ]
+}

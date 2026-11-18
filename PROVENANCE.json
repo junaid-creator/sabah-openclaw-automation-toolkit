@@ -354,5 +354,68 @@
     "destination": "toolkit/apify_client.py",
     "ownership": "Original integration code under repository MIT license; no upstream implementation copied",
     "changes": "Bounded full inventory, strict metadata/state validation, head recheck; original source hash preserved in earlier provenance entry"
+  },
+  {
+    "source": "main:tools/smgc_product_adapter.py",
+    "source_sha256": "bc43948aa2fbe8eb25095bac4b9ebe82348be7c531510b531e24f08edac6459f",
+    "destination": "toolkit/product_api.py",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:tools/smgc_product_commands.py",
+    "source_sha256": "22a4bc9de6f99c4db4cdbbf108745468e5c6b088bfbcfbd9e829cd732b228764",
+    "destination": "toolkit/product_plan.py",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:tools/smgc_product_commands.py",
+    "source_sha256": "22a4bc9de6f99c4db4cdbbf108745468e5c6b088bfbcfbd9e829cd732b228764",
+    "destination": "toolkit/product_workflow.py",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:tools/sabah_product_sync_final.py",
+    "source_sha256": "8a5e7eaf8b05662f88c216d024ec9fcfc4b1389d55ec570f7920daafbc604049",
+    "destination": "toolkit/product_recovery.py",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:tools/smgc_product_commands.py",
+    "source_sha256": "22a4bc9de6f99c4db4cdbbf108745468e5c6b088bfbcfbd9e829cd732b228764",
+    "destination": "toolkit/product_commands.py",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:integrations/smgc-product-commands/bridge.js",
+    "source_sha256": "6183d39ba98cd334d498ef548e179db212e6381626c00a535a3919b2af08ef9d",
+    "destination": "plugins/product-owner-bridge/bridge.mjs",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:integrations/smgc-product-commands/index.js",
+    "source_sha256": "87af85a673d14c633510e9792e42f5e8cb1ad8186a58b295404f546fbf05027f",
+    "destination": "plugins/product-owner-bridge/index.mjs",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "host:state/smgc-rate-limit.mjs",
+    "source_sha256": "51c8ca776c2d41aec25ccef1e3ded41477647a1c7206a74a769688b16bdf3ec5",
+    "destination": "plugins/support-guards/guards.mjs",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "host:state/smgc-delivery-guard.mjs",
+    "source_sha256": "92d7d8ec564ae61af0c47ec45dbb57c569f9fd475dc8a42237986c0289deef9d",
+    "destination": "plugins/support-guards/guards.mjs",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
   }
 ]

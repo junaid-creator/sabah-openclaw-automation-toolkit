@@ -2,7 +2,7 @@
 
 **Status: PARTIAL — portable core, not a replica of the production system.**
 
-Thirty-one Python modules derived from the original workflows and their portability adapters from the main-assistant and customer-support workflows provide offline SEO planning, local HTML metadata editing, language validation, prospect qualification, content duplicate checks, crash-aware checkpoints, and website reference snapshots. Eleven optional OpenClaw skills coordinate their safe use.
+Thirty-six Python modules derived from the original workflows and their portability adapters from the main-assistant and customer-support workflows provide offline SEO planning, local HTML metadata editing, language validation, prospect qualification, content duplicate checks, crash-aware checkpoints, and website reference snapshots. Twelve optional OpenClaw skills coordinate their safe use.
 
 Offline examples do not publish posts, send replies, run paid Actors or activate schedules. The optional Meta adapter now contains actual posting operations, disabled by default and tested only with mocks. A bounded FB/IG adapter, approval ledger, notification outbox, rotation, schedule parser, watchdog and billing guard are now ported. WordPress/TikTok adapters, blog stage/image recovery, capped Apify/Overture acquisition, Google lead synchronization, and eight original website/Google skills are now included. The complete deployed recovery engine, six branded layouts, provider tool bridges, account bindings and live routing are **not yet complete**. See [operations modules](docs/operations-modules.md) and [canonical accounting](docs/canonical-capabilities.md). See [inventory](SKILL-INVENTORY.md) and [coverage](docs/coverage.md). Do not equate a discovered file with a working feature.
 
@@ -45,4 +45,19 @@ Two optional diagnostic skills cover [management routing](skills/system-manageme
 
 Start with [COMPLETE-SETUP-GUIDE.md](COMPLETE-SETUP-GUIDE.md), [feature matrix](FEATURE-REPLICATION-MATRIX.md), [configuration](CONFIGURATION-REFERENCE.md), [dependencies](DEPENDENCIES.md), [deployment checklist](DEPLOYMENT-CHECKLIST.md) and [acceptance tests](ACCEPTANCE-TESTS.md).
 
-The inert two-agent scaffolder and signed application-level owner/support boundary add working offline-tested code. They do not install native messaging adapters or semantic policy enforcement. Current package: **31 runtime modules, 11 skill packages, 179 offline/mock tests**. Original accounting remains **13 artifact-validated, 1 already-covered, 28 incomplete**, with **2 separate derivative-license exclusions**. **Zero original groups have fresh-install/live E2E reproduction acceptance.** Do not interpret earlier “validated” labels as end-to-end coverage.
+The inert two-agent scaffolder and signed application-level owner/support boundary add working offline-tested code. They do not install native messaging adapters or semantic policy enforcement. Current package: **36 runtime modules, 12 skill packages, 239 Python tests plus 20 Node tests**. Original accounting remains **13 artifact-validated, 1 already-covered, 28 incomplete**, with **2 separate derivative-license exclusions**. **Zero original groups have fresh-install/live E2E reproduction acceptance.** Do not interpret earlier “validated” labels as end-to-end coverage.
+
+## Product and native-admission batch
+
+New executable product workflow: [configuration and limits](docs/product-management.md).
+Actual draft/edit/separate publish/scoped restore, duplicate checks, immutable
+approval, independent revocation and no-replay reconciliation are supplied.
+The [optional native product plugin](plugins/product-owner-bridge/README.md)
+and [support guards](plugins/support-guards/README.md) have source and Node tests,
+not a live Gateway activation. Existing media IDs only; full SQL/Sheet/frontend
+and live channel parity remain incomplete. Earlier capability matrices describe
+the prior checkpoint; a broader reconciliation release follows separately.
+
+**239 Python tests and 20 Node tests pass for this batch.** No live business action.
+Read [final preservation limits](PRODUCTION-PRESERVATION.md): two source drifts
+were observed and left untouched; no blanket unchanged-production claim.

@@ -1,0 +1,24 @@
+{
+  "compared": 393,
+  "unchanged": 391,
+  "changed": [
+    {
+      "source": "MAIN_WORKSPACE/tools/sabah_social_render_catalog.py",
+      "before_sha256": "0b19cb8e80d636a777a80cf2f13e21f6e27ecf40146c08648299af0139b73b4c",
+      "after_sha256": "03389e443d10f1296a27894d0e2fd40fb6275a557f31c2676605d5730a0c595d",
+      "mtime_ns": 1795018784827866645,
+      "after_mode": "0o750"
+    },
+    {
+      "source": "MAIN_WORKSPACE/assets/smgc/templates/catalog.css",
+      "before_sha256": "6451261f9e0a3188b83459eb831f281959d4ab654ce983aa011103d9f669ea62",
+      "after_sha256": "d07f55eb8b4b9006459f2c4b5d8676064b7aa31c8ca900f66f0435a27d327c9f",
+      "mtime_ns": 1795018784827866645,
+      "after_mode": "0o644"
+    }
+  ],
+  "attribution": "UNVERIFIED",
+  "reverted_or_modified_by_release": false,
+  "gateway_process_start_unchanged": true,
+  "scope": "Earlier 248-file comparison passed. Final expanded comparison observed two source drifts. No blanket whole-turn unchanged-source claim."
+}

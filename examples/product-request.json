@@ -1,0 +1,63 @@
+{
+  "site": "demo",
+  "operation": "create",
+  "fields": {
+    "name": "Example workshop device",
+    "sku": "DEMO-DEVICE",
+    "type": "variable",
+    "description": "Exact owner-reviewed product copy.",
+    "categories": [
+      {
+        "id": 90
+      }
+    ],
+    "images": [
+      {
+        "id": 80
+      }
+    ],
+    "attributes": [
+      {
+        "name": "Size",
+        "options": [
+          "Small",
+          "Large"
+        ],
+        "visible": true,
+        "variation": true
+      }
+    ],
+    "meta_data": [
+      {
+        "key": "display_note",
+        "value": "Reviewed information"
+      }
+    ]
+  },
+  "variations": [
+    {
+      "fields": {
+        "sku": "DEMO-SMALL",
+        "regular_price": "25",
+        "attributes": [
+          {
+            "name": "Size",
+            "option": "Small"
+          }
+        ]
+      }
+    },
+    {
+      "fields": {
+        "sku": "DEMO-LARGE",
+        "regular_price": "40",
+        "attributes": [
+          {
+            "name": "Size",
+            "option": "Large"
+          }
+        ]
+      }
+    }
+  ]
+}

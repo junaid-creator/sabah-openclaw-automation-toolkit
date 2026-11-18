@@ -1,0 +1,40 @@
+{
+  "stateDir": "/operator/private-native-receipts",
+  "python": "/operator/venv/bin/python",
+  "checkout": "/operator/automation-toolkit",
+  "engineConfig": "/operator/private-product-sites.json",
+  "engineState": "/operator/private-product-state",
+  "signingKeyEnv": "PRODUCT_BRIDGE_KEY",
+  "environmentKeys": [
+    "PRODUCT_BRIDGE_KEY",
+    "PRODUCT_WP_USER",
+    "PRODUCT_WP_PASSWORD",
+    "SECOND_SHOP_WP_USER",
+    "SECOND_SHOP_WP_PASSWORD"
+  ],
+  "allowNetwork": false,
+  "allowWrites": false,
+  "routes": [
+    {
+      "channel": "telegram",
+      "account": "shop-account",
+      "peer": "owner-peer",
+      "role": "owner",
+      "chatAliases": [
+        "telegram:owner-peer"
+      ]
+    },
+    {
+      "channel": "whatsapp",
+      "account": "second-shop-account",
+      "peer": "configured-owner-phone",
+      "role": "owner",
+      "senderAliases": [
+        "configured-owner-jid"
+      ],
+      "chatAliases": [
+        "configured-owner-jid"
+      ]
+    }
+  ]
+}
