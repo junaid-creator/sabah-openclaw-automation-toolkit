@@ -1,11 +1,20 @@
-# Coverage and release eligibility
+# Release coverage
 
-**PARTIAL:** this is a conservative portable-core release, not every original production workflow.
+**INCOMPLETE complete-library objective; validated portable batches.** Current accounting is [canonical capabilities](canonical-capabilities.md), backed by source hashes and all original 460 record assignments. One targeted support-policy source was added. There are 42 original functional work groups, 128 upstream groups, two derivative-license blockers and two supporting/duplicate groups. These are not 42 independent applications or 265 separate packages.
 
-Included source-derived components: keyword plan generation, content briefs, local metadata editing, language rules, offline prospect qualification, content ledger, filesystem reliability primitives and customer-support knowledge snapshots.
+## Published implementation
 
-A bounded FB/IG publisher plus Sheets adapter, durable approval ledger, outbox, product/template rotation, schedule parser, watchdog and billing-evidence guard now have working portable implementations and mocked tests. The remaining operational blog orchestration, social generation/six-template layouts, TikTok, complete recovery daemon, catalog mutation, paid Actor submission and owner-command plugins remain INCOMPLETE: private source dependencies, deployment state, approval bindings and external integration tests have not been generalized and validated. They are not classified as inherently unpublishable, and their existence is not silently omitted.
+- 29 Python modules: the initial eight plus 21 new source-derived/portable modules for FB/IG/TikTok, WordPress, blog gates/stages/image recovery, approval/notification/report ledgers, scheduling/rotation, watchdogs, Apify budgets/acquisition, Overture, Google Sheets, content preservation and evidence assessment.
+- Nine OpenClaw skills: the offline coordinator plus eight original Google/WordPress/WooCommerce procedures with their referenced resources.
+- A sanitized customer-support policy, fictional example profile and least-privilege test-routing template. Native model inference, channel routing and messaging are upstream OpenClaw capabilities, not falsely presented as new original engines.
+- Installation/configuration/activation examples, explicit opt-ins, real dependencies and offline/mocked tests. No original validated functionality or discovery row was removed.
 
-Google Workspace, browser/remote node, channels, memory and provider capabilities supplied by OpenClaw or third parties are UPSTREAM REFERENCE. No original LinkedIn publisher was identified in the inspected sources; LinkedIn in prospect filtering does not establish an integration. Derivative Google/WordPress procedural skills without traceable upstream rights are BLOCKED from redistribution.
+## Remaining boundaries
 
-The inventory is discovery-level metadata across both agents, plugins, hooks and service/scheduler sources. Its multiple records can represent a skill entry, its script, and its service wrapper; counts are not unique end-user capabilities. Source AST validity is not a functional test. Full-source review and integration tests apply only to the included allowlist. Remaining source files have not passed a public release gate.
+The full deployed SEO/social/recovery stack is not a drop-in public product. Provider tool bridges, six complete brand-neutral poster layouts and their asset/font/QR/visual acceptance, production catalog mutation harnesses, site-specific tracker/SEO plumbing, native owner admission/routing, OAuth setup and standalone unattended daemon packaging remain incomplete. Thirteen operational procedural skills still depend on those unported artifacts and have not been published as portable skills. See the canonical register for each specific source family and reason; partial module extraction does not mark a whole family complete.
+
+The six original licensing-blocked records collapse to two derivative skill groups; they remain excluded. Third-party skills/plugins/providers are documented upstream, not republished. One initially local-classified service helper resolved to the OpenClaw runtime and is now correctly upstream.
+
+## Evidence limits
+
+Working source code is distinguished from live integration acceptance. Unit/mocked tests, source/secret scans, skill package/link validation, exact public-tree readback and CI prove bounded release properties. They do not prove fresh-account scopes, live publishing, payments, customer delivery, model behavior, fresh-agent installation or every OS/version. Live business effects and production activation were deliberately not performed.

@@ -1,6 +1,6 @@
 # Skill and automation discovery register
 
-Status: PARTIAL. All records from the saved discovery and supplemental plugin/hook/service pass are classified below. This is not an assertion that all source or all runtime behaviors were verified. Counts are records, not distinct user capabilities. Eight source-derived modules are included; most original deployment components still require adaptation.
+The 460 rows below preserve the original discovery snapshot and its historical classifications. Current deduplicated release decisions, published implementations and incomplete boundaries are in [canonical capabilities](docs/canonical-capabilities.md). Do not interpret these frozen row classifications as current module counts. No original row is omitted.
 
 | Item | Type | Agent | Origin | Release class | Evidence / dependency / exclusion |
 |---|---|---|---|---|---|

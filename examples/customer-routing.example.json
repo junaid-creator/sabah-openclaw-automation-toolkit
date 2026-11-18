@@ -1,0 +1,66 @@
+{
+  "agents": {
+    "entries": {
+      "main-assistant": {
+        "default": true,
+        "workspace": "~/automation-main"
+      },
+      "customer-support": {
+        "workspace": "~/automation-support",
+        "sandbox": {
+          "mode": "all",
+          "scope": "agent",
+          "workspaceAccess": "ro"
+        },
+        "tools": {
+          "allow": [
+            "read"
+          ],
+          "deny": [
+            "exec",
+            "write",
+            "edit",
+            "apply_patch",
+            "browser",
+            "sessions_send",
+            "sessions_spawn",
+            "message"
+          ]
+        }
+      }
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "main-assistant",
+      "match": {
+        "channel": "whatsapp",
+        "accountId": "business",
+        "peer": {
+          "kind": "direct",
+          "id": "<OWNER_E164>"
+        }
+      }
+    },
+    {
+      "agentId": "customer-support",
+      "match": {
+        "channel": "whatsapp",
+        "accountId": "business"
+      }
+    }
+  ],
+  "channels": {
+    "whatsapp": {
+      "dmPolicy": "allowlist",
+      "allowFrom": [
+        "<OWNER_E164>",
+        "<TEST_CUSTOMER_E164>"
+      ],
+      "groupPolicy": "disabled",
+      "accounts": {
+        "business": {}
+      }
+    }
+  }
+}

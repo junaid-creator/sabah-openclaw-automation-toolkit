@@ -1,6 +1,6 @@
 # Publication and operations modules — batch 1
 
-These are working source-derived libraries, not installed services. Python 3.10+ and a writable private state directory are required; validated environments are Linux/Python 3.14 and GitHub Ubuntu CI. Live accounts and other platforms remain NOT TESTED. Install the repository requirements and run commands from its root. No import starts a scheduler or sends messages.
+These are working source-derived libraries, not installed services. Python 3.11+ and a writable private state directory are required; validated environments are Linux/Python 3.14 and GitHub Ubuntu CI. Live accounts and other platforms remain NOT TESTED. Install the repository requirements and run commands from its root. No import starts a scheduler or sends messages.
 
 ## Meta publishing and Google Sheets
 

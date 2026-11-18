@@ -124,5 +124,201 @@
     "source_sha256": "f87c566f19915e2baff04cda38a34e0e4135c537cc00589ba3b2958755f702c8",
     "changes": "Extract environment-only credential adapter and exact-row fingerprint; no worker CLI or private file fallback",
     "ownership": "Owner-authorized original worker helpers"
+  },
+  {
+    "source": "sabah_blog_worker.py",
+    "destination": "toolkit/wordpress.py",
+    "source_sha256": "ba1489220c5e9ff7aec2219b7feee0aa2768bb3f1b8619a1e346fea290cab670",
+    "changes": "Explicit origin/credentials, network and write flags; injectable opener; deny redirects; bounded responses and safe media filename; no production CLI/DNS override",
+    "ownership": "Owner-authorized original application adapter; provider libraries not copied."
+  },
+  {
+    "source": "sabah_blog_publication.py",
+    "destination": "toolkit/blog_publication.py",
+    "source_sha256": "70e99e6fdc95c3e5725d2a3274576f8eaf940438ccb1e8a33fdfeb420bb57865",
+    "changes": "Retain exact-content/fresh-gate checks, local daily reservation, post-write readback and no-replay recovery; remove standing production approval and private identities; explicit trusted owner/account/user/zone",
+    "ownership": "Owner-authorized original application adapter; provider libraries not copied."
+  },
+  {
+    "source": "sabah_blog_gates.py",
+    "destination": "toolkit/blog_gates.py",
+    "source_sha256": "9e350edfeaa4b29e0bdf81841eff9c1531f0d8a4cb9c46fbc1a7bdb9cbd5053f",
+    "changes": "Extract actual saved-robots inheritance and exclusive-template checks; configured template ID; no private WP-CLI subprocess or custom private route",
+    "ownership": "Owner-authorized original application adapter; provider libraries not copied."
+  },
+  {
+    "source": "tiktok_publisher.py",
+    "destination": "toolkit/tiktok_publisher.py",
+    "source_sha256": "e68dc789784e6ec08dce0b34ad00185c8c721e0c48a6fa0a6ab592091bab2800",
+    "changes": "Preserve Business API photo contracts, uncertainty states, bounded polling and owned-post URL verification; inject config/token refresh and explicit approval; remove private app ID/config/helper; refuse redirects",
+    "ownership": "Owner-authorized original application adapter; provider libraries not copied."
+  },
+  {
+    "source": "google-sheets-readiness/SKILL.md",
+    "destination": "skills/google-sheets-readiness/SKILL.md",
+    "source_sha256": "7f92f4f618150c08898b2babb2d74bfaffe3b8626a86b4cb09642307ff1e6b3a",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "wordpress-additive-content-update/SKILL.md",
+    "destination": "skills/wordpress-additive-content-update/SKILL.md",
+    "source_sha256": "31944248e178763869211b26ec5aa45da003d81373d2d882c352893f2994c326",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "wordpress-page-style-correction/SKILL.md",
+    "destination": "skills/wordpress-page-style-correction/SKILL.md",
+    "source_sha256": "390e48d9f03760f4dcb0c59b2772df5604e9306c147b1e4b95e0d7c00537c603",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "wordpress-child-theme-readiness/SKILL.md",
+    "destination": "skills/wordpress-child-theme-readiness/SKILL.md",
+    "source_sha256": "53933673ba158f38049ced1d59facdf7c7e56d88913244914136dac3e7c87843",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "woocommerce-cart-checkout-diagnosis/SKILL.md",
+    "destination": "skills/woocommerce-cart-checkout-diagnosis/SKILL.md",
+    "source_sha256": "45b770859cb5c98475f811b15b4d6e6584f395d5807ad9dced7f22f62c8d1fa5",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "woocommerce-product-content-seo/SKILL.md",
+    "destination": "skills/woocommerce-product-content-seo/SKILL.md",
+    "source_sha256": "f733cbfcd8d2b1a735d98fafa2d9cca7efb664c607521af519b70d0d120fc55d",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "woocommerce-product-content-seo/duplicate-description-diagnosis.md",
+    "destination": "skills/woocommerce-product-content-seo/duplicate-description-diagnosis.md",
+    "source_sha256": "0dead80a7cf8a94ec0e0b9c57d66bffb5abfce7ddb54ce2558c8520fe571a252",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "woocommerce-price-display-audit/SKILL.md",
+    "destination": "skills/woocommerce-price-display-audit/SKILL.md",
+    "source_sha256": "76b860d9385a0624e4b5319852ff2c03ea709631bff1d58d2eadd79ba54cf926",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "woocommerce-catalog-reconciliation/SKILL.md",
+    "destination": "skills/woocommerce-catalog-reconciliation/SKILL.md",
+    "source_sha256": "fd5af748a787bfa06aa2d5c450446dd8794dc783dcc4ba3a3f7bafbfcf2714d8",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "woocommerce-catalog-reconciliation/product-family-consolidation.md",
+    "destination": "skills/woocommerce-catalog-reconciliation/product-family-consolidation.md",
+    "source_sha256": "5e87ef89c4911517a4c101e9759d31bde6413603143a5caab945330290742968",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "woocommerce-catalog-reconciliation/draft-publication-validation.md",
+    "destination": "skills/woocommerce-catalog-reconciliation/draft-publication-validation.md",
+    "source_sha256": "887c4d8d3582a31493865ad27b84f2055e261214ea99e39dde105e9d781cac2c",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "woocommerce-catalog-reconciliation/approved-row-jobs.md",
+    "destination": "skills/woocommerce-catalog-reconciliation/approved-row-jobs.md",
+    "source_sha256": "eaa6c6eaa14b2b7919007e621f13841ba73f58331e892412de2579ee934c06d6",
+    "changes": "Preserve original procedure and safeguards; generalize deployment-specific marker examples and package links; no operational state copied",
+    "ownership": "Original locally authored Workshop procedure authorized by owner; no third-party skill implementation copied."
+  },
+  {
+    "source": "automation-adapter-verification/restricted-command-bridges.md",
+    "destination": "skills/woocommerce-catalog-reconciliation/restricted-command-bridges.md",
+    "source_sha256": "9eed841641d40da7a661a4de41b68c4d3b4f0eb5a8129c02d020cf4b0d5c5a1c",
+    "changes": "Package required original admission reference and adjust link",
+    "ownership": "Owner-authorized original local Workshop reference"
+  },
+  {
+    "source": "sabah_blog_runtime.py",
+    "destination": "toolkit/report_outbox.py",
+    "source_sha256": "d26a75310309e92ce867ed5d95730590ccafd17d9ee2145ce475f35e94dec8fa",
+    "changes": "Explicit per-instance report destination; retain uncertain-send non-replay and payload immutability; remove all owner defaults",
+    "ownership": "Owner-authorized original workflow with portable configuration; upstream tool implementations not copied."
+  },
+  {
+    "source": "sabah_blog_worker.py",
+    "destination": "toolkit/blog_assets.py",
+    "source_sha256": "ba1489220c5e9ff7aec2219b7feee0aa2768bb3f1b8619a1e346fea290cab670",
+    "changes": "Retain RIFF framing/hash/path binding; portable Pillow full decode replaces host-specific libwebp ctypes; require explicit asset root",
+    "ownership": "Owner-authorized original workflow with portable configuration; upstream tool implementations not copied."
+  },
+  {
+    "source": "sabah_blog_worker.py",
+    "destination": "toolkit/draft_primitives.py",
+    "source_sha256": "ba1489220c5e9ff7aec2219b7feee0aa2768bb3f1b8619a1e346fea290cab670",
+    "changes": "Extract original creation and update recovery primitives; no private CMS routes or service wiring",
+    "ownership": "Owner-authorized original workflow with portable configuration; upstream tool implementations not copied."
+  },
+  {
+    "source": "sabah_blog_controller.py",
+    "destination": "toolkit/blog_controller.py",
+    "source_sha256": "591fb0f1049e868f8401696eb8bff8f4064e95f73495ecabef321d17b7cddfed",
+    "changes": "Retain durable stage ordering, tool-task receipts and image recovery; inject account/asset roots; reject queued or empty completion evidence; no standing publisher or provider CLI",
+    "ownership": "Owner-authorized original workflow with portable configuration; upstream tool implementations not copied."
+  },
+  {
+    "source": "apify_leads.py",
+    "destination": "toolkit/apify_client.py",
+    "source_sha256": "e5a66d27faa041589ba5b087ffa8fce947f273053bb1e5bbe1f651b30c9265f6",
+    "changes": "Port original main/API admission into configurable capped client with conservative reservation and no-blind-retry collection",
+    "ownership": "Owner-authorized original application or instruction policy; only sanitized adaptation/new portability code distributed."
+  },
+  {
+    "source": "lead_collection.py",
+    "destination": "toolkit/overture_adapter.py",
+    "source_sha256": "10498d1d75373705aabb3b81ba82ae73e75c385b73374b66ae5d514bef98b50f",
+    "changes": "Port original feature conversion/downloader argv with explicit bounding box and preserved coordinates",
+    "ownership": "Owner-authorized original application or instruction policy; only sanitized adaptation/new portability code distributed."
+  },
+  {
+    "source": "lead_sheet_sync.py",
+    "destination": "toolkit/lead_sheet_merge.py",
+    "source_sha256": "7df85107d13465cfe2e40a9c6fb4ebdadf9554c79fb6318c3441004e70871403",
+    "changes": "Retain merge algorithm; block ambiguous existing IDs",
+    "ownership": "Owner-authorized original application or instruction policy; only sanitized adaptation/new portability code distributed."
+  },
+  {
+    "source": "lead_sheet_sync.py",
+    "destination": "toolkit/google_sheets.py",
+    "source_sha256": "7df85107d13465cfe2e40a9c6fb4ebdadf9554c79fb6318c3441004e70871403",
+    "changes": "Generalize CLI wrapper; remove hardcoded account/client/private keyring file; add frozen-plan opt-in and full RAW readback",
+    "ownership": "Owner-authorized original application or instruction policy; only sanitized adaptation/new portability code distributed."
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "toolkit/content_review.py",
+    "source_sha256": "31944248e178763869211b26ec5aa45da003d81373d2d882c352893f2994c326",
+    "changes": "Implement original procedural byte/style/protected-field invariants as tested pure helpers",
+    "ownership": "Owner-authorized original application or instruction policy; only sanitized adaptation/new portability code distributed."
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "toolkit/google_readiness.py",
+    "source_sha256": "7f92f4f618150c08898b2babb2d74bfaffe3b8626a86b4cb09642307ff1e6b3a",
+    "changes": "Implement original read/scope/file-permission evidence distinction without API calls",
+    "ownership": "Owner-authorized original application or instruction policy; only sanitized adaptation/new portability code distributed."
+  },
+  {
+    "source": "AGENTS.md",
+    "destination": "agents/customer-support/AGENTS.md",
+    "source_sha256": "4262309ddb3cdaaad3394b002ff0fdade868f6e6f7359fe2ed7af95ba5f05d49",
+    "changes": "Retain original language/inquiry/privacy/voice/tool safeguards; remove all real company facts and contacts; require configured reviewed profile",
+    "ownership": "Owner-authorized original application or instruction policy; only sanitized adaptation/new portability code distributed."
   }
 ]

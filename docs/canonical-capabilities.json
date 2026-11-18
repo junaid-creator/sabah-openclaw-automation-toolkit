@@ -1,10 +1,19 @@
 {
-  "records": 460,
-  "canonical_groups": 171,
-  "original_groups": 40,
-  "blocked_groups": 2,
-  "upstream_groups": 127,
-  "method": "Deterministic source basename and SHA aliases plus explicit functional family rules. Family grouping is a release work unit, not proof of equivalent behavior; tests/deployment wrappers remain in source membership.",
+  "original_inventory_records": 460,
+  "supplemental_original_sources": 1,
+  "canonical_groups": 174,
+  "original_capability_groups": 42,
+  "upstream_groups": 128,
+  "blocked_derivative_groups": 2,
+  "supporting_groups": 2,
+  "runtime_modules": 29,
+  "packaged_skills": 9,
+  "status_counts": {
+    "UNTESTED OR INCOMPLETE": 30,
+    "PUBLISHED AND VALIDATED": 11,
+    "DUPLICATE / ALREADY COVERED": 1
+  },
+  "method": "Source identity before dependency-family grouping; content hashes retain aliases. Categories separate procedures, engines, adapters, supporting aliases and upstream. These are release work groups, not counts of independent end-user products.",
   "groups": [
     {
       "id": "upstream:1password",
@@ -23,7 +32,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:add-model-provider",
@@ -40,7 +50,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:apple-notes",
@@ -59,7 +70,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:apple-reminders",
@@ -78,7 +90,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "skill:automation-adapter-verification",
@@ -126,6 +139,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -145,7 +159,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:blogwatcher",
@@ -164,7 +179,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:blucli",
@@ -183,7 +199,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:browser-automation",
@@ -202,7 +219,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:camsnap",
@@ -221,7 +239,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:canvas",
@@ -242,7 +261,8 @@
       "overlapping_records": 2,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "skill:capped-external-api-pilot",
@@ -265,6 +285,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -284,7 +305,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:cloud-image-bake",
@@ -301,7 +323,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:coding-agent",
@@ -320,7 +343,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:configure-channel",
@@ -337,7 +361,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:control-ui",
@@ -356,7 +381,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:diagnose-gateway",
@@ -373,7 +399,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:diagram-maker",
@@ -392,7 +419,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:eightctl",
@@ -411,7 +439,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "skill:gateway-outage-reliability-audit",
@@ -439,6 +468,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -458,7 +488,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "skill:generated-asset-checkpoint-recovery",
@@ -491,6 +522,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -510,7 +542,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:gifgrep",
@@ -529,7 +562,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:github",
@@ -550,7 +584,8 @@
       "overlapping_records": 2,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:gog",
@@ -569,7 +604,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "blocked:gog-clean",
@@ -597,12 +633,13 @@
         }
       ],
       "published_modules": [],
-      "reason": "Derivative source identifies upstream ancestry but redistribution chain/license is unresolved; six original blocked records remain excluded."
+      "published_skill": null,
+      "reason": "Source explicitly identifies derivative ancestry; upstream redistribution/license chain is unresolved. All six original blocked records remain excluded."
     },
     {
       "id": "skill:google-sheets-readiness",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PUBLISHED AND VALIDATED",
       "agents": [
         "main"
       ],
@@ -620,7 +657,8 @@
         }
       ],
       "published_modules": [],
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "google-sheets-readiness",
+      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
     },
     {
       "id": "upstream:goplaces",
@@ -639,7 +677,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:healthcheck",
@@ -658,7 +697,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:himalaya",
@@ -677,7 +717,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:mcporter",
@@ -696,7 +737,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:meme-maker",
@@ -715,7 +757,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:model-usage",
@@ -734,7 +777,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "skill:multi-platform-publication-recovery",
@@ -767,6 +811,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -786,7 +831,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:node-connect",
@@ -805,7 +851,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:node-inspect-debugger",
@@ -824,7 +871,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:notion",
@@ -843,7 +891,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:obsidian",
@@ -862,7 +911,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:openai-whisper",
@@ -881,7 +931,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:openai-whisper-api",
@@ -900,7 +951,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:openhue",
@@ -919,7 +971,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:oracle",
@@ -938,7 +991,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:ordercli",
@@ -957,7 +1011,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:peekaboo",
@@ -976,7 +1031,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "skill:poster-template-integration",
@@ -999,6 +1055,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -1022,6 +1079,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -1041,7 +1099,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "skill:sabah-daily-seo-blog",
@@ -1063,6 +1122,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -1082,7 +1142,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "skill:seo-marketing-pro",
@@ -1104,6 +1165,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -1123,7 +1185,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:skill-creator",
@@ -1142,7 +1205,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "skill:smgc-publication-intake-diagnosis",
@@ -1165,6 +1229,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -1188,6 +1253,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -1207,7 +1273,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:sonoscli",
@@ -1226,7 +1293,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:spike",
@@ -1245,7 +1313,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:spotify-player",
@@ -1264,7 +1333,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:summarize",
@@ -1283,7 +1353,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "skill:supplied-image-intake",
@@ -1306,6 +1377,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -1329,6 +1401,7 @@
         }
       ],
       "published_modules": [],
+      "published_skill": null,
       "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
     },
     {
@@ -1348,7 +1421,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:tmux",
@@ -1367,7 +1441,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:trello",
@@ -1386,7 +1461,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:visualize",
@@ -1405,7 +1481,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:wacli",
@@ -1424,7 +1501,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:weather",
@@ -1443,12 +1521,13 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "skill:woocommerce-cart-checkout-diagnosis",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PUBLISHED AND VALIDATED",
       "agents": [
         "main"
       ],
@@ -1466,12 +1545,13 @@
         }
       ],
       "published_modules": [],
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "woocommerce-cart-checkout-diagnosis",
+      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
     },
     {
       "id": "skill:woocommerce-catalog-reconciliation",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PUBLISHED AND VALIDATED",
       "agents": [
         "main"
       ],
@@ -1504,12 +1584,13 @@
         }
       ],
       "published_modules": [],
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "woocommerce-catalog-reconciliation",
+      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
     },
     {
       "id": "skill:woocommerce-price-display-audit",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PUBLISHED AND VALIDATED",
       "agents": [
         "main"
       ],
@@ -1527,12 +1608,13 @@
         }
       ],
       "published_modules": [],
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "woocommerce-price-display-audit",
+      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
     },
     {
       "id": "skill:woocommerce-product-content-seo",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PUBLISHED AND VALIDATED",
       "agents": [
         "main"
       ],
@@ -1555,12 +1637,13 @@
         }
       ],
       "published_modules": [],
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "woocommerce-product-content-seo",
+      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
     },
     {
       "id": "skill:wordpress-additive-content-update",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PUBLISHED AND VALIDATED",
       "agents": [
         "main"
       ],
@@ -1578,12 +1661,13 @@
         }
       ],
       "published_modules": [],
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "wordpress-additive-content-update",
+      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
     },
     {
       "id": "skill:wordpress-child-theme-readiness",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PUBLISHED AND VALIDATED",
       "agents": [
         "main"
       ],
@@ -1601,12 +1685,13 @@
         }
       ],
       "published_modules": [],
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "wordpress-child-theme-readiness",
+      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
     },
     {
       "id": "skill:wordpress-page-style-correction",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PUBLISHED AND VALIDATED",
       "agents": [
         "main"
       ],
@@ -1624,7 +1709,8 @@
         }
       ],
       "published_modules": [],
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "wordpress-page-style-correction",
+      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
     },
     {
       "id": "blocked:wordpress-rest-api-clean",
@@ -1652,7 +1738,8 @@
         }
       ],
       "published_modules": [],
-      "reason": "Derivative source identifies upstream ancestry but redistribution chain/license is unresolved; six original blocked records remain excluded."
+      "published_skill": null,
+      "reason": "Source explicitly identifies derivative ancestry; upstream redistribution/license chain is unresolved. All six original blocked records remain excluded."
     },
     {
       "id": "upstream:xurl",
@@ -1671,7 +1758,8 @@
       "overlapping_records": 1,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "other:woocommerce-verify-badges.py",
@@ -1700,7 +1788,8 @@
         }
       ],
       "published_modules": [],
-      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+      "published_skill": null,
+      "reason": "One-off browser verification script is deployment-scoped; reusable badge/cart checks are retained in procedural skills, but no standalone generic browser harness has been validated."
     },
     {
       "id": "seo-blog-engine",
@@ -1713,16 +1802,17 @@
       "record_ids": [
         132,
         190,
-        192,
         197,
         200,
         203,
         210,
-        218,
+        212,
+        214,
         222,
         226,
         234,
         237,
+        239,
         244,
         246,
         248,
@@ -1731,10 +1821,14 @@
         255,
         260,
         263,
+        264,
         278,
         279,
         281,
         282,
+        285,
+        286,
+        287,
         289,
         291,
         297,
@@ -1742,11 +1836,11 @@
         338,
         339,
         340,
-        435,
         458,
         459
       ],
       "dependencies": [
+        "PIL",
         "argparse",
         "ast",
         "base64",
@@ -1762,36 +1856,36 @@
         "html.parser",
         "http.client",
         "json",
-        "notification_delivery",
         "os",
         "owner_notification_format",
         "pathlib",
-        "publication_reliability",
+        "pwd",
         "re",
         "sabah_blog_approval_publish",
         "sabah_blog_controller",
         "sabah_blog_dual_notify",
         "sabah_blog_gates",
+        "sabah_blog_inbound",
         "sabah_blog_ledger",
         "sabah_blog_notify",
         "sabah_blog_observer",
         "sabah_blog_outbox_bridge",
         "sabah_blog_publication",
+        "sabah_blog_recovery",
         "sabah_blog_runtime",
         "sabah_blog_unattended_validate",
         "sabah_blog_worker",
-        "sabah_product_sync",
-        "sabah_product_sync_final",
         "sabah_sheets_sync",
+        "shutil",
         "socket",
         "sqlite3",
         "subprocess",
         "sys",
-        "task_watchdog",
-        "task_watchdog_delivery",
         "task_watchdog_results",
         "tempfile",
+        "test_sabah_blog_recovery",
         "time",
+        "tools.sabah_blog_recovery",
         "types",
         "unicodedata",
         "unittest",
@@ -1802,8 +1896,8 @@
         "uuid",
         "zoneinfo"
       ],
-      "unique_source_hashes": 31,
-      "overlapping_records": 3,
+      "unique_source_hashes": 36,
+      "overlapping_records": 2,
       "sources": [
         {
           "name": "sabah-blog-outbox-dispatch.js",
@@ -1812,10 +1906,6 @@
         {
           "name": "test_sabah_blog_webp_decode.py",
           "sha256": "47d335c2479f137cb07f3b97a7fff96736c5212b576c56d40795db834666b4ff"
-        },
-        {
-          "name": "test_owner_notification_format.py",
-          "sha256": "9b1a21d0d7d0ddc1df264c0cda5837f87718b83ed7a8eeb387c8ed7bab99358e"
         },
         {
           "name": "test_sabah_blog_delivery_receipts.py",
@@ -1834,8 +1924,12 @@
           "sha256": "2d7889a1908c3c75fd302e0ea5376d1f80dd2b172ffab15546cc0010db34a3b4"
         },
         {
-          "name": "task_watchdog_results.py",
-          "sha256": "f9f02a3ed6420f1983e99beaa77c2492ffeec07848b788d3925551342584431c"
+          "name": "test_sabah_blog_inbound.py",
+          "sha256": "ce76ddbe202c3a13a9fad16e17cdaeddc0b2abbd19a759712a707e073340f908"
+        },
+        {
+          "name": "sabah_blog_observer.py",
+          "sha256": "4f1f90c3a5aae33a325feeb76b7e1ad10c16669a4ba3ab3b6eea3920a00943f9"
         },
         {
           "name": "test_sabah_blog_observer.py",
@@ -1852,6 +1946,10 @@
         {
           "name": "test_sabah_blog_publication_evidence.py",
           "sha256": "c3f07c70fbb582aefbd0783a6cf7c6fc9508e8dd3f1c4da287b6f4821270fc9a"
+        },
+        {
+          "name": "test_sabah_blog_marker_regression.py",
+          "sha256": "474ebe14ed714f564090744cac2bc03bf948f93cdda8a567c2a7f87d9a0e8697"
         },
         {
           "name": "sabah_blog_notify.py",
@@ -1886,6 +1984,10 @@
           "sha256": "0c71fa6ff956368c1504c5798e4424e503dc3d7dc96a3087dbfce5838d125cab"
         },
         {
+          "name": "test_sabah_blog_multiday_acceptance.py",
+          "sha256": "bed3106e2c2960c2e7de9a516b6fedaa8fe8027fbdf67fa2f17ef1ef7291d8a7"
+        },
+        {
           "name": "sabah_blog_ledger.py",
           "sha256": "b35e619e9d36b6fdad5bc4a691d44f2ae0550f6e38204f71d99c572ef4351c05"
         },
@@ -1900,6 +2002,18 @@
         {
           "name": "sabah_blog_worker.py",
           "sha256": "ba1489220c5e9ff7aec2219b7feee0aa2768bb3f1b8619a1e346fea290cab670"
+        },
+        {
+          "name": "test_sabah_blog_controller.py",
+          "sha256": "6284f23a133a84633f1283f070c2b8c7ca186cf275361ad750fe3dfdc3bf2260"
+        },
+        {
+          "name": "test_sabah_blog_marker_gap.py",
+          "sha256": "477579b413deb84d1e8a387fd5f02ae9ff94b8f25a6bfbe4764e514bd1ee9b73"
+        },
+        {
+          "name": "test_sabah_blog_daily_policy.py",
+          "sha256": "d28b0421a4c0653781f90f08e175d0c08bbf170c485254098050841c319dbb7b"
         },
         {
           "name": "test_sabah_blog_webp_structure.py",
@@ -1931,10 +2045,16 @@
         }
       ],
       "published_modules": [
+        "blog_controller",
+        "blog_publication",
+        "blog_gates",
+        "wordpress",
+        "draft_primitives",
         "reliability",
         "content_ledger"
       ],
-      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+      "published_skill": null,
+      "reason": "Portable stages, create-once, publication gates and uncertain-write recovery are implemented. Native research/image/message tool bridges, site-specific SEO REST registration and full tracker orchestration are not wired as a fresh deployment."
     },
     {
       "id": "social-scheduling",
@@ -1947,8 +2067,15 @@
       ],
       "record_ids": [
         133,
+        140,
+        142,
+        147,
+        156,
+        168,
+        169,
         171,
         235,
+        259,
         341,
         342,
         343,
@@ -1970,28 +2097,78 @@
       ],
       "dependencies": [
         "__future__",
+        "admin_commands",
+        "argparse",
         "contextlib",
         "daily_series",
         "datetime",
+        "fcntl",
         "hashlib",
+        "hmac",
+        "html",
+        "importlib.util",
         "io",
         "json",
+        "meta_publisher",
+        "os",
         "pathlib",
+        "publication_reliability",
         "re",
+        "reliability_cli",
         "sabah_daily_social",
+        "sabah_product_sync",
+        "sabah_social_quality",
+        "scheduled_publication",
+        "scoped_instagram",
+        "secrets",
+        "secure_schedule_command",
+        "smgc_meta_scheduler",
+        "smgc_meta_worker",
         "sqlite3",
+        "subprocess",
         "sys",
         "tempfile",
+        "test_reliability",
+        "test_scheduled_publication",
+        "time",
+        "types",
+        "typing",
         "unittest",
         "unittest.mock",
+        "urllib.parse",
+        "urllib.request",
         "zoneinfo"
       ],
-      "unique_source_hashes": 12,
+      "unique_source_hashes": 19,
       "overlapping_records": 9,
       "sources": [
         {
           "name": "daily_series.py",
           "sha256": "f465889ac99ccbcb9a250963c31986c1228d69e500aefc1e8b8ba9940ce3a455"
+        },
+        {
+          "name": "secure_schedule_command.py",
+          "sha256": "2f1958c4da175196e280e1c864a7a83edbb455461dec3d95d319b2a8eed8f23a"
+        },
+        {
+          "name": "scheduled_publication.py",
+          "sha256": "348c0a5d3e5ea2b8f74d9e916526490b21e86c6938ef35d2704e6eccf892bef9"
+        },
+        {
+          "name": "smgc_meta_scheduler.py",
+          "sha256": "fb201eb6e460a5499ce542238ebd790b2a61518a64b268f68318e64258ccd8fa"
+        },
+        {
+          "name": "test_scheduled_publication.py",
+          "sha256": "3f865b10979aac670de9f66993e3a78614cf9d6ab198b45db248083d100e28bd"
+        },
+        {
+          "name": "test_secure_schedule_command.py",
+          "sha256": "0fcc0203d64d878b343b160788bbec616f55de930390bda97eff5bbfd98f6158"
+        },
+        {
+          "name": "test_smgc_meta_scheduler.py",
+          "sha256": "13496fb602faa1d6e7e8d627b1110e0c227ed7c0dbc4f57310312aec1f909c8e"
         },
         {
           "name": "test_daily_series.py",
@@ -2000,6 +2177,10 @@
         {
           "name": "test_sabah_daily_social_recovery.py",
           "sha256": "f9fff67b7480e2cd11c4f77c61db56aca37810713488218a46801cb23bd015e7"
+        },
+        {
+          "name": "sabah_daily_social.py",
+          "sha256": "d9966c2ce1b615d42ea910538e4068e2973f5123df0ac7a23cebd0f8cdfcfafe"
         },
         {
           "name": "lifecycle.mjs",
@@ -2042,7 +2223,8 @@
         "product_rotation",
         "schedule_core"
       ],
-      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+      "published_skill": null,
+      "reason": "Explicit date parser, durable outbox and six-position product/template assignment are implemented. Authenticated inbound schedule challenge/confirmation bridge and daemon admission wiring remain unported."
     },
     {
       "id": "deployment-specific-utilities",
@@ -2095,7 +2277,8 @@
         }
       ],
       "published_modules": [],
-      "reason": "Tests, package markers and deployment-specific utility records are not additional standalone capabilities; retain as supporting provenance, not independently reimplemented packages."
+      "published_skill": null,
+      "reason": "Supporting test/package/deployment-utility records, not additional standalone skills; retained in record accounting rather than reimplemented individually."
     },
     {
       "id": "verification-harnesses",
@@ -2155,7 +2338,61 @@
         }
       ],
       "published_modules": [],
-      "reason": "Tests, package markers and deployment-specific utility records are not additional standalone capabilities; retain as supporting provenance, not independently reimplemented packages."
+      "published_skill": null,
+      "reason": "Supporting test/package/deployment-utility records, not additional standalone skills; retained in record accounting rather than reimplemented individually."
+    },
+    {
+      "id": "tiktok-auth",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        136,
+        180,
+        181
+      ],
+      "dependencies": [
+        "contextlib",
+        "fcntl",
+        "getpass",
+        "hashlib",
+        "hmac",
+        "importlib.util",
+        "json",
+        "os",
+        "pathlib",
+        "pytest",
+        "secrets",
+        "stat",
+        "sys",
+        "tempfile",
+        "tiktok_publisher",
+        "time",
+        "urllib.parse",
+        "urllib.request",
+        "warnings"
+      ],
+      "unique_source_hashes": 3,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "tiktok_probe.py",
+          "sha256": "de3f11214753a08d1b36ad95b8f92cbd03bdaa56415086553ebff83dc39beb10"
+        },
+        {
+          "name": "tt_auth.py",
+          "sha256": "c671efaa8c287f9ead46229070e2464bf110182206980b39db4de373d9b6f1dd"
+        },
+        {
+          "name": "test_tt_auth.py",
+          "sha256": "59524aecc8ca0376eae01f08c3accee04b5ec6c0e3c73fd1d715c01370a024ab"
+        }
+      ],
+      "published_modules": [],
+      "published_skill": null,
+      "reason": "Photo operations accept explicit credentials and token-provider callback. The original OAuth callback/refresh helper is bound to private application setup and is not redistributed or activated; use your own reviewed OAuth integration."
     },
     {
       "id": "social-publishing",
@@ -2165,48 +2402,30 @@
         "main"
       ],
       "record_ids": [
-        136,
         137,
         139,
-        140,
-        141,
-        142,
-        143,
         146,
-        147,
         151,
         152,
         153,
         154,
         155,
-        156,
         157,
         159,
-        160,
         161,
         162,
-        163,
         164,
         165,
         166,
         167,
-        168,
-        169,
         170,
         173,
         174,
         175,
         176,
-        182,
-        213,
         217,
-        219,
-        254,
         256,
-        258,
-        259,
         262,
-        273,
         292
       ],
       "dependencies": [
@@ -2217,7 +2436,6 @@
         "argparse",
         "concurrent.futures",
         "contextlib",
-        "copy",
         "daily_series",
         "dataclasses",
         "datetime",
@@ -2225,43 +2443,29 @@
         "enum",
         "fcntl",
         "hashlib",
-        "hmac",
-        "html",
         "importlib.util",
         "io",
         "ipaddress",
         "json",
         "meta_publisher",
         "notification_delivery",
-        "notification_worker",
         "os",
-        "owner_notification_format",
         "pathlib",
         "publication_reliability",
         "pytest",
         "random",
         "re",
         "reliability_cli",
-        "sabah_product_sync",
         "sabah_review_delivery",
-        "sabah_social_notify",
-        "sabah_social_quality",
         "scheduled_publication",
         "scoped_instagram",
         "secrets",
         "secure_schedule_command",
         "shutil",
-        "smgc_meta_scheduler",
         "smgc_meta_worker",
         "sqlite3",
         "subprocess",
         "sys",
-        "task_watchdog",
-        "task_watchdog_delivery",
-        "task_watchdog_lifecycle",
-        "task_watchdog_metadata",
-        "task_watchdog_results",
-        "task_watchdog_summary",
         "tempfile",
         "test_meta_publisher",
         "test_notification_delivery",
@@ -2273,8 +2477,6 @@
         "threading",
         "tiktok_publisher",
         "time",
-        "tools",
-        "tools.task_watchdog_delivery",
         "types",
         "typing",
         "unittest",
@@ -2284,13 +2486,9 @@
         "urllib.request",
         "zoneinfo"
       ],
-      "unique_source_hashes": 43,
+      "unique_source_hashes": 25,
       "overlapping_records": 0,
       "sources": [
-        {
-          "name": "tiktok_probe.py",
-          "sha256": "de3f11214753a08d1b36ad95b8f92cbd03bdaa56415086553ebff83dc39beb10"
-        },
         {
           "name": "tiktok_publisher.py",
           "sha256": "e68dc789784e6ec08dce0b34ad00185c8c721e0c48a6fa0a6ab592091bab2800"
@@ -2300,28 +2498,8 @@
           "sha256": "35da03ad65cecfae55d70ae99f7f6d6ab339e8d8ef3d8befec12dcd54c015506"
         },
         {
-          "name": "secure_schedule_command.py",
-          "sha256": "2f1958c4da175196e280e1c864a7a83edbb455461dec3d95d319b2a8eed8f23a"
-        },
-        {
-          "name": "notification_delivery.py",
-          "sha256": "f33c38ac4fe0f605566070bca0a5aee96cd06b73b1429d4a8d9b6d00066fb1ae"
-        },
-        {
-          "name": "scheduled_publication.py",
-          "sha256": "348c0a5d3e5ea2b8f74d9e916526490b21e86c6938ef35d2704e6eccf892bef9"
-        },
-        {
-          "name": "notification_worker.py",
-          "sha256": "0673219d2f458e86bc191a744c2222b793579e324bf0fc17aed973a76de8b890"
-        },
-        {
           "name": "smgc_meta_worker.py",
           "sha256": "f87c566f19915e2baff04cda38a34e0e4135c537cc00589ba3b2958755f702c8"
-        },
-        {
-          "name": "smgc_meta_scheduler.py",
-          "sha256": "fb201eb6e460a5499ce542238ebd790b2a61518a64b268f68318e64258ccd8fa"
         },
         {
           "name": "reliability_cli.py",
@@ -2344,10 +2522,6 @@
           "sha256": "e9de8ae6e096e3f9a21b1b234ff699c0831c2d50320851b86ffffcbb1579c936"
         },
         {
-          "name": "test_scheduled_publication.py",
-          "sha256": "3f865b10979aac670de9f66993e3a78614cf9d6ab198b45db248083d100e28bd"
-        },
-        {
           "name": "test_recovery_batch_priority.py",
           "sha256": "9a1a36121c4bfd2961f3dd80c6c8daeb7e7e194ac5faaa0494deac9aaa27d8a9"
         },
@@ -2356,20 +2530,12 @@
           "sha256": "ef36b5fc4d66a0a0b619fecc040db8ca2c7fc910c40af41c84cb4346b0c12791"
         },
         {
-          "name": "test_notification_delivery.py",
-          "sha256": "1b360d3caacc744732e7c27d9f562e76899c6dbd2070746c8904794f44b00d32"
-        },
-        {
           "name": "test_review_provenance_guards.py",
           "sha256": "e1949f2e8af6cc7558bd37b3f078bcd596a545ea9ae8104a9204de1ec93642a9"
         },
         {
           "name": "test_integration_wiring.py",
           "sha256": "f9be2f1f9d9ea5e9a0bdf2443d220c28980febe206df04dacb6b85355f167f61"
-        },
-        {
-          "name": "test_notification_worker.py",
-          "sha256": "49951018ba152fac1f823e5acca821468cbde3bdbe2ee0ac3c13d3661e401106"
         },
         {
           "name": "test_meta_publisher.py",
@@ -2386,14 +2552,6 @@
         {
           "name": "test_dual_admin.py",
           "sha256": "c17735a87d589afea8292018e1c7fe1753e335c8fe4adca8e7df5e39afc950a3"
-        },
-        {
-          "name": "test_secure_schedule_command.py",
-          "sha256": "0fcc0203d64d878b343b160788bbec616f55de930390bda97eff5bbfd98f6158"
-        },
-        {
-          "name": "test_smgc_meta_scheduler.py",
-          "sha256": "13496fb602faa1d6e7e8d627b1110e0c227ed7c0dbc4f57310312aec1f909c8e"
         },
         {
           "name": "test_scoped_instagram.py",
@@ -2416,44 +2574,16 @@
           "sha256": "75721376b2da4cb65676a93fa9dfd028ae418d5f8c5029b24067b7a39b703bf6"
         },
         {
-          "name": "task_watchdog_runner.py",
-          "sha256": "e6dfb190951bd81780fc9559fcc05c1ce65f9c242ee5006053df3629cb25e246"
-        },
-        {
-          "name": "task_watchdog_delivery.py",
-          "sha256": "6f2396b5b7af14c547bea79bd48dd1cd5c1a11e7f0a682ace290cea85fb87b89"
-        },
-        {
           "name": "sabah_publish_photo.py",
           "sha256": "199acd5c74f6680c05b5275b58c2ebfdb4b2c2cf1770910d20c4bbec499cc026"
-        },
-        {
-          "name": "test_task_watchdog_delivery.py",
-          "sha256": "c0f9cb427a85f129726351be6238fcf51c649541ff2f7a136123e61f7916c425"
-        },
-        {
-          "name": "test_notification_continuation.py",
-          "sha256": "55a14a1681cfc302a96d8a5a5be1cb968ef059284e39622b63b0834fedbb58ec"
         },
         {
           "name": "sabah_publish_photo.sh",
           "sha256": "a147e7673a69a5caf043979985f06ddb3fa259daa10b09132dc3d939645a7f50"
         },
         {
-          "name": "sabah_revise_review_media.py",
-          "sha256": "89f58761901659f4ecf41bf95be00a65b328a71f8cdbd459e856b19fc99b33c0"
-        },
-        {
-          "name": "sabah_daily_social.py",
-          "sha256": "d9966c2ce1b615d42ea910538e4068e2973f5123df0ac7a23cebd0f8cdfcfafe"
-        },
-        {
           "name": "sm0024_tiktok_addon.py",
           "sha256": "e667c8fb2f26698eb0bb9ef90739cd220c0e68e04d750466e4061329022bb862"
-        },
-        {
-          "name": "sabah_revise_review_targets.py",
-          "sha256": "39d72a16a64d5cf1024e58686e8d9c860a01b38b137d15b73ef20898241a3694"
         },
         {
           "name": "sabah_social_publish_approved.py",
@@ -2462,9 +2592,11 @@
       ],
       "published_modules": [
         "meta_publisher",
-        "approval_ledger"
+        "approval_ledger",
+        "tiktok_publisher"
       ],
-      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+      "published_skill": null,
+      "reason": "FB/IG adapter, TikTok adapter and durable approval/revocation are implemented. The original multi-platform Engine worker, exact visual/asset binding and autonomous recovery dispatcher still require a portable integrated harness."
     },
     {
       "id": "notification-delivery",
@@ -2474,40 +2606,76 @@
         "main"
       ],
       "record_ids": [
+        141,
+        143,
         150,
-        201,
+        160,
+        163,
+        192,
         233,
         243,
-        252
+        252,
+        254
       ],
       "dependencies": [
         "__future__",
+        "daily_series",
         "datetime",
+        "fcntl",
         "json",
         "notification_delivery",
+        "notification_worker",
+        "os",
         "owner_notification_format",
         "pathlib",
+        "publication_reliability",
         "pytest",
         "re",
+        "sabah_blog_dual_notify",
         "sabah_social_notify",
+        "scheduled_publication",
+        "shutil",
         "sqlite3",
         "subprocess",
         "sys",
+        "task_watchdog",
+        "task_watchdog_delivery",
         "task_watchdog_lifecycle",
         "task_watchdog_results",
+        "task_watchdog_summary",
+        "tempfile",
+        "test_notification_delivery",
         "time",
+        "unittest",
+        "unittest.mock",
         "zoneinfo"
       ],
-      "unique_source_hashes": 5,
+      "unique_source_hashes": 10,
       "overlapping_records": 0,
       "sources": [
+        {
+          "name": "notification_delivery.py",
+          "sha256": "f33c38ac4fe0f605566070bca0a5aee96cd06b73b1429d4a8d9b6d00066fb1ae"
+        },
+        {
+          "name": "notification_worker.py",
+          "sha256": "0673219d2f458e86bc191a744c2222b793579e324bf0fc17aed973a76de8b890"
+        },
         {
           "name": "owner_notification_format.py",
           "sha256": "297a5dc3d917341609722f1b4e09d2481bcbcf2593f97d1acbe774c2f7d26db5"
         },
         {
-          "name": "task_watchdog_summary.py",
-          "sha256": "c7ba49f620f892c8b6841f9c566be8988dc7977b5ed53900a12110d552e0a279"
+          "name": "test_notification_delivery.py",
+          "sha256": "1b360d3caacc744732e7c27d9f562e76899c6dbd2070746c8904794f44b00d32"
+        },
+        {
+          "name": "test_notification_worker.py",
+          "sha256": "49951018ba152fac1f823e5acca821468cbde3bdbe2ee0ac3c13d3661e401106"
+        },
+        {
+          "name": "test_owner_notification_format.py",
+          "sha256": "9b1a21d0d7d0ddc1df264c0cda5837f87718b83ed7a8eeb387c8ed7bab99358e"
         },
         {
           "name": "send_tiktok_notice.py",
@@ -2520,12 +2688,18 @@
         {
           "name": "test_social_owner_routing.py",
           "sha256": "2a30b399b7e383667aaf69ea8d99aa57ae4cc96db9e6c856fafcd708ae67dfdc"
+        },
+        {
+          "name": "test_notification_continuation.py",
+          "sha256": "55a14a1681cfc302a96d8a5a5be1cb968ef059284e39622b63b0834fedbb58ec"
         }
       ],
       "published_modules": [
-        "notification_outbox"
+        "notification_outbox",
+        "report_outbox"
       ],
-      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+      "published_skill": null,
+      "reason": "Durable claim/receipt/no-replay logic and owner report outbox are implemented. The original native message-tool/owner-route bridge is not packaged as an authenticated transport; callbacks must use an independently authorized sender."
     },
     {
       "id": "product-catalog",
@@ -2637,56 +2811,113 @@
         }
       ],
       "published_modules": [],
-      "reason": "Production WP-CLI and Sheets catalog mutations, concurrency/fingerprint checks and exact commerce-preserving readbacks require a portable adapter test harness."
+      "published_skill": null,
+      "reason": "Original WooCommerce mutation adapters use site-specific WP-CLI grants and source-schema mappings. The generic WordPress client and catalog procedural skill do not replace the full isolated Woo setter/backup/derived-field test environment, which is not available in this release."
     },
     {
-      "id": "tiktok-auth",
+      "id": "watchdog",
       "category": "B",
       "status": "UNTESTED OR INCOMPLETE",
       "agents": [
         "main"
       ],
       "record_ids": [
-        180,
-        181
+        182,
+        199,
+        201,
+        205,
+        211,
+        213,
+        216,
+        218,
+        219,
+        283
       ],
       "dependencies": [
-        "contextlib",
-        "fcntl",
-        "getpass",
+        "argparse",
+        "datetime",
         "hashlib",
-        "hmac",
-        "importlib.util",
         "json",
+        "notification_delivery",
         "os",
+        "owner_notification_format",
         "pathlib",
-        "pytest",
-        "secrets",
-        "stat",
+        "publication_reliability",
+        "re",
+        "sabah_blog_publication",
+        "sabah_blog_runtime",
+        "sabah_product_sync",
+        "sabah_product_sync_final",
+        "scheduled_publication",
+        "socket",
+        "sqlite3",
+        "subprocess",
         "sys",
+        "task_watchdog",
+        "task_watchdog_delivery",
+        "task_watchdog_lifecycle",
+        "task_watchdog_metadata",
+        "task_watchdog_results",
+        "task_watchdog_summary",
         "tempfile",
         "time",
-        "urllib.parse",
-        "urllib.request",
-        "warnings"
+        "tools",
+        "tools.task_watchdog_delivery",
+        "unittest",
+        "zoneinfo"
       ],
-      "unique_source_hashes": 2,
+      "unique_source_hashes": 10,
       "overlapping_records": 0,
       "sources": [
         {
-          "name": "tt_auth.py",
-          "sha256": "c671efaa8c287f9ead46229070e2464bf110182206980b39db4de373d9b6f1dd"
+          "name": "task_watchdog_runner.py",
+          "sha256": "e6dfb190951bd81780fc9559fcc05c1ce65f9c242ee5006053df3629cb25e246"
         },
         {
-          "name": "test_tt_auth.py",
-          "sha256": "59524aecc8ca0376eae01f08c3accee04b5ec6c0e3c73fd1d715c01370a024ab"
+          "name": "test_task_watchdog_lifecycle.py",
+          "sha256": "60031dbce78df70f7bf922e10a2fae48784543c80453fb41dd10db998a11993e"
+        },
+        {
+          "name": "task_watchdog_summary.py",
+          "sha256": "c7ba49f620f892c8b6841f9c566be8988dc7977b5ed53900a12110d552e0a279"
+        },
+        {
+          "name": "task_watchdog_metadata.py",
+          "sha256": "fc05181ce3815ce95d937667d10068f5f8970952280b983c3caac6af16762009"
+        },
+        {
+          "name": "task_watchdog_lifecycle.py",
+          "sha256": "dd16d853c575145525165bb99f94804cd35614bd801b2c971b6817c02707a337"
+        },
+        {
+          "name": "task_watchdog_delivery.py",
+          "sha256": "6f2396b5b7af14c547bea79bd48dd1cd5c1a11e7f0a682ace290cea85fb87b89"
+        },
+        {
+          "name": "task_watchdog.py",
+          "sha256": "2d54e079741f0e777ce1a72225e0b2c2eee0e6f18a5f22e7aeccfc61812670d8"
+        },
+        {
+          "name": "task_watchdog_results.py",
+          "sha256": "f9f02a3ed6420f1983e99beaa77c2492ffeec07848b788d3925551342584431c"
+        },
+        {
+          "name": "test_task_watchdog_delivery.py",
+          "sha256": "c0f9cb427a85f129726351be6238fcf51c649541ff2f7a136123e61f7916c425"
+        },
+        {
+          "name": "test_task_watchdog.py",
+          "sha256": "183d17067592dd0ecf8a8c54cde976e8f1beb202b4d89bed32c3773f98af080f"
         }
       ],
-      "published_modules": [],
-      "reason": "Installed OAuth and Business Direct Post contracts use private app bindings; portable callback/config isolation and mocked end-to-end testing remain unfinished."
+      "published_modules": [
+        "watchdog"
+      ],
+      "published_skill": null,
+      "reason": "Task lifecycle, stalls, endpoint health and inquiry failure reader are implemented. Native runtime-event ingestion and production-specific result watchers/delivery daemon remain outside the standalone adapter."
     },
     {
-      "id": "lead-acquisition",
+      "id": "apify-budgeted-acquisition",
       "category": "B",
       "status": "UNTESTED OR INCOMPLETE",
       "agents": [
@@ -2694,21 +2925,15 @@
       ],
       "record_ids": [
         183,
-        193,
         204,
-        206,
-        270,
         293
       ],
       "dependencies": [
         "apify_leads",
         "apify_leads_monitor",
-        "argparse",
-        "concurrent.futures",
         "datetime",
         "fcntl",
         "io",
-        "ipaddress",
         "json",
         "lead_collection",
         "lead_sheet_sync",
@@ -2717,10 +2942,6 @@
         "pathlib",
         "qualified_leads",
         "re",
-        "requests",
-        "shlex",
-        "signal",
-        "socket",
         "subprocess",
         "sys",
         "tempfile",
@@ -2730,10 +2951,9 @@
         "urllib.error",
         "urllib.parse",
         "urllib.request",
-        "uuid",
         "zoneinfo"
       ],
-      "unique_source_hashes": 6,
+      "unique_source_hashes": 3,
       "overlapping_records": 0,
       "sources": [
         {
@@ -2741,20 +2961,8 @@
           "sha256": "e5a66d27faa041589ba5b087ffa8fce947f273053bb1e5bbe1f651b30c9265f6"
         },
         {
-          "name": "qualified_leads.py",
-          "sha256": "ac9b37d74b6a82296d440489a8c8173286a1372f0168b35f1a18e27a4f1f4459"
-        },
-        {
           "name": "apify_leads_monitor.py",
           "sha256": "74c8d1e12c60ecc90bbd8d1559c03d9a0460ef2f319d5452563ab7a1fa6817ab"
-        },
-        {
-          "name": "lead_sheet_sync.py",
-          "sha256": "7df85107d13465cfe2e40a9c6fb4ebdadf9554c79fb6318c3441004e70871403"
-        },
-        {
-          "name": "lead_collection.py",
-          "sha256": "10498d1d75373705aabb3b81ba82ae73e75c385b73374b66ae5d514bef98b50f"
         },
         {
           "name": "test_apify_leads.py",
@@ -2762,10 +2970,11 @@
         }
       ],
       "published_modules": [
-        "lead_qualification",
-        "apify_budget"
+        "apify_budget",
+        "apify_client"
       ],
-      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+      "published_skill": null,
+      "reason": "Capped start/collection and independent policy/credit guards are implemented and mocked. Original scheduled owner evidence-monitor routing is not ported; account history beyond the bounded 30-run window is deliberately blocked pending tested pagination."
     },
     {
       "id": "social-draft-review",
@@ -2777,29 +2986,41 @@
       "record_ids": [
         184,
         186,
-        236
+        231,
+        236,
+        258,
+        273
       ],
       "dependencies": [
+        "PIL",
         "argparse",
         "contextlib",
         "copy",
+        "datetime",
         "fcntl",
         "hashlib",
         "importlib.util",
         "json",
         "os",
         "pathlib",
+        "publication_reliability",
         "pytest",
         "re",
+        "reliability_cli",
         "sabah_review_delivery",
         "sabah_revise_review_targets",
+        "sabah_social_defaults",
         "sabah_social_language",
         "sabah_social_notify",
+        "sabah_social_quality",
+        "sabah_social_templates",
         "sqlite3",
+        "subprocess",
         "sys",
-        "tempfile"
+        "tempfile",
+        "uuid"
       ],
-      "unique_source_hashes": 3,
+      "unique_source_hashes": 6,
       "overlapping_records": 0,
       "sources": [
         {
@@ -2811,12 +3032,25 @@
           "sha256": "edb7d33c4a99f862cb46b1aba32b76a19d06870bde782decf8fa3a5fbe0057c3"
         },
         {
+          "name": "sabah_whatsapp_draft.py",
+          "sha256": "5cc609016f544b2ce031c236d99b4d41e7938cc499fd88de0077ed7774a57916"
+        },
+        {
           "name": "sabah_review_delivery.py",
           "sha256": "b7293817941f278014cb4825156ce6afa6f31deff947955c9a17a2d36fdb3976"
+        },
+        {
+          "name": "sabah_revise_review_media.py",
+          "sha256": "89f58761901659f4ecf41bf95be00a65b328a71f8cdbd459e856b19fc99b33c0"
+        },
+        {
+          "name": "sabah_revise_review_targets.py",
+          "sha256": "39d72a16a64d5cf1024e58686e8d9c860a01b38b137d15b73ef20898241a3694"
         }
       ],
       "published_modules": [],
-      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+      "published_skill": null,
+      "reason": "Original canonical draft controller writes production Sheets and invokes host-owned image/preview tools. No safely configured standalone creation/revision/delivery entry point has passed isolated adapter tests."
     },
     {
       "id": "poster-generation",
@@ -2836,9 +3070,9 @@
         221,
         223,
         229,
-        231,
         232,
         238,
+        247,
         250,
         257,
         265,
@@ -2877,12 +3111,12 @@
         "random",
         "re",
         "sabah_daily_visual_review",
+        "sabah_model_capture",
         "sabah_review_delivery",
         "sabah_social_defaults",
         "sabah_social_image_import",
         "sabah_social_job_create",
         "sabah_social_language",
-        "sabah_social_notify",
         "sabah_social_poster_selection",
         "sabah_social_quality",
         "sabah_social_render_catalog",
@@ -2950,16 +3184,16 @@
           "sha256": "18dbbe2cd7283043e353e784b9e38f643f34c45ec115df2b92bc6efbf6870b01"
         },
         {
-          "name": "sabah_whatsapp_draft.py",
-          "sha256": "5cc609016f544b2ce031c236d99b4d41e7938cc499fd88de0077ed7774a57916"
-        },
-        {
           "name": "sabah_social_prepare_draft.py",
           "sha256": "e65e497c5f2dead19f892e709cc1a3656be75fcaef25089265c0391728ecac05"
         },
         {
           "name": "sabah_social_render_catalog.py",
           "sha256": "0b19cb8e80d636a777a80cf2f13e21f6e27ecf40146c08648299af0139b73b4c"
+        },
+        {
+          "name": "sabah_daily_visual_review.py",
+          "sha256": "11f851b67ff2fa73beaf8b924ada1197112607595177306ec999ca9e61eb74b9"
         },
         {
           "name": "sabah_social_render_html.py",
@@ -3011,7 +3245,8 @@
         }
       ],
       "published_modules": [],
-      "reason": "Branded layouts, fonts, image generators, exact-artifact QA and asset provenance require independent portable extraction. Rotation numbers alone are not six rendered templates."
+      "published_skill": null,
+      "reason": "Original rendering code depends on supplied branded logo/QR/photo assets, six layout-specific font/QR contracts, Playwright and exact-artifact visual review. These dependencies were inspected; no complete brand-neutral renderer/assets package with independent QA is validated. Rotation alone is not six rendered templates."
     },
     {
       "id": "blog-image-recovery",
@@ -3025,22 +3260,14 @@
         194,
         207,
         208,
-        212,
-        214,
         220,
         227,
         228,
-        239,
-        247,
         253,
         261,
-        264,
         267,
         268,
-        272,
-        285,
-        286,
-        287
+        272
       ],
       "dependencies": [
         "PIL",
@@ -3048,48 +3275,36 @@
         "contextlib",
         "copy",
         "datetime",
-        "fcntl",
         "hashlib",
         "io",
         "json",
         "os",
         "pathlib",
-        "playwright.sync_api",
         "pwd",
         "re",
-        "sabah_blog_approval_publish",
         "sabah_blog_controller",
         "sabah_blog_gates",
         "sabah_blog_image_intent",
-        "sabah_blog_inbound",
         "sabah_blog_ledger",
-        "sabah_blog_notify",
         "sabah_blog_publication",
         "sabah_blog_recovery",
         "sabah_blog_recovery_dispatch_bridge",
         "sabah_blog_runtime",
         "sabah_blog_unattended_validate",
         "sabah_blog_worker",
-        "sabah_model_capture",
-        "sabah_sheets_sync",
-        "sabah_social_quality",
-        "sabah_social_render_html",
-        "sabah_template6_quality",
         "secrets",
         "shutil",
         "sqlite3",
         "subprocess",
         "sys",
         "tempfile",
-        "test_sabah_blog_recovery",
         "time",
-        "tools.sabah_blog_recovery",
         "unittest",
         "unittest.mock",
         "uuid",
         "zoneinfo"
       ],
-      "unique_source_hashes": 20,
+      "unique_source_hashes": 12,
       "overlapping_records": 0,
       "sources": [
         {
@@ -3109,14 +3324,6 @@
           "sha256": "4ab1b9591ecc373d10f40a8bd45a418a263e23f7c8b75c05dfeefc27ea0896ce"
         },
         {
-          "name": "test_sabah_blog_inbound.py",
-          "sha256": "ce76ddbe202c3a13a9fad16e17cdaeddc0b2abbd19a759712a707e073340f908"
-        },
-        {
-          "name": "sabah_blog_observer.py",
-          "sha256": "4f1f90c3a5aae33a325feeb76b7e1ad10c16669a4ba3ab3b6eea3920a00943f9"
-        },
-        {
           "name": "sabah_blog_cli_image.py",
           "sha256": "626577e9010bea616a61fd779f5ab928642be6a4329f42cd18b93b890f530faa"
         },
@@ -3129,24 +3336,12 @@
           "sha256": "06bf73f0565925959cc27df631a84677404f1bf2c59d04a7c73625be8ca87454"
         },
         {
-          "name": "test_sabah_blog_marker_regression.py",
-          "sha256": "474ebe14ed714f564090744cac2bc03bf948f93cdda8a567c2a7f87d9a0e8697"
-        },
-        {
-          "name": "sabah_daily_visual_review.py",
-          "sha256": "11f851b67ff2fa73beaf8b924ada1197112607595177306ec999ca9e61eb74b9"
-        },
-        {
           "name": "sabah_blog_image_intent.py",
           "sha256": "69d19e900103f82c36aadc91fa167f346e5ec02b364a5486a8d3c636c4708a25"
         },
         {
           "name": "test_sabah_blog_recovery_watchdog.py",
           "sha256": "73bd7f82c5c4d5e64fe7b4b886a64ab01702f07ef3b0e5aa9a5dcddb7ee41282"
-        },
-        {
-          "name": "test_sabah_blog_multiday_acceptance.py",
-          "sha256": "bed3106e2c2960c2e7de9a516b6fedaa8fe8027fbdf67fa2f17ef1ef7291d8a7"
         },
         {
           "name": "test_sabah_blog_image_binding.py",
@@ -3159,81 +3354,74 @@
         {
           "name": "sabah_blog_recovery.py",
           "sha256": "c1225f9a4fc01a06773fb5f390d1d22279e1de96e3d248f52d6aa047b2e07dd3"
-        },
-        {
-          "name": "test_sabah_blog_controller.py",
-          "sha256": "6284f23a133a84633f1283f070c2b8c7ca186cf275361ad750fe3dfdc3bf2260"
-        },
-        {
-          "name": "test_sabah_blog_marker_gap.py",
-          "sha256": "477579b413deb84d1e8a387fd5f02ae9ff94b8f25a6bfbe4764e514bd1ee9b73"
-        },
-        {
-          "name": "test_sabah_blog_daily_policy.py",
-          "sha256": "d28b0421a4c0653781f90f08e175d0c08bbf170c485254098050841c319dbb7b"
         }
       ],
-      "published_modules": [],
-      "reason": "Provider task capture and recovery rely on host-owned generation receipts, private image stores and runtime execution bridges; portable adapter contract not yet validated."
+      "published_modules": [
+        "blog_assets",
+        "blog_controller"
+      ],
+      "published_skill": null,
+      "reason": "Receipt-bound three-image validation/recovery is implemented. Provider-task capture/replay bridge and original marker/crop quality reviewer depend on host-owned task and artifact contracts not ported."
     },
     {
-      "id": "watchdog",
+      "id": "lead-acquisition",
       "category": "B",
       "status": "UNTESTED OR INCOMPLETE",
       "agents": [
         "main"
       ],
       "record_ids": [
-        199,
-        205,
-        211,
-        216,
-        283
+        193,
+        206,
+        270
       ],
       "dependencies": [
         "argparse",
-        "hashlib",
+        "concurrent.futures",
+        "datetime",
+        "fcntl",
+        "ipaddress",
         "json",
+        "lead_sheet_sync",
         "os",
         "pathlib",
+        "qualified_leads",
+        "re",
+        "requests",
+        "shlex",
+        "signal",
         "socket",
-        "sqlite3",
         "subprocess",
-        "task_watchdog",
-        "task_watchdog_lifecycle",
+        "sys",
         "tempfile",
-        "time",
-        "tools",
-        "unittest"
+        "urllib.parse",
+        "uuid",
+        "zoneinfo"
       ],
-      "unique_source_hashes": 5,
+      "unique_source_hashes": 3,
       "overlapping_records": 0,
       "sources": [
         {
-          "name": "test_task_watchdog_lifecycle.py",
-          "sha256": "60031dbce78df70f7bf922e10a2fae48784543c80453fb41dd10db998a11993e"
+          "name": "qualified_leads.py",
+          "sha256": "ac9b37d74b6a82296d440489a8c8173286a1372f0168b35f1a18e27a4f1f4459"
         },
         {
-          "name": "task_watchdog_metadata.py",
-          "sha256": "fc05181ce3815ce95d937667d10068f5f8970952280b983c3caac6af16762009"
+          "name": "lead_sheet_sync.py",
+          "sha256": "7df85107d13465cfe2e40a9c6fb4ebdadf9554c79fb6318c3441004e70871403"
         },
         {
-          "name": "task_watchdog_lifecycle.py",
-          "sha256": "dd16d853c575145525165bb99f94804cd35614bd801b2c971b6817c02707a337"
-        },
-        {
-          "name": "task_watchdog.py",
-          "sha256": "2d54e079741f0e777ce1a72225e0b2c2eee0e6f18a5f22e7aeccfc61812670d8"
-        },
-        {
-          "name": "test_task_watchdog.py",
-          "sha256": "183d17067592dd0ecf8a8c54cde976e8f1beb202b4d89bed32c3773f98af080f"
+          "name": "lead_collection.py",
+          "sha256": "10498d1d75373705aabb3b81ba82ae73e75c385b73374b66ae5d514bef98b50f"
         }
       ],
       "published_modules": [
-        "watchdog"
+        "lead_qualification",
+        "overture_adapter",
+        "lead_sheet_merge",
+        "google_sheets"
       ],
-      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+      "published_skill": null,
+      "reason": "Overture acquisition, conversion, qualification, dedup and approved Google lead merge/readback are implemented. Original verified-site/geography-specific enrichment and weekly notification orchestration are not generalized."
     },
     {
       "id": "campaign-language",
@@ -3260,12 +3448,13 @@
       "published_modules": [
         "language"
       ],
-      "reason": "Original language rules already ported and tested."
+      "published_skill": null,
+      "reason": "Original language behavior is ported and regression-tested."
     },
     {
       "id": "wordpress-client",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "DUPLICATE / ALREADY COVERED",
       "agents": [
         "main"
       ],
@@ -3286,8 +3475,11 @@
           "sha256": "bcc367d7bb51ccd10474ccbcabba05c6d5bb0469cb9a822f649776da930170bb"
         }
       ],
-      "published_modules": [],
-      "reason": "Shell helper is coupled to the production credential/runtime environment; generic authenticated client and mocked write guards remain to be packaged."
+      "published_modules": [
+        "wordpress"
+      ],
+      "published_skill": null,
+      "reason": "Authenticated REST read/update/media functionality is provided by the portable WordPress client; production-bound shell invocation and credentials are intentionally not copied. Live account integration is NOT TESTED."
     },
     {
       "id": "google-sheets-adapter",
@@ -3320,8 +3512,12 @@
           "sha256": "998d2efa76f9f701071b12d99833e868a7d23f099b0168d9efe7308bf06d1cd6"
         }
       ],
-      "published_modules": [],
-      "reason": "Meta workbook adapter is included; broader GOG process bridge and reconciliation are not ported or live-tested."
+      "published_modules": [
+        "google_sheets",
+        "google_readiness"
+      ],
+      "published_skill": null,
+      "reason": "Generic GOG lead synchronization is implemented. The original multi-tab SEO tracker adapter/schema and process-bound coordination remain separate unported integration work."
     },
     {
       "id": "seo-local-tools",
@@ -3379,14 +3575,16 @@
       "published_modules": [
         "keyword_research",
         "content_brief_generator",
-        "local_metadata"
+        "local_metadata",
+        "content_review"
       ],
-      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+      "published_skill": null,
+      "reason": "Keyword/brief/local metadata/content-review helpers are implemented. The original Elementor command-plan wrapper is not an executable browser integration; external agent-browser dependency and live Elementor flow remain unvalidated."
     },
     {
       "id": "customer-knowledge",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PUBLISHED AND VALIDATED",
       "agents": [
         "shared",
         "smgc-customer-support"
@@ -3428,7 +3626,8 @@
       "published_modules": [
         "knowledge_snapshot"
       ],
-      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+      "published_skill": null,
+      "reason": "Original public knowledge refresher is generalized, fixture-tested and documented with its first-page-only limit. Its production timer/account deployment is not activated."
     },
     {
       "id": "upstream:a2a",
@@ -3445,7 +3644,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:active-memory",
@@ -3462,7 +3662,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:admin-http-rpc",
@@ -3479,7 +3680,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:agentsapi",
@@ -3496,7 +3698,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:alibaba",
@@ -3513,7 +3716,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:anthropic",
@@ -3530,7 +3734,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:apple-fm",
@@ -3547,7 +3752,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:azure-speech",
@@ -3564,7 +3770,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:beam",
@@ -3581,7 +3788,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:bonjour",
@@ -3598,7 +3806,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:browser",
@@ -3615,7 +3824,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:clawrouter",
@@ -3632,7 +3842,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:code-mode-quickjs",
@@ -3649,7 +3860,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:copilot-proxy",
@@ -3666,7 +3878,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:crabbox",
@@ -3683,7 +3896,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:cua-computer",
@@ -3700,7 +3914,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:deepgram",
@@ -3717,7 +3932,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:device-pair",
@@ -3734,7 +3950,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:document-extract",
@@ -3751,7 +3968,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:elevenlabs",
@@ -3768,7 +3986,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:fal",
@@ -3785,7 +4004,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:file-transfer",
@@ -3802,7 +4022,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:geolocation",
@@ -3819,7 +4040,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:github-copilot",
@@ -3836,7 +4058,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:google",
@@ -3853,7 +4076,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:huggingface",
@@ -3870,7 +4094,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:imap",
@@ -3887,7 +4112,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:kie",
@@ -3904,7 +4130,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:linux-node",
@@ -3921,7 +4148,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:litellm",
@@ -3938,7 +4166,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:llm-task",
@@ -3955,7 +4184,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:lmstudio",
@@ -3972,7 +4202,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:logbook",
@@ -3989,7 +4220,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:memory-core",
@@ -4006,7 +4238,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:memory-wiki",
@@ -4023,7 +4256,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:microsoft",
@@ -4040,7 +4274,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:microsoft-foundry",
@@ -4057,7 +4292,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:migrate-claude",
@@ -4074,7 +4310,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:migrate-hermes",
@@ -4091,7 +4328,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:minimax",
@@ -4108,7 +4346,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:nvidia",
@@ -4125,7 +4364,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:oc-path",
@@ -4142,7 +4382,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:ollama",
@@ -4159,7 +4400,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:onepassword",
@@ -4176,7 +4418,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:openai",
@@ -4193,7 +4436,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:opencode-go",
@@ -4210,7 +4454,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:openrouter",
@@ -4227,7 +4472,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:policy",
@@ -4244,7 +4490,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:reef",
@@ -4261,7 +4508,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:runway",
@@ -4278,7 +4526,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:senseaudio",
@@ -4295,7 +4544,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:session-share",
@@ -4312,7 +4562,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:sglang",
@@ -4329,7 +4580,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:talk-voice",
@@ -4346,7 +4598,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:telegram",
@@ -4363,7 +4616,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:together",
@@ -4380,7 +4634,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:tts-local-cli",
@@ -4397,7 +4652,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:vault",
@@ -4414,7 +4670,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:vllm",
@@ -4431,7 +4688,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:web-readability",
@@ -4448,7 +4706,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:workboard",
@@ -4465,7 +4724,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:xai",
@@ -4482,7 +4742,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:apify-openclaw-plugin",
@@ -4499,7 +4760,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:codex",
@@ -4516,7 +4778,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:parallel",
@@ -4533,7 +4796,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:whatsapp",
@@ -4550,7 +4814,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:boot-md",
@@ -4567,7 +4832,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:bootstrap-extra-files",
@@ -4584,7 +4850,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:command-logger",
@@ -4601,7 +4868,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:compaction-notifier",
@@ -4618,7 +4886,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "upstream:session-memory",
@@ -4635,7 +4904,8 @@
       "overlapping_records": 0,
       "sources": [],
       "published_modules": [],
-      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
     },
     {
       "id": "gateway-monitor",
@@ -4672,7 +4942,8 @@
         }
       ],
       "published_modules": [],
-      "reason": "Independent production service/push alert route and incident store are not generalized; generic watchdog is separately covered."
+      "published_skill": null,
+      "reason": "A generic watchdog is available. Independent Gateway alert service has deployment-specific Telegram credentials, process bindings and recovery handover; no portable unattended alert service is validated."
     },
     {
       "id": "deployment-adapters",
@@ -4744,7 +5015,49 @@
         }
       ],
       "published_modules": [],
-      "reason": "Host timers and service units are production bindings, not portable safe defaults. No schedule activation is included."
+      "published_skill": null,
+      "reason": "Original service/timer definitions contain host-specific executables, identities and environment bindings. They remain excluded from automatic installation; no production schedules are activated."
+    },
+    {
+      "id": "upstream:openclaw-runtime",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        435
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "published_skill": null,
+      "reason": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream."
+    },
+    {
+      "id": "customer-support-policy",
+      "category": "C",
+      "status": "PUBLISHED AND VALIDATED",
+      "agents": [
+        "smgc-customer-support"
+      ],
+      "record_ids": [],
+      "dependencies": [
+        "OpenClaw native routing/sandbox/channel delivery"
+      ],
+      "unique_source_hashes": 1,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "customer-support/AGENTS.md",
+          "sha256": "4262309ddb3cdaaad3394b002ff0fdade868f6e6f7359fe2ed7af95ba5f05d49"
+        }
+      ],
+      "published_modules": [],
+      "published_skill": null,
+      "reason": "Targeted supplemental discovery: original support language/inquiry/privacy/tool policy generalized with test-only allowlisted routing. Static guard checks pass; fresh-agent/model behavior and actual customer delivery are NOT TESTED."
     }
   ],
   "record_assignments": [
@@ -5294,7 +5607,7 @@
     },
     {
       "record": 136,
-      "capability": "social-publishing"
+      "capability": "tiktok-auth"
     },
     {
       "record": 137,
@@ -5310,19 +5623,19 @@
     },
     {
       "record": 140,
-      "capability": "social-publishing"
+      "capability": "social-scheduling"
     },
     {
       "record": 141,
-      "capability": "social-publishing"
+      "capability": "notification-delivery"
     },
     {
       "record": 142,
-      "capability": "social-publishing"
+      "capability": "social-scheduling"
     },
     {
       "record": 143,
-      "capability": "social-publishing"
+      "capability": "notification-delivery"
     },
     {
       "record": 144,
@@ -5338,7 +5651,7 @@
     },
     {
       "record": 147,
-      "capability": "social-publishing"
+      "capability": "social-scheduling"
     },
     {
       "record": 148,
@@ -5374,7 +5687,7 @@
     },
     {
       "record": 156,
-      "capability": "social-publishing"
+      "capability": "social-scheduling"
     },
     {
       "record": 157,
@@ -5390,7 +5703,7 @@
     },
     {
       "record": 160,
-      "capability": "social-publishing"
+      "capability": "notification-delivery"
     },
     {
       "record": 161,
@@ -5402,7 +5715,7 @@
     },
     {
       "record": 163,
-      "capability": "social-publishing"
+      "capability": "notification-delivery"
     },
     {
       "record": 164,
@@ -5422,11 +5735,11 @@
     },
     {
       "record": 168,
-      "capability": "social-publishing"
+      "capability": "social-scheduling"
     },
     {
       "record": 169,
-      "capability": "social-publishing"
+      "capability": "social-scheduling"
     },
     {
       "record": 170,
@@ -5478,11 +5791,11 @@
     },
     {
       "record": 182,
-      "capability": "social-publishing"
+      "capability": "watchdog"
     },
     {
       "record": 183,
-      "capability": "lead-acquisition"
+      "capability": "apify-budgeted-acquisition"
     },
     {
       "record": 184,
@@ -5518,7 +5831,7 @@
     },
     {
       "record": 192,
-      "capability": "seo-blog-engine"
+      "capability": "notification-delivery"
     },
     {
       "record": 193,
@@ -5554,7 +5867,7 @@
     },
     {
       "record": 201,
-      "capability": "notification-delivery"
+      "capability": "watchdog"
     },
     {
       "record": 202,
@@ -5566,7 +5879,7 @@
     },
     {
       "record": 204,
-      "capability": "lead-acquisition"
+      "capability": "apify-budgeted-acquisition"
     },
     {
       "record": 205,
@@ -5598,15 +5911,15 @@
     },
     {
       "record": 212,
-      "capability": "blog-image-recovery"
+      "capability": "seo-blog-engine"
     },
     {
       "record": 213,
-      "capability": "social-publishing"
+      "capability": "watchdog"
     },
     {
       "record": 214,
-      "capability": "blog-image-recovery"
+      "capability": "seo-blog-engine"
     },
     {
       "record": 215,
@@ -5622,11 +5935,11 @@
     },
     {
       "record": 218,
-      "capability": "seo-blog-engine"
+      "capability": "watchdog"
     },
     {
       "record": 219,
-      "capability": "social-publishing"
+      "capability": "watchdog"
     },
     {
       "record": 220,
@@ -5674,7 +5987,7 @@
     },
     {
       "record": 231,
-      "capability": "poster-generation"
+      "capability": "social-draft-review"
     },
     {
       "record": 232,
@@ -5706,7 +6019,7 @@
     },
     {
       "record": 239,
-      "capability": "blog-image-recovery"
+      "capability": "seo-blog-engine"
     },
     {
       "record": 240,
@@ -5738,7 +6051,7 @@
     },
     {
       "record": 247,
-      "capability": "blog-image-recovery"
+      "capability": "poster-generation"
     },
     {
       "record": 248,
@@ -5766,7 +6079,7 @@
     },
     {
       "record": 254,
-      "capability": "social-publishing"
+      "capability": "notification-delivery"
     },
     {
       "record": 255,
@@ -5782,11 +6095,11 @@
     },
     {
       "record": 258,
-      "capability": "social-publishing"
+      "capability": "social-draft-review"
     },
     {
       "record": 259,
-      "capability": "social-publishing"
+      "capability": "social-scheduling"
     },
     {
       "record": 260,
@@ -5806,7 +6119,7 @@
     },
     {
       "record": 264,
-      "capability": "blog-image-recovery"
+      "capability": "seo-blog-engine"
     },
     {
       "record": 265,
@@ -5842,7 +6155,7 @@
     },
     {
       "record": 273,
-      "capability": "social-publishing"
+      "capability": "social-draft-review"
     },
     {
       "record": 274,
@@ -5890,15 +6203,15 @@
     },
     {
       "record": 285,
-      "capability": "blog-image-recovery"
+      "capability": "seo-blog-engine"
     },
     {
       "record": 286,
-      "capability": "blog-image-recovery"
+      "capability": "seo-blog-engine"
     },
     {
       "record": 287,
-      "capability": "blog-image-recovery"
+      "capability": "seo-blog-engine"
     },
     {
       "record": 288,
@@ -5922,7 +6235,7 @@
     },
     {
       "record": 293,
-      "capability": "lead-acquisition"
+      "capability": "apify-budgeted-acquisition"
     },
     {
       "record": 294,
@@ -6490,7 +6803,7 @@
     },
     {
       "record": 435,
-      "capability": "seo-blog-engine"
+      "capability": "upstream:openclaw-runtime"
     },
     {
       "record": 436,
@@ -6588,7 +6901,5 @@
       "record": 459,
       "capability": "seo-blog-engine"
     }
-  ],
-  "published_module_count": 15,
-  "packaged_skill_count": 1
+  ]
 }

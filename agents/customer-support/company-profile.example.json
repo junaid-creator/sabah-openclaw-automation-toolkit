@@ -1,0 +1,9 @@
+{
+  "example_only": true,
+  "company_name": "Example Organization",
+  "public_origin": "https://example.com",
+  "verified_facts": [],
+  "contact_instructions": "Ask the operator to supply reviewed public contact details.",
+  "knowledge_directory": "knowledge",
+  "price_quotes_require_current_read": true
+}

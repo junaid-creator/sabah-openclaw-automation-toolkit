@@ -1,14 +1,17 @@
 {
-  "records": 460,
-  "classifications": {
-    "UPSTREAM REFERENCE": 181,
-    "ADAPT": 265,
-    "BLOCKED": 6,
-    "PUBLISHABLE": 8
+  "original_inventory_records": 460,
+  "supplemental_original_sources": 1,
+  "canonical_groups": 174,
+  "original_capability_groups": 42,
+  "upstream_groups": 128,
+  "blocked_derivative_groups": 2,
+  "supporting_groups": 2,
+  "runtime_modules": 29,
+  "packaged_skills": 9,
+  "status_counts": {
+    "UNTESTED OR INCOMPLETE": 30,
+    "PUBLISHED AND VALIDATED": 11,
+    "DUPLICATE / ALREADY COVERED": 1
   },
-  "main_skill_entries": 79,
-  "support_skill_entries": 52,
-  "adapted_original_sources": 8,
-  "new_packaged_skills": 1,
-  "scope": "portable core; original full-library mission remains PARTIAL"
+  "method": "Source identity before dependency-family grouping; content hashes retain aliases. Categories separate procedures, engines, adapters, supporting aliases and upstream. These are release work groups, not counts of independent end-user products."
 }

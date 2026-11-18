@@ -1,6 +1,6 @@
 # Module guide
 
-Every module is adapted from a reviewed local source listed in PROVENANCE.json. Prerequisites for all: Python 3.10+, checkout-root working directory, writable private output directory. Only knowledge_snapshot needs requests. Install requirements as described in installation.md. No module requires credentials for fixture use.
+Every module is adapted from a reviewed local source listed in PROVENANCE.json. Prerequisites for all: Python 3.11+, checkout-root working directory, writable private output directory. Only knowledge_snapshot needs requests. Install requirements as described in installation.md. No module requires credentials for fixture use.
 
 ## keyword_research
 

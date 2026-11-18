@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0 — platform and procedural expansion
+
+- Added guarded WordPress and TikTok clients, blog publication/gates/orchestration, WebP recovery and create-once/report primitives.
+- Added capped Apify admission/collection, Overture acquisition, Google Sheets lead merge/approval/readback, and source-derived content/readiness helpers.
+- Packaged eight original website/Google procedural skills with their references and a least-privilege customer-support profile/template.
+- Kept deployment-only bridges, unverified asset packages and unresolved derivative licensing out of the release.
+
 ## 0.2.0 — operational primitives batch
 
 - Added a source-derived FB/IG publisher and injectable Google Sheets adapter with 27 mocked regression cases.

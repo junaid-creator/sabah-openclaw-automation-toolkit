@@ -2,13 +2,13 @@
 
 **Status: PARTIAL — portable core, not a replica of the production system.**
 
-Fifteen source-derived Python modules from the main-assistant and customer-support workflows provide offline SEO planning, local HTML metadata editing, language validation, prospect qualification, content duplicate checks, crash-aware checkpoints, and website reference snapshots. One optional OpenClaw skill coordinates their safe use.
+Twenty-nine Python modules derived from the original workflows and their portability adapters from the main-assistant and customer-support workflows provide offline SEO planning, local HTML metadata editing, language validation, prospect qualification, content duplicate checks, crash-aware checkpoints, and website reference snapshots. Nine optional OpenClaw skills coordinates their safe use.
 
-Offline examples do not publish posts, send replies, run paid Actors or activate schedules. The optional Meta adapter now contains actual posting operations, disabled by default and tested only with mocks. A bounded FB/IG adapter, approval ledger, notification outbox, rotation, schedule parser, watchdog and billing guard are now ported. The complete three-platform recovery engine, six branded layouts, blog orchestration, account bindings and live routing are **not yet complete**. See [operations modules](docs/operations-modules.md) and [canonical accounting](docs/canonical-capabilities.md). See [inventory](SKILL-INVENTORY.md) and [coverage](docs/coverage.md). Do not equate a discovered file with a working feature.
+Offline examples do not publish posts, send replies, run paid Actors or activate schedules. The optional Meta adapter now contains actual posting operations, disabled by default and tested only with mocks. A bounded FB/IG adapter, approval ledger, notification outbox, rotation, schedule parser, watchdog and billing guard are now ported. WordPress/TikTok adapters, blog stage/image recovery, capped Apify/Overture acquisition, Google lead synchronization, and eight original website/Google skills are now included. The complete deployed recovery engine, six branded layouts, provider tool bridges, account bindings and live routing are **not yet complete**. See [operations modules](docs/operations-modules.md) and [canonical accounting](docs/canonical-capabilities.md). See [inventory](SKILL-INVENTORY.md) and [coverage](docs/coverage.md). Do not equate a discovered file with a working feature.
 
 ## Quick start
 
-Python 3.10+ on Linux is required (reliability primitives use POSIX locking). The recorded validation environment is listed in [validation](docs/validation.md); other systems are NOT TESTED.
+Python 3.11+ on Linux is required (reliability primitives use POSIX locking). The recorded validation environment is listed in [validation](docs/validation.md); other systems are NOT TESTED.
 
 
 ```bash
@@ -36,3 +36,5 @@ See [installation](docs/installation.md) for copy-ready fenced commands and opti
 - Read [SECURITY.md](SECURITY.md), [provenance](PROVENANCE.json), and [license](LICENSE).
 
 OpenClaw is optional for Python execution. Skill installation syntax was checked against OpenClaw 2026.9.8 documentation; installing into a fresh Gateway and live integrations are NOT TESTED. Official project: https://github.com/openclaw/openclaw and https://docs.openclaw.ai/start/getting-started.
+
+See [platform adapters](docs/platform-adapters.md) for explicit configuration, activation and testing of each new module; [canonical accounting](docs/canonical-capabilities.md) lists every incomplete source family. The customer-support profile and routing example are not an activated channel.
