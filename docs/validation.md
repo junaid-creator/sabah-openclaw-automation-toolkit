@@ -51,3 +51,15 @@ Reproducibility batch: 168 offline/mock tests (22 new). A syntax failure in the 
 ## Bounded acquisition follow-up
 
 179 offline/mock tests; 11 new pagination/admission cases. Supports complete stable account inventory up to 2,000 runs; rejects nonterminal/unknown states and changing pagination before any paid POST. No paid calls or production changes. Full acquisition orchestration remains incomplete.
+
+## Expanded reconciliation release — 2026-11-18
+
+315 Python unit tests and 20 Node tests passed; optional real local Chromium rendered
+all six original layout structures in three language modes (18/18), with four
+retry/drift/overflow checks. New clean dependency environment and pip check passed.
+315 is not a count of live capabilities. No fresh live external workflow accepted.
+Product revocation was independently corrected and tested during in-flight writes;
+scoped restoration always requires a new exact review. Original sources remain
+unchanged within bounded recorded checks. Full master-task status: PARTIALLY PORTED.
+See the complete audit and docs/complete-release-acceptance.json. Render fixtures,
+fonts, prior failures and scope are detailed in docs/poster-render-acceptance.json.

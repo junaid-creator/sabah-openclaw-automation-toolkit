@@ -1,0 +1,12 @@
+[
+  {
+    "name": "configuration.json",
+    "source": "/private/source/configuration.json",
+    "kind": "file"
+  },
+  {
+    "name": "state/application.sqlite3",
+    "source": "/private/source/application.sqlite3",
+    "kind": "sqlite"
+  }
+]

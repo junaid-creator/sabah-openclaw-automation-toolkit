@@ -1,0 +1,27 @@
+---
+name: poster-template-integration
+description: Install or audit a supplied SMGC poster template additively, with package and asset validation, isolated multilingual render QA, scoped selection, old-template baselines, and separate authorization for a live draft.
+---
+
+# Poster-template integration
+
+## Portable installation boundary
+
+Read [README.md](README.md) before executing this procedure. The authored
+reference workflow below describes diagnostic evidence and safety gates.
+Reference script names, table names, job prefixes and state paths are schema
+examples, NOT commands shipped or activated by installing this skill. Map them
+to the configured deployment first. Missing adapters are blockers; do not invent
+commands or bypass authorization. This package is a procedural skill, not the
+complete underlying engine.
+
+
+Use for an owner-supplied new poster renderer/template or a requested audit of its registration. This is not an existing-job poster correction; use [same-job poster revision](../generated-asset-checkpoint-recovery/same-job-poster-revision.md) for that. Installation, live draft creation, preview delivery, and publication are separate authorization boundaries. A prior installation's explicit-only rule or platform scope is not standing policy for another template.
+
+1. Identify the actual attachment and current host/workspace. Read the package instructions and code before execution. Enumerate every archive member, reject traversal/symlinks/overwrites, verify CRC and supplied per-file hashes, then unpack exclusively into a private staging directory. Inspect original artwork and supplied brand assets; where a QR is provided, decode its destination and compare it with the intended production identity. Package examples are fixtures, not verified product, licensing, stock or brand-authorization claims.
+2. Read the current selector, manifest normalizer, photo planner, draft dispatcher, renderer, language validator and relevant skill/catalog docs. Trace job-bound style freezing, atlas geometry, draft-only/manual approval, Sheet rows, WordPress preview and platform targets. Check active draft/recovery processes and destination permissions before editing; do not alter an in-flight renderer. Hash locked renderer/CSS/brand assets and render representative existing styles to local files **before** change. Snapshot only shared files to be edited, with a pre-change hash manifest and rollback location. If package assumptions conflict with current interfaces, stop rather than guessing a patch.
+3. Run the supplied renderer **locally** with the production interpreter and fonts. For each named subject, use an appropriately matched image; a smoke harness that renders different subjects from one unrelated photo proves only layout and must not count as subject-specific visual QA. Exercise English, Arabic, bilingual and production atlas mode where supported, in both PNG and the JPEG used downstream. Check decoded dimensions, expected logos and contact/service attribution, text-fit and clipping, and QR decoding **from the exported image** where a QR is part of the design. In the observed integration, Arabic and bilingual renders failed text-fit checks when exercised with production fonts; narrow fixes in the new template's CSS/copy passed rerendering. The fonts were not proven to be the sole cause. Never change the shared locked template to correct new-template typography. Human review is still needed for longer copy and image truth.
+4. Only after local gates pass and the task authorizes installation, place new renderer/CSS/brand assets in their own writable private template directory; do not change global logo/QR/fonts or old renderer CSS. Register the new ID and a guarded dispatch branch within the authorized selection scope; do not add it to automatic rotation unless that is explicitly in scope. Bridge the current frozen campaign schema and actual atlas to the new renderer without changing creation, upload, approval or publication code. Bind retry reuse to source, exact copy, code/CSS/assets/fonts and output SHA256; allow same-input reuse, reject changed-input overwrite and use a new versioned path for an authorized revision. Preserve the one job and its reviewed history.
+5. Test local manifest selection for every old/new ID, invalid and conflicting IDs, the authorized automatic-selection rule, platform/language defaults and draft-only state using fake Sheets. Run the normalizer on old styles before/after and compare serialized outputs; rerender old styles from the same baseline source/content and compare image hashes. Run new style through normalized content → renderer with a local atlas, plus changed-input and same-input retry tests. Recheck locked files' hashes and production process status. A real Sheets/WordPress/WhatsApp draft path is **not** exercised by local tests; report it as unverified until a separately authorized pilot. Do not run a publisher or create an external preview to prove installation.
+
+Completion: list added/edited file paths and SHA256, local render and regression results, selection status, unchanged old-template evidence, proof image and QR receipt paths, snapshot/rollback procedure, and remaining live-draft/photography limits. If any gate fails, restore only attributable shared edits from the snapshot after checking for intervening changes; keep diagnostic artifacts and do not reset historical jobs. For later owner preview receipts and approval routing use [automation adapter verification](../automation-adapter-verification/SKILL.md).

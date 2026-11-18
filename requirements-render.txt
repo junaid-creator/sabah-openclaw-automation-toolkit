@@ -1,0 +1,5 @@
+# Optional six-layout browser renderer; Python >=3.12 (pyee floor).
+playwright==1.64.0
+pyee==14.0.0
+greenlet==3.5.6
+typing_extensions==4.16.0

@@ -1,0 +1,19 @@
+{
+  "label": "Example Gateway",
+  "state_dir": "/private/monitor-state",
+  "threshold": 3,
+  "grace": 180,
+  "endpoints": [
+    "http://127.0.0.1:18789/health",
+    "http://127.0.0.1:18789/ready"
+  ],
+  "maintenance_flag": "/private/monitor-maintenance.flag",
+  "integrity_sha256": {
+    "/private/reviewed-gateway-entrypoint": "REPLACE_WITH_REVIEWED_SHA256"
+  },
+  "telegram": {
+    "token_env": "EXAMPLE_MONITOR_BOT_TOKEN",
+    "recipient": "REPLACE_WITH_VERIFIED_OWNER_ID",
+    "allowed_recipient": "REPLACE_WITH_VERIFIED_OWNER_ID"
+  }
+}

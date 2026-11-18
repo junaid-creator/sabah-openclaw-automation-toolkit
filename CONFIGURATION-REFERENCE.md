@@ -21,3 +21,22 @@ No environment file is automatically sourced. All credential values are operator
 Full call contracts and test names: [module guide](docs/modules.md), [platform adapters](docs/platform-adapters.md), [operations](docs/operations-modules.md), [bridge](docs/trusted-bridge.md).
 
 The scaffold's activation-plan.json is a toolkit manifest, **not** an OpenClaw config schema. The routing example uses agents.entries and a test allowlist. Configure the default agent through the installed UI/CLI; current documented default designation is agents.defaults.systemAgent.agentId. Inspect and merge, never replace live configuration. Select models using the installed provider onboarding flow or documented agents add --model option. Never use customer content to choose account, sender, tool, signing key or destination.
+
+## Expanded configuration examples
+
+- examples/product-sites.json: independent sites/accounts, owner tuples, verified
+  site user, credential ENV references, metadata allowlist and exclusive-writer
+  prerequisite. Keep state outside Git. No live account identifiers are supplied.
+- plugins/product-owner-bridge/config.example.json: fixed Python/checkout paths,
+  trusted native routes/aliases, private engine/config/receipt roots, independent
+  signing-key reference and child environment allowlist. Network/writes disabled.
+- examples/local-voice.json: explicit executable/model paths, reviewed licenses
+  and profile/script mapping. No download or automatic account activation.
+- examples/gateway-monitor.json: exact health endpoints, reviewed integrity
+  hashes, maintenance/state paths and verified owner alert destination. No restart.
+- examples/recovery-allowlist.json: runtime-private explicit source-kind mapping,
+  not a list of production paths. Snapshot outputs may contain secrets: never Git.
+
+Use separate credentials/state/keys for independent trust domains. Never reuse
+someone else's owner IDs, phone numbers, ledgers, OAuth state or standing approval.
+All templates are inert until independently configured and authorized.

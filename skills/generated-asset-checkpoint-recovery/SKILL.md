@@ -1,0 +1,32 @@
+---
+name: generated-asset-checkpoint-recovery
+description: Audit or recover generated-image checkpoints and atlas crops; correct same-job posters or reconcile failed semantic-review evidence, and verify authorized persistent recovery.
+---
+
+# Generated asset checkpoint recovery
+
+## Portable installation boundary
+
+Read [README.md](README.md) before executing this procedure. The authored
+reference workflow below describes diagnostic evidence and safety gates.
+Reference script names, table names, job prefixes and state paths are schema
+examples, NOT commands shipped or activated by installing this skill. Map them
+to the configured deployment first. Missing adapters are blockers; do not invent
+commands or bypass authorization. This package is a procedural skill, not the
+complete underlying engine.
+
+
+For an audit or authorized implementation of persistent recovery, native/CLI atlas detection, or image-capture wiring, read [persistent recovery](persistent-recovery.md). It adds route-specific detector checks, durable launch identity, inactivity/admission checks and deployed-service proof to the single-run procedure below; it does not turn a one-time repair into standing automation authority.
+
+For a hash-stale render retry, text-fit failure, rejected or visibly defective generated reference-workflow poster (including a disputed saved PASS), or audit of a failed semantic review on an existing job, read [same-job poster revision](same-job-poster-revision.md) before regenerating scenes, reconciling review evidence or rerunning the draft controller. This branch keeps semantic QA, preview delivery and exact-content approval distinct from image-generation completion.
+
+1. Check the effective tool catalog before declaring a completion turn unable to continue. In Code Mode, discover the shell tool with `catalog.search("exec")`, inspect its schema, and call that discovered tool for Python/ImageMagick work; the visible JavaScript `exec` wrapper is not itself a shell. Discover file tools separately as needed. A shortened prompt index is not proof of missing capability. Verify a bounded read and temporary-file write in the authorized artifact directory; stop on an actual denial rather than widening policy or changing executors. Success in a human recovery turn does not prove tool access in a future isolated completion turn.
+2. Reconcile the existing run before requesting generation: read the stage state, saved task identity and completion output. An operator-reset stage or a new `claimed:true` reservation grants work on that stage; it does not establish that its previous provider output is absent. Preserve existing verified content and inspect completed output paths before regenerating. For a historical daily run, preflight the whole continuation path before changing a review latch: bind original task/output and article to the run, check live WordPress, ledger and tracker for duplicates, check current-day/concurrent work, and inspect date and approval gates in image binding, recovery, validation and publication. Valid crop geometry and absent duplicates do not authorize publication. If the installed path is current-day-only or requires trusted owner-channel provenance not present in this request, preserve the latch and remote state; report asset validation separately from blocked continuation. A separately authorized historical manual catch-up may use a new, source-bound journal and independent publication checks; it must not impersonate completion of the original run. Read [persistent recovery](persistent-recovery.md#historical-manual-catch-up) before attempting that branch. Never fake time, change the run date, synthesize channel fields or switch publishers to evade the gate.
+3. If a task is pending or its outcome is uncertain, preserve its identity and use status/completion reconciliation; never submit a replacement merely to unblock a checkpoint. If the existing task completed and its output satisfies the same approved brief, reuse it. Request new media only when actually needed and authorized. Persist the real task identity immediately after submission, and bind completed source paths to that identity in the asset artifact.
+4. For a multi-panel atlas, inspect the actual image and read its decoded dimensions. Do not derive crops from the requested size or assume equal panel heights: generated dimensions and boundaries can differ from the prompt. Crop inside the observed separators so adjacent panels do not leak into each output.
+5. Convert each distinct panel to the workflow-required format. Reopen/decode each saved file, compute SHA-256 from its actual bytes, and record path, dimensions, descriptive title, alt text and caption. Identify generated scenes as illustrations rather than completed client projects. Complete the image stage only after those files and the verification artifact exist.
+6. Resume the existing plan and write worker using these saved assets; do not recreate an already-known remote post or media object. Keep independent validation gates separate: a running browser is not an authenticated session, and successful media/SEO/tracker readbacks do not prove rendered draft or schema validation. A login redirect or unavailable draft preview leaves rendering unverified, so withhold any ready report that requires it.
+
+7. For an offline reliability audit, copy the saved controller state into a temporary root and reuse existing verified assets read-only. Exercise image recovery, repeated recovery, plan validation/binding and the next local checkpoint; reject a wrong task identity. Disable network access and prohibit production workers or notification drains. Compare the original controller bytes afterward. These checks establish local recovery and replay behavior, not automatic completion dispatch, scheduled-context tool access, or live publication readiness. Do not generate another image or invoke a model merely to demonstrate the checkpoint path.
+
+Completion evidence: existing run/stage identity, actual provider task and source output, verified distinct asset files and metadata, and downstream stage results or the exact remaining gate. Separate instruction corrections, offline checkpoint tests and actual asynchronous runtime evidence. For scheduler-policy scope or delivery receipts use [automation-adapter-verification](../automation-adapter-verification/SKILL.md); a changed instruction cannot grant runtime authority.

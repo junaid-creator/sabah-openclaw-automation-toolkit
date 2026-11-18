@@ -1,0 +1,16 @@
+[Unit]
+Description=Explicitly configured alert-only monitor
+
+[Service]
+Type=oneshot
+UMask=0077
+WorkingDirectory=/REPLACE/automation-toolkit
+EnvironmentFile=/REPLACE/private-monitor.env
+ExecStart=/REPLACE/venv/bin/python -m toolkit.gateway_monitor --config /REPLACE/private-monitor.json --enable-network
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/REPLACE/private-monitor-state
+
+# Alerts are deliberately NOT enabled in this template.
+# Add --enable-alerts only after trusted-owner authorization and recipient review.

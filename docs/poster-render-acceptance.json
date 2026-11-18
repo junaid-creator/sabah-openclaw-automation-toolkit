@@ -1,0 +1,193 @@
+{
+  "scope": "Actual isolated Chromium PNG/JPEG rendering; synthetic inputs; no production assets",
+  "cases_passed": 18,
+  "cases_total": 18,
+  "results": [
+    {
+      "template": 1,
+      "language": "ENGLISH",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "fd4d440a73f246795353f4bdddd50c60fbf4be79413676dcafac0c8778d639fe",
+        "poster.jpg": "50ac3d0ef28a7d5019814f48d233d1c0d38cd8be366af5be86be0d6fa65387ba"
+      }
+    },
+    {
+      "template": 2,
+      "language": "ENGLISH",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "d43fc1e370aefdd28cd1cda29f0aeb7bed155d56c286e81a193b7633ea088fc4",
+        "poster.jpg": "ce95f32b2b85320b892f1e93e3b807ff0e3e30e9d7499f7ad3e630afa93a54d6"
+      }
+    },
+    {
+      "template": 3,
+      "language": "ENGLISH",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "9c7401b4a600b1f96353b574a44042f95b68f20bd62fa1be3ea5dbe2ae922136",
+        "poster.jpg": "75a3ea3bf4d34dd2379d6b069367853e4f24e062461c1aa560cce3a41d5250a5"
+      }
+    },
+    {
+      "template": 4,
+      "language": "ENGLISH",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "5b078a6a029158092037d69f6bda50bf99f3dc98f396fe97b50738c0af868198",
+        "poster.jpg": "d2a3694d530eb104f231ae4a4e64bc679f780c2f9e56ecc72503bccbc2acb768"
+      }
+    },
+    {
+      "template": 5,
+      "language": "ENGLISH",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "dd16e03053e46c5d1e2f5730db7446d5df313c151e9dfeffe0424532b62057d7",
+        "poster.jpg": "8f856843da8734693c4e493b39c7b49f9a4307eb6ac94866c120678aef02eedb"
+      }
+    },
+    {
+      "template": 6,
+      "language": "ENGLISH",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "f98f5db064596261374bb50dbea3621143bad2c0743501bd975a7552c86a9358",
+        "poster.jpg": "353f2525f498cdd1bc19f0e1aaf5ee67dd9155dac58f5271e87d004a93b9a28e"
+      }
+    },
+    {
+      "template": 1,
+      "language": "ARABIC",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "2114980804f1178939a43cb05c474ba6d5f35e6dcdb5995c6507510a693ca876",
+        "poster.jpg": "0798d53726dd25ee8be1efe530b230d56fe3e70faf0a57369b9a7b33d6868ec0"
+      }
+    },
+    {
+      "template": 2,
+      "language": "ARABIC",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "24d5fee108e419f6a173ba949742abaca6e30007be5b18f443985519085099e0",
+        "poster.jpg": "c71a52fa42f435d7bbc9be733b22638b0776301f389b2f21fdfa43d0c120729e"
+      }
+    },
+    {
+      "template": 3,
+      "language": "ARABIC",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "40651b50729af6cd5b6cd9182a72a32e01462e665fe0269ea5b352288aa33735",
+        "poster.jpg": "2772bdc2a8c8827164b5f189c8871e452516b49dcfccfc9be5b73773e455373f"
+      }
+    },
+    {
+      "template": 4,
+      "language": "ARABIC",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "f9c8af1a275f9624233b63888d0d5fc07f4246e821e3a086b72eebe78492d56e",
+        "poster.jpg": "75a28cb4d8d20d168423639696deed88c31574073591918c1879384f68e682ee"
+      }
+    },
+    {
+      "template": 5,
+      "language": "ARABIC",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "f6bc4f907e4154e40d531c9a3e2a0728696d95206ea7e94354dbc44e498d7583",
+        "poster.jpg": "0f3729391e5183913f6d2b89a4675b86ec4421f687e6dc171ddbc8d94b6d5c27"
+      }
+    },
+    {
+      "template": 6,
+      "language": "ARABIC",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "1afd6a5f3b4041b5fc63ceff356b532bb04198b7891debf5acb76a991c07b725",
+        "poster.jpg": "a06eee957dd3c0860580c98818eba3ccae9589f85578beadabf68d1492be2ace"
+      }
+    },
+    {
+      "template": 1,
+      "language": "BILINGUAL",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "68c7e775e46bc2539c2618bc559fa35057e7020ade47487e87ef9322522f868e",
+        "poster.jpg": "5b052a2b223d80f83d65a57c4372935a4681c74a529bf042e303f0cadc361951"
+      }
+    },
+    {
+      "template": 2,
+      "language": "BILINGUAL",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "d73bef097a0deb0dc412413c8be93df2d0d18dc2577a394382809e35c13cf03a",
+        "poster.jpg": "f146fd4481fe86055d6c4b6e43b4da03197240fb98ea852fdf73180b9b35e2ce"
+      }
+    },
+    {
+      "template": 3,
+      "language": "BILINGUAL",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "b85ad4ed4761fa31db3c04a207e7bcd6531008165b679680395ad58b7d5b6cff",
+        "poster.jpg": "8c676c7affb7cd88469a1ba0e06a16503b553b8d2776495ab20e5a59b3772d01"
+      }
+    },
+    {
+      "template": 4,
+      "language": "BILINGUAL",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "3c6e3a430f68f7f312a79b233a7baa99cb8fa4968c5901249962959e031f6457",
+        "poster.jpg": "ea3be96b33c1fcbf14eede31d1d6bdce0327c86c840f63d7f286651f4dbcef6a"
+      }
+    },
+    {
+      "template": 5,
+      "language": "BILINGUAL",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "395fbeed92af7455466cb05d1db52dad13bc0bb47246138c8fe963ff873e2270",
+        "poster.jpg": "13e6a6228cffd298a3cad1daca474f59fb045c6d1c687f0dd9c3247d0da54a00"
+      }
+    },
+    {
+      "template": 6,
+      "language": "BILINGUAL",
+      "geometry_pass": true,
+      "outputs": {
+        "poster.png": "5400a96bab531d691511c17bec1f3c4457d45d92e9a28bf456ac7030ade0836c",
+        "poster.jpg": "1623f99ab41d577c1c1763663ddf2c0f9c4200b65e84b33c04ecbaefd499f79c"
+      }
+    }
+  ],
+  "contract_checks": {
+    "same_input_reused_without_browser": true,
+    "changed_input_rejected": true,
+    "changed_output_rejected": true,
+    "long_copy_overflow_blocked": true
+  },
+  "dependencies": {
+    "playwright": "1.64.0",
+    "pyee": "14.0.0",
+    "greenlet": "3.5.6"
+  },
+  "template6_original_fit_tolerance_px": {
+    "width": 7,
+    "height": 5
+  },
+  "initial_failures": [
+    "Staged synthetic assets were initially group-writable; fixed permissions before accepted renders.",
+    "Initial template-six extraction omitted original bilingual span classes; restored exact original markup.",
+    "One 4px template-six inline width overflow was rejected by an overly strict adapter gate; restored original 7px width/5px height final tolerance without modifying CSS or copy. Earlier failures retained privately."
+  ],
+  "semantic_review": "NOT TESTED",
+  "real_qr_decode": "NOT TESTED",
+  "font_redistribution": false,
+  "external_requests": 0
+}

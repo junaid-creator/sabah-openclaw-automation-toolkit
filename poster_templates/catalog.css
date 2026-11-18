@@ -1,0 +1,64 @@
+/* Templates 2–5 only. No selector targets the locked Template 1. */
+.catalog{background:radial-gradient(ellipse at 85% 25%,#e1f4fc,transparent 50%),linear-gradient(145deg,#f2fbff 0%,#fff 53%,#eaf8ef 100%)!important}
+.catalog .edge{display:none}.catalog .contact-wash{top:1038px}.catalog .catalog-main{position:absolute;inset:180px 0 310px;isolation:isolate}
+.catalog .catalog-title{position:absolute;left:64px;top:21px;width:952px;height:108px;transform:rotate(-1.3deg)}
+.catalog .catalog-title .ink{font-size:60px}.catalog .catalog-sub{position:absolute;left:90px;top:124px;width:900px;height:76px;font-size:39px;text-align:center;line-height:1.13;white-space:nowrap;align-content:center;font-weight:900}
+.catalog .catalog-photo{position:absolute;overflow:hidden}.catalog .catalog-photo .photo-svg{width:100%;height:100%}
+.catalog .catalog-scene{position:absolute;left:0;top:214px;width:1080px;height:382px;mask-image:url('__CATALOG_MASK__');mask-size:100% 100%}
+.catalog .catalog-scene .photo-svg{width:100%;height:100%}
+.catalog .catalog-tile{position:absolute;min-width:0;overflow:visible;text-align:center;border-radius:20px;background:#fff;box-shadow:0 6px 18px #13344d17;border:1px solid #cce3ee}
+.catalog .catalog-tile .round{position:absolute;width:65px;height:65px;padding:15px;color:white;background:var(--card);border:3px solid white;border-radius:50%;left:calc(50% - 32.5px);top:-32px;z-index:2}
+.catalog .tile-copy{display:block;position:absolute;left:12px;right:12px;bottom:8px;height:62px;font-size:26px;line-height:1.04;white-space:pre-line;align-content:center;font-weight:900}
+.catalog .tile-photo{position:absolute;inset:0 0 76px;border-radius:19px 19px 0 0;overflow:hidden}
+.catalog .catalog-note{position:absolute;left:80px;right:80px;top:803px;height:53px;text-align:center;font-size:29px;line-height:1.05;align-content:center;color:#0b5730;white-space:nowrap}
+.catalog.language-bilingual .catalog-title .ink{font-size:36px;white-space:normal}
+.catalog.language-bilingual .catalog-sub{font-size:26px;white-space:normal;line-height:1.08}
+.catalog.language-bilingual .tile-copy{font-size:21px;line-height:1.05}
+.catalog.language-bilingual .tile-copy .copy-ar{font-size:.78em;line-height:1.5}
+.catalog.language-bilingual .catalog-note{font-size:22px;white-space:normal}
+.catalog.language-arabic .catalog-title .ink{font-size:45px;letter-spacing:0;line-height:1.6}
+.catalog.language-arabic .catalog-sub{font-size:33px;line-height:1.6}
+.catalog.language-arabic .tile-copy{font-size:23px;line-height:1.6}
+.catalog.language-arabic .catalog-note{font-size:25px;line-height:1.6}
+/* 2 — product stage first, four individual product/detail windows below. */
+.catalog-2 .catalog-sub{color:#076529}.catalog-2 .catalog-scene{top:214px;height:345px;left:38px;width:1004px;border-radius:28px}
+.catalog-2 .catalog-tile{top:596px;width:226px;height:207px;background:linear-gradient(#fff,#eff8fc)}
+.catalog-2 .tile-photo{top:0;bottom:71px}.catalog-2 .tile-copy{font-size:25px}
+/* 3 — four tall independent service columns; small equipment foundation. */
+.catalog-3 .catalog-title{height:100px;top:20px}.catalog-3 .catalog-sub{top:114px;height:68px;color:#087a25}
+.catalog-3 .catalog-tile{top:235px;width:235px;height:452px;background:linear-gradient(var(--tint),#fff);box-shadow:0 5px 12px #123b5014;border:1px solid #ffffff}
+.catalog-3 .catalog-tile .round{width:84px;height:84px;left:calc(50% - 42px);top:-43px;padding:20px}
+.catalog-3 .tile-copy{top:49px;bottom:auto;height:84px;font-size:29px;left:12px;right:12px;color:var(--card)}
+.catalog-3 .tile-photo{top:147px;bottom:0;border-radius:0 0 20px 20px;mask-image:linear-gradient(transparent,#000 9%,#000)}
+.catalog-3 .catalog-scene{top:687px;height:168px;z-index:3;background:linear-gradient(90deg,#d8e8e7,#f0f5f2 30%,#f0f5f2 70%,#d8e8e7)}.catalog-3 .catalog-scene .photo-svg{mask-image:linear-gradient(90deg,transparent 24%,#000 32%,#000 68%,transparent 76%)}.catalog-3 .catalog-note{display:none}
+.catalog-3.language-bilingual .tile-copy{font-size:21px;height:91px}.catalog-3.language-arabic .tile-copy{font-size:25px;line-height:1.6}
+/* Opt-in recruitment revision: four uninterrupted trade portraits, no sliced team strip. */
+.catalog-3.recruitment-clean .catalog-scene{display:none}
+.catalog-3.recruitment-clean .catalog-tile{height:595px}
+/* 4 — cinematic hero, restrained left-aligned advertising headline and highlights. */
+.catalog-4 .catalog-title{left:52px;top:15px;width:976px;height:117px;transform:rotate(-1deg)}
+.catalog-4 .catalog-sub{left:80px;top:145px;width:920px;height:67px;text-align:left;font-size:36px;color:#ed0076}
+.catalog-4 .catalog-scene{left:0;top:222px;width:1080px;height:514px;mask-image:url('__CATALOG_MASK__');mask-size:100% 100%}
+.catalog-4 .catalog-tile{top:733px;width:237px;height:100px;border-radius:18px;background:#fffffff2;box-shadow:0 5px 15px #193d541d;border-top:4px solid var(--card)}
+.catalog-4 .catalog-tile .round{width:43px;height:43px;padding:9px;left:12px;top:22px;border:0}
+.catalog-4 .tile-copy{left:65px;right:9px;top:13px;height:69px;font-size:24px;text-align:left}
+.catalog-4 .catalog-note{display:none}.catalog-4.language-bilingual .tile-copy{font-size:19px}.catalog-4.language-arabic .catalog-sub{text-align:right}
+/* 5 — linked process photographs, two concise value statements and equipment strip. */
+.catalog-5 .catalog-title{top:4px;left:66px;width:948px;height:85px;transform:none;background:none}
+.catalog-5 .catalog-title .stroke{display:none}.catalog-5 .catalog-title .ink{color:#062e53;height:100%;width:100%;font-size:56px}
+.catalog-5 .catalog-sub{top:100px;height:80px;color:#ed0076;font-size:44px}
+.catalog-5 .catalog-tile{top:218px;width:221px;height:269px;border:none;border-radius:6px;background:transparent;box-shadow:none}
+.catalog-5 .tile-photo{inset:0 0 58px;border-radius:7px;transform:rotate(-1.5deg);mask-image:url('__CATALOG_MASK__');mask-size:100% 100%}
+.catalog-5 .catalog-tile .round{top:181px;width:59px;height:59px;left:calc(50% - 29.5px);padding:12px;box-shadow:0 0 0 2px var(--card)}
+.catalog-5 .tile-copy{bottom:-24px;height:58px;left:0;right:0;padding:0 8px;background:var(--card);border-radius:4px;color:white;font-size:25px;z-index:3}
+.catalog-5 .connector{position:absolute;top:306px;width:25px;height:40px;font-size:34px;font-weight:900;color:#ed0076;line-height:40px;text-align:center}
+.catalog-5 .catalog-values{position:absolute;left:90px;right:90px;top:539px;height:63px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:24px}
+.catalog-5 .catalog-values>span{font-size:31px;text-align:center;line-height:1.1;height:61px;align-content:center;white-space:nowrap}.catalog-5 .catalog-values>span:first-child{border-right:1px solid #0c3854;color:#ed0076}
+.catalog-5 .catalog-note{top:617px;left:210px;right:210px;height:73px;isolation:isolate;color:white;font-size:30px}.catalog-5 .catalog-note>.stroke{position:absolute;inset:0;z-index:-1}.catalog-5 .catalog-note .campaign-copy{display:block;width:calc(100% - 55px);height:100%;margin:auto;align-content:center;white-space:nowrap}
+.catalog-5 .catalog-scene{top:707px;height:153px}.catalog-5.language-bilingual .catalog-values>span{font-size:23px}.catalog-5.language-arabic .catalog-values>span{font-size:28px;line-height:1.6}
+.catalog-5.language-bilingual .catalog-note .campaign-copy{font-size:23px;white-space:normal;line-height:1.1}.catalog-5.language-arabic .catalog-note .campaign-copy{font-size:28px;line-height:1.6}
+
+/* Hero image keeps its full photographic bounds at any source aspect ratio. */
+.catalog-4 .catalog-scene{display:flex;align-items:center;justify-content:center;top:210px;height:480px;mask-image:none}
+.catalog-4 .complete-hero-photo{display:block;width:1080px;height:auto;max-height:480px;object-fit:contain;mask-image:url('__CATALOG_MASK__');mask-size:100% 100%}
+.catalog-4 .catalog-tile{top:705px}

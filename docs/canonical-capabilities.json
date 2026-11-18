@@ -6,19 +6,19 @@
   "upstream_groups": 128,
   "blocked_derivative_groups": 2,
   "supporting_groups": 2,
-  "runtime_modules": 31,
-  "packaged_skills": 11,
+  "runtime_modules": 45,
+  "packaged_skills": 24,
   "status_counts": {
-    "UNTESTED OR INCOMPLETE": 28,
-    "PUBLISHED AND VALIDATED": 13,
-    "DUPLICATE / ALREADY COVERED": 1
+    "PARTIALLY PORTED": 36,
+    "MISSING IMPLEMENTATION": 3,
+    "VERIFIED AND PORTABLE": 3
   },
   "method": "Source identity before dependency-family grouping; content hashes retain aliases. Categories separate procedures, engines, adapters, supporting aliases and upstream. These are release work groups, not counts of independent end-user products.",
   "groups": [
     {
       "id": "upstream:1password",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -38,7 +38,7 @@
     {
       "id": "upstream:add-model-provider",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main"
       ],
@@ -56,7 +56,7 @@
     {
       "id": "upstream:apple-notes",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -76,7 +76,7 @@
     {
       "id": "upstream:apple-reminders",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -96,7 +96,7 @@
     {
       "id": "skill:automation-adapter-verification",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -139,13 +139,13 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "automation-adapter-verification",
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "upstream:bear-notes",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -165,7 +165,7 @@
     {
       "id": "upstream:blogwatcher",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -185,7 +185,7 @@
     {
       "id": "upstream:blucli",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -205,7 +205,7 @@
     {
       "id": "upstream:browser-automation",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -225,7 +225,7 @@
     {
       "id": "upstream:camsnap",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -245,7 +245,7 @@
     {
       "id": "upstream:canvas",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "shared",
@@ -267,7 +267,7 @@
     {
       "id": "skill:capped-external-api-pilot",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -285,13 +285,13 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "capped-external-api-pilot",
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "upstream:clawhub",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -311,7 +311,7 @@
     {
       "id": "upstream:cloud-image-bake",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main"
       ],
@@ -329,7 +329,7 @@
     {
       "id": "upstream:coding-agent",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -349,7 +349,7 @@
     {
       "id": "upstream:configure-channel",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main"
       ],
@@ -367,7 +367,7 @@
     {
       "id": "upstream:control-ui",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -387,7 +387,7 @@
     {
       "id": "upstream:diagnose-gateway",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main"
       ],
@@ -405,7 +405,7 @@
     {
       "id": "upstream:diagram-maker",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -425,7 +425,7 @@
     {
       "id": "upstream:eightctl",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -445,7 +445,7 @@
     {
       "id": "skill:gateway-outage-reliability-audit",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -468,13 +468,13 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "gateway-outage-reliability-audit",
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "upstream:gemini",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -494,7 +494,7 @@
     {
       "id": "skill:generated-asset-checkpoint-recovery",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -522,13 +522,13 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "generated-asset-checkpoint-recovery",
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "upstream:gh-issues",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -548,7 +548,7 @@
     {
       "id": "upstream:gifgrep",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -568,7 +568,7 @@
     {
       "id": "upstream:github",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "shared",
@@ -590,7 +590,7 @@
     {
       "id": "upstream:gog",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -610,7 +610,7 @@
     {
       "id": "blocked:gog-clean",
       "category": "F",
-      "status": "BLOCKED WITH VERIFIED REASON",
+      "status": "LICENSING / SECURITY BLOCKED",
       "agents": [
         "main"
       ],
@@ -639,7 +639,7 @@
     {
       "id": "skill:google-sheets-readiness",
       "category": "A",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -658,12 +658,12 @@
       ],
       "published_modules": [],
       "published_skill": "google-sheets-readiness",
-      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "upstream:goplaces",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -683,7 +683,7 @@
     {
       "id": "upstream:healthcheck",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -703,7 +703,7 @@
     {
       "id": "upstream:himalaya",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -723,7 +723,7 @@
     {
       "id": "upstream:mcporter",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -743,7 +743,7 @@
     {
       "id": "upstream:meme-maker",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -763,7 +763,7 @@
     {
       "id": "upstream:model-usage",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -783,7 +783,7 @@
     {
       "id": "skill:multi-platform-publication-recovery",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -811,13 +811,13 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "multi-platform-publication-recovery",
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "upstream:nano-pdf",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -837,7 +837,7 @@
     {
       "id": "upstream:node-connect",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -857,7 +857,7 @@
     {
       "id": "upstream:node-inspect-debugger",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -877,7 +877,7 @@
     {
       "id": "upstream:notion",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -897,7 +897,7 @@
     {
       "id": "upstream:obsidian",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -917,7 +917,7 @@
     {
       "id": "upstream:openai-whisper",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -937,7 +937,7 @@
     {
       "id": "upstream:openai-whisper-api",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -957,7 +957,7 @@
     {
       "id": "upstream:openhue",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -977,7 +977,7 @@
     {
       "id": "upstream:oracle",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -997,7 +997,7 @@
     {
       "id": "upstream:ordercli",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1017,7 +1017,7 @@
     {
       "id": "upstream:peekaboo",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1037,7 +1037,7 @@
     {
       "id": "skill:poster-template-integration",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1055,13 +1055,13 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "poster-template-integration",
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "skill:private-mobile-gateway-pairing",
       "category": "A",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1080,12 +1080,12 @@
       ],
       "published_modules": [],
       "published_skill": "private-mobile-gateway-pairing",
-      "reason": "Original portable diagnostic procedure and synthetic evidence-contract tests validated offline. Fresh installation, live deployment, phone pairing, management inference and hot reload are NOT TESTED. No runtime engine completed."
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "upstream:python-debugpy",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1105,7 +1105,7 @@
     {
       "id": "skill:sabah-daily-seo-blog",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1122,13 +1122,13 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "sabah-daily-seo-blog",
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "upstream:sag",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1148,7 +1148,7 @@
     {
       "id": "skill:seo-marketing-pro",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1165,13 +1165,13 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "seo-marketing-pro",
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "upstream:sherpa-onnx-tts",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1191,7 +1191,7 @@
     {
       "id": "upstream:skill-creator",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1211,7 +1211,7 @@
     {
       "id": "skill:smgc-publication-intake-diagnosis",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1229,13 +1229,13 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "smgc-publication-intake-diagnosis",
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "skill:smgc-social-media",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1253,13 +1253,13 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "smgc-social-media",
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "upstream:songsee",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1279,7 +1279,7 @@
     {
       "id": "upstream:sonoscli",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1299,7 +1299,7 @@
     {
       "id": "upstream:spike",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1319,7 +1319,7 @@
     {
       "id": "upstream:spotify-player",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1339,7 +1339,7 @@
     {
       "id": "upstream:summarize",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1359,7 +1359,7 @@
     {
       "id": "skill:supplied-image-intake",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1377,13 +1377,13 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "supplied-image-intake",
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "skill:system-management-model-routing",
       "category": "A",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1402,12 +1402,12 @@
       ],
       "published_modules": [],
       "published_skill": "system-management-model-routing",
-      "reason": "Original portable diagnostic procedure and synthetic evidence-contract tests validated offline. Fresh installation, live deployment, phone pairing, management inference and hot reload are NOT TESTED. No runtime engine completed."
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "upstream:things-mac",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1427,7 +1427,7 @@
     {
       "id": "upstream:tmux",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1447,7 +1447,7 @@
     {
       "id": "upstream:trello",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1467,7 +1467,7 @@
     {
       "id": "upstream:visualize",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1487,7 +1487,7 @@
     {
       "id": "upstream:wacli",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1507,7 +1507,7 @@
     {
       "id": "upstream:weather",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1527,7 +1527,7 @@
     {
       "id": "skill:woocommerce-cart-checkout-diagnosis",
       "category": "A",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1546,12 +1546,12 @@
       ],
       "published_modules": [],
       "published_skill": "woocommerce-cart-checkout-diagnosis",
-      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "skill:woocommerce-catalog-reconciliation",
       "category": "A",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1585,12 +1585,12 @@
       ],
       "published_modules": [],
       "published_skill": "woocommerce-catalog-reconciliation",
-      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "skill:woocommerce-price-display-audit",
       "category": "A",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1609,12 +1609,12 @@
       ],
       "published_modules": [],
       "published_skill": "woocommerce-price-display-audit",
-      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "skill:woocommerce-product-content-seo",
       "category": "A",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1638,12 +1638,12 @@
       ],
       "published_modules": [],
       "published_skill": "woocommerce-product-content-seo",
-      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "skill:wordpress-additive-content-update",
       "category": "A",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1662,12 +1662,12 @@
       ],
       "published_modules": [],
       "published_skill": "wordpress-additive-content-update",
-      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "skill:wordpress-child-theme-readiness",
       "category": "A",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1686,12 +1686,12 @@
       ],
       "published_modules": [],
       "published_skill": "wordpress-child-theme-readiness",
-      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "skill:wordpress-page-style-correction",
       "category": "A",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -1710,12 +1710,12 @@
       ],
       "published_modules": [],
       "published_skill": "wordpress-page-style-correction",
-      "reason": "Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools."
+      "reason": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance."
     },
     {
       "id": "blocked:wordpress-rest-api-clean",
       "category": "F",
-      "status": "BLOCKED WITH VERIFIED REASON",
+      "status": "LICENSING / SECURITY BLOCKED",
       "agents": [
         "main"
       ],
@@ -1744,7 +1744,7 @@
     {
       "id": "upstream:xurl",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "main",
         "smgc-customer-support"
@@ -1764,7 +1764,7 @@
     {
       "id": "other:woocommerce-verify-badges.py",
       "category": "C",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "MISSING IMPLEMENTATION",
       "agents": [
         "main"
       ],
@@ -1794,7 +1794,7 @@
     {
       "id": "seo-blog-engine",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main",
         "shared"
@@ -2059,7 +2059,7 @@
     {
       "id": "social-scheduling",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main",
         "main/support (see private snapshot)",
@@ -2229,7 +2229,7 @@
     {
       "id": "deployment-specific-utilities",
       "category": "D",
-      "status": "DUPLICATE / ALREADY COVERED",
+      "status": "NOT TESTED",
       "agents": [
         "main"
       ],
@@ -2283,7 +2283,7 @@
     {
       "id": "verification-harnesses",
       "category": "D",
-      "status": "DUPLICATE / ALREADY COVERED",
+      "status": "NOT TESTED",
       "agents": [
         "main"
       ],
@@ -2344,7 +2344,7 @@
     {
       "id": "tiktok-auth",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "MISSING IMPLEMENTATION",
       "agents": [
         "main"
       ],
@@ -2397,7 +2397,7 @@
     {
       "id": "social-publishing",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -2601,7 +2601,7 @@
     {
       "id": "notification-delivery",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -2700,12 +2700,12 @@
         "trusted_bridge"
       ],
       "published_skill": null,
-      "reason": "Durable claim/receipt/no-replay logic and owner report outbox are implemented. The original native message-tool/owner-route bridge is not packaged as an authenticated transport; callbacks must use an independently authorized sender. Application-level signed ingress and exact recipient support receipt boundary now implemented; native channel ingress/sender and independent semantic policy adapter remain missing."
+      "reason": "Outbox primitives and native product review-receipt capture source are supplied. Full multi-workflow native sender/recovery routing and live delivery remain NOT TESTED."
     },
     {
       "id": "product-catalog",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main",
         "shared"
@@ -2811,14 +2811,20 @@
           "sha256": "11f70db3395d4b40f1780500d8670e9da6a1c7623bf072e3a108659f3fe68681"
         }
       ],
-      "published_modules": [],
+      "published_modules": [
+        "product_api",
+        "product_plan",
+        "product_workflow",
+        "product_recovery",
+        "product_commands"
+      ],
       "published_skill": null,
-      "reason": "Original WooCommerce mutation adapters use site-specific WP-CLI grants and source-schema mappings. The generic WordPress client and catalog procedural skill do not replace the full isolated Woo setter/backup/derived-field test environment, which is not available in this release."
+      "reason": "Actual configurable Woo draft/edit/publish/scoped-restore engine, signed native hook source, before snapshots, independent revocation and no-replay reconciliation are tested offline. No full SQL backup/restore, Sheet/formula source bridge, binary media upload, promotion-copy substitutions, private family aliases, storefront/cart or live native-channel acceptance."
     },
     {
       "id": "watchdog",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -2920,7 +2926,7 @@
     {
       "id": "apify-budgeted-acquisition",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -2980,7 +2986,7 @@
     {
       "id": "social-draft-review",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "MISSING IMPLEMENTATION",
       "agents": [
         "main"
       ],
@@ -3056,7 +3062,7 @@
     {
       "id": "poster-generation",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -3245,14 +3251,20 @@
           "sha256": "0530d53b6e2be82693fd7226407cd17101e7fa0bb23d04cd3fb0bdf4cbf2921e"
         }
       ],
-      "published_modules": [],
+      "published_modules": [
+        "image_intake",
+        "poster_reference",
+        "poster_catalog",
+        "poster_cobrand",
+        "poster_render"
+      ],
       "published_skill": null,
-      "reason": "Original rendering code depends on supplied branded logo/QR/photo assets, six layout-specific font/QR contracts, Playwright and exact-artifact visual review. These dependencies were inspected; no complete brand-neutral renderer/assets package with independent QA is validated. Rotation alone is not six rendered templates."
+      "reason": "Original six layout structures and crop/brand geometry are adapted with replaceable synthetic assets and operator fonts; build tests and local Chromium render evidence are supplied separately. Native image generation, genuine QR validation, independent exact-artifact semantic review and integrated draft pipeline remain incomplete."
     },
     {
       "id": "blog-image-recovery",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -3367,7 +3379,7 @@
     {
       "id": "lead-acquisition",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -3427,7 +3439,7 @@
     {
       "id": "campaign-language",
       "category": "B",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "VERIFIED AND PORTABLE",
       "agents": [
         "main"
       ],
@@ -3450,12 +3462,12 @@
         "language"
       ],
       "published_skill": null,
-      "reason": "Original language behavior is ported and regression-tested."
+      "reason": "Original local language-selection/validation behavior ported and regression-tested."
     },
     {
       "id": "wordpress-client",
       "category": "B",
-      "status": "DUPLICATE / ALREADY COVERED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -3485,7 +3497,7 @@
     {
       "id": "google-sheets-adapter",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -3523,7 +3535,7 @@
     {
       "id": "seo-local-tools",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "VERIFIED AND PORTABLE",
       "agents": [
         "main"
       ],
@@ -3577,15 +3589,16 @@
         "keyword_research",
         "content_brief_generator",
         "local_metadata",
-        "content_review"
+        "content_review",
+        "elementor_plan"
       ],
       "published_skill": null,
-      "reason": "Keyword/brief/local metadata/content-review helpers are implemented. The original Elementor command-plan wrapper is not an executable browser integration; external agent-browser dependency and live Elementor flow remain unvalidated."
+      "reason": "Original local SEO helpers and inert Elementor command-plan generation reproduced; the original wrapper did not execute Elementor. Real browser/analytics operations remain upstream/account dependencies."
     },
     {
       "id": "customer-knowledge",
       "category": "B",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "VERIFIED AND PORTABLE",
       "agents": [
         "shared",
         "smgc-customer-support"
@@ -3628,12 +3641,12 @@
         "knowledge_snapshot"
       ],
       "published_skill": null,
-      "reason": "Original public knowledge refresher is generalized, fixture-tested and documented with its first-page-only limit. Its production timer/account deployment is not activated."
+      "reason": "Original bounded public knowledge snapshot behavior generalized and fixture-tested; original first-page-only limitation remains explicit. Fresh live account/scheduler acceptance not claimed."
     },
     {
       "id": "upstream:a2a",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3651,7 +3664,7 @@
     {
       "id": "upstream:active-memory",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3669,7 +3682,7 @@
     {
       "id": "upstream:admin-http-rpc",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3687,7 +3700,7 @@
     {
       "id": "upstream:agentsapi",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3705,7 +3718,7 @@
     {
       "id": "upstream:alibaba",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3723,7 +3736,7 @@
     {
       "id": "upstream:anthropic",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3741,7 +3754,7 @@
     {
       "id": "upstream:apple-fm",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3759,7 +3772,7 @@
     {
       "id": "upstream:azure-speech",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3777,7 +3790,7 @@
     {
       "id": "upstream:beam",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3795,7 +3808,7 @@
     {
       "id": "upstream:bonjour",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3813,7 +3826,7 @@
     {
       "id": "upstream:browser",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3831,7 +3844,7 @@
     {
       "id": "upstream:clawrouter",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3849,7 +3862,7 @@
     {
       "id": "upstream:code-mode-quickjs",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3867,7 +3880,7 @@
     {
       "id": "upstream:copilot-proxy",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3885,7 +3898,7 @@
     {
       "id": "upstream:crabbox",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3903,7 +3916,7 @@
     {
       "id": "upstream:cua-computer",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3921,7 +3934,7 @@
     {
       "id": "upstream:deepgram",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3939,7 +3952,7 @@
     {
       "id": "upstream:device-pair",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3957,7 +3970,7 @@
     {
       "id": "upstream:document-extract",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3975,7 +3988,7 @@
     {
       "id": "upstream:elevenlabs",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -3993,7 +4006,7 @@
     {
       "id": "upstream:fal",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4011,7 +4024,7 @@
     {
       "id": "upstream:file-transfer",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4029,7 +4042,7 @@
     {
       "id": "upstream:geolocation",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4047,7 +4060,7 @@
     {
       "id": "upstream:github-copilot",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4065,7 +4078,7 @@
     {
       "id": "upstream:google",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4083,7 +4096,7 @@
     {
       "id": "upstream:huggingface",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4101,7 +4114,7 @@
     {
       "id": "upstream:imap",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4119,7 +4132,7 @@
     {
       "id": "upstream:kie",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4137,7 +4150,7 @@
     {
       "id": "upstream:linux-node",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4155,7 +4168,7 @@
     {
       "id": "upstream:litellm",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4173,7 +4186,7 @@
     {
       "id": "upstream:llm-task",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4191,7 +4204,7 @@
     {
       "id": "upstream:lmstudio",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4209,7 +4222,7 @@
     {
       "id": "upstream:logbook",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4227,7 +4240,7 @@
     {
       "id": "upstream:memory-core",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4245,7 +4258,7 @@
     {
       "id": "upstream:memory-wiki",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4263,7 +4276,7 @@
     {
       "id": "upstream:microsoft",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4281,7 +4294,7 @@
     {
       "id": "upstream:microsoft-foundry",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4299,7 +4312,7 @@
     {
       "id": "upstream:migrate-claude",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4317,7 +4330,7 @@
     {
       "id": "upstream:migrate-hermes",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4335,7 +4348,7 @@
     {
       "id": "upstream:minimax",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4353,7 +4366,7 @@
     {
       "id": "upstream:nvidia",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4371,7 +4384,7 @@
     {
       "id": "upstream:oc-path",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4389,7 +4402,7 @@
     {
       "id": "upstream:ollama",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4407,7 +4420,7 @@
     {
       "id": "upstream:onepassword",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4425,7 +4438,7 @@
     {
       "id": "upstream:openai",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4443,7 +4456,7 @@
     {
       "id": "upstream:opencode-go",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4461,7 +4474,7 @@
     {
       "id": "upstream:openrouter",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4479,7 +4492,7 @@
     {
       "id": "upstream:policy",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4497,7 +4510,7 @@
     {
       "id": "upstream:reef",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4515,7 +4528,7 @@
     {
       "id": "upstream:runway",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4533,7 +4546,7 @@
     {
       "id": "upstream:senseaudio",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4551,7 +4564,7 @@
     {
       "id": "upstream:session-share",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4569,7 +4582,7 @@
     {
       "id": "upstream:sglang",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4587,7 +4600,7 @@
     {
       "id": "upstream:talk-voice",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4605,7 +4618,7 @@
     {
       "id": "upstream:telegram",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4623,7 +4636,7 @@
     {
       "id": "upstream:together",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4641,7 +4654,7 @@
     {
       "id": "upstream:tts-local-cli",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4659,7 +4672,7 @@
     {
       "id": "upstream:vault",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4677,7 +4690,7 @@
     {
       "id": "upstream:vllm",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4695,7 +4708,7 @@
     {
       "id": "upstream:web-readability",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4713,7 +4726,7 @@
     {
       "id": "upstream:workboard",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4731,7 +4744,7 @@
     {
       "id": "upstream:xai",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4749,7 +4762,7 @@
     {
       "id": "upstream:apify-openclaw-plugin",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4767,7 +4780,7 @@
     {
       "id": "upstream:codex",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4785,7 +4798,7 @@
     {
       "id": "upstream:parallel",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4803,7 +4816,7 @@
     {
       "id": "upstream:whatsapp",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4821,7 +4834,7 @@
     {
       "id": "upstream:boot-md",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4839,7 +4852,7 @@
     {
       "id": "upstream:bootstrap-extra-files",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4857,7 +4870,7 @@
     {
       "id": "upstream:command-logger",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4875,7 +4888,7 @@
     {
       "id": "upstream:compaction-notifier",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4893,7 +4906,7 @@
     {
       "id": "upstream:session-memory",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -4911,7 +4924,7 @@
     {
       "id": "gateway-monitor",
       "category": "B",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "shared"
       ],
@@ -4942,14 +4955,16 @@
           "sha256": "6460c46f9dbb7709ac812984fbf2cddb7dc6c878963644fb67b103a38471ab60"
         }
       ],
-      "published_modules": [],
+      "published_modules": [
+        "gateway_monitor"
+      ],
       "published_skill": null,
-      "reason": "A generic watchdog is available. Independent Gateway alert service has deployment-specific Telegram credentials, process bindings and recovery handover; no portable unattended alert service is validated."
+      "reason": "Independent alert-only HTTP probe, durable incident/unknown-send fencing and optional configured Telegram transport plus inert service templates are executable. Actual natural service invocation and owner delivery NOT TESTED; no Gateway control."
     },
     {
       "id": "deployment-adapters",
       "category": "C",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "shared"
       ],
@@ -5024,7 +5039,7 @@
     {
       "id": "upstream:openclaw-runtime",
       "category": "E",
-      "status": "UPSTREAM REFERENCE",
+      "status": "UPSTREAM DEPENDENCY",
       "agents": [
         "shared"
       ],
@@ -5042,7 +5057,7 @@
     {
       "id": "customer-support-policy",
       "category": "C",
-      "status": "PUBLISHED AND VALIDATED",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "smgc-customer-support"
       ],
@@ -6906,5 +6921,7 @@
       "record": 459,
       "capability": "seo-blog-engine"
     }
-  ]
+  ],
+  "current_register": "complete-capability-audit.json",
+  "scope": "Legacy 460 mapping register retained; 51-group fresh reconciliation is authoritative in current_register."
 }

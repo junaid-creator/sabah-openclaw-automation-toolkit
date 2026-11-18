@@ -35,9 +35,14 @@ Add inert two-agent setup scaffold, signed owner/support application boundary, 2
 
 179 offline/mock tests; 11 new pagination/admission cases. Supports complete stable account inventory up to 2,000 runs; rejects nonterminal/unknown states and changing pagination before any paid POST. No paid calls or production changes. Full acquisition orchestration remains incomplete.
 
-## Product/native admission release batch
+## Expanded reconciliation release — 2026-11-18
 
-Five portable product modules, strict signed native owner command source and
-transactional support guards; 239 Python + 20 Node tests. Full production parity
-remains partial. Native plugin not activated; two observed source drifts recorded
-without rollback or attribution.
+315 Python unit tests and 20 Node tests passed; optional real local Chromium rendered
+all six original layout structures in three language modes (18/18), with four
+retry/drift/overflow checks. New clean dependency environment and pip check passed.
+315 is not a count of live capabilities. No fresh live external workflow accepted.
+Product revocation was independently corrected and tested during in-flight writes;
+scoped restoration always requires a new exact review. Original sources remain
+unchanged within bounded recorded checks. Full master-task status: PARTIALLY PORTED.
+See the complete audit and docs/complete-release-acceptance.json. Render fixtures,
+fonts, prior failures and scope are detailed in docs/poster-render-acceptance.json.

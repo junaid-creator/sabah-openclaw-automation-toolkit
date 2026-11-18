@@ -1,10 +1,46 @@
 # Sabah OpenClaw Automation Toolkit
 
-**Status: PARTIAL — portable core, not a replica of the production system.**
+**PARTIALLY PORTED — not a complete recreation of production.**
 
-Thirty-six Python modules derived from the original workflows and their portability adapters from the main-assistant and customer-support workflows provide offline SEO planning, local HTML metadata editing, language validation, prospect qualification, content duplicate checks, crash-aware checkpoints, and website reference snapshots. Twelve optional OpenClaw skills coordinate their safe use.
+The fresh reconciliation identifies **51 bounded original capability groups**,
+including **9 additional groups** missed by earlier grouping, and preserves all
+**460 original record mappings**. It indexes **399 source entries** (394 fresh
+scan + 5 targeted rendering sources), with **147 newly hashed entries** absent
+from the old source baseline. File counts are not capability counts. Three system
+deployment files and four historical copies were access-denied; deeper tracing
+and full-host completeness remain unresolved.
 
-Offline examples do not publish posts, send replies, run paid Actors or activate schedules. The optional Meta adapter now contains actual posting operations, disabled by default and tested only with mocks. A bounded FB/IG adapter, approval ledger, notification outbox, rotation, schedule parser, watchdog and billing guard are now ported. WordPress/TikTok adapters, blog stage/image recovery, capped Apify/Overture acquisition, Google lead synchronization, and eight original website/Google skills are now included. The complete deployed recovery engine, six branded layouts, provider tool bridges, account bindings and live routing are **not yet complete**. See [operations modules](docs/operations-modules.md) and [canonical accounting](docs/canonical-capabilities.md). See [inventory](SKILL-INVENTORY.md) and [coverage](docs/coverage.md). Do not equate a discovered file with a working feature.
+Current source package: **45 Python runtime modules, 24 skill packages** (22
+original procedural packages plus two toolkit wrappers), an optional native
+product-command plugin and callable Node support guards. **315 Python tests,
+20 Node tests, 18 actual local rendering cases and four renderer retry/negative
+checks passed** in isolated/synthetic validation. No real business write,
+customer send, paid Actor run or production activation was tested.
+
+## What is installable versus callable
+
+| Type | Included | Boundary |
+|---|---|---|
+| Procedural OpenClaw skills | 22 original packages + review/product wrappers | Require configured tools/accounts; not whole engines |
+| Callable Python libraries/CLIs | SEO, leads, WordPress/Google/platform adapters, products, images, voice, snapshots, monitor | Exact configuration and scopes; writes/network opt-in |
+| Native plugin source | Trusted owner product commands + actual review receipt capture | Not installed or live-channel accepted |
+| Node support libraries | Rate/replay limits and HUMAN/AUTO handoff admission | Not native support routing or semantic policy |
+| Six poster layouts | Original source-derived structures/CSS, synthetic replaceable assets | Operator fonts, real QR and semantic review required |
+| Full external workflows | Components and partial orchestration | **Zero fresh live end-to-end workflows accepted** |
+| Upstream capabilities | Official OpenClaw/software references | Not redistributed or automatically provisioned |
+
+Product management is real configurable workflow code, not just a REST client:
+draft/edit/separate publish/scoped restoration, variations, categories, pricing,
+metadata, existing media IDs, exact owner approval, before snapshots, revocation
+and uncertain-write reconciliation. See [product guide](docs/product-management.md).
+Binary media upload, original Sheet/formula coupling, SQL restore, storefront
+verification and full native deployment are still missing or NOT TESTED.
+
+Start with [COMPLETE-CAPABILITY-AUDIT.md](COMPLETE-CAPABILITY-AUDIT.md) and its
+[machine register](docs/complete-capability-audit.json). Strict classifications
+are VERIFIED AND PORTABLE, PARTIALLY PORTED, UPSTREAM DEPENDENCY,
+LICENSING / SECURITY BLOCKED, NOT TESTED and MISSING IMPLEMENTATION.
+No feature matrix or static skill packaging is treated as full functional parity.
 
 ## Quick start
 
@@ -45,19 +81,7 @@ Two optional diagnostic skills cover [management routing](skills/system-manageme
 
 Start with [COMPLETE-SETUP-GUIDE.md](COMPLETE-SETUP-GUIDE.md), [feature matrix](FEATURE-REPLICATION-MATRIX.md), [configuration](CONFIGURATION-REFERENCE.md), [dependencies](DEPENDENCIES.md), [deployment checklist](DEPLOYMENT-CHECKLIST.md) and [acceptance tests](ACCEPTANCE-TESTS.md).
 
-The inert two-agent scaffolder and signed application-level owner/support boundary add working offline-tested code. They do not install native messaging adapters or semantic policy enforcement. Current package: **36 runtime modules, 12 skill packages, 239 Python tests plus 20 Node tests**. Original accounting remains **13 artifact-validated, 1 already-covered, 28 incomplete**, with **2 separate derivative-license exclusions**. **Zero original groups have fresh-install/live E2E reproduction acceptance.** Do not interpret earlier “validated” labels as end-to-end coverage.
-
-## Product and native-admission batch
-
-New executable product workflow: [configuration and limits](docs/product-management.md).
-Actual draft/edit/separate publish/scoped restore, duplicate checks, immutable
-approval, independent revocation and no-replay reconciliation are supplied.
-The [optional native product plugin](plugins/product-owner-bridge/README.md)
-and [support guards](plugins/support-guards/README.md) have source and Node tests,
-not a live Gateway activation. Existing media IDs only; full SQL/Sheet/frontend
-and live channel parity remain incomplete. Earlier capability matrices describe
-the prior checkpoint; a broader reconciliation release follows separately.
-
-**239 Python tests and 20 Node tests pass for this batch.** No live business action.
-Read [final preservation limits](PRODUCTION-PRESERVATION.md): two source drifts
-were observed and left untouched; no blanket unchanged-production claim.
+The inert scaffolder and signed application boundary are not automatic deployments.
+The latest [complete capability audit](COMPLETE-CAPABILITY-AUDIT.md) supersedes older
+coverage counts. Existing features/history are preserved; no full production
+replica or fresh external end-to-end acceptance is claimed.

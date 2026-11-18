@@ -20,8 +20,20 @@ No new third-party dependency is added by setup_scaffold or trusted_bridge. Thei
 | TikTok | Authorized Business API app, scopes, external OAuth refresh | No shipped OAuth service; live app acceptance needed |
 | Overture | Official downloader, data/license compliance | Acquisition/qualification supported; enrichment/orchestration incomplete |
 | Apify | Actor, token, billing evidence, allowed cap | History bounded to 2,000 runs; evidence monitor still unported |
-| Six posters | Portable layouts, replaceable licensed assets/fonts, renderer, exact-artifact reviewer | **Missing implementation**, not resolved merely by installing Playwright |
-| Telegram/WhatsApp transport | Native configured channels plus trusted event/receipt adapter | **Adapter not shipped**; bridge is application-level only |
-| Gateway monitor | Independent runtime probe and alert transport/service | Watchdog library alone is not an unattended monitor |
+| Six posters | Source-derived renderer/CSS, operator fonts/assets, optional Playwright 1.64 | 18 local synthetic language/layout renders pass; genuine QR/semantic/provider integration incomplete |
+| Telegram/WhatsApp transport | Native configured channels plus optional product-owner-bridge | Product hook source and fixtures supplied; live activation and other workflow routes NOT TESTED |
+| Gateway monitor | Explicit HTTP health probe, independent optional Telegram transport, inert systemd templates | Source/mock-tested monitor provided; service/live alert acceptance NOT TESTED |
 
 Upstream references (128 canonical groups) are not redistributable copies in this toolkit. Obtain them from maintained official distributions and verify their current licenses. gog-clean and wordpress-rest-api-clean derivative provenance remains unresolved: six source records are excluded. No production logo, QR, photography, credentials, session or customer data is included.
+
+## Additional runtime and licensing requirements
+
+Node 24 is required for built-in SQLite support guards; no npm package dependencies
+are added. The product bridge requires the official OpenClaw plugin SDK at runtime.
+Optional raster rendering uses requirements-render.txt: Playwright 1.64.0
+(Apache-2.0), pyee 14.0.0 (MIT; **Python >=3.12**), greenlet 3.5.6 (MIT/PSF-2.0).
+The core Python floor remains separate. Actual tested interpreter: Python 3.14.
+Chromium and fonts are operator-installed upstream software, not bundled assets.
+Local speech uses operator-installed FFmpeg/sherpa-onnx/Piper and separately
+reviewed model/voice licenses; no binary/model is redistributed. See local-voice.md
+under docs. SVG demo assets are new original toolkit work; the QR is a placeholder.

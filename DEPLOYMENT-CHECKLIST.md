@@ -19,3 +19,18 @@
 - [ ] Only separately approved schedules enabled; one scheduler per workflow.
 
 All boxes are operator acceptance tasks, not assertions that this release completed them.
+
+## Expanded preproduction gates
+
+- [ ] Validate each website independently; customer/group/cross-site commands fail.
+- [ ] Prove native product hook metadata, real exact preview and confirmation on a
+      disposable installation; library callbacks are not live delivery proof.
+- [ ] Test in-flight revocation, no-replay reconciliation and separately approved
+      scoped restore before permitting real product changes.
+- [ ] Prove database restore, storefront/variation/cart behavior beyond REST readback.
+- [ ] Review all photo/logo/font/voice/model rights and dependencies.
+- [ ] Validate actual local speech quality and native audio/text priority.
+- [ ] Verify isolated monitor service cadence and explicitly authorized owner TEST.
+- [ ] Prove encrypted off-host recovery, not merely same-disk restore-copy hashes.
+
+No unchecked live gate is satisfied merely by installing the toolkit.

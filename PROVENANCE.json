@@ -356,6 +356,188 @@
     "changes": "Bounded full inventory, strict metadata/state validation, head recheck; original source hash preserved in earlier provenance entry"
   },
   {
+    "source": "automation-adapter-verification/SKILL.md",
+    "destination": "skills/automation-adapter-verification/SKILL.md",
+    "source_sha256": "322fb00f9b281ca347617ffdec07b9819986122ea36e28617745eedf1f9a2963",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "automation-adapter-verification/review-media-revision.md",
+    "destination": "skills/automation-adapter-verification/review-media-revision.md",
+    "source_sha256": "62f2bbe8128bdd5a3e365e6b7da7d94542e87ff6b26f280eb75bf167c79915d1",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "automation-adapter-verification/lifecycle-notifications.md",
+    "destination": "skills/automation-adapter-verification/lifecycle-notifications.md",
+    "source_sha256": "62ac46519d307a7a08df7585571863fd0714879d1777d288d662e8b2d6bd6a76",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "automation-adapter-verification/unattended-poster-acceptance.md",
+    "destination": "skills/automation-adapter-verification/unattended-poster-acceptance.md",
+    "source_sha256": "f909a5d8054f7345bf728629c8c1d8d4c4c71310dbd5d98f88421423b1738df1",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "automation-adapter-verification/review-target-reduction.md",
+    "destination": "skills/automation-adapter-verification/review-target-reduction.md",
+    "source_sha256": "9a8259b2ecfeed75b8b3ecb118678516e4ffeaf2cd875b6fa12020558c128935",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "automation-adapter-verification/restricted-command-bridges.md",
+    "destination": "skills/automation-adapter-verification/restricted-command-bridges.md",
+    "source_sha256": "9eed841641d40da7a661a4de41b68c4d3b4f0eb5a8129c02d020cf4b0d5c5a1c",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "capped-external-api-pilot/SKILL.md",
+    "destination": "skills/capped-external-api-pilot/SKILL.md",
+    "source_sha256": "80e35c745e363bdd8faed470af3ea29053d1c199292b346a32699ad702f85e67",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "gateway-outage-reliability-audit/SKILL.md",
+    "destination": "skills/gateway-outage-reliability-audit/SKILL.md",
+    "source_sha256": "da68b22af9a37a7b82a0b5fb91938defe1d1339ffe6e5d1e8b04b4e15967bc8c",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "gateway-outage-reliability-audit/authorized-readiness-changes.md",
+    "destination": "skills/gateway-outage-reliability-audit/authorized-readiness-changes.md",
+    "source_sha256": "6537f52c02e40d8b83089e013203172f9cb4ab686c8ab07725f3c9ef840c63fd",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "generated-asset-checkpoint-recovery/SKILL.md",
+    "destination": "skills/generated-asset-checkpoint-recovery/SKILL.md",
+    "source_sha256": "c9341d23bcfa6970228f2da17f389924f3b8f74bd3e4797a6966177005355a04",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "generated-asset-checkpoint-recovery/persistent-recovery.md",
+    "destination": "skills/generated-asset-checkpoint-recovery/persistent-recovery.md",
+    "source_sha256": "c8570fff772c6a6c3a2cc7b703ca6a5c0a761e3c444ff916b5b47862e32f5b63",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "generated-asset-checkpoint-recovery/same-job-poster-revision.md",
+    "destination": "skills/generated-asset-checkpoint-recovery/same-job-poster-revision.md",
+    "source_sha256": "4484706ada8e7e106fd1cd9cfb819d5c4b203eb92e01ffafd0c7ed569427dd85",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "multi-platform-publication-recovery/SKILL.md",
+    "destination": "skills/multi-platform-publication-recovery/SKILL.md",
+    "source_sha256": "49eca0b1158a2d9f2e722f6b82a29d4741793df0c01b51a09925f0e8b6d4c8d0",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "multi-platform-publication-recovery/published-image-verification.md",
+    "destination": "skills/multi-platform-publication-recovery/published-image-verification.md",
+    "source_sha256": "ed4a0c06b4e0b97128a159a07e8aa4a52b1f73e2bae493f42a85eef0bfcd0e54",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "multi-platform-publication-recovery/account-authorization.md",
+    "destination": "skills/multi-platform-publication-recovery/account-authorization.md",
+    "source_sha256": "3fdae6510d8b9c5ff1770c7c3407fd678fd6e2088b743759240a0a122d13ae73",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "poster-template-integration/SKILL.md",
+    "destination": "skills/poster-template-integration/SKILL.md",
+    "source_sha256": "6c99145ca7fab4fd82d23281fe9868be832e8f5550493f3e69e895d5bdfa6592",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "smgc-publication-intake-diagnosis/SKILL.md",
+    "destination": "skills/smgc-publication-intake-diagnosis/SKILL.md",
+    "source_sha256": "35906a77244d69f6a25a685a08403fac3ed6d1d108fa7290feb7171083926efd",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "supplied-image-intake/SKILL.md",
+    "destination": "skills/supplied-image-intake/SKILL.md",
+    "source_sha256": "2d2767d5a7f162df9fbe8eeae8bd58e7bb427f3c08786149ce17e9bf284b6b62",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "public-toolkit-release/SKILL.md",
+    "destination": "skills/public-toolkit-release/SKILL.md",
+    "source_sha256": "33d9b1f9bf5e90ee7aee693d4e9e11e4c045413e29a1c6a40b1549b7cbbd79ce",
+    "changes": "Whole original procedural package with supporting resources; deployment labels generalized; explicit reference-schema/runtime boundary. No production state or assets.",
+    "ownership": "Owner-authorized original local Workshop procedure; upstream software is referenced, not copied."
+  },
+  {
+    "source": "main:tools/sabah_social_image_import.py",
+    "source_sha256": "8e7b2f3b80164e3bf5b933fe8990257247f682a789a05f94a1cbe53b495885bd",
+    "destination": "toolkit/image_intake.py",
+    "changes": "Portable private roots, Pillow conversion, atomic one-request save, saved-proof recovery, pinned optional URL intake; no uploads or approval.",
+    "ownership": "Owner-authorized original local workflow/procedure adaptation; no third-party implementation or private assets copied."
+  },
+  {
+    "source": "host:bin/sabah-gateway-monitor",
+    "source_sha256": "700f006c9d75ff1b1f12ffc107ca3c34dcd0cd034ebb83feb6c1ac43aced9cb0",
+    "destination": "toolkit/gateway_monitor.py",
+    "changes": "Parameterized endpoints/state/owner transport; durable incident SQLite, opt-in sends, independent alert only; no original config/credentials.",
+    "ownership": "Owner-authorized original local workflow/procedure adaptation; no third-party implementation or private assets copied."
+  },
+  {
+    "source": "main:workshop/gateway-outage-reliability-audit/authorized-readiness-changes.md",
+    "source_sha256": "6537f52c02e40d8b83089e013203172f9cb4ab686c8ab07725f3c9ef840c63fd",
+    "destination": "toolkit/recovery_snapshot.py",
+    "changes": "New executable realization of original explicit-allowlist online SQLite snapshot and isolated restore-copy procedure; no live restore.",
+    "ownership": "Owner-authorized original local workflow/procedure adaptation; no third-party implementation or private assets copied."
+  },
+  {
+    "source": "main:skills/seo-marketing-pro/scripts/elementor_agent_wrapper.py",
+    "source_sha256": "afe457f3784b7b0353029d32b2bcc85530f0f737e8ac5e7a2df35dc773d5ffc4",
+    "destination": "toolkit/elementor_plan.py",
+    "changes": "Original inert plan generator with explicit no-execution result and trusted-origin validation; not browser automation.",
+    "ownership": "Owner-authorized original local workflow/procedure adaptation; no third-party implementation or private assets copied."
+  },
+  {
+    "source": "main:skills/seo-marketing-pro/SKILL.md",
+    "source_sha256": "76219998586ec6d2209ea388fb3a8ccc8051f513076eafeb09e084a1b5d0a50c",
+    "destination": "skills/seo-marketing-pro/SKILL.md",
+    "changes": "Full original eight-phase procedure, portable wrappers and explicit plan-only/browser boundary.",
+    "ownership": "Owner-authorized original local workflow/procedure adaptation; no third-party implementation or private assets copied."
+  },
+  {
+    "source": "main:skills/sabah-daily-seo-blog/SKILL.md",
+    "source_sha256": "d1e601454d78697ef264d46871ea9b4eb39b954ebc9ba09cbad06a6a9835b529",
+    "destination": "skills/sabah-daily-seo-blog/SKILL.md",
+    "changes": "Generalized original business procedure preserving gates; private identities/history/standing production authority excluded. Underlying orchestration remains partial.",
+    "ownership": "Owner-authorized original local workflow/procedure adaptation; no third-party implementation or private assets copied."
+  },
+  {
+    "source": "main:skills/local/smgc-social-media/SKILL.md",
+    "source_sha256": "45bc1cf18b652aa816a29bb9eefeb81c40cdfdde279c301a2943b4251fb5b3c8",
+    "destination": "skills/smgc-social-media/SKILL.md",
+    "changes": "Generalized owner-first social procedure; no inherited production scope/accounts/contacts. Underlying full workflow remains partial.",
+    "ownership": "Owner-authorized original local workflow/procedure adaptation; no third-party implementation or private assets copied."
+  },
+  {
     "source": "main:tools/smgc_product_adapter.py",
     "source_sha256": "bc43948aa2fbe8eb25095bac4b9ebe82348be7c531510b531e24f08edac6459f",
     "destination": "toolkit/product_api.py",
@@ -417,5 +599,91 @@
     "destination": "plugins/support-guards/guards.mjs",
     "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
     "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "host:bin/smgc-transcribe",
+    "source_sha256": "c8f4be87e466e35be839002e2ba757f8dd3904a9cbb9b12ed2db1c51b918555c",
+    "destination": "toolkit/local_voice.py",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "host:bin/smgc-piper-tts",
+    "source_sha256": "a768433922da02e34bf2b04803bbab4b887e31d79f2f9352ae6afecf71a97a0c",
+    "destination": "toolkit/local_voice.py",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:tools/sabah_social_render_reference.py",
+    "source_sha256": "0eb9a2beeaf0a508d2a3ef150f27325380f012d8ab63b7571957ffb578059af8",
+    "destination": "toolkit/poster_reference.py",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:tools/sabah_social_render_catalog.py",
+    "source_sha256": "03389e443d10f1296a27894d0e2fd40fb6275a557f31c2676605d5730a0c595d",
+    "destination": "toolkit/poster_catalog.py",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:assets/smgc/template6/sabah_social_render_cobrand.py",
+    "source_sha256": "0530d53b6e2be82693fd7226407cd17101e7fa0bb23d04cd3fb0bdf4cbf2921e",
+    "destination": "toolkit/poster_cobrand.py",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:assets/smgc/templates/reference.css",
+    "source_sha256": "31530ff89e0ba43adc3abc13e1f52388617242d6de3741bbbc590a1bf7ce9164",
+    "destination": "poster_templates/reference.css",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:assets/smgc/templates/catalog.css",
+    "source_sha256": "d07f55eb8b4b9006459f2c4b5d8676064b7aa31c8ca900f66f0435a27d327c9f",
+    "destination": "poster_templates/catalog.css",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "main:assets/smgc/template6/template6.css",
+    "source_sha256": "e221416b6c56a344e5702de27e0cf70340090d473f993f5d6196b5d035cf5eb0",
+    "destination": "poster_templates/template6.css",
+    "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+  },
+  {
+    "source": "New original portable adapter/synthetic asset",
+    "destination": "toolkit/poster_render.py",
+    "ownership": "Original toolkit work under repository MIT license. No private branding or third-party asset copied.",
+    "changes": "Portable controller or deliberately synthetic replaceable demo asset; QR placeholder is NOT a functioning QR."
+  },
+  {
+    "source": "New original portable adapter/synthetic asset",
+    "destination": "poster_templates/assets/primary-logo.svg",
+    "ownership": "Original toolkit work under repository MIT license. No private branding or third-party asset copied.",
+    "changes": "Portable controller or deliberately synthetic replaceable demo asset; QR placeholder is NOT a functioning QR."
+  },
+  {
+    "source": "New original portable adapter/synthetic asset",
+    "destination": "poster_templates/assets/secondary-logo.svg",
+    "ownership": "Original toolkit work under repository MIT license. No private branding or third-party asset copied.",
+    "changes": "Portable controller or deliberately synthetic replaceable demo asset; QR placeholder is NOT a functioning QR."
+  },
+  {
+    "source": "New original portable adapter/synthetic asset",
+    "destination": "poster_templates/assets/backdrop.svg",
+    "ownership": "Original toolkit work under repository MIT license. No private branding or third-party asset copied.",
+    "changes": "Portable controller or deliberately synthetic replaceable demo asset; QR placeholder is NOT a functioning QR."
+  },
+  {
+    "source": "New original portable adapter/synthetic asset",
+    "destination": "poster_templates/assets/qr-placeholder.svg",
+    "ownership": "Original toolkit work under repository MIT license. No private branding or third-party asset copied.",
+    "changes": "Portable controller or deliberately synthetic replaceable demo asset; QR placeholder is NOT a functioning QR."
   }
 ]

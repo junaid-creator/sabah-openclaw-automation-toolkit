@@ -1,0 +1,53 @@
+{
+  "status": "PARTIALLY PORTED",
+  "python_tests": {
+    "passed": 315,
+    "failed": 0,
+    "skipped": 0
+  },
+  "node_tests": {
+    "passed": 20,
+    "failed": 0,
+    "skipped": 0
+  },
+  "actual_render_cases": {
+    "passed": 18,
+    "total": 18
+  },
+  "renderer_replay_negative_checks": 4,
+  "fresh_python_environment": "Created separately, pinned core plus optional renderer dependencies installed, pip check passed",
+  "native_gateway_install": "NOT TESTED",
+  "live_business_writes": false,
+  "paid_external_runs": false,
+  "customer_messages": false,
+  "fresh_live_external_workflows": 0,
+  "production_preservation_scope": "248 source/config/service files compared against this turn baseline; final readback recorded separately",
+  "coverage_summary": {
+    "previous_discovery_records": 460,
+    "previous_original_groups": 42,
+    "initial_fresh_scan_entries": 394,
+    "targeted_renderer_source_additions": 5,
+    "fresh_source_entries": 399,
+    "new_hashed_source_entries": 147,
+    "new_local_original_candidate_sources": 52,
+    "bounded_original_capability_groups": 51,
+    "additional_original_groups": 9,
+    "original_publishable_skill_packages": 22,
+    "original_skill_packages_present": 22,
+    "total_repository_skill_packages": 24,
+    "python_runtime_modules": 45,
+    "original_group_status_counts": {
+      "PARTIALLY PORTED": 42,
+      "MISSING IMPLEMENTATION": 4,
+      "VERIFIED AND PORTABLE": 5
+    },
+    "original_non_skill_groups_with_executable_release_paths": 25,
+    "fresh_live_external_workflows_accepted": 0,
+    "audit_is_exhaustive": false,
+    "access_denied_paths": 7,
+    "system_service_access_denials": 3,
+    "status": "PARTIALLY PORTED",
+    "evidence_limit": "Bounded fresh scan plus preserved 460 mappings. Deep tracing timed out; three system service definitions/drop-ins and four historical copies were access-denied; deeper native/dynamic traces and fresh-host integration remain unverified. Files/groups are different units."
+  },
+  "publication_evidence": "Final remote commit/tree/CI/security and anonymous fresh clone are verified after upload; see release checkpoint/report rather than inferring from local tests."
+}

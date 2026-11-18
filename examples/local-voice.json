@@ -1,0 +1,18 @@
+{
+  "model_license_reviewed": false,
+  "ffmpeg": "/operator/bin/ffmpeg",
+  "asr": "/operator/bin/sherpa-onnx-offline",
+  "encoder": "/operator/models/encoder.onnx",
+  "decoder": "/operator/models/decoder.onnx",
+  "tokens": "/operator/models/tokens.txt",
+  "piper": "/operator/bin/piper",
+  "voices": {
+    "female": {
+      "en": "/operator/voices/reviewed-english.onnx",
+      "ur": "/operator/voices/reviewed-urdu.onnx"
+    },
+    "male": {
+      "en": "/operator/voices/another-reviewed-english.onnx"
+    }
+  }
+}

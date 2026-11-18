@@ -71,3 +71,36 @@ There is deliberately no automatic schedule installation. Confirm timezone, dura
 Back up private state consistently (SQLite online backup or stopped writers), configuration and authorized assets separately from Git; encrypt off-host copies and test restoration. Keep old checkout/venv alongside the candidate. Run tests before changing any deployment path. Roll back code only with compatible state and preserve unknown remote operations for reconciliation. Never clear a ledger to force a repeat.
 
 Finish [deployment checklist](DEPLOYMENT-CHECKLIST.md). A successful offline install does not authorize business actions.
+
+## Expanded executable capabilities
+
+- Products: follow [product management](docs/product-management.md), using two
+  independent site/account entries in examples/product-sites.json. Each has its
+  own origin, verified WP user, credential references and owner route. Defaults
+  refuse writes and require an exclusive-writer prerequisite. Draft, edit,
+  separate publication and separately reviewed scoped restoration are executable.
+- Native product commands: [optional plugin](plugins/product-owner-bridge/README.md)
+  supplies actual before_dispatch admission, signed Python invocation and native
+  message_sent review-receipt capture. Configure only on an authorized fresh host;
+  no current Gateway activation is performed. Native channel acceptance is NOT TESTED.
+- Support admission: [Node guards](plugins/support-guards/README.md) provide
+  transactional account-scoped rate/replay limits and explicit HUMAN/AUTO handoff
+  admission. They are callable libraries, not activated customer tools.
+- Supplied images: [local intake](docs/image-intake.md) preserves original bytes,
+  creates private derivatives and verifies saved recovery proof. It does not
+  establish native owner attachment provenance or publish.
+- Local speech: [voice adapters](docs/local-voice.md) require separately reviewed
+  executable/model licenses and paths. No model, voice or binary is distributed.
+- Recovery: [snapshot/restore-copy](docs/recovery-snapshot.md) uses explicit
+  allowlists and fresh private destinations. Never restores over live state.
+- Monitoring: [independent monitor](docs/gateway-monitor.md) has an opt-in actual
+  alert transport and inert service templates. No restart behavior exists.
+
+Use Node 24 for native source tests (built-in node:sqlite is required):
+
+    node --check plugins/product-owner-bridge/index.mjs
+    node --test tests/test_product_native_bridge.mjs tests/test_support_guards.mjs
+
+The original eligible procedural skill collection is packaged, but installing a
+skill does not install its native tools, account access or complete engine. See
+COMPLETE-CAPABILITY-AUDIT.md for strict per-capability status and limitations.

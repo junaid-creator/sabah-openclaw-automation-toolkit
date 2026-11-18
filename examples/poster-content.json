@@ -1,0 +1,90 @@
+{
+  "template": 1,
+  "content": {
+    "headline": "READY FOR WORK",
+    "headline_ar": "جاهزون للعمل",
+    "subheadline": "Equipment Solutions",
+    "subheadline_ar": "حلول المعدات",
+    "cta": "CONTACT US",
+    "cta_ar": "اتصل بنا",
+    "benefit": "Reliable Tools",
+    "benefit_ar": "معدات عملية",
+    "benefit_accent": "For Your Project",
+    "benefit_accent_ar": "لمشروعك",
+    "tagline": "Plan Your Project",
+    "tagline_ar": "خطط لمشروعك",
+    "description": "Illustrative equipment layout",
+    "description_ar": "تصميم توضيحي للمعدات",
+    "primary_services": "Equipment Services",
+    "primary_services_ar": "خدمات المعدات",
+    "secondary_services": "Survey Services",
+    "secondary_services_ar": "خدمات المساحة",
+    "services": [
+      {
+        "en": "Tool 1",
+        "ar": "معدات 1",
+        "icon": "equipment"
+      },
+      {
+        "en": "Tool 2",
+        "ar": "معدات 2",
+        "icon": "equipment"
+      },
+      {
+        "en": "Tool 3",
+        "ar": "معدات 3",
+        "icon": "equipment"
+      },
+      {
+        "en": "Tool 4",
+        "ar": "معدات 4",
+        "icon": "equipment"
+      }
+    ],
+    "language": "ENGLISH"
+  },
+  "brand": {
+    "primary": {
+      "short_name": "EXAMPLE",
+      "display_name": "EXAMPLE COMPANY",
+      "descriptor": "EQUIPMENT SERVICES",
+      "tagline": "READY FOR YOUR PROJECT",
+      "display_name_ar": "شركة مثال",
+      "descriptor_ar": "خدمات المعدات",
+      "tagline_ar": "جاهزون لمشروعك",
+      "phones": [
+        "000 000 0000"
+      ],
+      "website": "example.com",
+      "email": "hello@example.com",
+      "location": "Example City",
+      "social": "@example",
+      "logo": "/operator/toolkit/poster_templates/assets/primary-logo.svg"
+    },
+    "secondary": {
+      "short_name": "DEMO TWO",
+      "display_name": "EXAMPLE TWO",
+      "descriptor": "SURVEY SERVICES",
+      "tagline": "READY FOR YOUR PROJECT",
+      "display_name_ar": "شركة مثال",
+      "descriptor_ar": "خدمات المعدات",
+      "tagline_ar": "جاهزون لمشروعك",
+      "phones": [
+        "000 000 0000"
+      ],
+      "website": "example.com",
+      "email": "hello@example.com",
+      "location": "Example City",
+      "social": "@example",
+      "logo": "/operator/toolkit/poster_templates/assets/secondary-logo.svg"
+    },
+    "qr": "/operator/toolkit/poster_templates/assets/qr-placeholder.svg",
+    "backdrop": "/operator/toolkit/poster_templates/assets/backdrop.svg",
+    "qr_label": "DEMO — NOT A QR"
+  },
+  "fonts": {
+    "english": "/operator/fonts/reviewed-english.ttf",
+    "arabic": "/operator/fonts/reviewed-arabic.ttf"
+  },
+  "atlas": "/operator/private/synthetic-or-licensed-atlas.png"
+}

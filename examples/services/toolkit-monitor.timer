@@ -1,0 +1,11 @@
+[Unit]
+Description=Optional alert-only monitor cadence
+
+[Timer]
+OnBootSec=3min
+OnUnitActiveSec=1min
+Persistent=false
+Unit=toolkit-monitor.service
+
+[Install]
+WantedBy=timers.target
