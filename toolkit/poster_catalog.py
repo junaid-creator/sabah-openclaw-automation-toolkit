@@ -19,7 +19,7 @@ def build_html(source,assets,n,cfg,brand,fonts,layout_variant=None):
  data=locked.uri(source);loc=lambda en,ar:locked.localized(en,ar,cfg['language'])
  title='<div class="brush main-brush catalog-title">'+locked.brush('navy' if n in (3,5) else 'green','catalog-title')+locked.fit(locked.campaign_text(cfg,'headline'),extra='campaign-copy',minimum=25)+'</div>'
  sub='<div class="catalog-sub campaign-copy" data-fit data-min="21">'+locked.campaign_text(cfg,'subheadline')+'</div>'
- scene='<div class="catalog-scene">'+locked.atlas_image(data,size,mode='meet' if n==3 else 'slice',foreground=n==5)+'</div>'
+ scene='<div class="catalog-scene">'+locked.atlas_image(data,size,mode='meet' if n in (3,5) else 'slice')+'</div>'
  if n==4:
   # Contain the complete panorama. A hero template must not cut off a machine
   # merely because a wide atlas has a different ratio from the display frame.

@@ -55,7 +55,7 @@
 .catalog-5 .catalog-values{position:absolute;left:90px;right:90px;top:539px;height:63px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:24px}
 .catalog-5 .catalog-values>span{font-size:31px;text-align:center;line-height:1.1;height:61px;align-content:center;white-space:nowrap}.catalog-5 .catalog-values>span:first-child{border-right:1px solid #0c3854;color:#ed0076}
 .catalog-5 .catalog-note{top:617px;left:210px;right:210px;height:73px;isolation:isolate;color:white;font-size:30px}.catalog-5 .catalog-note>.stroke{position:absolute;inset:0;z-index:-1}.catalog-5 .catalog-note .campaign-copy{display:block;width:calc(100% - 55px);height:100%;margin:auto;align-content:center;white-space:nowrap}
-.catalog-5 .catalog-scene{top:707px;height:153px}.catalog-5.language-bilingual .catalog-values>span{font-size:23px}.catalog-5.language-arabic .catalog-values>span{font-size:28px;line-height:1.6}
+.catalog-5 .catalog-scene{top:707px;height:153px;mask-image:none}.catalog-5.language-bilingual .catalog-values>span{font-size:23px}.catalog-5.language-arabic .catalog-values>span{font-size:28px;line-height:1.6}
 .catalog-5.language-bilingual .catalog-note .campaign-copy{font-size:23px;white-space:normal;line-height:1.1}.catalog-5.language-arabic .catalog-note .campaign-copy{font-size:28px;line-height:1.6}
 
 /* Hero image keeps its full photographic bounds at any source aspect ratio. */

@@ -626,7 +626,9 @@
     "source_sha256": "03389e443d10f1296a27894d0e2fd40fb6275a557f31c2676605d5730a0c595d",
     "destination": "toolkit/poster_catalog.py",
     "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
-    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed.",
+    "current_source_correction_sha256": "03389e443d10f1296a27894d0e2fd40fb6275a557f31c2676605d5730a0c595d",
+    "correction_evidence": "docs/final-template5-port.json"
   },
   {
     "source": "main:assets/smgc/template6/sabah_social_render_cobrand.py",
@@ -647,7 +649,9 @@
     "source_sha256": "d07f55eb8b4b9006459f2c4b5d8676064b7aa31c8ca900f66f0435a27d327c9f",
     "destination": "poster_templates/catalog.css",
     "ownership": "Owner-authorized original local implementation adaptation; no upstream implementation, private account state or production assets copied.",
-    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed."
+    "changes": "Parameterize site/host/assets; preserve documented original controls and explicitly record restrictions in the capability audit. Tests use synthetic data. Native activation and external writes not performed.",
+    "current_source_correction_sha256": "d07f55eb8b4b9006459f2c4b5d8676064b7aa31c8ca900f66f0435a27d327c9f",
+    "correction_evidence": "docs/final-template5-port.json"
   },
   {
     "source": "main:assets/smgc/template6/template6.css",

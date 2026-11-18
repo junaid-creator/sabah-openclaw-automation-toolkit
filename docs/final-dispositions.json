@@ -2017,7 +2017,7 @@
           "tests/test_poster_layouts.py"
         ]
       },
-      "limitation": "Six templates rendered through durable draft/review/approval dispatch with simulated hosting/publication; 18 language renders passed. Genuine QR/semantic review, brand rights, public hosting and real provider acceptance required.",
+      "limitation": "Six templates rendered through durable draft/review/approval dispatch with simulated hosting/publication; 18 language renders passed. Genuine QR/semantic review, brand rights, public hosting and real provider acceptance required. Public Template 5 now reproduces the current original full-hero correction; actual unaffected-template JPEGs are byte-identical. Genuine campaign semantic/QR/live acceptance is not inferred.",
       "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
     {

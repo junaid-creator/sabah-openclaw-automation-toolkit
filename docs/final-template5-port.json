@@ -1,0 +1,65 @@
+{
+  "public_changes": [
+    "Full lower-half hero, proportional meet for Template 5",
+    "Template 5 hero mask disabled; public geometry unchanged"
+  ],
+  "original_sources_read_only": {
+    "MAIN_WORKSPACE/tools/sabah_social_render_catalog.py": "03389e443d10f1296a27894d0e2fd40fb6275a557f31c2676605d5730a0c595d",
+    "MAIN_WORKSPACE/assets/smgc/templates/catalog.css": "d07f55eb8b4b9006459f2c4b5d8676064b7aa31c8ca900f66f0435a27d327c9f"
+  },
+  "non_template5_workflow_jpegs_byte_identical": true,
+  "actual_language_renders": 18,
+  "workflow": {
+    "cases": [
+      {
+        "template": 1,
+        "actual_render": true,
+        "artifact_sha256": "b61a9f21c3f3252f2bbc41e5cbbccd0c9e068f05d30564d634e71d563071ba38",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      },
+      {
+        "template": 2,
+        "actual_render": true,
+        "artifact_sha256": "9c45ea5737505ebbf0924370989e20933ac7f92d98b1a3e143810b4446c45c81",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      },
+      {
+        "template": 3,
+        "actual_render": true,
+        "artifact_sha256": "118d00b88d5c654cc1989772fa2f3f3f301040e25af4691e452ba5e1ede2cf48",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      },
+      {
+        "template": 4,
+        "actual_render": true,
+        "artifact_sha256": "6d413853a61fa58e1a918d4c927717617c7dcafe9c8864d235de34b22c3414b9",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      },
+      {
+        "template": 5,
+        "actual_render": true,
+        "artifact_sha256": "3722e43b1b6f84eb3d84e059a7b46781888b79f1fcbab1cdfc46e69e4b25a9ef",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      },
+      {
+        "template": 6,
+        "actual_render": true,
+        "artifact_sha256": "2de000e4487a3e41e922b1f43e0c62d6a6b618d82463f93e602d30b0673cb3d8",
+        "simulated_platforms": 3,
+        "duplicate_submissions": 0
+      }
+    ],
+    "rendered": 6,
+    "simulated_review_receipts": 6,
+    "simulated_platform_submissions": 18,
+    "replay_submissions": 0,
+    "live_provider_acceptance": false
+  },
+  "semantic_review": "Not claimed for synthetic public fixtures",
+  "production_edits": false
+}

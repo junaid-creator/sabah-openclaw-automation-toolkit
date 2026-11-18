@@ -47,6 +47,15 @@ class PosterTests(unittest.TestCase):
             text=build(n,self.content,self.brand,self.fonts,self.photo)
             self.assertIn('viewBox="0 0 200 400"',text)
         self.assertIn('complete-hero-photo',build(4,self.content,self.brand,self.fonts,self.photo))
+    def test_template_five_full_hero_not_foreground_crop(self):
+        text=build(5,self.content,self.brand,self.fonts,self.photo)
+        scene=text.split('<div class="catalog-scene">',1)[1].split('</div>',1)[0]
+        self.assertIn('viewBox="0 400 800 400"',scene)
+        self.assertIn('xMidYMid meet',scene)
+        self.assertIn('.catalog-5 .catalog-scene{top:707px;height:153px;mask-image:none}',text)
+        control=build(2,self.content,self.brand,self.fonts,self.photo)
+        self.assertIn('xMidYMid slice',control.split('<div class="catalog-scene">',1)[1].split('</div>',1)[0])
+
     def test_input_not_mutated(self):
         before=copy.deepcopy(self.content);build(1,self.content,self.brand,self.fonts,self.photo);self.assertEqual(before,self.content)
         from poster_fixture_helpers import private_demo_assets,NAMES

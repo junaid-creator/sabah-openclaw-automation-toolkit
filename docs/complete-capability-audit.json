@@ -7107,7 +7107,7 @@
         "poster_render"
       ],
       "published_skill": null,
-      "reason": "Six templates rendered through durable draft/review/approval dispatch with simulated hosting/publication; 18 language renders passed. Genuine QR/semantic review, brand rights, public hosting and real provider acceptance required.",
+      "reason": "Six templates rendered through durable draft/review/approval dispatch with simulated hosting/publication; 18 language renders passed. Genuine QR/semantic review, brand rights, public hosting and real provider acceptance required. Public Template 5 now reproduces the current original full-hero correction; actual unaffected-template JPEGs are byte-identical. Genuine campaign semantic/QR/live acceptance is not inferred.",
       "purpose": "poster generation",
       "trigger": "See original source and reference procedure; runtime trigger not independently exercised",
       "original_execution_mechanism": "Original source mechanism recorded; integrated execution not independently traced for every branch",
@@ -7182,7 +7182,8 @@
           "logical_path": "MAIN_WORKSPACE/tools/sabah_social_render_catalog.py",
           "sha256": "0b19cb8e80d636a777a80cf2f13e21f6e27ecf40146c08648299af0139b73b4c",
           "mode": "0o750",
-          "role": "implementation"
+          "role": "implementation",
+          "observed_current_sha256": "03389e443d10f1296a27894d0e2fd40fb6275a557f31c2676605d5730a0c595d"
         },
         {
           "logical_path": "MAIN_WORKSPACE/tools/sabah_social_render_html.py",
@@ -7284,7 +7285,8 @@
           "logical_path": "MAIN_WORKSPACE/assets/smgc/templates/catalog.css",
           "sha256": "6451261f9e0a3188b83459eb831f281959d4ab654ce983aa011103d9f669ea62",
           "mode": "source-read-only",
-          "role": "supporting-resource"
+          "role": "supporting-resource",
+          "observed_current_sha256": "d07f55eb8b4b9006459f2c4b5d8676064b7aa31c8ca900f66f0435a27d327c9f"
         },
         {
           "logical_path": "MAIN_WORKSPACE/assets/smgc/templates/CATALOG.md",
@@ -7365,7 +7367,8 @@
       "configuration_and_installation": [
         "COMPLETE-SETUP-GUIDE.md",
         "CONFIGURATION-REFERENCE.md",
-        "DEPENDENCIES.md"
+        "DEPENDENCIES.md",
+        "docs/template5-port-correction.md"
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
@@ -7377,7 +7380,7 @@
           "tests/test_poster_layouts.py"
         ]
       },
-      "missing_functionality_or_restrictions": "Six templates rendered through durable draft/review/approval dispatch with simulated hosting/publication; 18 language renders passed. Genuine QR/semantic review, brand rights, public hosting and real provider acceptance required.",
+      "missing_functionality_or_restrictions": "Six templates rendered through durable draft/review/approval dispatch with simulated hosting/publication; 18 language renders passed. Genuine QR/semantic review, brand rights, public hosting and real provider acceptance required. Public Template 5 now reproduces the current original full-hero correction; actual unaffected-template JPEGs are byte-identical. Genuine campaign semantic/QR/live acceptance is not inferred.",
       "completion_classification": "PARTIAL",
       "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
@@ -16547,7 +16550,8 @@
       "capabilities": [
         "poster-generation"
       ],
-      "release_classification": "NOT TESTED"
+      "release_classification": "NOT TESTED",
+      "observed_current_sha256": "03389e443d10f1296a27894d0e2fd40fb6275a557f31c2676605d5730a0c595d"
     },
     {
       "logical_path": "MAIN_WORKSPACE/tools/sabah_social_render_html.py",
@@ -17483,7 +17487,8 @@
       "capabilities": [
         "poster-generation"
       ],
-      "release_classification": "NOT TESTED"
+      "release_classification": "NOT TESTED",
+      "observed_current_sha256": "d07f55eb8b4b9006459f2c4b5d8676064b7aa31c8ca900f66f0435a27d327c9f"
     },
     {
       "logical_path": "MAIN_WORKSPACE/assets/smgc/templates/CATALOG.md",
@@ -19373,10 +19378,10 @@
   ],
   "continuation": {
     "baseline": "26fdce2b",
-    "batch": "durable multi-tab social and SEO tracking",
+    "batch": "Template 5 current-source parity correction",
     "new_groups": 0,
     "missing_groups_now": 0,
-    "new_tests": 87,
+    "new_tests": 88,
     "acceptance": "OFFLINE ONLY; PARTIAL"
   }
 }

@@ -1,8 +1,8 @@
 {
   "scope": "Fresh isolated install; offline providers; actual network-denied Chromium",
-  "python_tests": 402,
+  "python_tests": 403,
   "node_tests": 25,
-  "new_python_tests_since_baseline": 87,
+  "new_python_tests_since_baseline": 88,
   "browser_fixture_cases": 4,
   "actual_language_renders": 18,
   "six_template_workflow": {
@@ -38,7 +38,7 @@
       {
         "template": 5,
         "actual_render": true,
-        "artifact_sha256": "eb7ad27a59eb2658383b181bf7279fcebc1d56bf6b78a14a36385cba6857f267",
+        "artifact_sha256": "3722e43b1b6f84eb3d84e059a7b46781888b79f1fcbab1cdfc46e69e4b25a9ef",
         "simulated_platforms": 3,
         "duplicate_submissions": 0
       },
@@ -63,5 +63,6 @@
   "fresh_install_provider_credentials_inherited": false,
   "dependency_audit": "No known vulnerabilities for both pinned requirement sets",
   "workflow_tracker_tests": 9,
-  "integrated_seo_tracker_tests": 1
+  "integrated_seo_tracker_tests": 1,
+  "template5_parity": "Corrected to current original behavior; five other template JPEG hashes unchanged"
 }
