@@ -1,0 +1,14 @@
+{
+  "records": 460,
+  "classifications": {
+    "UPSTREAM REFERENCE": 181,
+    "ADAPT": 265,
+    "BLOCKED": 6,
+    "PUBLISHABLE": 8
+  },
+  "main_skill_entries": 79,
+  "support_skill_entries": 52,
+  "adapted_original_sources": 8,
+  "new_packaged_skills": 1,
+  "scope": "portable core; original full-library mission remains PARTIAL"
+}

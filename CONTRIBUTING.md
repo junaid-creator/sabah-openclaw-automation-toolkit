@@ -1,0 +1,3 @@
+# Contributing
+
+Use a branch and pull request. Include source attribution and licensing evidence, synthetic fixtures, offline tests and accurate scope documentation. Keep production paths, identifiers, logos and customer material out of patches. Run python -m unittest discover -s tests -v and python tests/release_gate.py before review. Network and subprocess use are denied in unit tests. Do not disable these guards to make a test pass. Avoid automatic deployments, paid APIs and credential-dependent tests. Adding a live adapter requires separate permission design and mock/uncertain-outcome coverage.

@@ -1,0 +1,58 @@
+[
+  {
+    "source": "keyword_research.py",
+    "destination": "toolkit/keyword_research.py",
+    "source_sha256": "30bf9d1acf7d1e084f49a2117f23295cd55bb54d3d5fc072a0484e43d01d9210",
+    "changes": "Portable original source",
+    "ownership": "Owner-authorized local workflow implementation; not copied from OpenClaw package. No third-party license header found in reviewed source."
+  },
+  {
+    "source": "content_brief_generator.py",
+    "destination": "toolkit/content_brief_generator.py",
+    "source_sha256": "3a8ef938eaf84af971b00c11415148553e624d7161014bf53aee3ca4a4ffd1b9",
+    "changes": "Portable original source",
+    "ownership": "Owner-authorized local workflow implementation; not copied from OpenClaw package. No third-party license header found in reviewed source."
+  },
+  {
+    "source": "update_meta_tags.py",
+    "destination": "toolkit/local_metadata.py",
+    "source_sha256": "50b4dcf5e42906d55cd638ed1a12dc5331ce622d5c3000de81a764dbec4fa30d",
+    "changes": "Escape HTML metadata, confine paths, dry-run default, explicit --apply; not a CMS writer",
+    "ownership": "Owner-authorized local workflow implementation; not copied from OpenClaw package. No third-party license header found in reviewed source."
+  },
+  {
+    "source": "sabah_blog_runtime.py",
+    "destination": "toolkit/reliability.py",
+    "source_sha256": "d26a75310309e92ce867ed5d95730590ccafd17d9ee2145ce475f35e94dec8fa",
+    "changes": "Extract original locking/checkpoint/reconciliation primitives; exclude production-routed Outbox; configurable local state",
+    "ownership": "Owner-authorized local workflow implementation; not copied from OpenClaw package. No third-party license header found in reviewed source."
+  },
+  {
+    "source": "sabah_blog_ledger.py",
+    "destination": "toolkit/content_ledger.py",
+    "source_sha256": "b35e619e9d36b6fdad5bc4a691d44f2ae0550f6e38204f71d99c572ef4351c05",
+    "changes": "Portable relative import and configurable local ledger; no publication",
+    "ownership": "Owner-authorized local workflow implementation; not copied from OpenClaw package. No third-party license header found in reviewed source."
+  },
+  {
+    "source": "sabah_social_language.py",
+    "destination": "toolkit/language.py",
+    "source_sha256": "c9318f5a28962f5850bd73780a86934920d3a96a03f4f38f57ef49f9c470c5fc",
+    "changes": "Extract language selection/copy checks, remove branded caption generation; reject invalid modes",
+    "ownership": "Owner-authorized local workflow implementation; not copied from OpenClaw package. No third-party license header found in reviewed source."
+  },
+  {
+    "source": "qualified_leads.py",
+    "destination": "toolkit/lead_qualification.py",
+    "source_sha256": "ac9b37d74b6a82296d440489a8c8173286a1372f0168b35f1a18e27a4f1f4459",
+    "changes": "Offline OSM/Overture qualification; explicit region checks, require source ID, no personal-name logs; construction-sector heuristics retained",
+    "ownership": "Owner-authorized local workflow implementation; not copied from OpenClaw package. No third-party license header found in reviewed source."
+  },
+  {
+    "source": "refresh_smgc_kb.py",
+    "destination": "toolkit/knowledge_snapshot.py",
+    "source_sha256": "a8438ec51c7ee332c19d8a2c9074948a927328e9c94bb83d2e449fe9a712cbdb",
+    "changes": "Generic origin/destination/currency; offline fixtures default; explicit network opt-in; refuse redirects. Original first-page-only limit documented",
+    "ownership": "Owner-authorized local workflow implementation; not copied from OpenClaw package. No third-party license header found in reviewed source."
+  }
+]

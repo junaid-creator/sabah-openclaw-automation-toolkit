@@ -1,0 +1,12 @@
+[
+  {
+    "id": "fixture-1",
+    "name": "Example Contracting",
+    "category": "contractor",
+    "latitude": 0.5,
+    "longitude": 0.5,
+    "phone": "EXAMPLE-PHONE",
+    "website": "https://example.com",
+    "area": "Example region"
+  }
+]

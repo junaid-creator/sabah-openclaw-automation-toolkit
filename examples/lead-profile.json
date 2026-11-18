@@ -1,0 +1,18 @@
+{
+  "industry_keywords": {
+    "direct": [
+      "contracting",
+      "construction"
+    ],
+    "adjacent": [
+      "maintenance"
+    ]
+  },
+  "geographic_targets": {
+    "area": "Example region",
+    "latitude_min": 0,
+    "latitude_max": 1,
+    "longitude_min": 0,
+    "longitude_max": 1
+  }
+}

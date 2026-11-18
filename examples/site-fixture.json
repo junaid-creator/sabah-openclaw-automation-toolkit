@@ -1,0 +1,16 @@
+{
+  "/wp-json/wp/v2/pages?per_page=100&_fields=id,link,slug,title,content": [
+    {
+      "id": 1,
+      "link": "https://example.com/about",
+      "slug": "about-us",
+      "title": {
+        "rendered": "Example"
+      },
+      "content": {
+        "rendered": "<p>Fixture reference, not verified business facts.</p>"
+      }
+    }
+  ],
+  "/wp-json/wc/store/v1/products?per_page=100": []
+}
