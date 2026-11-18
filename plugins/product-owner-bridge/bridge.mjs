@@ -4,7 +4,7 @@
 import { spawn } from 'node:child_process';
 import { StringDecoder } from 'node:string_decoder';
 import { createHash, createHmac } from 'node:crypto';
-import { mkdir, open, readFile, lstat } from 'node:fs/promises';
+import { mkdir, open, readFile, lstat, rename, unlink } from 'node:fs/promises';
 import path from 'node:path';
 
 export const canonical = value => JSON.stringify(sort(value));
@@ -37,6 +37,15 @@ export class Store {
     try {const st=await lstat(file);if(!st.isFile()||st.isSymbolicLink()||(st.mode&0o077)||st.uid!==process.getuid())throw Error('PRIVATE_STATE_REQUIRED');return JSON.parse(await readFile(file,'utf8'));}
     catch(e){if(e.code==='ENOENT')return null;throw e;}
   }
+  async replace(name,value) {
+    if(!safeId(name))throw Error('INVALID_STATE_KEY');
+    await this.get(name);
+    const temporary=path.join(this.root,name+'-'+process.pid+'-'+Date.now()+'.tmp');
+    const target=path.join(this.root,name+'.json');
+    let handle;
+    try {handle=await open(temporary,'wx',0o600);await handle.writeFile(canonical(value));await handle.sync();await handle.close();handle=null;await rename(temporary,target);const directory=await open(this.root,'r');try{await directory.sync();}finally{await directory.close();}}
+    finally {await handle?.close();await unlink(temporary).catch(e=>{if(e.code!=='ENOENT')throw e;});}
+  }
   async putOnce(name,value) {
     if(!safeId(name))throw Error('INVALID_STATE_KEY');
     const file=path.join(this.root,name+'.json');
@@ -54,7 +63,9 @@ export function runEngine(envelope, config, environment=process.env, spawnFn=spa
     if(typeof environment[key]==='string')env[key]=environment[key];
   }
   if(!path.isAbsolute(config.python)||!path.isAbsolute(config.checkout)||!path.isAbsolute(config.engineConfig)||!path.isAbsolute(config.engineState))throw Error('EXPLICIT_OPERATOR_PATHS_REQUIRED');
-  const args=['-m','toolkit.product_commands','--config',config.engineConfig,'--state',config.engineState];
+  const module=config.engineModule??'toolkit.product_commands';
+  if(!['toolkit.product_commands','toolkit.social_commands'].includes(module))throw Error('UNSUPPORTED_ENGINE_MODULE');
+  const args=['-m',module,'--config',config.engineConfig,'--state',config.engineState];
   if(config.allowNetwork===true)args.push('--network');
   if(config.allowWrites===true)args.push('--writes');
   return new Promise((resolve,reject)=>{
@@ -86,7 +97,9 @@ export function createBridge(config,{store=new Store(config.stateDir),run=env=>r
   };
   async function before(event,ctx) {
     const text=event?.content;
-    if(typeof text!=='string' || (!text.startsWith('PRODUCT ') && !text.startsWith('MEDIA ') && !text.startsWith('CONFIRM ')))return undefined;
+    const social=config.engineModule==='toolkit.social_commands';
+    const relevant=typeof text==='string' && (text.startsWith('CONFIRM ') || (social?text.startsWith('SOCIAL '):(text.startsWith('PRODUCT ')||text.startsWith('MEDIA '))));
+    if(!relevant)return undefined;
     if(text.length>60000 || /[\x00-\x1f\x7f]/.test(text))return {handled:true,text:'Product command rejected: one bounded exact command required.'};
     const route=ownerRoute(event,ctx,config.routes);
     if(!route)return {handled:true,text:'Product command rejected: trusted direct owner route required.'};
@@ -103,7 +116,7 @@ export function createBridge(config,{store=new Store(config.stateDir),run=env=>r
         attested.timestamp=previous.timestamp;
       } else await store.putOnce('event-'+id,attested);
       const envelope={event:attested,signature:createHmac('sha256',key).update(canonical(attested)).digest('hex')};
-      const review=text.match(/^(?:PRODUCT|MEDIA) REVIEW ((?:product|media)-[a-f0-9]{24})$/);
+      const review=text.match(social?/^SOCIAL REVIEW (SM-[a-f0-9]{20})$/:/^(?:PRODUCT|MEDIA) REVIEW ((?:product|media)-[a-f0-9]{24})$/);
       if(review) {
         const proof=await store.get('review-'+review[1]);
         if(!proof || proof.peer!==route.peer || proof.channel!==route.channel || proof.account!==route.account)throw Error('REAL_REVIEW_RECEIPT_REQUIRED');
@@ -129,7 +142,7 @@ export function createBridge(config,{store=new Store(config.stateDir),run=env=>r
     if(matches.length!==1)return;
     const p=matches[0];
     const proof={delivered:true,message_id:event.messageId,binding_digest:hash(p.binding),channel:p.route.channel,account:p.route.account,peer:p.route.peer};
-    try {await store.putOnce('review-'+p.job,proof);pending.splice(pending.indexOf(p),1);}
+    try {if(config.engineModule==='toolkit.social_commands')await store.replace('review-'+p.job,proof);else await store.putOnce('review-'+p.job,proof);pending.splice(pending.indexOf(p),1);}
     catch{logger.warn('Review receipt persistence failed; approval remains blocked.');}
   }
   return {before,sent};

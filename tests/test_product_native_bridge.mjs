@@ -10,11 +10,12 @@ const ctx={channelId:'telegram',accountId:'test-account',senderId:'test-owner',c
 const event=content=>({isGroup:false,channel:'telegram',messageId:'in-1',content});
 class Memory {
   data=new Map();async init(){}async get(k){return this.data.get(k)??null;}
+  async replace(k,v){this.data.set(k,v);}
   async putOnce(k,v){if(this.data.has(k))assert.equal(canonical(this.data.get(k)),canonical(v));else this.data.set(k,v);}
 }
-function fixture(run) {
+function fixture(run,options={}) {
   const store=new Memory();const calls=[];
-  const bridge=createBridge({stateDir:'/unused',signingKeyEnv:'TEST_SIGNING_KEY',routes:[route]},
+  const bridge=createBridge({stateDir:'/unused',signingKeyEnv:'TEST_SIGNING_KEY',routes:[route],...options},
     {store,environment:{TEST_SIGNING_KEY:key},clock:()=>1000000,run:async e=>{calls.push(e);return run?run(e):{state:'CHECKED'};}});
   return {store,calls,bridge};
 }
@@ -100,4 +101,39 @@ test('engine uses fixed argv, allowlisted environment and safe UTF8 streaming',a
 });
 test('loader environment names cannot be configured through allowlist',()=>{
   assert.throws(()=>runEngine({}, {environmentKeys:['PYTHONPATH']},{PYTHONPATH:'unsafe'}),/UNSAFE_ENVIRONMENT_KEY/);
+});
+
+test('social bridge isolates commands and renews revision receipts',async()=>{
+  const job='SM-'+'a'.repeat(20);let revision=1;
+  const f=fixture(()=>({job_id:job,binding:{job,revision},image_url:'https://media.example/fixture.jpg'}),{engineModule:'toolkit.social_commands'});
+  assert.equal(await f.bridge.before(event('PRODUCT STATUS x'),ctx),undefined);
+  let reply=await f.bridge.before(event('SOCIAL CREATE {}'),ctx);
+  await f.bridge.sent({success:true,messageId:'social-out-1',content:reply.text,to:'telegram:test-owner'},ctx);
+  assert.equal((await f.store.get('review-'+job)).message_id,'social-out-1');
+  revision=2;
+  reply=await f.bridge.before({...event('SOCIAL REVISE '+job+' {}'),messageId:'revision'},{...ctx,messageId:'revision'});
+  await f.bridge.sent({success:true,messageId:'social-out-2',content:reply.text,to:'telegram:test-owner'},ctx);
+  assert.equal((await f.store.get('review-'+job)).message_id,'social-out-2');
+  await f.bridge.before({...event('SOCIAL REVIEW '+job),messageId:'review'},{...ctx,messageId:'review'});
+  assert.equal(f.calls.at(-1).review_receipt.message_id,'social-out-2');
+});
+test('product bridge does not consume social requests',async()=>{
+  const f=fixture();assert.equal(await f.bridge.before(event('SOCIAL CREATE {}'),ctx),undefined);assert.equal(f.calls.length,0);
+});
+test('arbitrary engine modules are rejected',()=>{
+  assert.throws(()=>runEngine({}, {python:'/python',checkout:'/checkout',engineConfig:'/config',engineState:'/state',engineModule:'os'}),/UNSUPPORTED_ENGINE_MODULE/);
+});
+
+test('review replacement is durable and refuses symlink state',async()=>{
+  const {Store}=await import('../plugins/product-owner-bridge/bridge.mjs');
+  const fs=await import('node:fs/promises');const os=await import('node:os');const path=await import('node:path');
+  const root=await fs.mkdtemp(path.join(os.tmpdir(),'toolkit-review-'));
+  try {
+    await fs.chmod(root,0o700);const store=new Store(root);await store.init();
+    await store.replace('review-a',{revision:1});await store.replace('review-a',{revision:2});
+    assert.deepEqual(await new Store(root).get('review-a'),{revision:2});
+    assert.equal((await fs.stat(path.join(root,'review-a.json'))).mode&0o077,0);
+    await fs.symlink(path.join(root,'review-a.json'),path.join(root,'review-b.json'));
+    await assert.rejects(()=>store.replace('review-b',{revision:3}),/PRIVATE_STATE_REQUIRED/);
+  } finally {await fs.rm(root,{recursive:true,force:true});}
 });

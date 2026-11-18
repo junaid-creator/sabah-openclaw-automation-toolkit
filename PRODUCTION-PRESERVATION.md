@@ -22,3 +22,11 @@ The seven read-access limits in the capability audit remain distinct: four
 historical files and three system deployment unit/drop-in files could not be
 read. The complete master task remains PARTIALLY PORTED, not an exhaustive or
 unchanged-production certification.
+
+
+## Continuation comparison
+
+The continuation rehashed 388 registered source/configuration files and compared
+Gateway PID/start/restart metadata. See [current bounded evidence](docs/final-production-preservation.json).
+The two prior source drifts match a separately recorded Template 5 deployment;
+this release neither edited nor reverted them. Business runtime state was not frozen.

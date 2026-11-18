@@ -26,4 +26,5 @@ jobs:
       - name: Native product bridge and support guard tests (no Gateway activation)
         run: |
           node --check plugins/product-owner-bridge/index.mjs
+          node --check plugins/social-owner-bridge/index.mjs
           node --test tests/test_product_native_bridge.mjs tests/test_support_guards.mjs

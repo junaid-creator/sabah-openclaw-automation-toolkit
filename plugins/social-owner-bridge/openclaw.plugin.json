@@ -1,0 +1,59 @@
+{
+  "id": "toolkit-social-owner-bridge",
+  "name": "Toolkit Social Owner Bridge",
+  "description": "Owner-only draft/revision/review approval bridge; no automatic publication.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "stateDir",
+      "python",
+      "checkout",
+      "engineConfig",
+      "engineState",
+      "signingKeyEnv",
+      "environmentKeys",
+      "routes"
+    ],
+    "properties": {
+      "stateDir": {
+        "type": "string"
+      },
+      "python": {
+        "type": "string"
+      },
+      "checkout": {
+        "type": "string"
+      },
+      "engineConfig": {
+        "type": "string"
+      },
+      "engineState": {
+        "type": "string"
+      },
+      "signingKeyEnv": {
+        "type": "string"
+      },
+      "environmentKeys": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "routes": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "allowNetwork": {
+        "type": "boolean",
+        "default": false
+      },
+      "allowWrites": {
+        "type": "boolean",
+        "default": false
+      }
+    }
+  }
+}

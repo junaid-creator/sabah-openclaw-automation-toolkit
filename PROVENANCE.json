@@ -790,5 +790,19 @@
     "source_mapping": "docs/complete-capability-audit.json",
     "changes": "Original release integration against audited behavior; explicit boundaries, no private state/assets copied",
     "ownership": "Owner-authorized original toolkit implementation under repository license"
+  },
+  {
+    "source": "social-draft-review / original native owner bridge",
+    "destination": "toolkit/social_commands.py",
+    "source_mapping": "docs/complete-capability-audit.json",
+    "changes": "Original release integration; references installed upstream SDK without redistributing runtime",
+    "ownership": "Owner-authorized original implementation under repository license"
+  },
+  {
+    "source": "social-draft-review / original native owner bridge",
+    "destination": "plugins/social-owner-bridge/index.mjs",
+    "source_mapping": "docs/complete-capability-audit.json",
+    "changes": "Original release integration; references installed upstream SDK without redistributing runtime",
+    "ownership": "Owner-authorized original implementation under repository license"
   }
 ]

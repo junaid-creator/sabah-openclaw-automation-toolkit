@@ -61,7 +61,7 @@ The four missing groups now have executable implementations and 41 offline tests
 
 ## Integration continuation
 
-59 runtime modules, 24 packaged skills. Added reviewed binary media/native commands,
+60 runtime modules, 24 packaged skills. Added reviewed binary media/native commands,
 source/formula/Sheet reconciliation, customer result/delivery recovery, reviewed-response
 policy, exact schedule admission, SEO draft workflow, and desktop/mobile checks.
 Six actual renders traversed draft/review/approval with simulated publication
@@ -69,3 +69,8 @@ Six actual renders traversed draft/review/approval with simulated publication
 See [product](docs/product-extensions.md), [recovery](docs/recovery-integrations.md),
 [SEO](docs/seo-workflow.md), [browser](docs/browser-verification.md), and
 [evidence](docs/final-integration-acceptance.json).
+
+
+Native social owner commands and revision-bound delivery receipt capture are now
+implemented. See [final guide](FINAL-IMPLEMENTATION.md) and the exhaustive-to-register
+[disposition list](docs/final-dispositions.json). Coverage remains 5 portable / 46 partial.

@@ -1,0 +1,11 @@
+{
+  "compared_files": 388,
+  "unchanged": 388,
+  "changed_count": 0,
+  "read_errors": 0,
+  "gateway_baseline": "ActiveEnterTimestamp=Sun 2026-11-15 14:30:16 UTC\nMainPID=948932\nNRestarts=0\n",
+  "gateway_current": "ActiveEnterTimestamp=Sun 2026-11-15 14:30:16 UTC\nMainPID=948932\nNRestarts=0\n",
+  "same_gateway_generation": true,
+  "production_source_config_service_writes_by_release": false,
+  "scope": "Bounded source/config/service hashes and modes; business runtime state not frozen. No live posts/customer replies/paid Actor starts."
+}

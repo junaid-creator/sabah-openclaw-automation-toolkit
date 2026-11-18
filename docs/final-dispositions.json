@@ -1,0 +1,3746 @@
+{
+  "scope": "All previously registered groups; no repeated discovery",
+  "original_groups": 51,
+  "new_groups": 0,
+  "legacy_mappings_retained": 460,
+  "source_records_retained": 399,
+  "groups": [
+    {
+      "id": "upstream:1password",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 3,
+      "legacy_records": [
+        0,
+        79
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:add-model-provider",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        1
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:apple-notes",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        2,
+        80
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:apple-reminders",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        3,
+        81
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:automation-adapter-verification",
+      "classification": "PARTIAL",
+      "source_records": 6,
+      "legacy_records": [
+        4,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329
+      ],
+      "implementation": [
+        "skills/automation-adapter-verification/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:bear-notes",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        5,
+        82
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:blogwatcher",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        6,
+        83
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:blucli",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        7,
+        84
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:browser-automation",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        8,
+        85
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:camsnap",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        9,
+        86
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:canvas",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        10,
+        87,
+        365
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:capped-external-api-pilot",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        11,
+        316
+      ],
+      "implementation": [
+        "skills/capped-external-api-pilot/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:clawhub",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        12,
+        88
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:cloud-image-bake",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        13
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:coding-agent",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        14,
+        89
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:configure-channel",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        15
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:control-ui",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 3,
+      "legacy_records": [
+        16,
+        90
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:diagnose-gateway",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        17
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:diagram-maker",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 3,
+      "legacy_records": [
+        18,
+        91
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:eightctl",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        19,
+        92
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:gateway-outage-reliability-audit",
+      "classification": "PARTIAL",
+      "source_records": 2,
+      "legacy_records": [
+        20,
+        333,
+        334
+      ],
+      "implementation": [
+        "skills/gateway-outage-reliability-audit/SKILL.md",
+        "toolkit/recovery_snapshot.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py",
+          "tests/test_recovery_snapshot.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:gemini",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        21,
+        93
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:generated-asset-checkpoint-recovery",
+      "classification": "PARTIAL",
+      "source_records": 3,
+      "legacy_records": [
+        22,
+        305,
+        306,
+        307
+      ],
+      "implementation": [
+        "skills/generated-asset-checkpoint-recovery/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:gh-issues",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        23,
+        94
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:gifgrep",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        24,
+        95
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:github",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        25,
+        96,
+        378
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:gog",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        26,
+        97
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "blocked:gog-clean",
+      "classification": "LICENSE/ACCESS BLOCKED",
+      "source_records": 2,
+      "legacy_records": [
+        27,
+        295,
+        456
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Source explicitly identifies derivative ancestry; upstream redistribution/license chain is unresolved. All six original blocked records remain excluded.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:google-sheets-readiness",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        28,
+        318
+      ],
+      "implementation": [
+        "skills/google-sheets-readiness/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:goplaces",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        29,
+        98
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:healthcheck",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        30,
+        99
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:himalaya",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 3,
+      "legacy_records": [
+        31,
+        100
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:mcporter",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        32,
+        101
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:meme-maker",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 3,
+      "legacy_records": [
+        33,
+        102
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:model-usage",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 4,
+      "legacy_records": [
+        34,
+        103
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:multi-platform-publication-recovery",
+      "classification": "PARTIAL",
+      "source_records": 3,
+      "legacy_records": [
+        35,
+        309,
+        310,
+        311
+      ],
+      "implementation": [
+        "skills/multi-platform-publication-recovery/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:nano-pdf",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        36,
+        104
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:node-connect",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        37,
+        105
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:node-inspect-debugger",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        38,
+        106
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:notion",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        39,
+        107
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:obsidian",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        40,
+        108
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:openai-whisper",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        41,
+        109
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:openai-whisper-api",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 2,
+      "legacy_records": [
+        42,
+        110
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:openhue",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        43,
+        111
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:oracle",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        44,
+        112
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:ordercli",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        45,
+        113
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:peekaboo",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        46,
+        114
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:poster-template-integration",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        47,
+        336
+      ],
+      "implementation": [
+        "skills/poster-template-integration/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "skill:private-mobile-gateway-pairing",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        48,
+        313
+      ],
+      "implementation": [
+        "skills/private-mobile-gateway-pairing/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:python-debugpy",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        49,
+        115
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:sabah-daily-seo-blog",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        50
+      ],
+      "implementation": [
+        "skills/sabah-daily-seo-blog/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:sag",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        51,
+        116
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:seo-marketing-pro",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        52
+      ],
+      "implementation": [
+        "skills/seo-marketing-pro/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:sherpa-onnx-tts",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        53,
+        117
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:skill-creator",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 6,
+      "legacy_records": [
+        54,
+        118
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:smgc-publication-intake-diagnosis",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        55,
+        335
+      ],
+      "implementation": [
+        "skills/smgc-publication-intake-diagnosis/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "skill:smgc-social-media",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        56,
+        294
+      ],
+      "implementation": [
+        "skills/smgc-social-media/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:songsee",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        57,
+        119
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:sonoscli",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        58,
+        120
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:spike",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        59,
+        121
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:spotify-player",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        60,
+        122
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:summarize",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        61,
+        123
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:supplied-image-intake",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        62,
+        312
+      ],
+      "implementation": [
+        "skills/supplied-image-intake/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "skill:system-management-model-routing",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        63,
+        314
+      ],
+      "implementation": [
+        "skills/system-management-model-routing/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:things-mac",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        64,
+        124
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:tmux",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 3,
+      "legacy_records": [
+        65,
+        125
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:trello",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        66,
+        126
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:visualize",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        67,
+        127
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:wacli",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        68,
+        128
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:weather",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        69,
+        129
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "skill:woocommerce-cart-checkout-diagnosis",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        70,
+        319
+      ],
+      "implementation": [
+        "skills/woocommerce-cart-checkout-diagnosis/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "skill:woocommerce-catalog-reconciliation",
+      "classification": "PARTIAL",
+      "source_records": 4,
+      "legacy_records": [
+        71,
+        320,
+        321,
+        322,
+        323
+      ],
+      "implementation": [
+        "skills/woocommerce-catalog-reconciliation/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "skill:woocommerce-price-display-audit",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        72,
+        315
+      ],
+      "implementation": [
+        "skills/woocommerce-price-display-audit/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "skill:woocommerce-product-content-seo",
+      "classification": "PARTIAL",
+      "source_records": 2,
+      "legacy_records": [
+        73,
+        331,
+        332
+      ],
+      "implementation": [
+        "skills/woocommerce-product-content-seo/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "skill:wordpress-additive-content-update",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        74,
+        330
+      ],
+      "implementation": [
+        "skills/wordpress-additive-content-update/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "skill:wordpress-child-theme-readiness",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        75,
+        308
+      ],
+      "implementation": [
+        "skills/wordpress-child-theme-readiness/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "skill:wordpress-page-style-correction",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        76,
+        317
+      ],
+      "implementation": [
+        "skills/wordpress-page-style-correction/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "blocked:wordpress-rest-api-clean",
+      "classification": "LICENSE/ACCESS BLOCKED",
+      "source_records": 2,
+      "legacy_records": [
+        77,
+        296,
+        457
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Source explicitly identifies derivative ancestry; upstream redistribution/license chain is unresolved. All six original blocked records remain excluded.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:xurl",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 1,
+      "legacy_records": [
+        78,
+        130
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "other:woocommerce-verify-badges.py",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [
+        131
+      ],
+      "implementation": [
+        "toolkit/badge_audit.py",
+        "toolkit/browser_verification.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/browser_fixture_acceptance.py",
+          "tests/test_missing_business_oauth.py",
+          "tests/test_missing_implementations.py"
+        ]
+      },
+      "limitation": "Server HTML audit plus actual desktop/mobile local Chromium visibility/text/count checks verified. Live cart/checkout, JavaScript hydration and authenticated website operations remain separate acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "seo-blog-engine",
+      "classification": "PARTIAL",
+      "source_records": 39,
+      "legacy_records": [
+        132,
+        190,
+        197,
+        200,
+        203,
+        210,
+        212,
+        214,
+        222,
+        226,
+        234,
+        237,
+        239,
+        244,
+        246,
+        248,
+        249,
+        251,
+        255,
+        260,
+        263,
+        264,
+        278,
+        279,
+        281,
+        282,
+        285,
+        286,
+        287,
+        289,
+        291,
+        297,
+        337,
+        338,
+        339,
+        340,
+        458,
+        459
+      ],
+      "implementation": [
+        "toolkit/blog_controller.py",
+        "toolkit/blog_gates.py",
+        "toolkit/blog_publication.py",
+        "toolkit/content_ledger.py",
+        "toolkit/draft_primitives.py",
+        "toolkit/reliability.py",
+        "toolkit/seo_workflow.py",
+        "toolkit/wordpress.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_blog_controller.py",
+          "tests/test_core.py",
+          "tests/test_platform_adapters.py",
+          "tests/test_product_workflow.py",
+          "tests/test_seo_workflow.py"
+        ]
+      },
+      "limitation": "Integrated inventory/research/article/image-task/three-WebP/CMS-draft/validation/owner-receipt pipeline added. Three-tab tracker schema, SEO-plugin fields, inline media URL rewriting, semantic/source quality and native provider adapters remain deployment-specific.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "social-scheduling",
+      "classification": "PARTIAL",
+      "source_records": 21,
+      "legacy_records": [
+        133,
+        140,
+        142,
+        147,
+        156,
+        168,
+        169,
+        171,
+        235,
+        259,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        427,
+        442,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454
+      ],
+      "implementation": [
+        "toolkit/product_rotation.py",
+        "toolkit/schedule_core.py",
+        "toolkit/schedule_dispatch.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_engines.py",
+          "tests/test_schedule_dispatch.py"
+        ]
+      },
+      "limitation": "Signed exact-content/time approval, revocation, due/grace admission and no-repeat dispatch added. No timer activation; native routing and provider worker acceptance required.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "deployment-specific-utilities",
+      "classification": "PARTIAL",
+      "source_records": 5,
+      "legacy_records": [
+        134,
+        138,
+        144,
+        145,
+        149
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Supporting test/package/deployment-utility records, not additional standalone skills; retained in record accounting rather than reimplemented individually.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "verification-harnesses",
+      "classification": "PARTIAL",
+      "source_records": 9,
+      "legacy_records": [
+        135,
+        148,
+        158,
+        172,
+        230
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Supporting test/package/deployment-utility records, not additional standalone skills; retained in record accounting rather than reimplemented individually.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "tiktok-auth",
+      "classification": "PARTIAL",
+      "source_records": 5,
+      "legacy_records": [
+        136,
+        180,
+        181
+      ],
+      "implementation": [
+        "toolkit/tiktok_oauth.py",
+        "toolkit/isolated_store.py",
+        "toolkit/tiktok_business_oauth.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "41 new offline tests; no live acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_missing_implementations.py",
+          "tests/test_missing_business_oauth.py"
+        ]
+      },
+      "limitation": "Independent Login Kit and Business Accounts v1.3 exchange/rotation with private stores and publisher token-provider integration. Business consent URL needs operator-reviewed app configuration; live OAuth, revocation and encrypted vault acceptance required.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "social-publishing",
+      "classification": "PARTIAL",
+      "source_records": 27,
+      "legacy_records": [
+        137,
+        139,
+        146,
+        151,
+        152,
+        153,
+        154,
+        155,
+        157,
+        159,
+        161,
+        162,
+        164,
+        165,
+        166,
+        167,
+        170,
+        173,
+        174,
+        175,
+        176,
+        217,
+        256,
+        262,
+        292
+      ],
+      "implementation": [
+        "toolkit/approval_ledger.py",
+        "toolkit/meta_publisher.py",
+        "toolkit/tiktok_publisher.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_engines.py",
+          "tests/test_meta_publisher.py",
+          "tests/test_platform_adapters.py"
+        ]
+      },
+      "limitation": "FB/IG adapter, TikTok adapter and durable approval/revocation are implemented. The original multi-platform Engine worker, exact visual/asset binding and autonomous recovery dispatcher still require a portable integrated harness.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "notification-delivery",
+      "classification": "PARTIAL",
+      "source_records": 10,
+      "legacy_records": [
+        141,
+        143,
+        150,
+        160,
+        163,
+        192,
+        233,
+        243,
+        252,
+        254
+      ],
+      "implementation": [
+        "plugins/product-owner-bridge/bridge.mjs",
+        "toolkit/notification_outbox.py",
+        "toolkit/reply_recovery.py",
+        "toolkit/report_outbox.py",
+        "toolkit/seo_workflow.py",
+        "toolkit/trusted_bridge.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_blog_controller.py",
+          "tests/test_engines.py",
+          "tests/test_product_native_bridge.mjs",
+          "tests/test_product_workflow.py",
+          "tests/test_reply_recovery.py",
+          "tests/test_seo_workflow.py",
+          "tests/test_trusted_bridge.py"
+        ]
+      },
+      "limitation": "Exact owner/customer receipt correlation and unknown-send fencing integrated. Native transport/account delivery remain live acceptance required; missing notification proof never authorizes republishing.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "product-catalog",
+      "classification": "PARTIAL",
+      "source_records": 14,
+      "legacy_records": [
+        177,
+        178,
+        179,
+        188,
+        198,
+        224,
+        225,
+        240,
+        242,
+        266,
+        284,
+        349,
+        350,
+        351,
+        352,
+        353
+      ],
+      "implementation": [
+        "plugins/product-owner-bridge/index.mjs",
+        "toolkit/product_api.py",
+        "toolkit/product_commands.py",
+        "toolkit/product_media.py",
+        "toolkit/product_plan.py",
+        "toolkit/product_recovery.py",
+        "toolkit/product_workflow.py",
+        "toolkit/source_reconciliation.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_product_extensions.py",
+          "tests/test_product_native_bridge.mjs",
+          "tests/test_product_workflow.py"
+        ]
+      },
+      "limitation": "Native MEDIA plan/review/confirm/execute/revoke, rights/hash-bound upload, source/formula snapshot and exact Sheet mirror added. Configured source adapter/exclusive writer and live storefront/native acceptance required; SQL restore is not safely equivalent to REST.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "watchdog",
+      "classification": "PARTIAL",
+      "source_records": 10,
+      "legacy_records": [
+        182,
+        199,
+        201,
+        205,
+        211,
+        213,
+        216,
+        218,
+        219,
+        283
+      ],
+      "implementation": [
+        "toolkit/watchdog.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_watchdog.py"
+        ]
+      },
+      "limitation": "Task lifecycle, stalls, endpoint health and inquiry failure reader are implemented. Native runtime-event ingestion and production-specific result watchers/delivery daemon remain outside the standalone adapter.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "apify-budgeted-acquisition",
+      "classification": "PARTIAL",
+      "source_records": 3,
+      "legacy_records": [
+        183,
+        204,
+        293
+      ],
+      "implementation": [
+        "toolkit/apify_budget.py",
+        "toolkit/apify_client.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_acquisition.py",
+          "tests/test_apify_pagination.py",
+          "tests/test_engines.py"
+        ]
+      },
+      "limitation": "Capped start/collection and independent policy/credit guards are implemented and mocked. Complete account inventory now uses bounded pagination (100 rows/page, 20 pages), validates metadata and run states, and rechecks the head before admission. Histories exceeding 2,000 runs, changing/unknown inventory and active runs fail closed. Scheduled owner billing-evidence monitoring and native routing remain unported; concurrent starts by other clients cannot be atomically excluded.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "social-draft-review",
+      "classification": "PARTIAL",
+      "source_records": 7,
+      "legacy_records": [
+        184,
+        186,
+        231,
+        236,
+        258,
+        273
+      ],
+      "implementation": [
+        "plugins/product-owner-bridge/bridge.mjs",
+        "plugins/social-owner-bridge/index.mjs",
+        "toolkit/social_commands.py",
+        "toolkit/social_publish_gate.py",
+        "toolkit/social_review.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "41 new offline tests; no live acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_missing_implementations.py",
+          "tests/test_missing_business_oauth.py",
+          "tests/test_social_commands.py",
+          "tests/test_product_native_bridge.mjs"
+        ]
+      },
+      "limitation": "Durable six-template create/revise/review/exact approval plus native owner hook/command executable added. Exact native receipt renewal, revocation and command isolation tested. Owned HTTPS static hosting, Sheets synchronization, natural-language/image-generation adapters, publication worker wiring and live native/provider acceptance remain partial.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "poster-generation",
+      "classification": "PARTIAL",
+      "source_records": 30,
+      "legacy_records": [
+        185,
+        187,
+        189,
+        195,
+        196,
+        202,
+        215,
+        221,
+        223,
+        229,
+        232,
+        238,
+        247,
+        250,
+        257,
+        265,
+        269,
+        271,
+        274,
+        275,
+        276,
+        277,
+        288,
+        290,
+        303
+      ],
+      "implementation": [
+        "poster_templates/catalog.css",
+        "poster_templates/reference.css",
+        "poster_templates/template6.css",
+        "toolkit/image_intake.py",
+        "toolkit/poster_catalog.py",
+        "toolkit/poster_cobrand.py",
+        "toolkit/poster_reference.py",
+        "toolkit/poster_render.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/social_render_acceptance.py",
+          "tests/test_image_intake.py",
+          "tests/test_poster_layouts.py"
+        ]
+      },
+      "limitation": "Six templates rendered through durable draft/review/approval dispatch with simulated hosting/publication; 18 language renders passed. Genuine QR/semantic review, brand rights, public hosting and real provider acceptance required.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "blog-image-recovery",
+      "classification": "PARTIAL",
+      "source_records": 12,
+      "legacy_records": [
+        191,
+        194,
+        207,
+        208,
+        220,
+        227,
+        228,
+        253,
+        261,
+        267,
+        268,
+        272
+      ],
+      "implementation": [
+        "toolkit/blog_assets.py",
+        "toolkit/blog_controller.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_blog_controller.py"
+        ]
+      },
+      "limitation": "Receipt-bound three-image validation/recovery is implemented. Provider-task capture/replay bridge and original marker/crop quality reviewer depend on host-owned task and artifact contracts not ported.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "lead-acquisition",
+      "classification": "PARTIAL",
+      "source_records": 3,
+      "legacy_records": [
+        193,
+        206,
+        270
+      ],
+      "implementation": [
+        "toolkit/google_sheets.py",
+        "toolkit/lead_qualification.py",
+        "toolkit/lead_sheet_merge.py",
+        "toolkit/overture_adapter.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_acquisition.py",
+          "tests/test_core.py",
+          "tests/test_google_sheets.py"
+        ]
+      },
+      "limitation": "Overture acquisition, conversion, qualification, dedup and approved Google lead merge/readback are implemented. Original verified-site/geography-specific enrichment and weekly notification orchestration are not generalized.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "campaign-language",
+      "classification": "VERIFIED PORTABLE",
+      "source_records": 1,
+      "legacy_records": [
+        209
+      ],
+      "implementation": [
+        "toolkit/language.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_core.py"
+        ]
+      },
+      "limitation": "Original local language-selection/validation behavior ported and regression-tested.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "wordpress-client",
+      "classification": "PARTIAL",
+      "source_records": 2,
+      "legacy_records": [
+        241,
+        280
+      ],
+      "implementation": [
+        "toolkit/wordpress.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_platform_adapters.py",
+          "tests/test_product_workflow.py"
+        ]
+      },
+      "limitation": "Authenticated REST read/update/media functionality is provided by the portable WordPress client; production-bound shell invocation and credentials are intentionally not copied. Live account integration is NOT TESTED.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "google-sheets-adapter",
+      "classification": "PARTIAL",
+      "source_records": 2,
+      "legacy_records": [
+        245
+      ],
+      "implementation": [
+        "toolkit/google_readiness.py",
+        "toolkit/google_sheets.py",
+        "toolkit/source_reconciliation.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_content_review.py",
+          "tests/test_google_sheets.py",
+          "tests/test_product_extensions.py"
+        ]
+      },
+      "limitation": "Stable source rows/formulas, mapped product requests and no-replay exact Sheet mirror added. Private multi-tab schemas are not assumed; authenticated account and exclusive writer acceptance required.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "seo-local-tools",
+      "classification": "VERIFIED PORTABLE",
+      "source_records": 6,
+      "legacy_records": [
+        298,
+        299,
+        300,
+        301,
+        302,
+        455
+      ],
+      "implementation": [
+        "toolkit/content_brief_generator.py",
+        "toolkit/content_review.py",
+        "toolkit/elementor_plan.py",
+        "toolkit/keyword_research.py",
+        "toolkit/local_metadata.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_content_review.py",
+          "tests/test_core.py",
+          "tests/test_elementor_plan.py"
+        ]
+      },
+      "limitation": "Original local SEO helpers and inert Elementor command-plan generation reproduced; the original wrapper did not execute Elementor. Real browser/analytics operations remain upstream/account dependencies.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "customer-knowledge",
+      "classification": "VERIFIED PORTABLE",
+      "source_records": 3,
+      "legacy_records": [
+        304,
+        438,
+        440
+      ],
+      "implementation": [
+        "toolkit/knowledge_snapshot.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_core.py"
+        ]
+      },
+      "limitation": "Original bounded public knowledge snapshot behavior generalized and fixture-tested; original first-page-only limitation remains explicit. Fresh live account/scheduler acceptance not claimed.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:a2a",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        354
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:active-memory",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        355
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:admin-http-rpc",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        356
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:agentsapi",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        357
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:alibaba",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        358
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:anthropic",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        359
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:apple-fm",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        360
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:azure-speech",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        361
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:beam",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        362
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:bonjour",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        363
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:browser",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        364
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:clawrouter",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        366
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:code-mode-quickjs",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        367
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:copilot-proxy",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        368
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:crabbox",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        369
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:cua-computer",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        370
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:deepgram",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        371
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:device-pair",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        372
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:document-extract",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        373
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:elevenlabs",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        374
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:fal",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        375
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:file-transfer",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        376
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:geolocation",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        377
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:github-copilot",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        379
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:google",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        380
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:huggingface",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        381
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:imap",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        382
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:kie",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        383
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:linux-node",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        384
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:litellm",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        385
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:llm-task",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        386
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:lmstudio",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        387
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:logbook",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        388
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:memory-core",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        389
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:memory-wiki",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        390
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:microsoft",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        391
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:microsoft-foundry",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        392
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:migrate-claude",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        393
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:migrate-hermes",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        394
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:minimax",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        395
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:nvidia",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        396
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:oc-path",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        397
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:ollama",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        398
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:onepassword",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        399
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:openai",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        400
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:opencode-go",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        401
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:openrouter",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        402
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:policy",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        403
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:reef",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        404
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:runway",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        405
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:senseaudio",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        406
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:session-share",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        407
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:sglang",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        408
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:talk-voice",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        409
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:telegram",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        410
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:together",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        411
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:tts-local-cli",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        412
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:vault",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        413
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:vllm",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        414
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:web-readability",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        415
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:workboard",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        416
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:xai",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        417
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:apify-openclaw-plugin",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        418
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:codex",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        419
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:parallel",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        420
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:whatsapp",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        421
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:boot-md",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        422
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:bootstrap-extra-files",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        423
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:command-logger",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        424
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:compaction-notifier",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        425
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream:session-memory",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        426
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "gateway-monitor",
+      "classification": "PARTIAL",
+      "source_records": 5,
+      "legacy_records": [
+        428,
+        431,
+        441,
+        446
+      ],
+      "implementation": [
+        "examples/services/toolkit-monitor.service",
+        "examples/services/toolkit-monitor.timer",
+        "toolkit/gateway_monitor.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_gateway_monitor.py"
+        ]
+      },
+      "limitation": "Independent alert-only HTTP probe, durable incident/unknown-send fencing and optional configured Telegram transport plus inert service templates are executable. Actual natural service invocation and owner delivery NOT TESTED; no Gateway control.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "deployment-adapters",
+      "classification": "PARTIAL",
+      "source_records": 25,
+      "legacy_records": [
+        429,
+        430,
+        432,
+        433,
+        434,
+        436,
+        437,
+        439,
+        443,
+        444,
+        445
+      ],
+      "implementation": [
+        "toolkit/setup_scaffold.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_trusted_bridge.py"
+        ]
+      },
+      "limitation": "Original service/timer definitions contain host-specific executables, identities and environment bindings. They remain excluded from automatic installation; no production schedules are activated. Inert two-workspace scaffolder implemented and tested; no fresh Gateway or service installation acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream:openclaw-runtime",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 0,
+      "legacy_records": [
+        435
+      ],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Use official upstream distribution. A service-helper reference resolved to the installed OpenClaw runtime, not original code, and was corrected to upstream.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "customer-support-policy",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [],
+      "implementation": [
+        "toolkit/reply_recovery.py",
+        "toolkit/support_policy.py",
+        "toolkit/trusted_bridge.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_product_workflow.py",
+          "tests/test_support_reviewed_policy.py",
+          "tests/test_trusted_bridge.py"
+        ]
+      },
+      "limitation": "Executable locale/intent-bound reviewed phrase policy plus durable reply path. Arbitrary free-form semantic correctness is not certified by static rules; classifier/reviewer and fresh-agent acceptance remain required.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "skill:public-toolkit-release",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [],
+      "implementation": [
+        "skills/public-toolkit-release/SKILL.md"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/release_gate.py"
+        ]
+      },
+      "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "local-speech-recognition",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [],
+      "implementation": [
+        "toolkit/local_voice.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_local_voice.py"
+        ]
+      },
+      "limitation": "Executable adapter and synthetic subprocess tests; actual model/license/accuracy/native attachment acceptance NOT TESTED.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "local-voice-synthesis",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [],
+      "implementation": [
+        "toolkit/local_voice.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_local_voice.py"
+        ]
+      },
+      "limitation": "No model or voice redistributed. Actual model quality/licensing, native voice reply and audio/text priority NOT TESTED.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "voice-runtime-control",
+      "classification": "PARTIAL",
+      "source_records": 8,
+      "legacy_records": [],
+      "implementation": [
+        "toolkit/voice_control.py",
+        "toolkit/isolated_store.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "41 new offline tests; no live acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_missing_implementations.py",
+          "tests/test_missing_business_oauth.py"
+        ]
+      },
+      "limitation": "Executable opt-in isolated voice settings, merge/CAS/history rollback and local_voice configuration. No Gateway configuration activation; native model quality/licensing and channel acceptance required.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "customer-support-control",
+      "classification": "PARTIAL",
+      "source_records": 2,
+      "legacy_records": [],
+      "implementation": [
+        "plugins/support-guards/guards.mjs"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_support_guards.mjs"
+        ]
+      },
+      "limitation": "Local mode state is executable. Original authenticated owner command/config-patch integration and exact native send-policy merge are not ported or fresh-host validated.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "integrity-guard",
+      "classification": "PARTIAL",
+      "source_records": 4,
+      "legacy_records": [],
+      "implementation": [
+        "toolkit/gateway_monitor.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_gateway_monitor.py"
+        ]
+      },
+      "limitation": "Generic manifest checks exist. Native plugin source attestation, exact DB schemas, startup fencing and deliberate stop-policy service adapter remain unported; no stop/restart behavior added.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "native-rate-limit",
+      "classification": "VERIFIED PORTABLE",
+      "source_records": 1,
+      "legacy_records": [],
+      "implementation": [
+        "plugins/support-guards/guards.mjs"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_support_guards.mjs"
+        ]
+      },
+      "limitation": "Actual disposable SQLite tests pass. Callable library only, not activated native interception. Retains tombstones rather than original seven-day deletion.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "native-delivery-guard",
+      "classification": "VERIFIED PORTABLE",
+      "source_records": 1,
+      "legacy_records": [],
+      "implementation": [
+        "plugins/support-guards/guards.mjs"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_support_guards.mjs"
+        ]
+      },
+      "limitation": "Callable admission guard verified with SQLite; no delivery guarantee or native transport activation. Missing mode fails closed; callback needs its own durable receipt ledger.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "customer-reply-runtime-recovery",
+      "classification": "PARTIAL",
+      "source_records": 1,
+      "legacy_records": [],
+      "implementation": [
+        "toolkit/notification_outbox.py",
+        "toolkit/reply_recovery.py",
+        "toolkit/trusted_bridge.py"
+      ],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Offline disposable fixtures; actual local browser/render evidence separately recorded; no live external acceptance",
+        "fresh_live_e2e": false,
+        "paths": [
+          "tests/test_engines.py",
+          "tests/test_product_workflow.py",
+          "tests/test_reply_recovery.py",
+          "tests/test_trusted_bridge.py"
+        ]
+      },
+      "limitation": "Durable inquiry/task/final-result correlation and exact delivery reconciliation added. Authorized native result-reader and messaging callbacks remain deployment integrations; no private transcript reading or guessed API.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+    },
+    {
+      "id": "upstream-patched-whatsapp",
+      "classification": "LICENSE/ACCESS BLOCKED",
+      "source_records": 3,
+      "legacy_records": [],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Patched upstream distribution is not an original standalone implementation; exact patch/attribution/license and supported host contract have not been reconstructed. Link official distribution, do not redistribute installed bundles.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "upstream-system-and-runtime",
+      "classification": "UPSTREAM DEPENDENCY",
+      "source_records": 18,
+      "legacy_records": [],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Official runtime, OS and binary dependencies; no redistribution.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "historical-supporting-artifacts",
+      "classification": "PARTIAL",
+      "source_records": 12,
+      "legacy_records": [],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Historical backup/test candidate, not an additional active original capability. Excluded from release.",
+      "live_acceptance": "Not claimed; see functional scope"
+    },
+    {
+      "id": "unresolved-source-attribution",
+      "classification": "PARTIAL",
+      "source_records": 0,
+      "legacy_records": [],
+      "implementation": [],
+      "tests": {
+        "suite": "unittest offline fixtures + Node tests where applicable",
+        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "fresh_live_e2e": false,
+        "paths": []
+      },
+      "limitation": "Source identity observed but behavior/ownership not fully traced; NOT TESTED. No completeness claim.",
+      "live_acceptance": "Not claimed; see functional scope"
+    }
+  ]
+}

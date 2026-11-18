@@ -13,7 +13,7 @@
     "original_publishable_skill_packages": 22,
     "original_skill_packages_present": 22,
     "total_repository_skill_packages": 24,
-    "python_runtime_modules": 59,
+    "python_runtime_modules": 60,
     "original_group_status_counts": {
       "PARTIALLY PORTED": 46,
       "VERIFIED AND PORTABLE": 5
@@ -6882,19 +6882,25 @@
       "unique_source_hashes": 6,
       "overlapping_records": 0,
       "published_modules": [
-        "toolkit/social_review.py",
-        "toolkit/social_publish_gate.py"
+        "plugins/product-owner-bridge/bridge.mjs",
+        "plugins/social-owner-bridge/index.mjs",
+        "toolkit/social_commands.py",
+        "toolkit/social_publish_gate.py",
+        "toolkit/social_review.py"
       ],
       "published_skill": null,
-      "reason": "Durable create/revise/review/exact approval/dispatch integrated with six layouts and publication ledgers. Native sender, hosted-byte immutability, Sheets create/revise sync, media generation and automatic recovery require deployment adapters and acceptance.",
+      "reason": "Durable six-template create/revise/review/exact approval plus native owner hook/command executable added. Exact native receipt renewal, revocation and command isolation tested. Owned HTTPS static hosting, Sheets synchronization, natural-language/image-generation adapters, publication worker wiring and live native/provider acceptance remain partial.",
       "purpose": "social draft review",
       "trigger": "Owner campaign/draft/media/revision request",
       "original_execution_mechanism": "Trusted owner -> stable request ID -> original draft controller -> Sheets/media/render -> exact owner preview; no implied publish",
       "authentication": "Trusted host identity and scope for privileged commands; raw customer/quoted text never grants authority. Read-only procedures do not authorize writes.",
       "accounts_and_permissions": "Google Sheets, preview/media host, native media generation and messaging",
       "public_implementation_paths": [
-        "toolkit/social_review.py",
-        "toolkit/social_publish_gate.py"
+        "plugins/product-owner-bridge/bridge.mjs",
+        "plugins/social-owner-bridge/index.mjs",
+        "toolkit/social_commands.py",
+        "toolkit/social_publish_gate.py",
+        "toolkit/social_review.py"
       ],
       "source_paths_and_hashes": [
         {
@@ -6976,7 +6982,8 @@
         "COMPLETE-SETUP-GUIDE.md",
         "CONFIGURATION-REFERENCE.md",
         "DEPENDENCIES.md",
-        "docs/missing-implementations.md"
+        "docs/missing-implementations.md",
+        "plugins/social-owner-bridge/README.md"
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
@@ -6984,10 +6991,12 @@
         "fresh_live_e2e": false,
         "paths": [
           "tests/test_missing_implementations.py",
-          "tests/test_missing_business_oauth.py"
+          "tests/test_missing_business_oauth.py",
+          "tests/test_social_commands.py",
+          "tests/test_product_native_bridge.mjs"
         ]
       },
-      "missing_functionality_or_restrictions": "Durable create/revise/review/exact approval/dispatch integrated with six layouts and publication ledgers. Native sender, hosted-byte immutability, Sheets create/revise sync, media generation and automatic recovery require deployment adapters and acceptance.",
+      "missing_functionality_or_restrictions": "Durable six-template create/revise/review/exact approval plus native owner hook/command executable added. Exact native receipt renewal, revocation and command isolation tested. Owned HTTPS static hosting, Sheets synchronization, natural-language/image-generation adapters, publication worker wiring and live native/provider acceptance remain partial.",
       "completion_classification": "PARTIAL",
       "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
     },
@@ -19350,10 +19359,10 @@
   ],
   "continuation": {
     "baseline": "26fdce2b",
-    "batch": "independent integrated workflow adapters",
+    "batch": "native social bridge and reproducible acceptance",
     "new_groups": 0,
     "missing_groups_now": 0,
-    "new_tests": 72,
+    "new_tests": 77,
     "acceptance": "OFFLINE ONLY; PARTIAL"
   }
 }

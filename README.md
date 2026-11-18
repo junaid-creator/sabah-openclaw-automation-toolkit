@@ -89,3 +89,11 @@ replica or fresh external end-to-end acceptance is claimed.
 ## Implementation continuation
 
 Four previously missing groups now have executable offline-tested partial ports: badge audit, independent TikTok Business/Login Kit OAuth, social draft/revision/review/dispatch and isolated voice control. See [current audit](COMPLETE-CAPABILITY-AUDIT.md) and [installation/limits](docs/missing-implementations.md). No live acceptance is implied.
+
+
+## Current release acceptance
+
+See [final implementation guide](FINAL-IMPLEMENTATION.md) for executable setup,
+60 runtime modules / 24 skills, 392 Python and 25 Node tests, actual local browser
+and six-template workflow acceptance, production preservation and exact limitations.
+This is a verified public release, not 100% reproduction or live-provider acceptance.
