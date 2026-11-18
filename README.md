@@ -85,3 +85,7 @@ The inert scaffolder and signed application boundary are not automatic deploymen
 The latest [complete capability audit](COMPLETE-CAPABILITY-AUDIT.md) supersedes older
 coverage counts. Existing features/history are preserved; no full production
 replica or fresh external end-to-end acceptance is claimed.
+
+## Implementation continuation
+
+Four previously missing groups now have executable offline-tested partial ports: badge audit, independent TikTok Business/Login Kit OAuth, social draft/revision/review/dispatch and isolated voice control. See [current audit](COMPLETE-CAPABILITY-AUDIT.md) and [installation/limits](docs/missing-implementations.md). No live acceptance is implied.

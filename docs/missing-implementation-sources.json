@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "baseline": "26fdce2b",
+  "derivation": "Independent reconstruction from scoped source behavior; no production paths, credentials, models or assets bundled",
+  "groups": [
+    {
+      "capability_id": "other:woocommerce-verify-badges.py",
+      "implementation_paths": [
+        "toolkit/badge_audit.py"
+      ],
+      "status_recommendation": "PARTIALLY PORTED",
+      "source_mapping": [
+        {
+          "logical_path": "MAIN_WORKSPACE/woocommerce-verify-badges.py",
+          "sha256": "cc89ca90f1bc288a6454190b0dcb98f0cb7948b6d73160a9fb0b621dac96b197",
+          "mode": "0o664",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "cc89ca90f1bc288a6454190b0dcb98f0cb7948b6d73160a9fb0b621dac96b197",
+          "unchanged_from_audit": true
+        }
+      ]
+    },
+    {
+      "capability_id": "tiktok-auth",
+      "implementation_paths": [
+        "toolkit/tiktok_oauth.py",
+        "toolkit/isolated_store.py",
+        "toolkit/tiktok_business_oauth.py"
+      ],
+      "status_recommendation": "PARTIALLY PORTED",
+      "source_mapping": [
+        {
+          "logical_path": "/etc/systemd/system/smgc-tiktok-token-refresh.service",
+          "sha256": "1a133d7d5a33cf0ad6e5e068b6c951b37dd4815e3c37cd800fca4fb8b8922598",
+          "mode": "0o644",
+          "role": "deployment-trigger",
+          "verification": "register-only; outside authorized read scope"
+        },
+        {
+          "logical_path": "/etc/systemd/system/smgc-tiktok-token-refresh.timer",
+          "sha256": "111effae442314f3799a97f9190b575dd7217b91d3b43370919c717d22a18ee5",
+          "mode": "0o644",
+          "role": "deployment-trigger",
+          "verification": "register-only; outside authorized read scope"
+        },
+        {
+          "logical_path": "MAIN_WORKSPACE/integrations/smgc-meta/tiktok_probe.py",
+          "sha256": "de3f11214753a08d1b36ad95b8f92cbd03bdaa56415086553ebff83dc39beb10",
+          "mode": "0o640",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "de3f11214753a08d1b36ad95b8f92cbd03bdaa56415086553ebff83dc39beb10",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": "MAIN_WORKSPACE/integrations/smgc-tiktok/test_tt_auth.py",
+          "sha256": "59524aecc8ca0376eae01f08c3accee04b5ec6c0e3c73fd1d715c01370a024ab",
+          "mode": "0o664",
+          "role": "test-or-fixture",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "59524aecc8ca0376eae01f08c3accee04b5ec6c0e3c73fd1d715c01370a024ab",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": "MAIN_WORKSPACE/integrations/smgc-tiktok/tt_auth.py",
+          "sha256": "c671efaa8c287f9ead46229070e2464bf110182206980b39db4de373d9b6f1dd",
+          "mode": "0o750",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "c671efaa8c287f9ead46229070e2464bf110182206980b39db4de373d9b6f1dd",
+          "unchanged_from_audit": true
+        }
+      ],
+      "official_contracts": [
+        "https://business-api.tiktok.com/portal/docs/accounts-api-authentication/v1.3",
+        "https://business-api.tiktok.com/portal/docs/renew-a-short-term-access-token/v1.3",
+        "https://business-api.tiktok.com/portal/docs/obtain-the-authorized-creator-permissions/v1.3"
+      ],
+      "verification_limit": "Official indexed contract text verified; direct fetch returns JS title shells. Business consent URL operator-reviewed. No live OAuth."
+    },
+    {
+      "capability_id": "social-draft-review",
+      "implementation_paths": [
+        "toolkit/social_review.py",
+        "toolkit/social_publish_gate.py"
+      ],
+      "status_recommendation": "PARTIALLY PORTED",
+      "source_mapping": [
+        {
+          "logical_path": "/opt/smgc-social/smgc_social_sheet.py",
+          "sha256": "c330cd92c3e08ddd1b6d84ab453d90de76b609d12a6ccf6e61638708518a96f9",
+          "mode": "0o750",
+          "role": "implementation",
+          "verification": "register-only; outside authorized read scope"
+        },
+        {
+          "logical_path": "MAIN_WORKSPACE/tools/sabah_review_delivery.py",
+          "sha256": "b7293817941f278014cb4825156ce6afa6f31deff947955c9a17a2d36fdb3976",
+          "mode": "0o664",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "b7293817941f278014cb4825156ce6afa6f31deff947955c9a17a2d36fdb3976",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": "MAIN_WORKSPACE/tools/sabah_revise_review_media.py",
+          "sha256": "89f58761901659f4ecf41bf95be00a65b328a71f8cdbd459e856b19fc99b33c0",
+          "mode": "0o664",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "89f58761901659f4ecf41bf95be00a65b328a71f8cdbd459e856b19fc99b33c0",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": "MAIN_WORKSPACE/tools/sabah_revise_review_targets.py",
+          "sha256": "39d72a16a64d5cf1024e58686e8d9c860a01b38b137d15b73ef20898241a3694",
+          "mode": "0o664",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "39d72a16a64d5cf1024e58686e8d9c860a01b38b137d15b73ef20898241a3694",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": "MAIN_WORKSPACE/tools/sabah_social_job_create.py",
+          "sha256": "a177d15f26841b94808d8d1ca0a3ec09fa58292e0ca88df087b1073b072b3251",
+          "mode": "0o750",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "a177d15f26841b94808d8d1ca0a3ec09fa58292e0ca88df087b1073b072b3251",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": "MAIN_WORKSPACE/tools/sabah_whatsapp_draft.py",
+          "sha256": "5cc609016f544b2ce031c236d99b4d41e7938cc499fd88de0077ed7774a57916",
+          "mode": "0o750",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "5cc609016f544b2ce031c236d99b4d41e7938cc499fd88de0077ed7774a57916",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": "MAIN_WORKSPACE/tools/test_revise_review_targets.py",
+          "sha256": "edb7d33c4a99f862cb46b1aba32b76a19d06870bde782decf8fa3a5fbe0057c3",
+          "mode": "0o664",
+          "role": "test-or-fixture",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "edb7d33c4a99f862cb46b1aba32b76a19d06870bde782decf8fa3a5fbe0057c3",
+          "unchanged_from_audit": true
+        }
+      ]
+    },
+    {
+      "capability_id": "voice-runtime-control",
+      "implementation_paths": [
+        "toolkit/voice_control.py",
+        "toolkit/isolated_store.py"
+      ],
+      "status_recommendation": "PARTIALLY PORTED",
+      "source_mapping": [
+        {
+          "logical_path": ".HOME/.config/systemd/user/openclaw-gateway.service.d/zz-smgc-voice.conf",
+          "sha256": "b77ae985230b56cad6d3ea32993321393b1b1be04b67d9dad66dd936f27ee2e0",
+          "mode": "0o664",
+          "role": "deployment-trigger",
+          "verification": "register-only; outside authorized read scope"
+        },
+        {
+          "logical_path": ".HOME/.local/bin/smgc-voice-control",
+          "sha256": "8a37d425c555e638c3626d5067849cd14cd62c04c0324d363a3df7e757298df5",
+          "mode": "0o700",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "8a37d425c555e638c3626d5067849cd14cd62c04c0324d363a3df7e757298df5",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": ".HOME/.local/share/smgc-voice/compare_smgc_asr.py",
+          "sha256": "ae7ad92d325ba895cb9898cf743a11b03fd0211f8cf40c39fe6534ff7496a9a2",
+          "mode": "0o664",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "ae7ad92d325ba895cb9898cf743a11b03fd0211f8cf40c39fe6534ff7496a9a2",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": ".HOME/.local/share/smgc-voice/compare_smgc_forced_asr.py",
+          "sha256": "0d063c92361df2fc5c25d7b2c47b3565172cc36eab9fc971cd84fbc4fe0fd8c1",
+          "mode": "0o664",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "0d063c92361df2fc5c25d7b2c47b3565172cc36eab9fc971cd84fbc4fe0fd8c1",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": ".HOME/.local/share/smgc-voice/configure_smgc_voice.py",
+          "sha256": "02fc16d89aedc2278fe007b393c5e190385598f5f2d9225fcd86602dea7ef00d",
+          "mode": "0o664",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "02fc16d89aedc2278fe007b393c5e190385598f5f2d9225fcd86602dea7ef00d",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": ".HOME/.local/share/smgc-voice/enable_smgc_account_tts.py",
+          "sha256": "bbd2a62b00241c0b5740b87304cf67bcc4a8fbe4e28c585cccccb8426e58874c",
+          "mode": "0o664",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "bbd2a62b00241c0b5740b87304cf67bcc4a8fbe4e28c585cccccb8426e58874c",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": ".HOME/.local/share/smgc-voice/install_smgc_voice.py",
+          "sha256": "6cfbb258cc39fdb97dab7f0809355a91b04e140fe553e86ab6ecb4dd4f09e519",
+          "mode": "0o664",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "6cfbb258cc39fdb97dab7f0809355a91b04e140fe553e86ab6ecb4dd4f09e519",
+          "unchanged_from_audit": true
+        },
+        {
+          "logical_path": ".HOME/.local/share/smgc-voice/smgc_text_voice_priority.py",
+          "sha256": "0bc772139d3266efa570dfccb3bfdb3d1a753c1223160490f923f274307fa457",
+          "mode": "0o664",
+          "role": "implementation",
+          "verification": "read-only hash; original not executed",
+          "current_sha256": "0bc772139d3266efa570dfccb3bfdb3d1a753c1223160490f923f274307fa457",
+          "unchanged_from_audit": true
+        }
+      ]
+    }
+  ]
+}

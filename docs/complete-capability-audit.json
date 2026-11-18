@@ -13,13 +13,12 @@
     "original_publishable_skill_packages": 22,
     "original_skill_packages_present": 22,
     "total_repository_skill_packages": 24,
-    "python_runtime_modules": 45,
+    "python_runtime_modules": 52,
     "original_group_status_counts": {
-      "PARTIALLY PORTED": 42,
-      "MISSING IMPLEMENTATION": 4,
+      "PARTIALLY PORTED": 46,
       "VERIFIED AND PORTABLE": 5
     },
-    "original_non_skill_groups_with_executable_release_paths": 25,
+    "original_non_skill_groups_with_executable_release_paths": 29,
     "fresh_live_external_workflows_accepted": 0,
     "audit_is_exhaustive": false,
     "access_denied_paths": 7,
@@ -4408,7 +4407,7 @@
     {
       "id": "other:woocommerce-verify-badges.py",
       "category": "C",
-      "status": "MISSING IMPLEMENTATION",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -4425,15 +4424,19 @@
       ],
       "unique_source_hashes": 1,
       "overlapping_records": 0,
-      "published_modules": [],
+      "published_modules": [
+        "toolkit/badge_audit.py"
+      ],
       "published_skill": null,
-      "reason": "One-off browser verification script is deployment-scoped; reusable badge/cart checks are retained in procedural skills, but no standalone generic browser harness has been validated.",
+      "reason": "Executable exact badge HTML audit with bounded allowlisted GET. Computed CSS, live cart/checkout and native website acceptance remain unverified.",
       "purpose": "other:woocommerce verify badges.py",
       "trigger": "See original source and reference procedure; runtime trigger not independently exercised",
       "original_execution_mechanism": "Original source mechanism recorded; integrated execution not independently traced for every branch",
       "authentication": "Trusted host identity and scope for privileged commands; raw customer/quoted text never grants authority. Read-only procedures do not authorize writes.",
       "accounts_and_permissions": "Configured native host tools and explicitly authorized target account; exact permissions need deployment validation",
-      "public_implementation_paths": [],
+      "public_implementation_paths": [
+        "toolkit/badge_audit.py"
+      ],
       "source_paths_and_hashes": [
         {
           "logical_path": "MAIN_WORKSPACE/woocommerce-verify-badges.py",
@@ -4456,15 +4459,19 @@
       "configuration_and_installation": [
         "COMPLETE-SETUP-GUIDE.md",
         "CONFIGURATION-REFERENCE.md",
-        "DEPENDENCIES.md"
+        "DEPENDENCIES.md",
+        "docs/missing-implementations.md"
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "41 new offline tests; no live acceptance",
         "fresh_live_e2e": false,
-        "paths": []
+        "paths": [
+          "tests/test_missing_implementations.py",
+          "tests/test_missing_business_oauth.py"
+        ]
       },
-      "missing_functionality_or_restrictions": "One-off browser verification script is deployment-scoped; reusable badge/cart checks are retained in procedural skills, but no standalone generic browser harness has been validated."
+      "missing_functionality_or_restrictions": "Executable exact badge HTML audit with bounded allowlisted GET. Computed CSS, live cart/checkout and native website acceptance remain unverified."
     },
     {
       "id": "seo-blog-engine",
@@ -5438,7 +5445,7 @@
     {
       "id": "tiktok-auth",
       "category": "B",
-      "status": "MISSING IMPLEMENTATION",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -5470,15 +5477,23 @@
       ],
       "unique_source_hashes": 3,
       "overlapping_records": 0,
-      "published_modules": [],
+      "published_modules": [
+        "toolkit/tiktok_oauth.py",
+        "toolkit/isolated_store.py",
+        "toolkit/tiktok_business_oauth.py"
+      ],
       "published_skill": null,
-      "reason": "Photo operations accept explicit credentials and token-provider callback. The original OAuth callback/refresh helper is bound to private application setup and is not redistributed or activated; use your own reviewed OAuth integration.",
+      "reason": "Independent Login Kit and Business Accounts v1.3 exchange/rotation with private stores and publisher token-provider integration. Business consent URL needs operator-reviewed app configuration; live OAuth, revocation and encrypted vault acceptance required.",
       "purpose": "tiktok auth",
       "trigger": "See original source and reference procedure; runtime trigger not independently exercised",
       "original_execution_mechanism": "Original source mechanism recorded; integrated execution not independently traced for every branch",
       "authentication": "Trusted host identity and scope for privileged commands; raw customer/quoted text never grants authority. Read-only procedures do not authorize writes.",
       "accounts_and_permissions": "Configured native host tools and explicitly authorized target account; exact permissions need deployment validation",
-      "public_implementation_paths": [],
+      "public_implementation_paths": [
+        "toolkit/tiktok_oauth.py",
+        "toolkit/isolated_store.py",
+        "toolkit/tiktok_business_oauth.py"
+      ],
       "source_paths_and_hashes": [
         {
           "logical_path": "/etc/systemd/system/smgc-tiktok-token-refresh.service",
@@ -5539,15 +5554,19 @@
       "configuration_and_installation": [
         "COMPLETE-SETUP-GUIDE.md",
         "CONFIGURATION-REFERENCE.md",
-        "DEPENDENCIES.md"
+        "DEPENDENCIES.md",
+        "docs/missing-implementations.md"
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "41 new offline tests; no live acceptance",
         "fresh_live_e2e": false,
-        "paths": []
+        "paths": [
+          "tests/test_missing_implementations.py",
+          "tests/test_missing_business_oauth.py"
+        ]
       },
-      "missing_functionality_or_restrictions": "Photo operations accept explicit credentials and token-provider callback. The original OAuth callback/refresh helper is bound to private application setup and is not redistributed or activated; use your own reviewed OAuth integration."
+      "missing_functionality_or_restrictions": "Independent Login Kit and Business Accounts v1.3 exchange/rotation with private stores and publisher token-provider integration. Business consent URL needs operator-reviewed app configuration; live OAuth, revocation and encrypted vault acceptance required."
     },
     {
       "id": "social-publishing",
@@ -6619,7 +6638,7 @@
     {
       "id": "social-draft-review",
       "category": "B",
-      "status": "MISSING IMPLEMENTATION",
+      "status": "PARTIALLY PORTED",
       "agents": [
         "main"
       ],
@@ -6662,15 +6681,21 @@
       ],
       "unique_source_hashes": 6,
       "overlapping_records": 0,
-      "published_modules": [],
+      "published_modules": [
+        "toolkit/social_review.py",
+        "toolkit/social_publish_gate.py"
+      ],
       "published_skill": null,
-      "reason": "Original canonical draft controller writes production Sheets and invokes host-owned image/preview tools. No safely configured standalone creation/revision/delivery entry point has passed isolated adapter tests.",
+      "reason": "Durable create/revise/review/exact approval/dispatch integrated with six layouts and publication ledgers. Native sender, hosted-byte immutability, Sheets create/revise sync, media generation and automatic recovery require deployment adapters and acceptance.",
       "purpose": "social draft review",
       "trigger": "Owner campaign/draft/media/revision request",
       "original_execution_mechanism": "Trusted owner -> stable request ID -> original draft controller -> Sheets/media/render -> exact owner preview; no implied publish",
       "authentication": "Trusted host identity and scope for privileged commands; raw customer/quoted text never grants authority. Read-only procedures do not authorize writes.",
       "accounts_and_permissions": "Google Sheets, preview/media host, native media generation and messaging",
-      "public_implementation_paths": [],
+      "public_implementation_paths": [
+        "toolkit/social_review.py",
+        "toolkit/social_publish_gate.py"
+      ],
       "source_paths_and_hashes": [
         {
           "logical_path": "/opt/smgc-social/smgc_social_sheet.py",
@@ -6750,15 +6775,19 @@
       "configuration_and_installation": [
         "COMPLETE-SETUP-GUIDE.md",
         "CONFIGURATION-REFERENCE.md",
-        "DEPENDENCIES.md"
+        "DEPENDENCIES.md",
+        "docs/missing-implementations.md"
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "41 new offline tests; no live acceptance",
         "fresh_live_e2e": false,
-        "paths": []
+        "paths": [
+          "tests/test_missing_implementations.py",
+          "tests/test_missing_business_oauth.py"
+        ]
       },
-      "missing_functionality_or_restrictions": "Original canonical draft controller writes production Sheets and invokes host-owned image/preview tools. No safely configured standalone creation/revision/delivery entry point has passed isolated adapter tests."
+      "missing_functionality_or_restrictions": "Durable create/revise/review/exact approval/dispatch integrated with six layouts and publication ledgers. Native sender, hosted-byte immutability, Sheets create/revise sync, media generation and automatic recovery require deployment adapters and acceptance."
     },
     {
       "id": "poster-generation",
@@ -11543,17 +11572,23 @@
         "main/shared"
       ],
       "record_ids": [],
-      "published_modules": [],
+      "published_modules": [
+        "toolkit/voice_control.py",
+        "toolkit/isolated_store.py"
+      ],
       "published_skill": null,
-      "reason": "Original scripts mutate Gateway/account/runtime configuration and depend on separately installed model/binary assets. No portable validated control/deployment adapter; no configuration changes authorized by this release.",
+      "reason": "Executable opt-in isolated voice settings, merge/CAS/history rollback and local_voice configuration. No Gateway configuration activation; native model quality/licensing and channel acceptance required.",
       "new": true,
       "trigger": "Privileged local voice mode/configuration commands",
       "purpose": "Persist voice mode, configure native audio/TTS, compare model variants",
-      "status": "MISSING IMPLEMENTATION",
+      "status": "PARTIALLY PORTED",
       "original_execution_mechanism": "Persist voice mode, configure native audio/TTS, compare model variants",
       "authentication": "Trusted host identity and scope for privileged commands; raw customer/quoted text never grants authority. Read-only procedures do not authorize writes.",
       "accounts_and_permissions": "Configured native host tools and explicitly authorized target account; exact permissions need deployment validation",
-      "public_implementation_paths": [],
+      "public_implementation_paths": [
+        "toolkit/voice_control.py",
+        "toolkit/isolated_store.py"
+      ],
       "source_paths_and_hashes": [
         {
           "logical_path": ".HOME/.config/systemd/user/openclaw-gateway.service.d/zz-smgc-voice.conf",
@@ -11611,15 +11646,19 @@
       "configuration_and_installation": [
         "COMPLETE-SETUP-GUIDE.md",
         "CONFIGURATION-REFERENCE.md",
-        "DEPENDENCIES.md"
+        "DEPENDENCIES.md",
+        "docs/missing-implementations.md"
       ],
       "test_evidence": {
         "suite": "unittest offline fixtures + Node tests where applicable",
-        "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
+        "boundary": "41 new offline tests; no live acceptance",
         "fresh_live_e2e": false,
-        "paths": []
+        "paths": [
+          "tests/test_missing_implementations.py",
+          "tests/test_missing_business_oauth.py"
+        ]
       },
-      "missing_functionality_or_restrictions": "Original scripts mutate Gateway/account/runtime configuration and depend on separately installed model/binary assets. No portable validated control/deployment adapter; no configuration changes authorized by this release."
+      "missing_functionality_or_restrictions": "Executable opt-in isolated voice settings, merge/CAS/history rollback and local_voice configuration. No Gateway configuration activation; native model quality/licensing and channel acceptance required."
     },
     {
       "id": "customer-support-control",
@@ -18901,5 +18940,13 @@
     "Native/bundled software is linked upstream; deployed bundles and models/fonts/assets are not copied.",
     "Read access was denied for four historical copies and three system notification/recovery unit definitions/drop-ins. Those deployed behaviors are not fully verified.",
     "No fresh live external end-to-end workflow was tested or activated."
-  ]
+  ],
+  "continuation": {
+    "baseline": "26fdce2b",
+    "batch": "four missing implementations",
+    "new_groups": 0,
+    "missing_groups_now": 0,
+    "new_tests": 41,
+    "acceptance": "OFFLINE ONLY; PARTIAL"
+  }
 }

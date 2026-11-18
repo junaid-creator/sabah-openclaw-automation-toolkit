@@ -685,5 +685,61 @@
     "destination": "poster_templates/assets/qr-placeholder.svg",
     "ownership": "Original toolkit work under repository MIT license. No private branding or third-party asset copied.",
     "changes": "Portable controller or deliberately synthetic replaceable demo asset; QR placeholder is NOT a functioning QR."
+  },
+  {
+    "source": "other:woocommerce-verify-badges.py",
+    "destination": "toolkit/badge_audit.py",
+    "source_sha256": "cc89ca90f1bc288a6454190b0dcb98f0cb7948b6d73160a9fb0b621dac96b197",
+    "source_mapping": "docs/missing-implementation-sources.json",
+    "changes": "Owner-authorized independent portable reconstruction; private configuration/assets excluded",
+    "ownership": "Original release engineering under repository license; protocol documentation referenced, no vendor SDK copied"
+  },
+  {
+    "source": "tiktok-auth",
+    "destination": "toolkit/tiktok_oauth.py",
+    "source_sha256": "de3f11214753a08d1b36ad95b8f92cbd03bdaa56415086553ebff83dc39beb10",
+    "source_mapping": "docs/missing-implementation-sources.json",
+    "changes": "Owner-authorized independent portable reconstruction; private configuration/assets excluded",
+    "ownership": "Original release engineering under repository license; protocol documentation referenced, no vendor SDK copied"
+  },
+  {
+    "source": "tiktok-auth",
+    "destination": "toolkit/isolated_store.py",
+    "source_sha256": "de3f11214753a08d1b36ad95b8f92cbd03bdaa56415086553ebff83dc39beb10",
+    "source_mapping": "docs/missing-implementation-sources.json",
+    "changes": "Owner-authorized independent portable reconstruction; private configuration/assets excluded",
+    "ownership": "Original release engineering under repository license; protocol documentation referenced, no vendor SDK copied"
+  },
+  {
+    "source": "tiktok-auth",
+    "destination": "toolkit/tiktok_business_oauth.py",
+    "source_sha256": "de3f11214753a08d1b36ad95b8f92cbd03bdaa56415086553ebff83dc39beb10",
+    "source_mapping": "docs/missing-implementation-sources.json",
+    "changes": "Owner-authorized independent portable reconstruction; private configuration/assets excluded",
+    "ownership": "Original release engineering under repository license; protocol documentation referenced, no vendor SDK copied"
+  },
+  {
+    "source": "social-draft-review",
+    "destination": "toolkit/social_review.py",
+    "source_sha256": "c330cd92c3e08ddd1b6d84ab453d90de76b609d12a6ccf6e61638708518a96f9",
+    "source_mapping": "docs/missing-implementation-sources.json",
+    "changes": "Owner-authorized independent portable reconstruction; private configuration/assets excluded",
+    "ownership": "Original release engineering under repository license; protocol documentation referenced, no vendor SDK copied"
+  },
+  {
+    "source": "social-draft-review",
+    "destination": "toolkit/social_publish_gate.py",
+    "source_sha256": "c330cd92c3e08ddd1b6d84ab453d90de76b609d12a6ccf6e61638708518a96f9",
+    "source_mapping": "docs/missing-implementation-sources.json",
+    "changes": "Owner-authorized independent portable reconstruction; private configuration/assets excluded",
+    "ownership": "Original release engineering under repository license; protocol documentation referenced, no vendor SDK copied"
+  },
+  {
+    "source": "voice-runtime-control",
+    "destination": "toolkit/voice_control.py",
+    "source_sha256": "8a37d425c555e638c3626d5067849cd14cd62c04c0324d363a3df7e757298df5",
+    "source_mapping": "docs/missing-implementation-sources.json",
+    "changes": "Owner-authorized independent portable reconstruction; private configuration/assets excluded",
+    "ownership": "Original release engineering under repository license; protocol documentation referenced, no vendor SDK copied"
   }
 ]

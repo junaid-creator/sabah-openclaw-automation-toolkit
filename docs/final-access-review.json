@@ -1,0 +1,81 @@
+{
+  "baseline_commit": "26fdce2b2d66e0aa3b435a3df8a0588625e9e195",
+  "access": [
+    {
+      "logical_path": "MAIN_WORKSPACE/tools/sabah_social_job_create.py.before-time-fix-20261019T045811Z",
+      "kind": "historical-copy",
+      "readable": false,
+      "error": "PermissionError",
+      "mode": "0o750",
+      "impact": "Historical predecessor; readable current controller/preparer implementations remain available. Cannot establish unique obsolete branches or byte identity."
+    },
+    {
+      "logical_path": "MAIN_WORKSPACE/tools/sabah_social_prepare_draft.py.backup-20261019T081701Z",
+      "kind": "historical-copy",
+      "readable": false,
+      "error": "PermissionError",
+      "mode": "0o750",
+      "impact": "Historical predecessor; readable current controller/preparer implementations remain available. Cannot establish unique obsolete branches or byte identity."
+    },
+    {
+      "logical_path": "MAIN_WORKSPACE/tools/sabah_social_prepare_draft.py.before-poster-upgrade-20261019T074510Z",
+      "kind": "historical-copy",
+      "readable": false,
+      "error": "PermissionError",
+      "mode": "0o750",
+      "impact": "Historical predecessor; readable current controller/preparer implementations remain available. Cannot establish unique obsolete branches or byte identity."
+    },
+    {
+      "logical_path": "MAIN_WORKSPACE/tools/sabah_whatsapp_draft.py.before-image-mode-20261018T132509Z",
+      "kind": "historical-copy",
+      "readable": false,
+      "error": "PermissionError",
+      "mode": "0o750",
+      "impact": "Historical predecessor; readable current controller/preparer implementations remain available. Cannot establish unique obsolete branches or byte identity."
+    },
+    {
+      "logical_path": "/etc/systemd/system/smgc-notification-worker.service",
+      "kind": "deployment-definition",
+      "readable": false,
+      "error": "PermissionError",
+      "mode": "0o600",
+      "impact": "Exact native service timing/environment wiring cannot be verified. Portable independent worker/service examples can be implemented without this private deployment file."
+    },
+    {
+      "logical_path": "/etc/systemd/system/smgc-notification-worker.timer",
+      "kind": "deployment-definition",
+      "readable": false,
+      "error": "PermissionError",
+      "mode": "0o600",
+      "impact": "Exact native service timing/environment wiring cannot be verified. Portable independent worker/service examples can be implemented without this private deployment file."
+    },
+    {
+      "logical_path": "/etc/systemd/system/smgc-publishing-recovery.service.d/10-openclaw-path.conf",
+      "kind": "deployment-definition",
+      "readable": false,
+      "error": "PermissionError",
+      "mode": "0o600",
+      "impact": "Exact native service timing/environment wiring cannot be verified. Portable independent worker/service examples can be implemented without this private deployment file."
+    }
+  ],
+  "drift_attribution": {
+    "evidence": "Separately recorded Template 5 deployment at 2026-11-18T16:19:47.042556+00:00",
+    "files": {
+      "tools/sabah_social_render_catalog.py": {
+        "before": "0b19cb8e80d636a777a80cf2f13e21f6e27ecf40146c08648299af0139b73b4c",
+        "after": "03389e443d10f1296a27894d0e2fd40fb6275a557f31c2676605d5730a0c595d"
+      },
+      "assets/smgc/templates/catalog.css": {
+        "before": "6451261f9e0a3188b83459eb831f281959d4ab654ce983aa011103d9f669ea62",
+        "after": "d07f55eb8b4b9006459f2c4b5d8676064b7aa31c8ca900f66f0435a27d327c9f"
+      }
+    },
+    "current_hashes_match_deployment": true,
+    "changed_or_rolled_back_by_release": false
+  },
+  "preservation_scope": {
+    "source_files_snapshotted": 248,
+    "gateway": "ActiveEnterTimestamp=Sun 2026-11-15 14:30:16 UTC\nMainPID=948932\nNRestarts=0\n",
+    "no_production_write_authorized": true
+  }
+}
