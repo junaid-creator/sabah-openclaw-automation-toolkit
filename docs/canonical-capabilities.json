@@ -2975,7 +2975,7 @@
         "apify_client"
       ],
       "published_skill": null,
-      "reason": "Capped start/collection and independent policy/credit guards are implemented and mocked. Original scheduled owner evidence-monitor routing is not ported; account history beyond the bounded 30-run window is deliberately blocked pending tested pagination."
+      "reason": "Capped start/collection and independent policy/credit guards are implemented and mocked. Complete account inventory now uses bounded pagination (100 rows/page, 20 pages), validates metadata and run states, and rechecks the head before admission. Histories exceeding 2,000 runs, changing/unknown inventory and active runs fail closed. Scheduled owner billing-evidence monitoring and native routing remain unported; concurrent starts by other clients cannot be atomically excluded."
     },
     {
       "id": "social-draft-review",

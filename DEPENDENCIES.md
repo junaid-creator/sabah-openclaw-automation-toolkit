@@ -19,7 +19,7 @@ No new third-party dependency is added by setup_scaffold or trusted_bridge. Thei
 | Meta | Authorized Graph API app, account scopes, owned media host | Adapter mocked; integrated worker and live verification remain |
 | TikTok | Authorized Business API app, scopes, external OAuth refresh | No shipped OAuth service; live app acceptance needed |
 | Overture | Official downloader, data/license compliance | Acquisition/qualification supported; enrichment/orchestration incomplete |
-| Apify | Actor, token, billing evidence, allowed cap | History pagination/evidence monitor remain limited |
+| Apify | Actor, token, billing evidence, allowed cap | History bounded to 2,000 runs; evidence monitor still unported |
 | Six posters | Portable layouts, replaceable licensed assets/fonts, renderer, exact-artifact reviewer | **Missing implementation**, not resolved merely by installing Playwright |
 | Telegram/WhatsApp transport | Native configured channels plus trusted event/receipt adapter | **Adapter not shipped**; bridge is application-level only |
 | Gateway monitor | Independent runtime probe and alert transport/service | Watchdog library alone is not an unattended monitor |

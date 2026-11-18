@@ -348,5 +348,11 @@
     "ownership": "Original implementation under repository MIT license; no third-party source or production assets copied",
     "changes": "New isolated application boundary/scaffold; production source hashes remain unchanged",
     "reference": "Existing canonical workflow contracts; not a native OpenClaw API"
+  },
+  {
+    "source": "Original toolkit pagination extension; documented public Apify API contract",
+    "destination": "toolkit/apify_client.py",
+    "ownership": "Original integration code under repository MIT license; no upstream implementation copied",
+    "changes": "Bounded full inventory, strict metadata/state validation, head recheck; original source hash preserved in earlier provenance entry"
   }
 ]

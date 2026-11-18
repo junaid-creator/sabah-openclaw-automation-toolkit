@@ -47,3 +47,7 @@ GitHub Dependabot identified CVE-2026-25645 / GHSA-gc5v-m9x4-r6x2 in the inherit
 ## Reproducibility batch
 
 Reproducibility batch: 168 offline/mock tests (22 new). A syntax failure in the first new-test run was corrected before acceptance; evidence is retained in the private checkpoint. Fresh Gateway/model/channel/provider E2E remains NOT TESTED.
+
+## Bounded acquisition follow-up
+
+179 offline/mock tests; 11 new pagination/admission cases. Supports complete stable account inventory up to 2,000 runs; rejects nonterminal/unknown states and changing pagination before any paid POST. No paid calls or production changes. Full acquisition orchestration remains incomplete.

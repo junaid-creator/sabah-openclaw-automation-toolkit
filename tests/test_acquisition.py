@@ -21,7 +21,7 @@ class AcquisitionTests(unittest.TestCase):
     if unknown:raise TimeoutError()
     return {'id':'fixture-run','defaultDatasetId':'fixture-data','options':{'maxTotalChargeUsd':0.2,'isMaxTotalChargeUsdSetByUser':cap_confirm}}
    if path=='acts/fixture~actor':return {'id':'fixture-actor','pricingInfos':[{'pricingModel':'PAY_PER_EVENT','minimalMaxTotalChargeUsd':0.01}]}
-   if path.startswith('actor-runs?'):return {'items':[],'total':0}
+   if path.startswith('actor-runs?'):return {'items':[],'total':0,'count':0,'offset':0,'limit':100,'desc':False}
    if path.startswith('actor-runs/'):return {'status':'SUCCEEDED','usageTotalUsd':0.1}
    if path.startswith('datasets/'):return [{'name':'Synthetic fixture'}]
    raise AssertionError(path)

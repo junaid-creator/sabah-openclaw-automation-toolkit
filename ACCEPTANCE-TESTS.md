@@ -10,9 +10,13 @@ Run from the checkout:
 .venv/bin/python -m pip check
 ~~~
 
-The reproducibility batch adds 22 tests in tests/test_trusted_bridge.py (168 total target). Tests deny socket and subprocess creation in the new boundary scenarios. Cases cover invalid signatures, tampering, stale/future events, unknown peers, customer-owner separation, exact single confirmation, expiry, revocation, exact review receipt, content binding, policy denial, tool/destination injection, disabled sending, exact receipt, replay prevention, ambiguous send, wrong-recipient receipt, crash reservation, event collision, duplicate route and safe scaffold creation.
+The reproducibility batch adds 22 tests in tests/test_trusted_bridge.py (179 total with the follow-up acquisition batch). Tests deny socket and subprocess creation in the new boundary scenarios. Cases cover invalid signatures, tampering, stale/future events, unknown peers, customer-owner separation, exact single confirmation, expiry, revocation, exact review receipt, content binding, policy denial, tool/destination injection, disabled sending, exact receipt, replay prevention, ambiguous send, wrong-recipient receipt, crash reservation, event collision, duplicate route and safe scaffold creation.
 
 Earlier tests cover actual local WebP validation, SEO/local content operations, publication/paid acquisition mocks, Google merge/readback, outboxes and procedural evidence contracts. These are not real provider E2E tests. See [validation history](docs/validation.md).
+
+## Acquisition pagination follow-up
+
+Eleven tests in tests/test_apify_pagination.py cover >30 runs, empty history, all nonterminal/unknown statuses, page bounds, changing totals, duplicate IDs, malformed metadata, missing pages, head changes and invalid bounds. A full start-admission fixture proves an active run blocks before any paid POST or local reservation. API contract checked against the [official Actor-runs endpoint](https://docs.apify.com/api/v2/actor-runs-get); no live authenticated call or Actor start was performed.
 
 ## Mandatory authorized real-world acceptance (NOT PERFORMED)
 

@@ -30,3 +30,7 @@ Add portable system-management-model-routing and private-mobile-gateway-pairing 
 ## Reproducibility batch
 
 Add inert two-agent setup scaffold, signed owner/support application boundary, 22 negative/receipt tests, six installation/configuration/acceptance documents and canonical feature matrix. No native API or live E2E claim; no original capability marked fully reproduced.
+
+## Bounded acquisition follow-up
+
+179 offline/mock tests; 11 new pagination/admission cases. Supports complete stable account inventory up to 2,000 runs; rejects nonterminal/unknown states and changing pagination before any paid POST. No paid calls or production changes. Full acquisition orchestration remains incomplete.
