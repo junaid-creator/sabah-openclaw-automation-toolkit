@@ -67,3 +67,13 @@ inspection confirmed distinct source-derived structures, not actual campaign tru
 See [asset licenses](../poster_templates/ASSET-LICENSES.md). Rendering is not an
 exact recreation of the live branded production environment; the full social
 draft/approval/independent review/Sheet/transport workflow remains PARTIALLY PORTED.
+
+## Fresh-checkout fixture permissions
+
+The optional acceptance harness copies only its four committed synthetic SVGs
+into its private output root with mode 0600. This supports hosts whose clone umask
+creates group-writable checkout files, without weakening the renderer's asset
+permission checks or changing source-file permissions. It is not an attachment
+import workaround and must never be used for untrusted/customer media. An initial
+fresh-clone run failed closed on mode 0664 demo assets; the isolated fixture
+preparation was corrected and regression-tested.

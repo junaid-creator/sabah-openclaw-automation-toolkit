@@ -49,5 +49,18 @@ class PosterTests(unittest.TestCase):
         self.assertIn('complete-hero-photo',build(4,self.content,self.brand,self.fonts,self.photo))
     def test_input_not_mutated(self):
         before=copy.deepcopy(self.content);build(1,self.content,self.brand,self.fonts,self.photo);self.assertEqual(before,self.content)
+        from poster_fixture_helpers import private_demo_assets,NAMES
+        source=self.root/'source-assets';source.mkdir(mode=0o700)
+        original=Path(__file__).resolve().parents[1]/'poster_templates/assets'
+        for name in NAMES:
+            p=source/name;p.write_bytes((original/name).read_bytes());p.chmod(0o664)
+        target=private_demo_assets(source,self.root)
+        for name in NAMES:
+            self.assertEqual((source/name).stat().st_mode & 0o777,0o664)
+            self.assertEqual((target/name).stat().st_mode & 0o777,0o600)
+            self.assertEqual((target/name).read_bytes(),(source/name).read_bytes())
+        self.assertEqual(private_demo_assets(source,self.root),target)
+        (source/NAMES[0]).write_bytes(b'changed')
+        with self.assertRaises(ValueError):private_demo_assets(source,self.root)
 
 if __name__=='__main__':unittest.main()

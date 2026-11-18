@@ -49,5 +49,6 @@
     "status": "PARTIALLY PORTED",
     "evidence_limit": "Bounded fresh scan plus preserved 460 mappings. Deep tracing timed out; three system service definitions/drop-ins and four historical copies were access-denied; deeper native/dynamic traces and fresh-host integration remain unverified. Files/groups are different units."
   },
-  "publication_evidence": "Final remote commit/tree/CI/security and anonymous fresh clone are verified after upload; see release checkpoint/report rather than inferring from local tests."
+  "publication_evidence": "Final remote commit/tree/CI/security and anonymous fresh clone are verified after upload; see release checkpoint/report rather than inferring from local tests.",
+  "fresh_checkout_render_fixture": "Initial fresh clone rejected mode-0664 demo SVGs; corrected harness stages only committed synthetic fixtures privately without weakening renderer guards. Regression included in existing poster test."
 }

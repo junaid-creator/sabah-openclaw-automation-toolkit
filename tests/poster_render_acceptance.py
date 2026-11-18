@@ -12,7 +12,8 @@ atlas=E/'synthetic-atlas.png';im=Image.new('RGB',(1600,1600),'#c3dce4');d=ImageD
 for i,color in enumerate(['#cd7f62','#729ab2','#86a98b','#b49abb']):
  d.rectangle((i*400,0,(i+1)*400-1,799),fill=color);d.rectangle((i*400+70,220,i*400+320,500),fill='#f2f2ed');d.text((i*400+120,560),'SYNTHETIC PANEL '+str(i+1),fill='black')
 d.rectangle((0,800,1599,1599),fill='#d9e3d8');d.rectangle((250,1020,1350,1380),fill='#386980');d.text((650,1450),'SYNTHETIC HERO',fill='black');im.save(atlas);atlas.chmod(0o600)
-a=R/'poster_templates/assets'
+from poster_fixture_helpers import private_demo_assets
+a=private_demo_assets(R/'poster_templates/assets',E)
 primary={'short_name':'EXAMPLE','display_name':'EXAMPLE COMPANY','descriptor':'EQUIPMENT SERVICES','tagline':'READY FOR YOUR PROJECT','display_name_ar':'شركة مثال','descriptor_ar':'خدمات المعدات','tagline_ar':'جاهزون لمشروعك','phones':['000 000 0000'],'website':'example.com','email':'hello@example.com','location':'Example City','social':'@example','logo':str(a/'primary-logo.svg')}
 secondary=dict(primary,short_name='DEMO TWO',display_name='EXAMPLE TWO',descriptor='SURVEY SERVICES',logo=str(a/'secondary-logo.svg'))
 brand={'primary':primary,'secondary':secondary,'qr':str(a/'qr-placeholder.svg'),'backdrop':str(a/'backdrop.svg'),'qr_label':'DEMO — NOT A QR'}
