@@ -26,3 +26,7 @@ This is not the complete production capability library. Unported components rema
 ## Diagnostic skill batch
 
 Add portable system-management-model-routing and private-mobile-gateway-pairing procedures, configuration examples and 15 synthetic evidence-contract tests. No runtime engine or production service is changed.
+
+## Reproducibility batch
+
+Add inert two-agent setup scaffold, signed owner/support application boundary, 22 negative/receipt tests, six installation/configuration/acceptance documents and canonical feature matrix. No native API or live E2E claim; no original capability marked fully reproduced.

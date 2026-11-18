@@ -10,7 +10,7 @@
   "upstream_groups": 128,
   "blocked_derivative_groups": 2,
   "supporting_groups": 2,
-  "runtime_modules": 29,
+  "runtime_modules": 31,
   "packaged_skills": 11,
   "status_counts": {
     "UNTESTED OR INCOMPLETE": 28,
@@ -74,3 +74,7 @@ The original 460 discovery records are all assigned. A targeted read of the supp
 Categories: A original procedural skills; B engines/scripts; C configuration/integration adapters; D supporting duplicates or covered records; E upstream; F independently identified release blocker. Published artifact validation never implies live account/model/transport acceptance.
 
 Full machine-readable register: [canonical-capabilities.json](canonical-capabilities.json).
+
+## Reproducibility batch
+
+Current detailed paths, sources, tools, configuration, priorities and unchanged gaps are in [feature matrix](../FEATURE-REPLICATION-MATRIX.md). Added trusted_bridge and setup_scaffold; no original group is upgraded to fully reproduced. The JSON register holds updated module links.

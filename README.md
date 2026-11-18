@@ -2,7 +2,7 @@
 
 **Status: PARTIAL — portable core, not a replica of the production system.**
 
-Twenty-nine Python modules derived from the original workflows and their portability adapters from the main-assistant and customer-support workflows provide offline SEO planning, local HTML metadata editing, language validation, prospect qualification, content duplicate checks, crash-aware checkpoints, and website reference snapshots. Eleven optional OpenClaw skills coordinate their safe use.
+Thirty-one Python modules derived from the original workflows and their portability adapters from the main-assistant and customer-support workflows provide offline SEO planning, local HTML metadata editing, language validation, prospect qualification, content duplicate checks, crash-aware checkpoints, and website reference snapshots. Eleven optional OpenClaw skills coordinate their safe use.
 
 Offline examples do not publish posts, send replies, run paid Actors or activate schedules. The optional Meta adapter now contains actual posting operations, disabled by default and tested only with mocks. A bounded FB/IG adapter, approval ledger, notification outbox, rotation, schedule parser, watchdog and billing guard are now ported. WordPress/TikTok adapters, blog stage/image recovery, capped Apify/Overture acquisition, Google lead synchronization, and eight original website/Google skills are now included. The complete deployed recovery engine, six branded layouts, provider tool bridges, account bindings and live routing are **not yet complete**. See [operations modules](docs/operations-modules.md) and [canonical accounting](docs/canonical-capabilities.md). See [inventory](SKILL-INVENTORY.md) and [coverage](docs/coverage.md). Do not equate a discovered file with a working feature.
 
@@ -40,3 +40,9 @@ OpenClaw is optional for Python execution. Skill installation syntax was checked
 See [platform adapters](docs/platform-adapters.md) for explicit configuration, activation and testing of each new module; [canonical accounting](docs/canonical-capabilities.md) lists every incomplete source family. The customer-support profile and routing example are not an activated channel.
 
 Two optional diagnostic skills cover [management routing](skills/system-management-model-routing/README.md) and [private mobile pairing](skills/private-mobile-gateway-pairing/README.md). Synthetic acceptance records do not establish live recovery or pairing.
+
+## Reproducible installation batch
+
+Start with [COMPLETE-SETUP-GUIDE.md](COMPLETE-SETUP-GUIDE.md), [feature matrix](FEATURE-REPLICATION-MATRIX.md), [configuration](CONFIGURATION-REFERENCE.md), [dependencies](DEPENDENCIES.md), [deployment checklist](DEPLOYMENT-CHECKLIST.md) and [acceptance tests](ACCEPTANCE-TESTS.md).
+
+The inert two-agent scaffolder and signed application-level owner/support boundary add working offline-tested code. They do not install native messaging adapters or semantic policy enforcement. Current package: **31 runtime modules, 11 skill packages, 168 offline/mock tests**. Original accounting remains **13 artifact-validated, 1 already-covered, 28 incomplete**, with **2 separate derivative-license exclusions**. **Zero original groups have fresh-install/live E2E reproduction acceptance.** Do not interpret earlier “validated” labels as end-to-end coverage.

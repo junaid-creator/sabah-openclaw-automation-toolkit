@@ -43,3 +43,7 @@ GitHub Dependabot identified CVE-2026-25645 / GHSA-gc5v-m9x4-r6x2 in the inherit
 ## Diagnostic skill batch
 
 146 offline/mocked tests (15 new) are the acceptance target. Final local/public results are recorded in the release checkpoint. New evidence tests deny sockets and subprocess execution. Live deployment, pairing, management inference and fresh installation remain NOT TESTED. All 460 mappings and the two independent licensing exclusions are preserved.
+
+## Reproducibility batch
+
+Reproducibility batch: 168 offline/mock tests (22 new). A syntax failure in the first new-test run was corrected before acceptance; evidence is retained in the private checkpoint. Fresh Gateway/model/channel/provider E2E remains NOT TESTED.

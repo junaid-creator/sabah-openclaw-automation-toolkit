@@ -22,3 +22,7 @@ Working source code is distinguished from live integration acceptance. Unit/mock
 ## Diagnostic skill batch
 
 11 procedural skill packages and 29 runtime modules. Two diagnostic procedures now have synthetic evidence-contract coverage; no additional runtime engine is complete. Original groups: 13 published/validated within offline boundaries, 1 already covered, 28 incomplete; 2 licensing-blocked groups are separate.
+
+## Reproducibility batch
+
+31 runtime modules and 11 skills. Original counts remain 13 artifact-validated, 1 already covered and 28 incomplete; two license exclusions. Zero fresh-install/live E2E accepted groups. See [matrix](../FEATURE-REPLICATION-MATRIX.md).

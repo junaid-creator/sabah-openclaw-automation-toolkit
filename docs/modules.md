@@ -147,3 +147,7 @@ python -m toolkit.knowledge_snapshot --base-url https://example.com --currency U
 **Troubleshooting:** validate input shape and local permissions; do not bypass failures or point tests at production.
 
 **Limitations:** No CLI or built-in remote adapters. POSIX filesystem locking; no cross-host locking. Unknown outcomes latch; two writes maximum after authoritative absence. Caller callbacks must enforce authorization.
+
+## Reproducibility batch
+
+Added toolkit.trusted_bridge (signed ingress, single confirmation, recipient-bound support receipts) and toolkit.setup_scaffold (inert private workspace setup). See [bridge](trusted-bridge.md) and [setup](../COMPLETE-SETUP-GUIDE.md). These are original application integrations, not native OpenClaw APIs.

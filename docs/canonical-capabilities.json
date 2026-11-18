@@ -6,7 +6,7 @@
   "upstream_groups": 128,
   "blocked_derivative_groups": 2,
   "supporting_groups": 2,
-  "runtime_modules": 29,
+  "runtime_modules": 31,
   "packaged_skills": 11,
   "status_counts": {
     "UNTESTED OR INCOMPLETE": 28,
@@ -2696,10 +2696,11 @@
       ],
       "published_modules": [
         "notification_outbox",
-        "report_outbox"
+        "report_outbox",
+        "trusted_bridge"
       ],
       "published_skill": null,
-      "reason": "Durable claim/receipt/no-replay logic and owner report outbox are implemented. The original native message-tool/owner-route bridge is not packaged as an authenticated transport; callbacks must use an independently authorized sender."
+      "reason": "Durable claim/receipt/no-replay logic and owner report outbox are implemented. The original native message-tool/owner-route bridge is not packaged as an authenticated transport; callbacks must use an independently authorized sender. Application-level signed ingress and exact recipient support receipt boundary now implemented; native channel ingress/sender and independent semantic policy adapter remain missing."
     },
     {
       "id": "product-catalog",
@@ -5014,9 +5015,11 @@
           "sha256": "300aeef47cb50a9397847b658e3c82c84d4959e8aac58612a155dc1db451681b"
         }
       ],
-      "published_modules": [],
+      "published_modules": [
+        "setup_scaffold"
+      ],
       "published_skill": null,
-      "reason": "Original service/timer definitions contain host-specific executables, identities and environment bindings. They remain excluded from automatic installation; no production schedules are activated."
+      "reason": "Original service/timer definitions contain host-specific executables, identities and environment bindings. They remain excluded from automatic installation; no production schedules are activated. Inert two-workspace scaffolder implemented and tested; no fresh Gateway or service installation acceptance."
     },
     {
       "id": "upstream:openclaw-runtime",
@@ -5055,9 +5058,11 @@
           "sha256": "4262309ddb3cdaaad3394b002ff0fdade868f6e6f7359fe2ed7af95ba5f05d49"
         }
       ],
-      "published_modules": [],
+      "published_modules": [
+        "trusted_bridge"
+      ],
       "published_skill": null,
-      "reason": "Targeted supplemental discovery: original support language/inquiry/privacy/tool policy generalized with test-only allowlisted routing. Static guard checks pass; fresh-agent/model behavior and actual customer delivery are NOT TESTED."
+      "reason": "Targeted supplemental discovery: original support language/inquiry/privacy/tool policy generalized with test-only allowlisted routing. Static guard checks pass; fresh-agent/model behavior and actual customer delivery are NOT TESTED. Signed routing, denied sensitive actions, opt-in send reservation and exact receipt validation are now executable and offline tested. Independent semantic policy callback and native ingress/sender still required."
     }
   ],
   "record_assignments": [

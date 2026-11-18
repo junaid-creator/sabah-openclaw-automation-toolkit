@@ -334,5 +334,19 @@
     "source_sha256": "c7c4a7f83da764beb46f4dc2ea09e625b2d64d5c8a8b2f1edd0b326d247338c8",
     "changes": "Preserve diagnostic sequence and authority boundaries; make unavailable sibling dependency explicit; add portable contract and synthetic acceptance checks.",
     "ownership": "Owner-authorized original local Workshop procedure; no third-party implementation copied."
+  },
+  {
+    "source": "Original toolkit integration authored for reproducibility batch",
+    "destination": "toolkit/trusted_bridge.py",
+    "ownership": "Original implementation under repository MIT license; no third-party source or production assets copied",
+    "changes": "New isolated application boundary/scaffold; production source hashes remain unchanged",
+    "reference": "Existing canonical workflow contracts; not a native OpenClaw API"
+  },
+  {
+    "source": "Original toolkit integration authored for reproducibility batch",
+    "destination": "toolkit/setup_scaffold.py",
+    "ownership": "Original implementation under repository MIT license; no third-party source or production assets copied",
+    "changes": "New isolated application boundary/scaffold; production source hashes remain unchanged",
+    "reference": "Existing canonical workflow contracts; not a native OpenClaw API"
   }
 ]
