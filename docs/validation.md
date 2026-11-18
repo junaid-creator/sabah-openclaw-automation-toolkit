@@ -39,3 +39,7 @@ First continuation batch public tree matched exactly and both GitHub CI and Code
 ## Dependency advisory remediation
 
 GitHub Dependabot identified CVE-2026-25645 / GHSA-gc5v-m9x4-r6x2 in the inherited requests 2.32.5 pin. The advisory affects direct use of extract_zipped_paths, which this toolkit does not call. The dependency is nevertheless upgraded to requests 2.34.2 (the advisory requires 2.33.0 or later), not dismissed or suppressed. Only the isolated release test environment is changed; production packages are untouched. Final tests, public-tree readback and the resulting alert state must be verified for the patch commit.
+
+## Diagnostic skill batch
+
+146 offline/mocked tests (15 new) are the acceptance target. Final local/public results are recorded in the release checkpoint. New evidence tests deny sockets and subprocess execution. Live deployment, pairing, management inference and fresh installation remain NOT TESTED. All 460 mappings and the two independent licensing exclusions are preserved.

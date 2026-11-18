@@ -1,0 +1,16 @@
+{
+  "base_public_commit": "40fea202a9b73c5cc99c299b09086756368c694a",
+  "skills_added": [
+    "system-management-model-routing",
+    "private-mobile-gateway-pairing"
+  ],
+  "runtime_modules": 29,
+  "skill_packages": 11,
+  "test_target": 146,
+  "original_records": 460,
+  "original_groups": 42,
+  "incomplete_original_groups": 28,
+  "separate_licensing_blocked_groups": 2,
+  "evidence_limit": "Offline synthetic acceptance-record tests only; live deployment, pairing, management inference and fresh agent install NOT TESTED",
+  "publication_evidence": "Final remote commit/tree and CI recorded in private release checkpoint after publication"
+}

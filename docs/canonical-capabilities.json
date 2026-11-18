@@ -7,10 +7,10 @@
   "blocked_derivative_groups": 2,
   "supporting_groups": 2,
   "runtime_modules": 29,
-  "packaged_skills": 9,
+  "packaged_skills": 11,
   "status_counts": {
-    "UNTESTED OR INCOMPLETE": 30,
-    "PUBLISHED AND VALIDATED": 11,
+    "UNTESTED OR INCOMPLETE": 28,
+    "PUBLISHED AND VALIDATED": 13,
     "DUPLICATE / ALREADY COVERED": 1
   },
   "method": "Source identity before dependency-family grouping; content hashes retain aliases. Categories separate procedures, engines, adapters, supporting aliases and upstream. These are release work groups, not counts of independent end-user products.",
@@ -1061,7 +1061,7 @@
     {
       "id": "skill:private-mobile-gateway-pairing",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PUBLISHED AND VALIDATED",
       "agents": [
         "main"
       ],
@@ -1079,8 +1079,8 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "private-mobile-gateway-pairing",
+      "reason": "Original portable diagnostic procedure and synthetic evidence-contract tests validated offline. Fresh installation, live deployment, phone pairing, management inference and hot reload are NOT TESTED. No runtime engine completed."
     },
     {
       "id": "upstream:python-debugpy",
@@ -1383,7 +1383,7 @@
     {
       "id": "skill:system-management-model-routing",
       "category": "A",
-      "status": "UNTESTED OR INCOMPLETE",
+      "status": "PUBLISHED AND VALIDATED",
       "agents": [
         "main"
       ],
@@ -1401,8 +1401,8 @@
         }
       ],
       "published_modules": [],
-      "published_skill": null,
-      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+      "published_skill": "system-management-model-routing",
+      "reason": "Original portable diagnostic procedure and synthetic evidence-contract tests validated offline. Fresh installation, live deployment, phone pairing, management inference and hot reload are NOT TESTED. No runtime engine completed."
     },
     {
       "id": "upstream:things-mac",

@@ -468,3 +468,7 @@ The 460 rows below preserve the original discovery snapshot and its historical c
 ## Continuation accounting
 
 The original 460 rows are retained as historical discovery evidence. Current deduplicated functional accounting and per-group implementation status are in [canonical capabilities](docs/canonical-capabilities.md). Batch 0.2 adds seven working modules; partial extraction does not silently mark an entire original engine complete.
+
+## Diagnostic skill batch
+
+Frozen 460 rows remain unchanged. Two canonical procedural groups are now packaged; totals: 29 runtime modules, 11 skills, 28 incomplete original capability groups and 2 separate licensing-blocked groups. See the canonical register.

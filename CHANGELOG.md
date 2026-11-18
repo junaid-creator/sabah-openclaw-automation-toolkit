@@ -22,3 +22,7 @@
 - Preserve production directories; no runtime state or Git history imported.
 
 This is not the complete production capability library. Unported components remain in the inventory with reasons.
+
+## Diagnostic skill batch
+
+Add portable system-management-model-routing and private-mobile-gateway-pairing procedures, configuration examples and 15 synthetic evidence-contract tests. No runtime engine or production service is changed.

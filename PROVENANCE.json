@@ -320,5 +320,19 @@
     "source_sha256": "4262309ddb3cdaaad3394b002ff0fdade868f6e6f7359fe2ed7af95ba5f05d49",
     "changes": "Retain original language/inquiry/privacy/voice/tool safeguards; remove all real company facts and contacts; require configured reviewed profile",
     "ownership": "Owner-authorized original application or instruction policy; only sanitized adaptation/new portability code distributed."
+  },
+  {
+    "source": "system-management-model-routing/SKILL.md",
+    "destination": "skills/system-management-model-routing/SKILL.md",
+    "source_sha256": "f915e9d341584248696b8f140f13a9414cf143a114b2eaa3b24275112c252016",
+    "changes": "Preserve diagnostic sequence and authority boundaries; make unavailable sibling dependency explicit; add portable contract and synthetic acceptance checks.",
+    "ownership": "Owner-authorized original local Workshop procedure; no third-party implementation copied."
+  },
+  {
+    "source": "private-mobile-gateway-pairing/SKILL.md",
+    "destination": "skills/private-mobile-gateway-pairing/SKILL.md",
+    "source_sha256": "c7c4a7f83da764beb46f4dc2ea09e625b2d64d5c8a8b2f1edd0b326d247338c8",
+    "changes": "Preserve diagnostic sequence and authority boundaries; make unavailable sibling dependency explicit; add portable contract and synthetic acceptance checks.",
+    "ownership": "Owner-authorized original local Workshop procedure; no third-party implementation copied."
   }
 ]

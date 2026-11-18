@@ -43,3 +43,7 @@ Review release changes, back up user-created local state outside Git, then pull 
 The skills directory now includes the offline coordinator and eight procedural Google/WordPress/WooCommerce skills. Install only a reviewed skill with openclaw skills install ./skills/SKILL_NAME --agent YOUR_AGENT_ID, and install its linked siblings when using their branches. See each skill README for prerequisites and evidence limits. Native agent/routing examples are in agents/customer-support and examples/customer-routing.example.json. These are fresh-install examples, not a request to merge into a running Gateway.
 
 Python 3.11+ is required by the pinned Pillow dependency. Run tests from the checkout; no global Python or Gateway packages are changed.
+
+## Diagnostic skill batch
+
+Read skills/system-management-model-routing/README.md and skills/private-mobile-gateway-pairing/README.md before installation. Operator-authorized upstream tools and targets are required; no credentials, configuration changes, device approval or runtime activation are supplied.

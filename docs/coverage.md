@@ -18,3 +18,7 @@ The six original licensing-blocked records collapse to two derivative skill grou
 ## Evidence limits
 
 Working source code is distinguished from live integration acceptance. Unit/mocked tests, source/secret scans, skill package/link validation, exact public-tree readback and CI prove bounded release properties. They do not prove fresh-account scopes, live publishing, payments, customer delivery, model behavior, fresh-agent installation or every OS/version. Live business effects and production activation were deliberately not performed.
+
+## Diagnostic skill batch
+
+11 procedural skill packages and 29 runtime modules. Two diagnostic procedures now have synthetic evidence-contract coverage; no additional runtime engine is complete. Original groups: 13 published/validated within offline boundaries, 1 already covered, 28 incomplete; 2 licensing-blocked groups are separate.

@@ -11,10 +11,10 @@
   "blocked_derivative_groups": 2,
   "supporting_groups": 2,
   "runtime_modules": 29,
-  "packaged_skills": 9,
+  "packaged_skills": 11,
   "status_counts": {
-    "UNTESTED OR INCOMPLETE": 30,
-    "PUBLISHED AND VALIDATED": 11,
+    "UNTESTED OR INCOMPLETE": 28,
+    "PUBLISHED AND VALIDATED": 13,
     "DUPLICATE / ALREADY COVERED": 1
   },
   "method": "Source identity before dependency-family grouping; content hashes retain aliases. Categories separate procedures, engines, adapters, supporting aliases and upstream. These are release work groups, not counts of independent end-user products."
@@ -32,13 +32,13 @@ The original 460 discovery records are all assigned. A targeted read of the supp
 | skill:google-sheets-readiness | A | PUBLISHED AND VALIDATED | google-sheets-readiness | Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools. |
 | skill:multi-platform-publication-recovery | A | UNTESTED OR INCOMPLETE | — | Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion. |
 | skill:poster-template-integration | A | UNTESTED OR INCOMPLETE | — | Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion. |
-| skill:private-mobile-gateway-pairing | A | UNTESTED OR INCOMPLETE | — | Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion. |
+| skill:private-mobile-gateway-pairing | A | PUBLISHED AND VALIDATED | private-mobile-gateway-pairing | Original portable diagnostic procedure and synthetic evidence-contract tests validated offline. Fresh installation, live deployment, phone pairing, management inference and hot reload are NOT TESTED. No runtime engine completed. |
 | skill:sabah-daily-seo-blog | A | UNTESTED OR INCOMPLETE | — | Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion. |
 | skill:seo-marketing-pro | A | UNTESTED OR INCOMPLETE | — | Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion. |
 | skill:smgc-publication-intake-diagnosis | A | UNTESTED OR INCOMPLETE | — | Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion. |
 | skill:smgc-social-media | A | UNTESTED OR INCOMPLETE | — | Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion. |
 | skill:supplied-image-intake | A | UNTESTED OR INCOMPLETE | — | Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion. |
-| skill:system-management-model-routing | A | UNTESTED OR INCOMPLETE | — | Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion. |
+| skill:system-management-model-routing | A | PUBLISHED AND VALIDATED | system-management-model-routing | Original portable diagnostic procedure and synthetic evidence-contract tests validated offline. Fresh installation, live deployment, phone pairing, management inference and hot reload are NOT TESTED. No runtime engine completed. |
 | skill:woocommerce-cart-checkout-diagnosis | A | PUBLISHED AND VALIDATED | woocommerce-cart-checkout-diagnosis | Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools. |
 | skill:woocommerce-catalog-reconciliation | A | PUBLISHED AND VALIDATED | woocommerce-catalog-reconciliation | Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools. |
 | skill:woocommerce-price-display-audit | A | PUBLISHED AND VALIDATED | woocommerce-price-display-audit | Original procedural package and resource links validated; applicable synthetic preservation/permission/gate helpers tested. Live skill execution is NOT TESTED and requires operator-configured upstream tools. |
