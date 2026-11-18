@@ -30,6 +30,8 @@ openclaw skills install ./skills/offline-automation-review --agent YOUR_AGENT_ID
 openclaw skills check --agent YOUR_AGENT_ID
 ```
 
+For optional publisher/ledger/rotation/outbox/watchdog/billing modules, read [operations-modules.md](operations-modules.md). They do not activate services or schedules.
+
 The skill requires this checkout and its Python environment; record your absolute checkout location in that agent's local tool notes. It does not copy or install the library itself. Do not replace a skill of the same name without inspecting it.
 
 ## Update / uninstall

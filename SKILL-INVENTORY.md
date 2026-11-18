@@ -464,3 +464,7 @@ Status: PARTIAL. All records from the saved discovery and supplemental plugin/ho
 | skills/local/wordpress-rest-api-clean/NOTES.md | source component | main | local; ownership review required | BLOCKED | read-only indexed; NOT TESTED; Source describes itself as a derivative; upstream lineage/license not independently established. No procedural text redistributed.; dependencies: [] |
 | workflows/sabah-blog-daily-agent.md | source component | main | local; ownership review required | ADAPT | read-only indexed; NOT TESTED; CMS identity, mutable remote inventory and private ledger/config dependencies remain unported; no live writes tested.; dependencies: [] |
 | workflows/sabah-daily-seo-blog.source.json | source component | main | local; ownership review required | ADAPT | read-only indexed; NOT TESTED; CMS identity, mutable remote inventory and private ledger/config dependencies remain unported; no live writes tested.; dependencies: [] |
+
+## Continuation accounting
+
+The original 460 rows are retained as historical discovery evidence. Current deduplicated functional accounting and per-group implementation status are in [canonical capabilities](docs/canonical-capabilities.md). Batch 0.2 adds seven working modules; partial extraction does not silently mark an entire original engine complete.

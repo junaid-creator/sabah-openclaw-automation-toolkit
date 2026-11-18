@@ -23,3 +23,9 @@ Validation host: Linux x86_64, Python 3.14.4. Python 3.10+ is the source compati
 ## Public readback and CI correction
 
 Anonymous GitHub API readback verified public ownership and all 45 file paths, with an exact Git tree match to the reviewed candidate. A fresh public clone passed all 25 tests and the upstream skill frontmatter validator. The first GitHub CI run also passed all 25 tests, but the supplemental gate mistakenly included its installed virtual environment. The gate now excludes the local .venv while explicitly rejecting any tracked .venv content. This is a test-environment boundary correction, not an exclusion for release source. Git is required for that check. The corrected remote run must be inspected before claiming CI success.
+
+## Continuation batch 0.2
+
+75 offline/mocked tests passed after adding seven source-derived operations modules. A mock identity regression was corrected to supply the now-explicit Instagram username. Syntax/JSON/links and Gitleaks directory scans passed. Tests include actual source-derived FB/IG/Sheets behavior, no duplicate publication after timeout, immutable approvals/revocation, exact destination receipts, independent six-position rotation, clock/credit expiry and watchdog state transitions. Live provider functionality and installed schedules remain NOT TESTED.
+
+Preservation qualification: two source files differed from the earlier release baseline during this continuation. No release operation wrote either file; their changes were recorded and left untouched. A new read-only preservation snapshot was retained privately. This report does not attribute those changes or claim the old entire-source baseline remained identical.

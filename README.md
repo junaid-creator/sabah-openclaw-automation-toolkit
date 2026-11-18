@@ -2,9 +2,9 @@
 
 **Status: PARTIAL — portable core, not a replica of the production system.**
 
-Eight source-derived Python modules from the main-assistant and customer-support workflows provide offline SEO planning, local HTML metadata editing, language validation, prospect qualification, content duplicate checks, crash-aware checkpoints, and website reference snapshots. One optional OpenClaw skill coordinates their safe use.
+Fifteen source-derived Python modules from the main-assistant and customer-support workflows provide offline SEO planning, local HTML metadata editing, language validation, prospect qualification, content duplicate checks, crash-aware checkpoints, and website reference snapshots. One optional OpenClaw skill coordinates their safe use.
 
-This release does **not** publish social posts or blogs, send customer replies, run paid Actors, authenticate accounts, install services, or activate schedules. Facebook/Instagram/TikTok delivery engines, six branded poster templates, operational recovery daemons, Google account bindings and live routing are **not ported**. See [inventory](SKILL-INVENTORY.md) and [coverage](docs/coverage.md). Do not equate a discovered file with a working feature.
+Offline examples do not publish posts, send replies, run paid Actors or activate schedules. The optional Meta adapter now contains actual posting operations, disabled by default and tested only with mocks. A bounded FB/IG adapter, approval ledger, notification outbox, rotation, schedule parser, watchdog and billing guard are now ported. The complete three-platform recovery engine, six branded layouts, blog orchestration, account bindings and live routing are **not yet complete**. See [operations modules](docs/operations-modules.md) and [canonical accounting](docs/canonical-capabilities.md). See [inventory](SKILL-INVENTORY.md) and [coverage](docs/coverage.md). Do not equate a discovered file with a working feature.
 
 ## Quick start
 

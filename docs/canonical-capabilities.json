@@ -1,0 +1,6594 @@
+{
+  "records": 460,
+  "canonical_groups": 171,
+  "original_groups": 40,
+  "blocked_groups": 2,
+  "upstream_groups": 127,
+  "method": "Deterministic source basename and SHA aliases plus explicit functional family rules. Family grouping is a release work unit, not proof of equivalent behavior; tests/deployment wrappers remain in source membership.",
+  "groups": [
+    {
+      "id": "upstream:1password",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        0,
+        79
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:add-model-provider",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        1
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:apple-notes",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        2,
+        80
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:apple-reminders",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        3,
+        81
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "skill:automation-adapter-verification",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        4,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 6,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "322fb00f9b281ca347617ffdec07b9819986122ea36e28617745eedf1f9a2963"
+        },
+        {
+          "name": "review-media-revision.md",
+          "sha256": "62f2bbe8128bdd5a3e365e6b7da7d94542e87ff6b26f280eb75bf167c79915d1"
+        },
+        {
+          "name": "lifecycle-notifications.md",
+          "sha256": "62ac46519d307a7a08df7585571863fd0714879d1777d288d662e8b2d6bd6a76"
+        },
+        {
+          "name": "unattended-poster-acceptance.md",
+          "sha256": "c5827c0063a5b5f389250fba691fe1ee42d9094ab79147981bea2a29e91f0a61"
+        },
+        {
+          "name": "review-target-reduction.md",
+          "sha256": "9a8259b2ecfeed75b8b3ecb118678516e4ffeaf2cd875b6fa12020558c128935"
+        },
+        {
+          "name": "restricted-command-bridges.md",
+          "sha256": "9eed841641d40da7a661a4de41b68c4d3b4f0eb5a8129c02d020cf4b0d5c5a1c"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "upstream:bear-notes",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        5,
+        82
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:blogwatcher",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        6,
+        83
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:blucli",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        7,
+        84
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:browser-automation",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        8,
+        85
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:camsnap",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        9,
+        86
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:canvas",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "shared",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        10,
+        87,
+        365
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 2,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "skill:capped-external-api-pilot",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        11,
+        316
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "eb265d407aa4b06f89ff40413af6f0b4cb6c220b60978879882a21b426a7180b"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "upstream:clawhub",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        12,
+        88
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:cloud-image-bake",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        13
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:coding-agent",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        14,
+        89
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:configure-channel",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        15
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:control-ui",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        16,
+        90
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:diagnose-gateway",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        17
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:diagram-maker",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        18,
+        91
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:eightctl",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        19,
+        92
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "skill:gateway-outage-reliability-audit",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        20,
+        333,
+        334
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 2,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "da68b22af9a37a7b82a0b5fb91938defe1d1339ffe6e5d1e8b04b4e15967bc8c"
+        },
+        {
+          "name": "authorized-readiness-changes.md",
+          "sha256": "6537f52c02e40d8b83089e013203172f9cb4ab686c8ab07725f3c9ef840c63fd"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "upstream:gemini",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        21,
+        93
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "skill:generated-asset-checkpoint-recovery",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        22,
+        305,
+        306,
+        307
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 3,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "a85bbf15a90f83677b178e42157ca7102fbd1eae4270800f226c1d89b341f788"
+        },
+        {
+          "name": "persistent-recovery.md",
+          "sha256": "c8570fff772c6a6c3a2cc7b703ca6a5c0a761e3c444ff916b5b47862e32f5b63"
+        },
+        {
+          "name": "same-job-poster-revision.md",
+          "sha256": "3da9d61ed8479e24caccfd201b32d020a5ae4fd3e117b45e2fc6a97b632e1a4f"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "upstream:gh-issues",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        23,
+        94
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:gifgrep",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        24,
+        95
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:github",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "shared",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        25,
+        96,
+        378
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 2,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:gog",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        26,
+        97
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "blocked:gog-clean",
+      "category": "F",
+      "status": "BLOCKED WITH VERIFIED REASON",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        27,
+        295,
+        456
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 2,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "6afdcfcfcccdc1ace1cbd55af1ddbcaeef104a05676e1d5d0185ce217fa68d73"
+        },
+        {
+          "name": "NOTES.md",
+          "sha256": "b3b474c621eaebcad40868c44afd4c0e9689db89ce9881b96e1ffa06e93173c7"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Derivative source identifies upstream ancestry but redistribution chain/license is unresolved; six original blocked records remain excluded."
+    },
+    {
+      "id": "skill:google-sheets-readiness",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        28,
+        318
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "7f92f4f618150c08898b2babb2d74bfaffe3b8626a86b4cb09642307ff1e6b3a"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "upstream:goplaces",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        29,
+        98
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:healthcheck",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        30,
+        99
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:himalaya",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        31,
+        100
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:mcporter",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        32,
+        101
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:meme-maker",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        33,
+        102
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:model-usage",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        34,
+        103
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "skill:multi-platform-publication-recovery",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        35,
+        309,
+        310,
+        311
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 3,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "49eca0b1158a2d9f2e722f6b82a29d4741793df0c01b51a09925f0e8b6d4c8d0"
+        },
+        {
+          "name": "published-image-verification.md",
+          "sha256": "ed4a0c06b4e0b97128a159a07e8aa4a52b1f73e2bae493f42a85eef0bfcd0e54"
+        },
+        {
+          "name": "account-authorization.md",
+          "sha256": "3fdae6510d8b9c5ff1770c7c3407fd678fd6e2088b743759240a0a122d13ae73"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "upstream:nano-pdf",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        36,
+        104
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:node-connect",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        37,
+        105
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:node-inspect-debugger",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        38,
+        106
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:notion",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        39,
+        107
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:obsidian",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        40,
+        108
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:openai-whisper",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        41,
+        109
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:openai-whisper-api",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        42,
+        110
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:openhue",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        43,
+        111
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:oracle",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        44,
+        112
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:ordercli",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        45,
+        113
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:peekaboo",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        46,
+        114
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "skill:poster-template-integration",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        47,
+        336
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "6c99145ca7fab4fd82d23281fe9868be832e8f5550493f3e69e895d5bdfa6592"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "skill:private-mobile-gateway-pairing",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        48,
+        313
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "c7c4a7f83da764beb46f4dc2ea09e625b2d64d5c8a8b2f1edd0b326d247338c8"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "upstream:python-debugpy",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        49,
+        115
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "skill:sabah-daily-seo-blog",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        50
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "d1e601454d78697ef264d46871ea9b4eb39b954ebc9ba09cbad06a6a9835b529"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "upstream:sag",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        51,
+        116
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "skill:seo-marketing-pro",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        52
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "76219998586ec6d2209ea388fb3a8ccc8051f513076eafeb09e084a1b5d0a50c"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "upstream:sherpa-onnx-tts",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        53,
+        117
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:skill-creator",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        54,
+        118
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "skill:smgc-publication-intake-diagnosis",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        55,
+        335
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "35906a77244d69f6a25a685a08403fac3ed6d1d108fa7290feb7171083926efd"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "skill:smgc-social-media",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        56,
+        294
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "45bc1cf18b652aa816a29bb9eefeb81c40cdfdde279c301a2943b4251fb5b3c8"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "upstream:songsee",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        57,
+        119
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:sonoscli",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        58,
+        120
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:spike",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        59,
+        121
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:spotify-player",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        60,
+        122
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:summarize",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        61,
+        123
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "skill:supplied-image-intake",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        62,
+        312
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "2d2767d5a7f162df9fbe8eeae8bd58e7bb427f3c08786149ce17e9bf284b6b62"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "skill:system-management-model-routing",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        63,
+        314
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "f915e9d341584248696b8f140f13a9414cf143a114b2eaa3b24275112c252016"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "upstream:things-mac",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        64,
+        124
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:tmux",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        65,
+        125
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:trello",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        66,
+        126
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:visualize",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        67,
+        127
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:wacli",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        68,
+        128
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:weather",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        69,
+        129
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "skill:woocommerce-cart-checkout-diagnosis",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        70,
+        319
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "45b770859cb5c98475f811b15b4d6e6584f395d5807ad9dced7f22f62c8d1fa5"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "skill:woocommerce-catalog-reconciliation",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        71,
+        320,
+        321,
+        322,
+        323
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 4,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "fd5af748a787bfa06aa2d5c450446dd8794dc783dcc4ba3a3f7bafbfcf2714d8"
+        },
+        {
+          "name": "product-family-consolidation.md",
+          "sha256": "5e87ef89c4911517a4c101e9759d31bde6413603143a5caab945330290742968"
+        },
+        {
+          "name": "draft-publication-validation.md",
+          "sha256": "887c4d8d3582a31493865ad27b84f2055e261214ea99e39dde105e9d781cac2c"
+        },
+        {
+          "name": "approved-row-jobs.md",
+          "sha256": "eaa6c6eaa14b2b7919007e621f13841ba73f58331e892412de2579ee934c06d6"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "skill:woocommerce-price-display-audit",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        72,
+        315
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "76b860d9385a0624e4b5319852ff2c03ea709631bff1d58d2eadd79ba54cf926"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "skill:woocommerce-product-content-seo",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        73,
+        331,
+        332
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 2,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "f733cbfcd8d2b1a735d98fafa2d9cca7efb664c607521af519b70d0d120fc55d"
+        },
+        {
+          "name": "duplicate-description-diagnosis.md",
+          "sha256": "0dead80a7cf8a94ec0e0b9c57d66bffb5abfce7ddb54ce2558c8520fe571a252"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "skill:wordpress-additive-content-update",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        74,
+        330
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "31944248e178763869211b26ec5aa45da003d81373d2d882c352893f2994c326"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "skill:wordpress-child-theme-readiness",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        75,
+        308
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "53933673ba158f38049ced1d59facdf7c7e56d88913244914136dac3e7c87843"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "skill:wordpress-page-style-correction",
+      "category": "A",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        76,
+        317
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 1,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "390e48d9f03760f4dcb0c59b2772df5604e9306c147b1e4b95e0d7c00537c603"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Original operational procedure still references unported adapters/evidence paths or tool capabilities. It has not yet been generalized and independently validated; do not treat engine coverage as skill completion."
+    },
+    {
+      "id": "blocked:wordpress-rest-api-clean",
+      "category": "F",
+      "status": "BLOCKED WITH VERIFIED REASON",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        77,
+        296,
+        457
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 2,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "247610cba8b96ee4b1ec267e2a4d8a92234828711b1b063550bc81a82f47054d"
+        },
+        {
+          "name": "NOTES.md",
+          "sha256": "397a57e60aa56bdf2b05e1bad7c8a21e446dc0fc40c5f4c267702a365fd46a34"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Derivative source identifies upstream ancestry but redistribution chain/license is unresolved; six original blocked records remain excluded."
+    },
+    {
+      "id": "upstream:xurl",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "main",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        78,
+        130
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 1,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "other:woocommerce-verify-badges.py",
+      "category": "C",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        131
+      ],
+      "dependencies": [
+        "concurrent.futures",
+        "html",
+        "json",
+        "pathlib",
+        "re",
+        "urllib.request"
+      ],
+      "unique_source_hashes": 1,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "woocommerce-verify-badges.py",
+          "sha256": "cc89ca90f1bc288a6454190b0dcb98f0cb7948b6d73160a9fb0b621dac96b197"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+    },
+    {
+      "id": "seo-blog-engine",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main",
+        "shared"
+      ],
+      "record_ids": [
+        132,
+        190,
+        192,
+        197,
+        200,
+        203,
+        210,
+        218,
+        222,
+        226,
+        234,
+        237,
+        244,
+        246,
+        248,
+        249,
+        251,
+        255,
+        260,
+        263,
+        278,
+        279,
+        281,
+        282,
+        289,
+        291,
+        297,
+        337,
+        338,
+        339,
+        340,
+        435,
+        458,
+        459
+      ],
+      "dependencies": [
+        "argparse",
+        "ast",
+        "base64",
+        "contextlib",
+        "copy",
+        "ctypes",
+        "ctypes.util",
+        "datetime",
+        "difflib",
+        "fcntl",
+        "hashlib",
+        "html",
+        "html.parser",
+        "http.client",
+        "json",
+        "notification_delivery",
+        "os",
+        "owner_notification_format",
+        "pathlib",
+        "publication_reliability",
+        "re",
+        "sabah_blog_approval_publish",
+        "sabah_blog_controller",
+        "sabah_blog_dual_notify",
+        "sabah_blog_gates",
+        "sabah_blog_ledger",
+        "sabah_blog_notify",
+        "sabah_blog_observer",
+        "sabah_blog_outbox_bridge",
+        "sabah_blog_publication",
+        "sabah_blog_runtime",
+        "sabah_blog_unattended_validate",
+        "sabah_blog_worker",
+        "sabah_product_sync",
+        "sabah_product_sync_final",
+        "sabah_sheets_sync",
+        "socket",
+        "sqlite3",
+        "subprocess",
+        "sys",
+        "task_watchdog",
+        "task_watchdog_delivery",
+        "task_watchdog_results",
+        "tempfile",
+        "time",
+        "types",
+        "unicodedata",
+        "unittest",
+        "unittest.mock",
+        "urllib.error",
+        "urllib.parse",
+        "urllib.request",
+        "uuid",
+        "zoneinfo"
+      ],
+      "unique_source_hashes": 31,
+      "overlapping_records": 3,
+      "sources": [
+        {
+          "name": "sabah-blog-outbox-dispatch.js",
+          "sha256": "0f4427f6c44fb094fe066a0aec3ba71c45575a44e69ac3f9eb0c46643cad0b83"
+        },
+        {
+          "name": "test_sabah_blog_webp_decode.py",
+          "sha256": "47d335c2479f137cb07f3b97a7fff96736c5212b576c56d40795db834666b4ff"
+        },
+        {
+          "name": "test_owner_notification_format.py",
+          "sha256": "9b1a21d0d7d0ddc1df264c0cda5837f87718b83ed7a8eeb387c8ed7bab99358e"
+        },
+        {
+          "name": "test_sabah_blog_delivery_receipts.py",
+          "sha256": "0a571ef15c138fb59842285047ada798c33ba70a889218adbdbad1c6e7989e3a"
+        },
+        {
+          "name": "test_sabah_blog_outbox_bridge.py",
+          "sha256": "90f794fb2510850cf625f819f7f20108710c2146300d61d920c388f44b273b2a"
+        },
+        {
+          "name": "sabah_blog_gates.py",
+          "sha256": "9e350edfeaa4b29e0bdf81841eff9c1531f0d8a4cb9c46fbc1a7bdb9cbd5053f"
+        },
+        {
+          "name": "sabah_blog_unattended_validate.py",
+          "sha256": "2d7889a1908c3c75fd302e0ea5376d1f80dd2b172ffab15546cc0010db34a3b4"
+        },
+        {
+          "name": "task_watchdog_results.py",
+          "sha256": "f9f02a3ed6420f1983e99beaa77c2492ffeec07848b788d3925551342584431c"
+        },
+        {
+          "name": "test_sabah_blog_observer.py",
+          "sha256": "077b26efa0d924d28f02f919aa6d40b8addfcdddde7298f3d669151719d39177"
+        },
+        {
+          "name": "test_sabah_blog_overdue.py",
+          "sha256": "1e9d37948df6cda068836f9138f383c0341667495ac6c9bdd8f4d42dec134abe"
+        },
+        {
+          "name": "sabah_blog_controller.py",
+          "sha256": "591fb0f1049e868f8401696eb8bff8f4064e95f73495ecabef321d17b7cddfed"
+        },
+        {
+          "name": "test_sabah_blog_publication_evidence.py",
+          "sha256": "c3f07c70fbb582aefbd0783a6cf7c6fc9508e8dd3f1c4da287b6f4821270fc9a"
+        },
+        {
+          "name": "sabah_blog_notify.py",
+          "sha256": "1f0ee26b31eda93dcf1f555c63aed28519eed6a4fd5bbc66738525fcbfa1cb82"
+        },
+        {
+          "name": "sabah_blog_publication.py",
+          "sha256": "70e99e6fdc95c3e5725d2a3274576f8eaf940438ccb1e8a33fdfeb420bb57865"
+        },
+        {
+          "name": "sabah_blog_approval_publish.py",
+          "sha256": "9cd43fdb06de53952aa5e22a3265909d20391ab577407d8dbe925987066ed06f"
+        },
+        {
+          "name": "sabah_blog_runtime.py",
+          "sha256": "d26a75310309e92ce867ed5d95730590ccafd17d9ee2145ce475f35e94dec8fa"
+        },
+        {
+          "name": "sabah_blog_outbox_bridge.py",
+          "sha256": "739d9211b0d7cc9c7d65fb2d86cf060f4407f1bfb211c800c873bd9df4bf0a33"
+        },
+        {
+          "name": "sabah_blog_inbound.py",
+          "sha256": "b6e3b127258c462fd59465515120688e35c99c691da97efe3caeaf9b30618663"
+        },
+        {
+          "name": "sabah_blog_dual_notify.py",
+          "sha256": "28d2026e991739757067199ee8d6498821f9f89e7e47b7f98af5771cf2e8be6d"
+        },
+        {
+          "name": "test_sabah_blog_local_image_recovery.py",
+          "sha256": "0c71fa6ff956368c1504c5798e4424e503dc3d7dc96a3087dbfce5838d125cab"
+        },
+        {
+          "name": "sabah_blog_ledger.py",
+          "sha256": "b35e619e9d36b6fdad5bc4a691d44f2ae0550f6e38204f71d99c572ef4351c05"
+        },
+        {
+          "name": "test_sabah_blog_gates.py",
+          "sha256": "638aec0d1ad59c7a3fe97ac8bdf145456f68c609ecc8ce183539f25dd08c3318"
+        },
+        {
+          "name": "test_sabah_blog_reliability.py",
+          "sha256": "19f59afaaafee15d4da849b8330d3932aeb81d51b12305a2b3f1729e232969dd"
+        },
+        {
+          "name": "sabah_blog_worker.py",
+          "sha256": "ba1489220c5e9ff7aec2219b7feee0aa2768bb3f1b8619a1e346fea290cab670"
+        },
+        {
+          "name": "test_sabah_blog_webp_structure.py",
+          "sha256": "dc6e5c57661532c779dd6e0e130889bf15c960b32beb8f78007dd7bc929f9ae0"
+        },
+        {
+          "name": "test_sabah_blog_worker.py",
+          "sha256": "7b86e93e8702ce2fbfa2b508d34fe72cbb14f3b63ae7a294184f80a1067563d2"
+        },
+        {
+          "name": "SKILL.md",
+          "sha256": "d1e601454d78697ef264d46871ea9b4eb39b954ebc9ba09cbad06a6a9835b529"
+        },
+        {
+          "name": "image-capture.js",
+          "sha256": "8239bfdc90db3097a8781f13120b40b116c623caccbcd73ba9966be296111c18"
+        },
+        {
+          "name": "recovery-service.js",
+          "sha256": "dfa5cee38b21572dd0783f576773d1285850871ab6bc08a70cdec4a368e57bc1"
+        },
+        {
+          "name": "sabah-blog-daily-agent.md",
+          "sha256": "5353f88d0de61314dd564a95332e8a4293c18d6db3b9150058415a2856e18c89"
+        },
+        {
+          "name": "sabah-daily-seo-blog.source.json",
+          "sha256": "610670e983f7c5d00bb595e446a2544bae13e8fc0f2e8e2fb57f3af09df71954"
+        }
+      ],
+      "published_modules": [
+        "reliability",
+        "content_ledger"
+      ],
+      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+    },
+    {
+      "id": "social-scheduling",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main",
+        "main/support (see private snapshot)",
+        "shared"
+      ],
+      "record_ids": [
+        133,
+        171,
+        235,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        427,
+        442,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454
+      ],
+      "dependencies": [
+        "__future__",
+        "contextlib",
+        "daily_series",
+        "datetime",
+        "hashlib",
+        "io",
+        "json",
+        "pathlib",
+        "re",
+        "sabah_daily_social",
+        "sqlite3",
+        "sys",
+        "tempfile",
+        "unittest",
+        "unittest.mock",
+        "zoneinfo"
+      ],
+      "unique_source_hashes": 12,
+      "overlapping_records": 9,
+      "sources": [
+        {
+          "name": "daily_series.py",
+          "sha256": "f465889ac99ccbcb9a250963c31986c1228d69e500aefc1e8b8ba9940ce3a455"
+        },
+        {
+          "name": "test_daily_series.py",
+          "sha256": "8bd874955f27f14724db2c5870784c2b3cb3e1a2eb36e8b6802e94a861cdb58f"
+        },
+        {
+          "name": "test_sabah_daily_social_recovery.py",
+          "sha256": "f9fff67b7480e2cd11c4f77c61db56aca37810713488218a46801cb23bd015e7"
+        },
+        {
+          "name": "lifecycle.mjs",
+          "sha256": "d159c4c79d55fb15e3455af1a468956f4f317111fec943b14bce7ca23007744a"
+        },
+        {
+          "name": "test_owner_authorization.mjs",
+          "sha256": "d292947ef493f2cfc14ca8e23143c2fefae1d803ffd9be65a0453250a6384af5"
+        },
+        {
+          "name": "test_natural_language.mjs",
+          "sha256": "12e26181557295dc01790b874d60e98170a718d083049f33372a658eaf2f4385"
+        },
+        {
+          "name": "test_lifecycle.mjs",
+          "sha256": "3c48f78f8b34ef2447b17933edf96835958ace219393f2725c0931e36d744ca6"
+        },
+        {
+          "name": "natural-language.mjs",
+          "sha256": "f9dd1c9a46aad3d72fb6bc2286636334f8122bc1d537edd5a7f075e15082e971"
+        },
+        {
+          "name": "index.mjs",
+          "sha256": "5fcd59265a5f84ccf57f09ffa9da9ef0b3f37aa1383321fadacf591d8586fcf5"
+        },
+        {
+          "name": "test_dual_admin.mjs",
+          "sha256": "e7fb9591f8c02f3c6b947dda68a79aeab1d70b4cd10c13b050b7e93fdbe9a063"
+        },
+        {
+          "name": "smgc-meta-scheduler.service",
+          "sha256": "0bcd5e7c3297879da19048d2a415faf05d1c85df7003331d8133d5efef1b7c6a"
+        },
+        {
+          "name": "smgc-meta-scheduler.timer",
+          "sha256": "e41c3032b31ace85e42357689af92bd686b7c36e10fe62f411d587281fd6ea45"
+        }
+      ],
+      "published_modules": [
+        "product_rotation",
+        "schedule_core"
+      ],
+      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+    },
+    {
+      "id": "deployment-specific-utilities",
+      "category": "D",
+      "status": "DUPLICATE / ALREADY COVERED",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        134,
+        138,
+        144,
+        145,
+        149
+      ],
+      "dependencies": [
+        "__future__",
+        "importlib.util",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "sys",
+        "urllib.error",
+        "urllib.parse",
+        "urllib.request"
+      ],
+      "unique_source_hashes": 5,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "update_app_token_secret_refs.py",
+          "sha256": "93ed6371883a0cebc33366a8699d43c24b7f3aa0f5b10dfd959f9e5abdbb88f8"
+        },
+        {
+          "name": "write_owner_supplied_meta_ids.py",
+          "sha256": "7ab456e7b5f322a80213deb7ad813496663589cb1596a3cdbc199626d8d79db0"
+        },
+        {
+          "name": "validate_injected_tokens.py",
+          "sha256": "65ed627959fac45a855c2e350d6340247771257c3ce537070bd5bb16b854f5b4"
+        },
+        {
+          "name": "read_meta_config_metadata.py",
+          "sha256": "9d1823bd862c2d9748309a3da5161acf91846c988ab2eb4dc71f1f721552e01e"
+        },
+        {
+          "name": "__init__.py",
+          "sha256": "2a557e1820d2672d2e3adbaf7f09001cc2cf64c33967e56d4b5b4f316b3ca17a"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Tests, package markers and deployment-specific utility records are not additional standalone capabilities; retain as supporting provenance, not independently reimplemented packages."
+    },
+    {
+      "id": "verification-harnesses",
+      "category": "D",
+      "status": "DUPLICATE / ALREADY COVERED",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        135,
+        148,
+        158,
+        172,
+        230
+      ],
+      "dependencies": [
+        "ast",
+        "contextlib",
+        "datetime",
+        "fcntl",
+        "hashlib",
+        "importlib.util",
+        "json",
+        "os",
+        "pathlib",
+        "sabah_sheets_sync",
+        "signal",
+        "subprocess",
+        "sys",
+        "types",
+        "unittest",
+        "unittest.mock",
+        "urllib.parse"
+      ],
+      "unique_source_hashes": 5,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "update_test_asset_urls.py",
+          "sha256": "9db45dcbdb8bd301bda67b092b92616c313fbe81edb55a1d49b507d8a8bcb73d"
+        },
+        {
+          "name": "stage_controlled_test.py",
+          "sha256": "421021fce089a0dbe2f7da064826911b3021b840f913eba06b0fa89a7eef5199"
+        },
+        {
+          "name": "conftest.py",
+          "sha256": "e3281e85cd8f08d4746e48312112c97987d8c68c145973c11f24f7cb52f677af"
+        },
+        {
+          "name": "test_tiktok_oauth_scope.py",
+          "sha256": "7154a0a2fd79c347ce9a36bc95ec20df70ed5543d5bcf53ba9962e5c93cf9969"
+        },
+        {
+          "name": "test_sabah_sheets_process.py",
+          "sha256": "9e55aa0487093d5ae587c18d4071b03c5c4ef8f0eaa411de425de136568f607f"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Tests, package markers and deployment-specific utility records are not additional standalone capabilities; retain as supporting provenance, not independently reimplemented packages."
+    },
+    {
+      "id": "social-publishing",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        136,
+        137,
+        139,
+        140,
+        141,
+        142,
+        143,
+        146,
+        147,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        173,
+        174,
+        175,
+        176,
+        182,
+        213,
+        217,
+        219,
+        254,
+        256,
+        258,
+        259,
+        262,
+        273,
+        292
+      ],
+      "dependencies": [
+        "PIL",
+        "PIL.Image",
+        "__future__",
+        "admin_commands",
+        "argparse",
+        "concurrent.futures",
+        "contextlib",
+        "copy",
+        "daily_series",
+        "dataclasses",
+        "datetime",
+        "email.utils",
+        "enum",
+        "fcntl",
+        "hashlib",
+        "hmac",
+        "html",
+        "importlib.util",
+        "io",
+        "ipaddress",
+        "json",
+        "meta_publisher",
+        "notification_delivery",
+        "notification_worker",
+        "os",
+        "owner_notification_format",
+        "pathlib",
+        "publication_reliability",
+        "pytest",
+        "random",
+        "re",
+        "reliability_cli",
+        "sabah_product_sync",
+        "sabah_review_delivery",
+        "sabah_social_notify",
+        "sabah_social_quality",
+        "scheduled_publication",
+        "scoped_instagram",
+        "secrets",
+        "secure_schedule_command",
+        "shutil",
+        "smgc_meta_scheduler",
+        "smgc_meta_worker",
+        "sqlite3",
+        "subprocess",
+        "sys",
+        "task_watchdog",
+        "task_watchdog_delivery",
+        "task_watchdog_lifecycle",
+        "task_watchdog_metadata",
+        "task_watchdog_results",
+        "task_watchdog_summary",
+        "tempfile",
+        "test_meta_publisher",
+        "test_notification_delivery",
+        "test_reliability",
+        "test_review_provenance_guards",
+        "test_scheduled_publication",
+        "test_secure_schedule_command",
+        "test_sm0022_repair",
+        "threading",
+        "tiktok_publisher",
+        "time",
+        "tools",
+        "tools.task_watchdog_delivery",
+        "types",
+        "typing",
+        "unittest",
+        "unittest.mock",
+        "urllib.error",
+        "urllib.parse",
+        "urllib.request",
+        "zoneinfo"
+      ],
+      "unique_source_hashes": 43,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "tiktok_probe.py",
+          "sha256": "de3f11214753a08d1b36ad95b8f92cbd03bdaa56415086553ebff83dc39beb10"
+        },
+        {
+          "name": "tiktok_publisher.py",
+          "sha256": "e68dc789784e6ec08dce0b34ad00185c8c721e0c48a6fa0a6ab592091bab2800"
+        },
+        {
+          "name": "admin_commands.py",
+          "sha256": "35da03ad65cecfae55d70ae99f7f6d6ab339e8d8ef3d8befec12dcd54c015506"
+        },
+        {
+          "name": "secure_schedule_command.py",
+          "sha256": "2f1958c4da175196e280e1c864a7a83edbb455461dec3d95d319b2a8eed8f23a"
+        },
+        {
+          "name": "notification_delivery.py",
+          "sha256": "f33c38ac4fe0f605566070bca0a5aee96cd06b73b1429d4a8d9b6d00066fb1ae"
+        },
+        {
+          "name": "scheduled_publication.py",
+          "sha256": "348c0a5d3e5ea2b8f74d9e916526490b21e86c6938ef35d2704e6eccf892bef9"
+        },
+        {
+          "name": "notification_worker.py",
+          "sha256": "0673219d2f458e86bc191a744c2222b793579e324bf0fc17aed973a76de8b890"
+        },
+        {
+          "name": "smgc_meta_worker.py",
+          "sha256": "f87c566f19915e2baff04cda38a34e0e4135c537cc00589ba3b2958755f702c8"
+        },
+        {
+          "name": "smgc_meta_scheduler.py",
+          "sha256": "fb201eb6e460a5499ce542238ebd790b2a61518a64b268f68318e64258ccd8fa"
+        },
+        {
+          "name": "reliability_cli.py",
+          "sha256": "c9db7b4994a964796e3064abe0880d1d5c97ade7aa272a990258bf0f468fcb34"
+        },
+        {
+          "name": "scoped_instagram.py",
+          "sha256": "1b28fe5c732b6dd578c6c82c8570bfd4fffad8d39413aa7620173ed58882aed3"
+        },
+        {
+          "name": "meta_publisher.py",
+          "sha256": "6f7ec9023ee87ba42ae658a45324c5f1022b1998db990016cc41074ea736fb89"
+        },
+        {
+          "name": "publication_reliability.py",
+          "sha256": "52c695ba07d9e678342c8c12b037e520b7f8cdff1b86946ffb6b7f91a0ab279a"
+        },
+        {
+          "name": "test_owner_command_policy.py",
+          "sha256": "e9de8ae6e096e3f9a21b1b234ff699c0831c2d50320851b86ffffcbb1579c936"
+        },
+        {
+          "name": "test_scheduled_publication.py",
+          "sha256": "3f865b10979aac670de9f66993e3a78614cf9d6ab198b45db248083d100e28bd"
+        },
+        {
+          "name": "test_recovery_batch_priority.py",
+          "sha256": "9a1a36121c4bfd2961f3dd80c6c8daeb7e7e194ac5faaa0494deac9aaa27d8a9"
+        },
+        {
+          "name": "test_daily_publication_admission.py",
+          "sha256": "ef36b5fc4d66a0a0b619fecc040db8ca2c7fc910c40af41c84cb4346b0c12791"
+        },
+        {
+          "name": "test_notification_delivery.py",
+          "sha256": "1b360d3caacc744732e7c27d9f562e76899c6dbd2070746c8904794f44b00d32"
+        },
+        {
+          "name": "test_review_provenance_guards.py",
+          "sha256": "e1949f2e8af6cc7558bd37b3f078bcd596a545ea9ae8104a9204de1ec93642a9"
+        },
+        {
+          "name": "test_integration_wiring.py",
+          "sha256": "f9be2f1f9d9ea5e9a0bdf2443d220c28980febe206df04dacb6b85355f167f61"
+        },
+        {
+          "name": "test_notification_worker.py",
+          "sha256": "49951018ba152fac1f823e5acca821468cbde3bdbe2ee0ac3c13d3661e401106"
+        },
+        {
+          "name": "test_meta_publisher.py",
+          "sha256": "5f6ef2e2408ea05e3f803cf42d230baaeece4b2bb9141509fb0e34b02d38c3ea"
+        },
+        {
+          "name": "test_recovery_exit_status.py",
+          "sha256": "42e3de130762c2e313135c263b44baf1c2edd68d87ad0565f9cb3d015dbe33d3"
+        },
+        {
+          "name": "test_smgc_meta_worker.py",
+          "sha256": "4e6707eaaceefe0f9f69648a0bc1cbe960a420b6c3edfca861ee515cc8414ade"
+        },
+        {
+          "name": "test_dual_admin.py",
+          "sha256": "c17735a87d589afea8292018e1c7fe1753e335c8fe4adca8e7df5e39afc950a3"
+        },
+        {
+          "name": "test_secure_schedule_command.py",
+          "sha256": "0fcc0203d64d878b343b160788bbec616f55de930390bda97eff5bbfd98f6158"
+        },
+        {
+          "name": "test_smgc_meta_scheduler.py",
+          "sha256": "13496fb602faa1d6e7e8d627b1110e0c227ed7c0dbc4f57310312aec1f909c8e"
+        },
+        {
+          "name": "test_scoped_instagram.py",
+          "sha256": "faf2ae84cc1af5f67c3ed6b691d1597dbd8b816924c36523fd1a042df40554a7"
+        },
+        {
+          "name": "test_p0_notifications.py",
+          "sha256": "3b59fffabc3e0838ce445b53c2179cb5b201e8caa67bcfd543218b6e74a120ce"
+        },
+        {
+          "name": "test_sm0022_repair.py",
+          "sha256": "63fb3674e8945ca7b78434fc555ba06a40ad85beec1b2227bd568a5dec3ba324"
+        },
+        {
+          "name": "test_reliability.py",
+          "sha256": "00dcc12bf72a72fd0f9161bf4ad3115c8adda517f7559db7fd36fb962d6ab484"
+        },
+        {
+          "name": "test_production_completion.py",
+          "sha256": "75721376b2da4cb65676a93fa9dfd028ae418d5f8c5029b24067b7a39b703bf6"
+        },
+        {
+          "name": "task_watchdog_runner.py",
+          "sha256": "e6dfb190951bd81780fc9559fcc05c1ce65f9c242ee5006053df3629cb25e246"
+        },
+        {
+          "name": "task_watchdog_delivery.py",
+          "sha256": "6f2396b5b7af14c547bea79bd48dd1cd5c1a11e7f0a682ace290cea85fb87b89"
+        },
+        {
+          "name": "sabah_publish_photo.py",
+          "sha256": "199acd5c74f6680c05b5275b58c2ebfdb4b2c2cf1770910d20c4bbec499cc026"
+        },
+        {
+          "name": "test_task_watchdog_delivery.py",
+          "sha256": "c0f9cb427a85f129726351be6238fcf51c649541ff2f7a136123e61f7916c425"
+        },
+        {
+          "name": "test_notification_continuation.py",
+          "sha256": "55a14a1681cfc302a96d8a5a5be1cb968ef059284e39622b63b0834fedbb58ec"
+        },
+        {
+          "name": "sabah_publish_photo.sh",
+          "sha256": "a147e7673a69a5caf043979985f06ddb3fa259daa10b09132dc3d939645a7f50"
+        },
+        {
+          "name": "sabah_revise_review_media.py",
+          "sha256": "89f58761901659f4ecf41bf95be00a65b328a71f8cdbd459e856b19fc99b33c0"
+        },
+        {
+          "name": "sabah_daily_social.py",
+          "sha256": "d9966c2ce1b615d42ea910538e4068e2973f5123df0ac7a23cebd0f8cdfcfafe"
+        },
+        {
+          "name": "sm0024_tiktok_addon.py",
+          "sha256": "e667c8fb2f26698eb0bb9ef90739cd220c0e68e04d750466e4061329022bb862"
+        },
+        {
+          "name": "sabah_revise_review_targets.py",
+          "sha256": "39d72a16a64d5cf1024e58686e8d9c860a01b38b137d15b73ef20898241a3694"
+        },
+        {
+          "name": "sabah_social_publish_approved.py",
+          "sha256": "450988f09d4ad8f6dd6cf506869aa5e6d87b659242ebf9fcb16411c3e70ea1eb"
+        }
+      ],
+      "published_modules": [
+        "meta_publisher",
+        "approval_ledger"
+      ],
+      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+    },
+    {
+      "id": "notification-delivery",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        150,
+        201,
+        233,
+        243,
+        252
+      ],
+      "dependencies": [
+        "__future__",
+        "datetime",
+        "json",
+        "notification_delivery",
+        "owner_notification_format",
+        "pathlib",
+        "pytest",
+        "re",
+        "sabah_social_notify",
+        "sqlite3",
+        "subprocess",
+        "sys",
+        "task_watchdog_lifecycle",
+        "task_watchdog_results",
+        "time",
+        "zoneinfo"
+      ],
+      "unique_source_hashes": 5,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "owner_notification_format.py",
+          "sha256": "297a5dc3d917341609722f1b4e09d2481bcbcf2593f97d1acbe774c2f7d26db5"
+        },
+        {
+          "name": "task_watchdog_summary.py",
+          "sha256": "c7ba49f620f892c8b6841f9c566be8988dc7977b5ed53900a12110d552e0a279"
+        },
+        {
+          "name": "send_tiktok_notice.py",
+          "sha256": "6bb653a2ff90238e1f99dbb9c36c149a63929470f2a400a70fd8fce289749753"
+        },
+        {
+          "name": "sabah_social_notify.py",
+          "sha256": "dd06a57429a4f05d0ab46d998c7eb80f83feb50adcd0c29c99e9866d9949293a"
+        },
+        {
+          "name": "test_social_owner_routing.py",
+          "sha256": "2a30b399b7e383667aaf69ea8d99aa57ae4cc96db9e6c856fafcd708ae67dfdc"
+        }
+      ],
+      "published_modules": [
+        "notification_outbox"
+      ],
+      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+    },
+    {
+      "id": "product-catalog",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main",
+        "shared"
+      ],
+      "record_ids": [
+        177,
+        178,
+        179,
+        188,
+        198,
+        224,
+        225,
+        240,
+        242,
+        266,
+        284,
+        349,
+        350,
+        351,
+        352,
+        353
+      ],
+      "dependencies": [
+        "argparse",
+        "base64",
+        "contextlib",
+        "copy",
+        "datetime",
+        "decimal",
+        "email.utils",
+        "fcntl",
+        "gzip",
+        "hashlib",
+        "html",
+        "html.parser",
+        "io",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "sabah_product_sync",
+        "sabah_product_sync_final",
+        "secrets",
+        "smgc_product_adapter",
+        "smgc_product_commands",
+        "sqlite3",
+        "subprocess",
+        "sys",
+        "tempfile",
+        "threading",
+        "time",
+        "unittest",
+        "unittest.mock",
+        "urllib.error",
+        "urllib.parse",
+        "urllib.request"
+      ],
+      "unique_source_hashes": 11,
+      "overlapping_records": 5,
+      "sources": [
+        {
+          "name": "bridge.test.js",
+          "sha256": "764f23b9c7b2d57ff0ea038e87d2fac6fdd547dde3846083a623726c61961632"
+        },
+        {
+          "name": "bridge.js",
+          "sha256": "6183d39ba98cd334d498ef548e179db212e6381626c00a535a3919b2af08ef9d"
+        },
+        {
+          "name": "index.js",
+          "sha256": "87af85a673d14c633510e9792e42f5e8cb1ad8186a58b295404f546fbf05027f"
+        },
+        {
+          "name": "sabah_product_sync_final.py",
+          "sha256": "8a5e7eaf8b05662f88c216d024ec9fcfc4b1389d55ec570f7920daafbc604049"
+        },
+        {
+          "name": "test_sabah_product_sync_final.py",
+          "sha256": "30545f0e9e542c793fc8a9e129dcbcff8c688034e58b93bcdc723c6d304db5b4"
+        },
+        {
+          "name": "smgc_product_adapter.py",
+          "sha256": "bc43948aa2fbe8eb25095bac4b9ebe82348be7c531510b531e24f08edac6459f"
+        },
+        {
+          "name": "test_smgc_product_commands.py",
+          "sha256": "2e4e22d93f6d5695f5d4eb1534718778aa87956748e413d435b64104f218b871"
+        },
+        {
+          "name": "test_sabah_product_sync.py",
+          "sha256": "a28c9d8838b7a23fb99e4c47a6a3cf52ab0cc8408d74f69f61858c52f17ac6e9"
+        },
+        {
+          "name": "smgc_product_commands.py",
+          "sha256": "22a4bc9de6f99c4db4cdbbf108745468e5c6b088bfbcfbd9e829cd732b228764"
+        },
+        {
+          "name": "test_smgc_product_qa.py",
+          "sha256": "268aca4554d66d5e1bac8ae66a0d653f17140adbf95b3958410a5855527facdb"
+        },
+        {
+          "name": "sabah_product_sync.py",
+          "sha256": "11f70db3395d4b40f1780500d8670e9da6a1c7623bf072e3a108659f3fe68681"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Production WP-CLI and Sheets catalog mutations, concurrency/fingerprint checks and exact commerce-preserving readbacks require a portable adapter test harness."
+    },
+    {
+      "id": "tiktok-auth",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        180,
+        181
+      ],
+      "dependencies": [
+        "contextlib",
+        "fcntl",
+        "getpass",
+        "hashlib",
+        "hmac",
+        "importlib.util",
+        "json",
+        "os",
+        "pathlib",
+        "pytest",
+        "secrets",
+        "stat",
+        "sys",
+        "tempfile",
+        "time",
+        "urllib.parse",
+        "urllib.request",
+        "warnings"
+      ],
+      "unique_source_hashes": 2,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "tt_auth.py",
+          "sha256": "c671efaa8c287f9ead46229070e2464bf110182206980b39db4de373d9b6f1dd"
+        },
+        {
+          "name": "test_tt_auth.py",
+          "sha256": "59524aecc8ca0376eae01f08c3accee04b5ec6c0e3c73fd1d715c01370a024ab"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Installed OAuth and Business Direct Post contracts use private app bindings; portable callback/config isolation and mocked end-to-end testing remain unfinished."
+    },
+    {
+      "id": "lead-acquisition",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        183,
+        193,
+        204,
+        206,
+        270,
+        293
+      ],
+      "dependencies": [
+        "apify_leads",
+        "apify_leads_monitor",
+        "argparse",
+        "concurrent.futures",
+        "datetime",
+        "fcntl",
+        "io",
+        "ipaddress",
+        "json",
+        "lead_collection",
+        "lead_sheet_sync",
+        "math",
+        "os",
+        "pathlib",
+        "qualified_leads",
+        "re",
+        "requests",
+        "shlex",
+        "signal",
+        "socket",
+        "subprocess",
+        "sys",
+        "tempfile",
+        "time",
+        "unittest",
+        "unittest.mock",
+        "urllib.error",
+        "urllib.parse",
+        "urllib.request",
+        "uuid",
+        "zoneinfo"
+      ],
+      "unique_source_hashes": 6,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "apify_leads.py",
+          "sha256": "e5a66d27faa041589ba5b087ffa8fce947f273053bb1e5bbe1f651b30c9265f6"
+        },
+        {
+          "name": "qualified_leads.py",
+          "sha256": "ac9b37d74b6a82296d440489a8c8173286a1372f0168b35f1a18e27a4f1f4459"
+        },
+        {
+          "name": "apify_leads_monitor.py",
+          "sha256": "74c8d1e12c60ecc90bbd8d1559c03d9a0460ef2f319d5452563ab7a1fa6817ab"
+        },
+        {
+          "name": "lead_sheet_sync.py",
+          "sha256": "7df85107d13465cfe2e40a9c6fb4ebdadf9554c79fb6318c3441004e70871403"
+        },
+        {
+          "name": "lead_collection.py",
+          "sha256": "10498d1d75373705aabb3b81ba82ae73e75c385b73374b66ae5d514bef98b50f"
+        },
+        {
+          "name": "test_apify_leads.py",
+          "sha256": "8fd3f4938d87584a848d8643ec646ab482b4887c146136c159e32fb4c59eefe2"
+        }
+      ],
+      "published_modules": [
+        "lead_qualification",
+        "apify_budget"
+      ],
+      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+    },
+    {
+      "id": "social-draft-review",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        184,
+        186,
+        236
+      ],
+      "dependencies": [
+        "argparse",
+        "contextlib",
+        "copy",
+        "fcntl",
+        "hashlib",
+        "importlib.util",
+        "json",
+        "os",
+        "pathlib",
+        "pytest",
+        "re",
+        "sabah_review_delivery",
+        "sabah_revise_review_targets",
+        "sabah_social_language",
+        "sabah_social_notify",
+        "sqlite3",
+        "sys",
+        "tempfile"
+      ],
+      "unique_source_hashes": 3,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "sabah_social_job_create.py",
+          "sha256": "a177d15f26841b94808d8d1ca0a3ec09fa58292e0ca88df087b1073b072b3251"
+        },
+        {
+          "name": "test_revise_review_targets.py",
+          "sha256": "edb7d33c4a99f862cb46b1aba32b76a19d06870bde782decf8fa3a5fbe0057c3"
+        },
+        {
+          "name": "sabah_review_delivery.py",
+          "sha256": "b7293817941f278014cb4825156ce6afa6f31deff947955c9a17a2d36fdb3976"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+    },
+    {
+      "id": "poster-generation",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        185,
+        187,
+        189,
+        195,
+        196,
+        202,
+        215,
+        221,
+        223,
+        229,
+        231,
+        232,
+        238,
+        250,
+        257,
+        265,
+        269,
+        271,
+        274,
+        275,
+        276,
+        277,
+        288,
+        290,
+        303
+      ],
+      "dependencies": [
+        "PIL",
+        "__future__",
+        "argparse",
+        "base64",
+        "copy",
+        "datetime",
+        "fcntl",
+        "hashlib",
+        "html",
+        "importlib.util",
+        "io",
+        "ipaddress",
+        "itertools",
+        "json",
+        "math",
+        "mimetypes",
+        "os",
+        "pathlib",
+        "playwright.sync_api",
+        "pytest",
+        "pyzbar.pyzbar",
+        "random",
+        "re",
+        "sabah_daily_visual_review",
+        "sabah_review_delivery",
+        "sabah_social_defaults",
+        "sabah_social_image_import",
+        "sabah_social_job_create",
+        "sabah_social_language",
+        "sabah_social_notify",
+        "sabah_social_poster_selection",
+        "sabah_social_quality",
+        "sabah_social_render_catalog",
+        "sabah_social_render_html",
+        "sabah_social_scenes",
+        "sabah_social_template6",
+        "sabah_social_templates",
+        "sabah_template6_quality",
+        "sabah_whatsapp_draft",
+        "shutil",
+        "socket",
+        "sqlite3",
+        "stat",
+        "subprocess",
+        "sys",
+        "tempfile",
+        "types",
+        "unittest",
+        "unittest.mock",
+        "urllib.parse",
+        "urllib.request",
+        "uuid"
+      ],
+      "unique_source_hashes": 24,
+      "overlapping_records": 1,
+      "sources": [
+        {
+          "name": "test_social_image_import.py",
+          "sha256": "bf67bde56ab024db217e1115567df17b7dd095ee4b11b60e6bf5869b3186bb63"
+        },
+        {
+          "name": "sabah_social_poster_selection.py",
+          "sha256": "8eebcd98e339ab1628ee260f26370cbbb2d6dfcb35bbc4a2729ae475be55cbf1"
+        },
+        {
+          "name": "sabah_social_image_import.py",
+          "sha256": "8e7b2f3b80164e3bf5b933fe8990257247f682a789a05f94a1cbe53b495885bd"
+        },
+        {
+          "name": "sabah_social_quality.py",
+          "sha256": "2c9feedf9f63d998567d1d1e8601f15279cf17795f314660e717b7c04ada125e"
+        },
+        {
+          "name": "test_social_media_resize_revision.py",
+          "sha256": "f581865fbce309f20ee8c809dbf8512c03d6c33be47f7e6811a2226e3b691981"
+        },
+        {
+          "name": "test_dual_social_preview_routes.py",
+          "sha256": "705ccbfe380de54e82b2c40aadff4c423f5ffbb0d1fb4dd02c7cbe681aa3b4cc"
+        },
+        {
+          "name": "test_sabah_daily_visual_review_contract.py",
+          "sha256": "9b8d2b2db8b0a32ba3db73731f6c8590655de3a794f846a028f01e685201ffee"
+        },
+        {
+          "name": "sabah_template6_quality.py",
+          "sha256": "43013a78c715ae5ed11e8a4925e45dcff5790a74379c7e5a7cca5687ca2bef7d"
+        },
+        {
+          "name": "test_sabah_social_scenes_revision.py",
+          "sha256": "376bd5822f251efeb4e7ababd29917f0425a3a97e2a292f7890de7c447460394"
+        },
+        {
+          "name": "sabah_social_template6.py",
+          "sha256": "18dbbe2cd7283043e353e784b9e38f643f34c45ec115df2b92bc6efbf6870b01"
+        },
+        {
+          "name": "sabah_whatsapp_draft.py",
+          "sha256": "5cc609016f544b2ce031c236d99b4d41e7938cc499fd88de0077ed7774a57916"
+        },
+        {
+          "name": "sabah_social_prepare_draft.py",
+          "sha256": "e65e497c5f2dead19f892e709cc1a3656be75fcaef25089265c0391728ecac05"
+        },
+        {
+          "name": "sabah_social_render_catalog.py",
+          "sha256": "0b19cb8e80d636a777a80cf2f13e21f6e27ecf40146c08648299af0139b73b4c"
+        },
+        {
+          "name": "sabah_social_render_html.py",
+          "sha256": "0eb9a2beeaf0a508d2a3ef150f27325380f012d8ab63b7571957ffb578059af8"
+        },
+        {
+          "name": "sabah_social_finalize_poster.py",
+          "sha256": "24ec19d6285d089fe8cd1d297edf88b9c7278e33293a8ce4376b2767c04279f5"
+        },
+        {
+          "name": "sabah_social_image_generate.sh",
+          "sha256": "6f5629865d1804f4a8783335d97acc02cd3c64cbe3ae03e30d20c8ef225fe20b"
+        },
+        {
+          "name": "test_social_poster_immutability.py",
+          "sha256": "e58849a5ad11d0a40de3626ebda84370c6c6f20d0e663457da6b4045404fca6a"
+        },
+        {
+          "name": "sabah_social_defaults.py",
+          "sha256": "5ca3f7297e3d4c37916fa1b223eed1cbfc0a7996ff4a40106276e74435f80d0b"
+        },
+        {
+          "name": "sabah_social_render_reference.py",
+          "sha256": "0eb9a2beeaf0a508d2a3ef150f27325380f012d8ab63b7571957ffb578059af8"
+        },
+        {
+          "name": "sabah_social_templates.py",
+          "sha256": "0d2a754dded1c761c7e3362f73111331652d22a7e6f733c2ea9c360088c2a53e"
+        },
+        {
+          "name": "sabah_social_render_poster.py",
+          "sha256": "27c7ed73b4c32c732c36c6cff070c77a994a034b23726387981969503f249095"
+        },
+        {
+          "name": "test_social_poster_selection.py",
+          "sha256": "a184945323105cc27d7e42f68a8ca5b4228ecfc2b6e9b0b3ac893d21b8225132"
+        },
+        {
+          "name": "sabah_social_scenes.py",
+          "sha256": "03c1dd88910e240d469e59c01bf4038e95763531d2ba123a4db30eaf459986cf"
+        },
+        {
+          "name": "test_social_template6.py",
+          "sha256": "1e1ac21f6a576c6ab13f917dc6896a56a2d3115d38ec443bb0125d14155a4ca4"
+        },
+        {
+          "name": "sabah_social_render_cobrand.py",
+          "sha256": "0530d53b6e2be82693fd7226407cd17101e7fa0bb23d04cd3fb0bdf4cbf2921e"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Branded layouts, fonts, image generators, exact-artifact QA and asset provenance require independent portable extraction. Rotation numbers alone are not six rendered templates."
+    },
+    {
+      "id": "blog-image-recovery",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        191,
+        194,
+        207,
+        208,
+        212,
+        214,
+        220,
+        227,
+        228,
+        239,
+        247,
+        253,
+        261,
+        264,
+        267,
+        268,
+        272,
+        285,
+        286,
+        287
+      ],
+      "dependencies": [
+        "PIL",
+        "argparse",
+        "contextlib",
+        "copy",
+        "datetime",
+        "fcntl",
+        "hashlib",
+        "io",
+        "json",
+        "os",
+        "pathlib",
+        "playwright.sync_api",
+        "pwd",
+        "re",
+        "sabah_blog_approval_publish",
+        "sabah_blog_controller",
+        "sabah_blog_gates",
+        "sabah_blog_image_intent",
+        "sabah_blog_inbound",
+        "sabah_blog_ledger",
+        "sabah_blog_notify",
+        "sabah_blog_publication",
+        "sabah_blog_recovery",
+        "sabah_blog_recovery_dispatch_bridge",
+        "sabah_blog_runtime",
+        "sabah_blog_unattended_validate",
+        "sabah_blog_worker",
+        "sabah_model_capture",
+        "sabah_sheets_sync",
+        "sabah_social_quality",
+        "sabah_social_render_html",
+        "sabah_template6_quality",
+        "secrets",
+        "shutil",
+        "sqlite3",
+        "subprocess",
+        "sys",
+        "tempfile",
+        "test_sabah_blog_recovery",
+        "time",
+        "tools.sabah_blog_recovery",
+        "unittest",
+        "unittest.mock",
+        "uuid",
+        "zoneinfo"
+      ],
+      "unique_source_hashes": 20,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "test_sabah_blog_recovery_dispatch_bridge.py",
+          "sha256": "1633a94bdb5ab89d6bb481ce1faeba802e49cd3627f4c3b469e83280221ca920"
+        },
+        {
+          "name": "sabah_blog_recovery_dispatch_bridge.py",
+          "sha256": "b8e2a654430ed981777cad58e34cbad8924a97ae10eb415ec2299fdf354af639"
+        },
+        {
+          "name": "test_sabah_blog_image_intent.py",
+          "sha256": "350f9d119bd5ffd8fdbf3fb78b3e44b89520d10b99cd88e7dbed5b39e006dbb3"
+        },
+        {
+          "name": "test_sabah_blog_image_receipt.py",
+          "sha256": "4ab1b9591ecc373d10f40a8bd45a418a263e23f7c8b75c05dfeefc27ea0896ce"
+        },
+        {
+          "name": "test_sabah_blog_inbound.py",
+          "sha256": "ce76ddbe202c3a13a9fad16e17cdaeddc0b2abbd19a759712a707e073340f908"
+        },
+        {
+          "name": "sabah_blog_observer.py",
+          "sha256": "4f1f90c3a5aae33a325feeb76b7e1ad10c16669a4ba3ab3b6eea3920a00943f9"
+        },
+        {
+          "name": "sabah_blog_cli_image.py",
+          "sha256": "626577e9010bea616a61fd779f5ab928642be6a4329f42cd18b93b890f530faa"
+        },
+        {
+          "name": "test_sabah_blog_recovery.py",
+          "sha256": "d921a01fec2543d4711f54e291c1f9998faf151a9c80320e2b7d47dd2231a225"
+        },
+        {
+          "name": "sabah_blog_recovery_probe.py",
+          "sha256": "06bf73f0565925959cc27df631a84677404f1bf2c59d04a7c73625be8ca87454"
+        },
+        {
+          "name": "test_sabah_blog_marker_regression.py",
+          "sha256": "474ebe14ed714f564090744cac2bc03bf948f93cdda8a567c2a7f87d9a0e8697"
+        },
+        {
+          "name": "sabah_daily_visual_review.py",
+          "sha256": "11f851b67ff2fa73beaf8b924ada1197112607595177306ec999ca9e61eb74b9"
+        },
+        {
+          "name": "sabah_blog_image_intent.py",
+          "sha256": "69d19e900103f82c36aadc91fa167f346e5ec02b364a5486a8d3c636c4708a25"
+        },
+        {
+          "name": "test_sabah_blog_recovery_watchdog.py",
+          "sha256": "73bd7f82c5c4d5e64fe7b4b886a64ab01702f07ef3b0e5aa9a5dcddb7ee41282"
+        },
+        {
+          "name": "test_sabah_blog_multiday_acceptance.py",
+          "sha256": "bed3106e2c2960c2e7de9a516b6fedaa8fe8027fbdf67fa2f17ef1ef7291d8a7"
+        },
+        {
+          "name": "test_sabah_blog_image_binding.py",
+          "sha256": "09ef988055efbc570b0b6bd51d592ee567dce0374fd2ed3cad867e22c4abf5a6"
+        },
+        {
+          "name": "sabah_model_capture.py",
+          "sha256": "cb3c80d6be9d52b3c43315f9c455a65e35f6f39e418fc7431a2049188c804301"
+        },
+        {
+          "name": "sabah_blog_recovery.py",
+          "sha256": "c1225f9a4fc01a06773fb5f390d1d22279e1de96e3d248f52d6aa047b2e07dd3"
+        },
+        {
+          "name": "test_sabah_blog_controller.py",
+          "sha256": "6284f23a133a84633f1283f070c2b8c7ca186cf275361ad750fe3dfdc3bf2260"
+        },
+        {
+          "name": "test_sabah_blog_marker_gap.py",
+          "sha256": "477579b413deb84d1e8a387fd5f02ae9ff94b8f25a6bfbe4764e514bd1ee9b73"
+        },
+        {
+          "name": "test_sabah_blog_daily_policy.py",
+          "sha256": "d28b0421a4c0653781f90f08e175d0c08bbf170c485254098050841c319dbb7b"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Provider task capture and recovery rely on host-owned generation receipts, private image stores and runtime execution bridges; portable adapter contract not yet validated."
+    },
+    {
+      "id": "watchdog",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        199,
+        205,
+        211,
+        216,
+        283
+      ],
+      "dependencies": [
+        "argparse",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "socket",
+        "sqlite3",
+        "subprocess",
+        "task_watchdog",
+        "task_watchdog_lifecycle",
+        "tempfile",
+        "time",
+        "tools",
+        "unittest"
+      ],
+      "unique_source_hashes": 5,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "test_task_watchdog_lifecycle.py",
+          "sha256": "60031dbce78df70f7bf922e10a2fae48784543c80453fb41dd10db998a11993e"
+        },
+        {
+          "name": "task_watchdog_metadata.py",
+          "sha256": "fc05181ce3815ce95d937667d10068f5f8970952280b983c3caac6af16762009"
+        },
+        {
+          "name": "task_watchdog_lifecycle.py",
+          "sha256": "dd16d853c575145525165bb99f94804cd35614bd801b2c971b6817c02707a337"
+        },
+        {
+          "name": "task_watchdog.py",
+          "sha256": "2d54e079741f0e777ce1a72225e0b2c2eee0e6f18a5f22e7aeccfc61812670d8"
+        },
+        {
+          "name": "test_task_watchdog.py",
+          "sha256": "183d17067592dd0ecf8a8c54cde976e8f1beb202b4d89bed32c3773f98af080f"
+        }
+      ],
+      "published_modules": [
+        "watchdog"
+      ],
+      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+    },
+    {
+      "id": "campaign-language",
+      "category": "B",
+      "status": "PUBLISHED AND VALIDATED",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        209
+      ],
+      "dependencies": [
+        "__future__",
+        "re"
+      ],
+      "unique_source_hashes": 1,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "sabah_social_language.py",
+          "sha256": "c9318f5a28962f5850bd73780a86934920d3a96a03f4f38f57ef49f9c470c5fc"
+        }
+      ],
+      "published_modules": [
+        "language"
+      ],
+      "reason": "Original language rules already ported and tested."
+    },
+    {
+      "id": "wordpress-client",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        241,
+        280
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 2,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "sabah_wp_media_upload.sh",
+          "sha256": "83d406899bbc16cf7c9421af7d5268e73bc9759661f1d87c29dda0aa41a4ea24"
+        },
+        {
+          "name": "sabah_wp_rest.sh",
+          "sha256": "bcc367d7bb51ccd10474ccbcabba05c6d5bb0469cb9a822f649776da930170bb"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Shell helper is coupled to the production credential/runtime environment; generic authenticated client and mocked write guards remain to be packaged."
+    },
+    {
+      "id": "google-sheets-adapter",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        245
+      ],
+      "dependencies": [
+        "__future__",
+        "argparse",
+        "functools",
+        "json",
+        "os",
+        "sabah_blog_runtime",
+        "signal",
+        "subprocess",
+        "sys",
+        "time",
+        "typing"
+      ],
+      "unique_source_hashes": 1,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "sabah_sheets_sync.py",
+          "sha256": "998d2efa76f9f701071b12d99833e868a7d23f099b0168d9efe7308bf06d1cd6"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Meta workbook adapter is included; broader GOG process bridge and reconciliation are not ported or live-tested."
+    },
+    {
+      "id": "seo-local-tools",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "main"
+      ],
+      "record_ids": [
+        298,
+        299,
+        300,
+        301,
+        302,
+        455
+      ],
+      "dependencies": [
+        "__future__",
+        "argparse",
+        "collections",
+        "csv",
+        "json",
+        "pathlib",
+        "re",
+        "shlex"
+      ],
+      "unique_source_hashes": 6,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "SKILL.md",
+          "sha256": "76219998586ec6d2209ea388fb3a8ccc8051f513076eafeb09e084a1b5d0a50c"
+        },
+        {
+          "name": "update_meta_tags.py",
+          "sha256": "50b4dcf5e42906d55cd638ed1a12dc5331ce622d5c3000de81a764dbec4fa30d"
+        },
+        {
+          "name": "elementor_agent_wrapper.py",
+          "sha256": "afe457f3784b7b0353029d32b2bcc85530f0f737e8ac5e7a2df35dc773d5ffc4"
+        },
+        {
+          "name": "keyword_research.py",
+          "sha256": "30bf9d1acf7d1e084f49a2117f23295cd55bb54d3d5fc072a0484e43d01d9210"
+        },
+        {
+          "name": "content_brief_generator.py",
+          "sha256": "3a8ef938eaf84af971b00c11415148553e624d7161014bf53aee3ca4a4ffd1b9"
+        },
+        {
+          "name": "elementor-landing-page-checklist.md",
+          "sha256": "0b7adeeeb6d68e99447d62c751936ebb2f5311d9da33e34744081ad2a03a042f"
+        }
+      ],
+      "published_modules": [
+        "keyword_research",
+        "content_brief_generator",
+        "local_metadata"
+      ],
+      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+    },
+    {
+      "id": "customer-knowledge",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "shared",
+        "smgc-customer-support"
+      ],
+      "record_ids": [
+        304,
+        438,
+        440
+      ],
+      "dependencies": [
+        "datetime",
+        "html",
+        "html.parser",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "requests",
+        "requests.adapters",
+        "tempfile",
+        "urllib3.util.retry"
+      ],
+      "unique_source_hashes": 3,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "refresh_smgc_kb.py",
+          "sha256": "a8438ec51c7ee332c19d8a2c9074948a927328e9c94bb83d2e449fe9a712cbdb"
+        },
+        {
+          "name": "smgc-kb-refresh.timer",
+          "sha256": "1228556f6bc22e664f981b32c0e7d39f5356b161103750815cb48650e6d1325e"
+        },
+        {
+          "name": "smgc-kb-refresh.service",
+          "sha256": "957ed4c35f28cd3c684e9b6c9574ebbeb545cd8213b74356e27c6da615b4363c"
+        }
+      ],
+      "published_modules": [
+        "knowledge_snapshot"
+      ],
+      "reason": "Published modules cover the listed subcomponents only; the complete source family and its integration wiring remain unported or untested."
+    },
+    {
+      "id": "upstream:a2a",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        354
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:active-memory",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        355
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:admin-http-rpc",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        356
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:agentsapi",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        357
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:alibaba",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        358
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:anthropic",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        359
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:apple-fm",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        360
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:azure-speech",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        361
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:beam",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        362
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:bonjour",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        363
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:browser",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        364
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:clawrouter",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        366
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:code-mode-quickjs",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        367
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:copilot-proxy",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        368
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:crabbox",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        369
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:cua-computer",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        370
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:deepgram",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        371
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:device-pair",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        372
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:document-extract",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        373
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:elevenlabs",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        374
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:fal",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        375
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:file-transfer",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        376
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:geolocation",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        377
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:github-copilot",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        379
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:google",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        380
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:huggingface",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        381
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:imap",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        382
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:kie",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        383
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:linux-node",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        384
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:litellm",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        385
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:llm-task",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        386
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:lmstudio",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        387
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:logbook",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        388
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:memory-core",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        389
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:memory-wiki",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        390
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:microsoft",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        391
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:microsoft-foundry",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        392
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:migrate-claude",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        393
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:migrate-hermes",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        394
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:minimax",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        395
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:nvidia",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        396
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:oc-path",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        397
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:ollama",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        398
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:onepassword",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        399
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:openai",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        400
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:opencode-go",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        401
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:openrouter",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        402
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:policy",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        403
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:reef",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        404
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:runway",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        405
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:senseaudio",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        406
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:session-share",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        407
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:sglang",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        408
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:talk-voice",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        409
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:telegram",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        410
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:together",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        411
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:tts-local-cli",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        412
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:vault",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        413
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:vllm",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        414
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:web-readability",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        415
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:workboard",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        416
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:xai",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        417
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:apify-openclaw-plugin",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        418
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:codex",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        419
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:parallel",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        420
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:whatsapp",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        421
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:boot-md",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        422
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:bootstrap-extra-files",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        423
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:command-logger",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        424
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:compaction-notifier",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        425
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "upstream:session-memory",
+      "category": "E",
+      "status": "UPSTREAM REFERENCE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        426
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 0,
+      "overlapping_records": 0,
+      "sources": [],
+      "published_modules": [],
+      "reason": "Use original maintainer distribution; no bundled or third-party implementation is republished."
+    },
+    {
+      "id": "gateway-monitor",
+      "category": "B",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        428,
+        431,
+        441,
+        446
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 4,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "sabah-gateway-monitor.timer",
+          "sha256": "6d07e0aededec38c7be2c947607e0ebb610b06b4edb4e5b214c2a98cb3b80445"
+        },
+        {
+          "name": "sabah-gateway-monitor.service",
+          "sha256": "0c3b654519976741ac308d9b2404088a7c62ae13c6d6e46a1db938a91525b5e1"
+        },
+        {
+          "name": "smgc-guard-watch.service",
+          "sha256": "493cdcd9dc5b0884af3214ec0356be8a28ecaf06005cbc2e5d0596deaa08de15"
+        },
+        {
+          "name": "smgc-guard-watch.timer",
+          "sha256": "6460c46f9dbb7709ac812984fbf2cddb7dc6c878963644fb67b103a38471ab60"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Independent production service/push alert route and incident store are not generalized; generic watchdog is separately covered."
+    },
+    {
+      "id": "deployment-adapters",
+      "category": "C",
+      "status": "UNTESTED OR INCOMPLETE",
+      "agents": [
+        "shared"
+      ],
+      "record_ids": [
+        429,
+        430,
+        432,
+        433,
+        434,
+        436,
+        437,
+        439,
+        443,
+        444,
+        445
+      ],
+      "dependencies": [],
+      "unique_source_hashes": 11,
+      "overlapping_records": 0,
+      "sources": [
+        {
+          "name": "task-watchdog.timer",
+          "sha256": "84c07191d7f81f743fd54bd14bc4ce5d231e3f5810c2bbecac52f09a49015a30"
+        },
+        {
+          "name": "task-watchdog.service",
+          "sha256": "4dc7a9ab3187589221149708bf1f77e5fe01a9d9dc48b3033f0f9e42a7234861"
+        },
+        {
+          "name": "smgc-daily-social.timer",
+          "sha256": "3fff50f1bce69c1fec0fbb74940e50e2452b3ceafd10bf1ff6099f31a3089f62"
+        },
+        {
+          "name": "smgc-sm0022-instagram.timer",
+          "sha256": "f23cc69c239c6851c74d0f5ca0f91b918bc475caae7fa4bd231cdd5d7062271d"
+        },
+        {
+          "name": "openclaw-gateway.service",
+          "sha256": "582d82771d632027f7f0c4d7f7420e9bfc5a5999914503e898601cb5b07e9245"
+        },
+        {
+          "name": "smgc-sm0022-instagram.service",
+          "sha256": "481dfd160c486708cce194e296070ee9f64efb7ac93a2f03f3eda12f2a3dd638"
+        },
+        {
+          "name": "smgc-daily-social-recovery-20261116.timer",
+          "sha256": "f9560c2d77097aac229ad4d93cbc6be6fb7eab0f98475cbafb42f8b13bd1b898"
+        },
+        {
+          "name": "smgc-daily-social-recovery-20261116.service",
+          "sha256": "9fae5d24cbb0e63d515bc8d6bf25784d6b074b322030a9e0ae3484b615782425"
+        },
+        {
+          "name": "sabah-blog-observer.timer",
+          "sha256": "48b7907368b8c4d9f14fa2271e034f3a0c792e77b3e179103bb7f6ddcca49bb1"
+        },
+        {
+          "name": "smgc-daily-social.service",
+          "sha256": "ca779f95b38fbd90aa1128d9cb08f35cabf912d714eacdf3765296ca12415a16"
+        },
+        {
+          "name": "sabah-blog-observer.service",
+          "sha256": "300aeef47cb50a9397847b658e3c82c84d4959e8aac58612a155dc1db451681b"
+        }
+      ],
+      "published_modules": [],
+      "reason": "Host timers and service units are production bindings, not portable safe defaults. No schedule activation is included."
+    }
+  ],
+  "record_assignments": [
+    {
+      "record": 0,
+      "capability": "upstream:1password"
+    },
+    {
+      "record": 1,
+      "capability": "upstream:add-model-provider"
+    },
+    {
+      "record": 2,
+      "capability": "upstream:apple-notes"
+    },
+    {
+      "record": 3,
+      "capability": "upstream:apple-reminders"
+    },
+    {
+      "record": 4,
+      "capability": "skill:automation-adapter-verification"
+    },
+    {
+      "record": 5,
+      "capability": "upstream:bear-notes"
+    },
+    {
+      "record": 6,
+      "capability": "upstream:blogwatcher"
+    },
+    {
+      "record": 7,
+      "capability": "upstream:blucli"
+    },
+    {
+      "record": 8,
+      "capability": "upstream:browser-automation"
+    },
+    {
+      "record": 9,
+      "capability": "upstream:camsnap"
+    },
+    {
+      "record": 10,
+      "capability": "upstream:canvas"
+    },
+    {
+      "record": 11,
+      "capability": "skill:capped-external-api-pilot"
+    },
+    {
+      "record": 12,
+      "capability": "upstream:clawhub"
+    },
+    {
+      "record": 13,
+      "capability": "upstream:cloud-image-bake"
+    },
+    {
+      "record": 14,
+      "capability": "upstream:coding-agent"
+    },
+    {
+      "record": 15,
+      "capability": "upstream:configure-channel"
+    },
+    {
+      "record": 16,
+      "capability": "upstream:control-ui"
+    },
+    {
+      "record": 17,
+      "capability": "upstream:diagnose-gateway"
+    },
+    {
+      "record": 18,
+      "capability": "upstream:diagram-maker"
+    },
+    {
+      "record": 19,
+      "capability": "upstream:eightctl"
+    },
+    {
+      "record": 20,
+      "capability": "skill:gateway-outage-reliability-audit"
+    },
+    {
+      "record": 21,
+      "capability": "upstream:gemini"
+    },
+    {
+      "record": 22,
+      "capability": "skill:generated-asset-checkpoint-recovery"
+    },
+    {
+      "record": 23,
+      "capability": "upstream:gh-issues"
+    },
+    {
+      "record": 24,
+      "capability": "upstream:gifgrep"
+    },
+    {
+      "record": 25,
+      "capability": "upstream:github"
+    },
+    {
+      "record": 26,
+      "capability": "upstream:gog"
+    },
+    {
+      "record": 27,
+      "capability": "blocked:gog-clean"
+    },
+    {
+      "record": 28,
+      "capability": "skill:google-sheets-readiness"
+    },
+    {
+      "record": 29,
+      "capability": "upstream:goplaces"
+    },
+    {
+      "record": 30,
+      "capability": "upstream:healthcheck"
+    },
+    {
+      "record": 31,
+      "capability": "upstream:himalaya"
+    },
+    {
+      "record": 32,
+      "capability": "upstream:mcporter"
+    },
+    {
+      "record": 33,
+      "capability": "upstream:meme-maker"
+    },
+    {
+      "record": 34,
+      "capability": "upstream:model-usage"
+    },
+    {
+      "record": 35,
+      "capability": "skill:multi-platform-publication-recovery"
+    },
+    {
+      "record": 36,
+      "capability": "upstream:nano-pdf"
+    },
+    {
+      "record": 37,
+      "capability": "upstream:node-connect"
+    },
+    {
+      "record": 38,
+      "capability": "upstream:node-inspect-debugger"
+    },
+    {
+      "record": 39,
+      "capability": "upstream:notion"
+    },
+    {
+      "record": 40,
+      "capability": "upstream:obsidian"
+    },
+    {
+      "record": 41,
+      "capability": "upstream:openai-whisper"
+    },
+    {
+      "record": 42,
+      "capability": "upstream:openai-whisper-api"
+    },
+    {
+      "record": 43,
+      "capability": "upstream:openhue"
+    },
+    {
+      "record": 44,
+      "capability": "upstream:oracle"
+    },
+    {
+      "record": 45,
+      "capability": "upstream:ordercli"
+    },
+    {
+      "record": 46,
+      "capability": "upstream:peekaboo"
+    },
+    {
+      "record": 47,
+      "capability": "skill:poster-template-integration"
+    },
+    {
+      "record": 48,
+      "capability": "skill:private-mobile-gateway-pairing"
+    },
+    {
+      "record": 49,
+      "capability": "upstream:python-debugpy"
+    },
+    {
+      "record": 50,
+      "capability": "skill:sabah-daily-seo-blog"
+    },
+    {
+      "record": 51,
+      "capability": "upstream:sag"
+    },
+    {
+      "record": 52,
+      "capability": "skill:seo-marketing-pro"
+    },
+    {
+      "record": 53,
+      "capability": "upstream:sherpa-onnx-tts"
+    },
+    {
+      "record": 54,
+      "capability": "upstream:skill-creator"
+    },
+    {
+      "record": 55,
+      "capability": "skill:smgc-publication-intake-diagnosis"
+    },
+    {
+      "record": 56,
+      "capability": "skill:smgc-social-media"
+    },
+    {
+      "record": 57,
+      "capability": "upstream:songsee"
+    },
+    {
+      "record": 58,
+      "capability": "upstream:sonoscli"
+    },
+    {
+      "record": 59,
+      "capability": "upstream:spike"
+    },
+    {
+      "record": 60,
+      "capability": "upstream:spotify-player"
+    },
+    {
+      "record": 61,
+      "capability": "upstream:summarize"
+    },
+    {
+      "record": 62,
+      "capability": "skill:supplied-image-intake"
+    },
+    {
+      "record": 63,
+      "capability": "skill:system-management-model-routing"
+    },
+    {
+      "record": 64,
+      "capability": "upstream:things-mac"
+    },
+    {
+      "record": 65,
+      "capability": "upstream:tmux"
+    },
+    {
+      "record": 66,
+      "capability": "upstream:trello"
+    },
+    {
+      "record": 67,
+      "capability": "upstream:visualize"
+    },
+    {
+      "record": 68,
+      "capability": "upstream:wacli"
+    },
+    {
+      "record": 69,
+      "capability": "upstream:weather"
+    },
+    {
+      "record": 70,
+      "capability": "skill:woocommerce-cart-checkout-diagnosis"
+    },
+    {
+      "record": 71,
+      "capability": "skill:woocommerce-catalog-reconciliation"
+    },
+    {
+      "record": 72,
+      "capability": "skill:woocommerce-price-display-audit"
+    },
+    {
+      "record": 73,
+      "capability": "skill:woocommerce-product-content-seo"
+    },
+    {
+      "record": 74,
+      "capability": "skill:wordpress-additive-content-update"
+    },
+    {
+      "record": 75,
+      "capability": "skill:wordpress-child-theme-readiness"
+    },
+    {
+      "record": 76,
+      "capability": "skill:wordpress-page-style-correction"
+    },
+    {
+      "record": 77,
+      "capability": "blocked:wordpress-rest-api-clean"
+    },
+    {
+      "record": 78,
+      "capability": "upstream:xurl"
+    },
+    {
+      "record": 79,
+      "capability": "upstream:1password"
+    },
+    {
+      "record": 80,
+      "capability": "upstream:apple-notes"
+    },
+    {
+      "record": 81,
+      "capability": "upstream:apple-reminders"
+    },
+    {
+      "record": 82,
+      "capability": "upstream:bear-notes"
+    },
+    {
+      "record": 83,
+      "capability": "upstream:blogwatcher"
+    },
+    {
+      "record": 84,
+      "capability": "upstream:blucli"
+    },
+    {
+      "record": 85,
+      "capability": "upstream:browser-automation"
+    },
+    {
+      "record": 86,
+      "capability": "upstream:camsnap"
+    },
+    {
+      "record": 87,
+      "capability": "upstream:canvas"
+    },
+    {
+      "record": 88,
+      "capability": "upstream:clawhub"
+    },
+    {
+      "record": 89,
+      "capability": "upstream:coding-agent"
+    },
+    {
+      "record": 90,
+      "capability": "upstream:control-ui"
+    },
+    {
+      "record": 91,
+      "capability": "upstream:diagram-maker"
+    },
+    {
+      "record": 92,
+      "capability": "upstream:eightctl"
+    },
+    {
+      "record": 93,
+      "capability": "upstream:gemini"
+    },
+    {
+      "record": 94,
+      "capability": "upstream:gh-issues"
+    },
+    {
+      "record": 95,
+      "capability": "upstream:gifgrep"
+    },
+    {
+      "record": 96,
+      "capability": "upstream:github"
+    },
+    {
+      "record": 97,
+      "capability": "upstream:gog"
+    },
+    {
+      "record": 98,
+      "capability": "upstream:goplaces"
+    },
+    {
+      "record": 99,
+      "capability": "upstream:healthcheck"
+    },
+    {
+      "record": 100,
+      "capability": "upstream:himalaya"
+    },
+    {
+      "record": 101,
+      "capability": "upstream:mcporter"
+    },
+    {
+      "record": 102,
+      "capability": "upstream:meme-maker"
+    },
+    {
+      "record": 103,
+      "capability": "upstream:model-usage"
+    },
+    {
+      "record": 104,
+      "capability": "upstream:nano-pdf"
+    },
+    {
+      "record": 105,
+      "capability": "upstream:node-connect"
+    },
+    {
+      "record": 106,
+      "capability": "upstream:node-inspect-debugger"
+    },
+    {
+      "record": 107,
+      "capability": "upstream:notion"
+    },
+    {
+      "record": 108,
+      "capability": "upstream:obsidian"
+    },
+    {
+      "record": 109,
+      "capability": "upstream:openai-whisper"
+    },
+    {
+      "record": 110,
+      "capability": "upstream:openai-whisper-api"
+    },
+    {
+      "record": 111,
+      "capability": "upstream:openhue"
+    },
+    {
+      "record": 112,
+      "capability": "upstream:oracle"
+    },
+    {
+      "record": 113,
+      "capability": "upstream:ordercli"
+    },
+    {
+      "record": 114,
+      "capability": "upstream:peekaboo"
+    },
+    {
+      "record": 115,
+      "capability": "upstream:python-debugpy"
+    },
+    {
+      "record": 116,
+      "capability": "upstream:sag"
+    },
+    {
+      "record": 117,
+      "capability": "upstream:sherpa-onnx-tts"
+    },
+    {
+      "record": 118,
+      "capability": "upstream:skill-creator"
+    },
+    {
+      "record": 119,
+      "capability": "upstream:songsee"
+    },
+    {
+      "record": 120,
+      "capability": "upstream:sonoscli"
+    },
+    {
+      "record": 121,
+      "capability": "upstream:spike"
+    },
+    {
+      "record": 122,
+      "capability": "upstream:spotify-player"
+    },
+    {
+      "record": 123,
+      "capability": "upstream:summarize"
+    },
+    {
+      "record": 124,
+      "capability": "upstream:things-mac"
+    },
+    {
+      "record": 125,
+      "capability": "upstream:tmux"
+    },
+    {
+      "record": 126,
+      "capability": "upstream:trello"
+    },
+    {
+      "record": 127,
+      "capability": "upstream:visualize"
+    },
+    {
+      "record": 128,
+      "capability": "upstream:wacli"
+    },
+    {
+      "record": 129,
+      "capability": "upstream:weather"
+    },
+    {
+      "record": 130,
+      "capability": "upstream:xurl"
+    },
+    {
+      "record": 131,
+      "capability": "other:woocommerce-verify-badges.py"
+    },
+    {
+      "record": 132,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 133,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 134,
+      "capability": "deployment-specific-utilities"
+    },
+    {
+      "record": 135,
+      "capability": "verification-harnesses"
+    },
+    {
+      "record": 136,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 137,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 138,
+      "capability": "deployment-specific-utilities"
+    },
+    {
+      "record": 139,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 140,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 141,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 142,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 143,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 144,
+      "capability": "deployment-specific-utilities"
+    },
+    {
+      "record": 145,
+      "capability": "deployment-specific-utilities"
+    },
+    {
+      "record": 146,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 147,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 148,
+      "capability": "verification-harnesses"
+    },
+    {
+      "record": 149,
+      "capability": "deployment-specific-utilities"
+    },
+    {
+      "record": 150,
+      "capability": "notification-delivery"
+    },
+    {
+      "record": 151,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 152,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 153,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 154,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 155,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 156,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 157,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 158,
+      "capability": "verification-harnesses"
+    },
+    {
+      "record": 159,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 160,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 161,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 162,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 163,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 164,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 165,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 166,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 167,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 168,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 169,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 170,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 171,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 172,
+      "capability": "verification-harnesses"
+    },
+    {
+      "record": 173,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 174,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 175,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 176,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 177,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 178,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 179,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 180,
+      "capability": "tiktok-auth"
+    },
+    {
+      "record": 181,
+      "capability": "tiktok-auth"
+    },
+    {
+      "record": 182,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 183,
+      "capability": "lead-acquisition"
+    },
+    {
+      "record": 184,
+      "capability": "social-draft-review"
+    },
+    {
+      "record": 185,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 186,
+      "capability": "social-draft-review"
+    },
+    {
+      "record": 187,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 188,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 189,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 190,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 191,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 192,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 193,
+      "capability": "lead-acquisition"
+    },
+    {
+      "record": 194,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 195,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 196,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 197,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 198,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 199,
+      "capability": "watchdog"
+    },
+    {
+      "record": 200,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 201,
+      "capability": "notification-delivery"
+    },
+    {
+      "record": 202,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 203,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 204,
+      "capability": "lead-acquisition"
+    },
+    {
+      "record": 205,
+      "capability": "watchdog"
+    },
+    {
+      "record": 206,
+      "capability": "lead-acquisition"
+    },
+    {
+      "record": 207,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 208,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 209,
+      "capability": "campaign-language"
+    },
+    {
+      "record": 210,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 211,
+      "capability": "watchdog"
+    },
+    {
+      "record": 212,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 213,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 214,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 215,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 216,
+      "capability": "watchdog"
+    },
+    {
+      "record": 217,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 218,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 219,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 220,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 221,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 222,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 223,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 224,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 225,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 226,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 227,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 228,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 229,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 230,
+      "capability": "verification-harnesses"
+    },
+    {
+      "record": 231,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 232,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 233,
+      "capability": "notification-delivery"
+    },
+    {
+      "record": 234,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 235,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 236,
+      "capability": "social-draft-review"
+    },
+    {
+      "record": 237,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 238,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 239,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 240,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 241,
+      "capability": "wordpress-client"
+    },
+    {
+      "record": 242,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 243,
+      "capability": "notification-delivery"
+    },
+    {
+      "record": 244,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 245,
+      "capability": "google-sheets-adapter"
+    },
+    {
+      "record": 246,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 247,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 248,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 249,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 250,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 251,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 252,
+      "capability": "notification-delivery"
+    },
+    {
+      "record": 253,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 254,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 255,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 256,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 257,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 258,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 259,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 260,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 261,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 262,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 263,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 264,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 265,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 266,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 267,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 268,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 269,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 270,
+      "capability": "lead-acquisition"
+    },
+    {
+      "record": 271,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 272,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 273,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 274,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 275,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 276,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 277,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 278,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 279,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 280,
+      "capability": "wordpress-client"
+    },
+    {
+      "record": 281,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 282,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 283,
+      "capability": "watchdog"
+    },
+    {
+      "record": 284,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 285,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 286,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 287,
+      "capability": "blog-image-recovery"
+    },
+    {
+      "record": 288,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 289,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 290,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 291,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 292,
+      "capability": "social-publishing"
+    },
+    {
+      "record": 293,
+      "capability": "lead-acquisition"
+    },
+    {
+      "record": 294,
+      "capability": "skill:smgc-social-media"
+    },
+    {
+      "record": 295,
+      "capability": "blocked:gog-clean"
+    },
+    {
+      "record": 296,
+      "capability": "blocked:wordpress-rest-api-clean"
+    },
+    {
+      "record": 297,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 298,
+      "capability": "seo-local-tools"
+    },
+    {
+      "record": 299,
+      "capability": "seo-local-tools"
+    },
+    {
+      "record": 300,
+      "capability": "seo-local-tools"
+    },
+    {
+      "record": 301,
+      "capability": "seo-local-tools"
+    },
+    {
+      "record": 302,
+      "capability": "seo-local-tools"
+    },
+    {
+      "record": 303,
+      "capability": "poster-generation"
+    },
+    {
+      "record": 304,
+      "capability": "customer-knowledge"
+    },
+    {
+      "record": 305,
+      "capability": "skill:generated-asset-checkpoint-recovery"
+    },
+    {
+      "record": 306,
+      "capability": "skill:generated-asset-checkpoint-recovery"
+    },
+    {
+      "record": 307,
+      "capability": "skill:generated-asset-checkpoint-recovery"
+    },
+    {
+      "record": 308,
+      "capability": "skill:wordpress-child-theme-readiness"
+    },
+    {
+      "record": 309,
+      "capability": "skill:multi-platform-publication-recovery"
+    },
+    {
+      "record": 310,
+      "capability": "skill:multi-platform-publication-recovery"
+    },
+    {
+      "record": 311,
+      "capability": "skill:multi-platform-publication-recovery"
+    },
+    {
+      "record": 312,
+      "capability": "skill:supplied-image-intake"
+    },
+    {
+      "record": 313,
+      "capability": "skill:private-mobile-gateway-pairing"
+    },
+    {
+      "record": 314,
+      "capability": "skill:system-management-model-routing"
+    },
+    {
+      "record": 315,
+      "capability": "skill:woocommerce-price-display-audit"
+    },
+    {
+      "record": 316,
+      "capability": "skill:capped-external-api-pilot"
+    },
+    {
+      "record": 317,
+      "capability": "skill:wordpress-page-style-correction"
+    },
+    {
+      "record": 318,
+      "capability": "skill:google-sheets-readiness"
+    },
+    {
+      "record": 319,
+      "capability": "skill:woocommerce-cart-checkout-diagnosis"
+    },
+    {
+      "record": 320,
+      "capability": "skill:woocommerce-catalog-reconciliation"
+    },
+    {
+      "record": 321,
+      "capability": "skill:woocommerce-catalog-reconciliation"
+    },
+    {
+      "record": 322,
+      "capability": "skill:woocommerce-catalog-reconciliation"
+    },
+    {
+      "record": 323,
+      "capability": "skill:woocommerce-catalog-reconciliation"
+    },
+    {
+      "record": 324,
+      "capability": "skill:automation-adapter-verification"
+    },
+    {
+      "record": 325,
+      "capability": "skill:automation-adapter-verification"
+    },
+    {
+      "record": 326,
+      "capability": "skill:automation-adapter-verification"
+    },
+    {
+      "record": 327,
+      "capability": "skill:automation-adapter-verification"
+    },
+    {
+      "record": 328,
+      "capability": "skill:automation-adapter-verification"
+    },
+    {
+      "record": 329,
+      "capability": "skill:automation-adapter-verification"
+    },
+    {
+      "record": 330,
+      "capability": "skill:wordpress-additive-content-update"
+    },
+    {
+      "record": 331,
+      "capability": "skill:woocommerce-product-content-seo"
+    },
+    {
+      "record": 332,
+      "capability": "skill:woocommerce-product-content-seo"
+    },
+    {
+      "record": 333,
+      "capability": "skill:gateway-outage-reliability-audit"
+    },
+    {
+      "record": 334,
+      "capability": "skill:gateway-outage-reliability-audit"
+    },
+    {
+      "record": 335,
+      "capability": "skill:smgc-publication-intake-diagnosis"
+    },
+    {
+      "record": 336,
+      "capability": "skill:poster-template-integration"
+    },
+    {
+      "record": 337,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 338,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 339,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 340,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 341,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 342,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 343,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 344,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 345,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 346,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 347,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 348,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 349,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 350,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 351,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 352,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 353,
+      "capability": "product-catalog"
+    },
+    {
+      "record": 354,
+      "capability": "upstream:a2a"
+    },
+    {
+      "record": 355,
+      "capability": "upstream:active-memory"
+    },
+    {
+      "record": 356,
+      "capability": "upstream:admin-http-rpc"
+    },
+    {
+      "record": 357,
+      "capability": "upstream:agentsapi"
+    },
+    {
+      "record": 358,
+      "capability": "upstream:alibaba"
+    },
+    {
+      "record": 359,
+      "capability": "upstream:anthropic"
+    },
+    {
+      "record": 360,
+      "capability": "upstream:apple-fm"
+    },
+    {
+      "record": 361,
+      "capability": "upstream:azure-speech"
+    },
+    {
+      "record": 362,
+      "capability": "upstream:beam"
+    },
+    {
+      "record": 363,
+      "capability": "upstream:bonjour"
+    },
+    {
+      "record": 364,
+      "capability": "upstream:browser"
+    },
+    {
+      "record": 365,
+      "capability": "upstream:canvas"
+    },
+    {
+      "record": 366,
+      "capability": "upstream:clawrouter"
+    },
+    {
+      "record": 367,
+      "capability": "upstream:code-mode-quickjs"
+    },
+    {
+      "record": 368,
+      "capability": "upstream:copilot-proxy"
+    },
+    {
+      "record": 369,
+      "capability": "upstream:crabbox"
+    },
+    {
+      "record": 370,
+      "capability": "upstream:cua-computer"
+    },
+    {
+      "record": 371,
+      "capability": "upstream:deepgram"
+    },
+    {
+      "record": 372,
+      "capability": "upstream:device-pair"
+    },
+    {
+      "record": 373,
+      "capability": "upstream:document-extract"
+    },
+    {
+      "record": 374,
+      "capability": "upstream:elevenlabs"
+    },
+    {
+      "record": 375,
+      "capability": "upstream:fal"
+    },
+    {
+      "record": 376,
+      "capability": "upstream:file-transfer"
+    },
+    {
+      "record": 377,
+      "capability": "upstream:geolocation"
+    },
+    {
+      "record": 378,
+      "capability": "upstream:github"
+    },
+    {
+      "record": 379,
+      "capability": "upstream:github-copilot"
+    },
+    {
+      "record": 380,
+      "capability": "upstream:google"
+    },
+    {
+      "record": 381,
+      "capability": "upstream:huggingface"
+    },
+    {
+      "record": 382,
+      "capability": "upstream:imap"
+    },
+    {
+      "record": 383,
+      "capability": "upstream:kie"
+    },
+    {
+      "record": 384,
+      "capability": "upstream:linux-node"
+    },
+    {
+      "record": 385,
+      "capability": "upstream:litellm"
+    },
+    {
+      "record": 386,
+      "capability": "upstream:llm-task"
+    },
+    {
+      "record": 387,
+      "capability": "upstream:lmstudio"
+    },
+    {
+      "record": 388,
+      "capability": "upstream:logbook"
+    },
+    {
+      "record": 389,
+      "capability": "upstream:memory-core"
+    },
+    {
+      "record": 390,
+      "capability": "upstream:memory-wiki"
+    },
+    {
+      "record": 391,
+      "capability": "upstream:microsoft"
+    },
+    {
+      "record": 392,
+      "capability": "upstream:microsoft-foundry"
+    },
+    {
+      "record": 393,
+      "capability": "upstream:migrate-claude"
+    },
+    {
+      "record": 394,
+      "capability": "upstream:migrate-hermes"
+    },
+    {
+      "record": 395,
+      "capability": "upstream:minimax"
+    },
+    {
+      "record": 396,
+      "capability": "upstream:nvidia"
+    },
+    {
+      "record": 397,
+      "capability": "upstream:oc-path"
+    },
+    {
+      "record": 398,
+      "capability": "upstream:ollama"
+    },
+    {
+      "record": 399,
+      "capability": "upstream:onepassword"
+    },
+    {
+      "record": 400,
+      "capability": "upstream:openai"
+    },
+    {
+      "record": 401,
+      "capability": "upstream:opencode-go"
+    },
+    {
+      "record": 402,
+      "capability": "upstream:openrouter"
+    },
+    {
+      "record": 403,
+      "capability": "upstream:policy"
+    },
+    {
+      "record": 404,
+      "capability": "upstream:reef"
+    },
+    {
+      "record": 405,
+      "capability": "upstream:runway"
+    },
+    {
+      "record": 406,
+      "capability": "upstream:senseaudio"
+    },
+    {
+      "record": 407,
+      "capability": "upstream:session-share"
+    },
+    {
+      "record": 408,
+      "capability": "upstream:sglang"
+    },
+    {
+      "record": 409,
+      "capability": "upstream:talk-voice"
+    },
+    {
+      "record": 410,
+      "capability": "upstream:telegram"
+    },
+    {
+      "record": 411,
+      "capability": "upstream:together"
+    },
+    {
+      "record": 412,
+      "capability": "upstream:tts-local-cli"
+    },
+    {
+      "record": 413,
+      "capability": "upstream:vault"
+    },
+    {
+      "record": 414,
+      "capability": "upstream:vllm"
+    },
+    {
+      "record": 415,
+      "capability": "upstream:web-readability"
+    },
+    {
+      "record": 416,
+      "capability": "upstream:workboard"
+    },
+    {
+      "record": 417,
+      "capability": "upstream:xai"
+    },
+    {
+      "record": 418,
+      "capability": "upstream:apify-openclaw-plugin"
+    },
+    {
+      "record": 419,
+      "capability": "upstream:codex"
+    },
+    {
+      "record": 420,
+      "capability": "upstream:parallel"
+    },
+    {
+      "record": 421,
+      "capability": "upstream:whatsapp"
+    },
+    {
+      "record": 422,
+      "capability": "upstream:boot-md"
+    },
+    {
+      "record": 423,
+      "capability": "upstream:bootstrap-extra-files"
+    },
+    {
+      "record": 424,
+      "capability": "upstream:command-logger"
+    },
+    {
+      "record": 425,
+      "capability": "upstream:compaction-notifier"
+    },
+    {
+      "record": 426,
+      "capability": "upstream:session-memory"
+    },
+    {
+      "record": 427,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 428,
+      "capability": "gateway-monitor"
+    },
+    {
+      "record": 429,
+      "capability": "deployment-adapters"
+    },
+    {
+      "record": 430,
+      "capability": "deployment-adapters"
+    },
+    {
+      "record": 431,
+      "capability": "gateway-monitor"
+    },
+    {
+      "record": 432,
+      "capability": "deployment-adapters"
+    },
+    {
+      "record": 433,
+      "capability": "deployment-adapters"
+    },
+    {
+      "record": 434,
+      "capability": "deployment-adapters"
+    },
+    {
+      "record": 435,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 436,
+      "capability": "deployment-adapters"
+    },
+    {
+      "record": 437,
+      "capability": "deployment-adapters"
+    },
+    {
+      "record": 438,
+      "capability": "customer-knowledge"
+    },
+    {
+      "record": 439,
+      "capability": "deployment-adapters"
+    },
+    {
+      "record": 440,
+      "capability": "customer-knowledge"
+    },
+    {
+      "record": 441,
+      "capability": "gateway-monitor"
+    },
+    {
+      "record": 442,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 443,
+      "capability": "deployment-adapters"
+    },
+    {
+      "record": 444,
+      "capability": "deployment-adapters"
+    },
+    {
+      "record": 445,
+      "capability": "deployment-adapters"
+    },
+    {
+      "record": 446,
+      "capability": "gateway-monitor"
+    },
+    {
+      "record": 447,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 448,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 449,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 450,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 451,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 452,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 453,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 454,
+      "capability": "social-scheduling"
+    },
+    {
+      "record": 455,
+      "capability": "seo-local-tools"
+    },
+    {
+      "record": 456,
+      "capability": "blocked:gog-clean"
+    },
+    {
+      "record": 457,
+      "capability": "blocked:wordpress-rest-api-clean"
+    },
+    {
+      "record": 458,
+      "capability": "seo-blog-engine"
+    },
+    {
+      "record": 459,
+      "capability": "seo-blog-engine"
+    }
+  ],
+  "published_module_count": 15,
+  "packaged_skill_count": 1
+}

@@ -54,5 +54,75 @@
     "source_sha256": "a8438ec51c7ee332c19d8a2c9074948a927328e9c94bb83d2e449fe9a712cbdb",
     "changes": "Generic origin/destination/currency; offline fixtures default; explicit network opt-in; refuse redirects. Original first-page-only limit documented",
     "ownership": "Owner-authorized local workflow implementation; not copied from OpenClaw package. No third-party license header found in reviewed source."
+  },
+  {
+    "source": "meta_publisher.py",
+    "destination": "toolkit/meta_publisher.py",
+    "source_sha256": "6f7ec9023ee87ba42ae658a45324c5f1022b1998db990016cc41074ea736fb89",
+    "changes": "Explicit opt-in live boundary; remove deployment helper auto-import; generic identity and timezone; no redirects; injected account/Sheet/media/approval interfaces",
+    "ownership": "Owner-authorized local original integration and its tests; upstream dependency implementations not copied."
+  },
+  {
+    "source": "test_meta_publisher.py",
+    "destination": "tests/test_meta_publisher.py",
+    "source_sha256": "5f6ef2e2408ea05e3f803cf42d230baaeece4b2bb9141509fb0e34b02d38c3ea",
+    "changes": "Preserve mocked regression cases; replace production-like identity examples; deny real network/process calls",
+    "ownership": "Owner-authorized local original integration and its tests; upstream dependency implementations not copied."
+  },
+  {
+    "source": "task_watchdog.py",
+    "destination": "toolkit/watchdog.py",
+    "source_sha256": "2d54e079741f0e777ce1a72225e0b2c2eee0e6f18a5f22e7aeccfc61812670d8",
+    "changes": "Configurable state and explicit health endpoint; customer ledger must be passed; no restart/send/retry action",
+    "ownership": "Owner-authorized original workflow implementation; deployment identity removed."
+  },
+  {
+    "source": "test_task_watchdog.py",
+    "destination": "tests/test_watchdog.py",
+    "source_sha256": "183d17067592dd0ecf8a8c54cde976e8f1beb202b4d89bed32c3773f98af080f",
+    "changes": "Retain temporary SQLite and fake health probes; no network required",
+    "ownership": "Owner-authorized original workflow implementation; deployment identity removed."
+  },
+  {
+    "source": "daily_series.py",
+    "destination": "toolkit/product_rotation.py",
+    "source_sha256": "f465889ac99ccbcb9a250963c31986c1228d69e500aefc1e8b8ba9940ce3a455",
+    "changes": "Retain immutable daily product assignment and independent six-template cursor; configure identity/host/timezone/slot; remove historical production migration",
+    "ownership": "Owner-authorized original workflow implementation; deployment identity removed."
+  },
+  {
+    "source": "apify_leads.py",
+    "destination": "toolkit/apify_budget.py",
+    "source_sha256": "e5a66d27faa041589ba5b087ffa8fce947f273053bb1e5bbe1f651b30c9265f6",
+    "changes": "Explicit evidence path and finite budget/reserve; preserve independent policy and credit expiry; reject timezone-naive proof; dedup identity helpers included",
+    "ownership": "Owner-authorized original workflow implementation; deployment identity removed."
+  },
+  {
+    "source": "publication_reliability.py",
+    "destination": "toolkit/approval_ledger.py",
+    "source_sha256": "52c695ba07d9e678342c8c12b037e520b7f8cdff1b86946ffb6b7f91a0ab279a",
+    "changes": "Extract actual durable approval, revocation, idempotency, retry and receipt primitives; explicit authenticated-source/review metadata; no full live recovery engine",
+    "ownership": "Owner-authorized original reliability implementation; no upstream provider source vendored."
+  },
+  {
+    "source": "scheduled_publication.py",
+    "destination": "toolkit/schedule_core.py",
+    "source_sha256": "348c0a5d3e5ea2b8f74d9e916526490b21e86c6938ef35d2704e6eccf892bef9",
+    "changes": "Source-derived exact-date/time parser; configurable IANA zone with DST ambiguity rejection; durable outbox only, not a deployed scheduler",
+    "ownership": "Owner-authorized original reliability implementation; no upstream provider source vendored."
+  },
+  {
+    "source": "notification_delivery.py",
+    "destination": "toolkit/notification_outbox.py",
+    "source_sha256": "f33c38ac4fe0f605566070bca0a5aee96cd06b73b1429d4a8d9b6d00066fb1ae",
+    "changes": "Preserve exact-destination receipts, durable claims, uncertainty/no-replay and bounded retry; remove CLI send/config discovery; mandatory trusted callback and targets",
+    "ownership": "Owner-authorized original reliability implementation; no upstream provider source vendored."
+  },
+  {
+    "source": "smgc_meta_worker.py",
+    "destination": "toolkit/meta_publisher.py",
+    "source_sha256": "f87c566f19915e2baff04cda38a34e0e4135c537cc00589ba3b2958755f702c8",
+    "changes": "Extract environment-only credential adapter and exact-row fingerprint; no worker CLI or private file fallback",
+    "ownership": "Owner-authorized original worker helpers"
   }
 ]
