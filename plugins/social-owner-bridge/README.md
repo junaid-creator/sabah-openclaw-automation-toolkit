@@ -19,3 +19,30 @@ Untrusted sender claims, groups, changed account/chat metadata, quoted commands 
 Publication stays NOT_DISPATCHED until the separately configured existing exact-approval worker is invoked. The social controller publisher adapters remain available, but native publication routing, Sheets syncing and owned hosting must pass their own deployment acceptance. Short natural-language campaign parsing and automatic image generation remain unimplemented here; structured owner commands are executable, not an assertion of production feature parity.
 
 Tests: five Python command lifecycle tests plus native hook isolation/revision receipt tests, all simulated transports. Fresh live Gateway/channel acceptance remains required. Rollback by disabling only this newly installed plugin in the target deployment, retaining private receipt/approval ledgers; never clear uncertain work or touch existing accounts.
+
+## Required migration: exact owner session isolation (2026.11.5)
+
+Existing configurations must be migrated before loading this revision. There is
+no compatibility fallback: missing policy rejects registration. In BOTH plugin
+configs, add an explicit nonempty supportAgentIds array containing every deployed
+support-agent ID. Each owner route must add agent (the owner agent ID) and the
+exact host-observed sessionKey beginning with agent:<agent>:. Owner agents must
+be disjoint from supportAgentIds. Keep the existing channel/account/peer/alias
+restrictions. Use config.example.json as a shape only; do not guess session keys.
+Preserve private signing keys, engine configuration, receipt state and all
+unrelated settings. No receipt migration/reset or live activation is authorized.
+
+The inspected 2026.11.5 before_dispatch contract supplies ctx.sessionKey and
+optional event.sessionKey, but no ctx.agentId, senderIsOwner or owner-current
+assertion. This bridge requires BOTH sessionKey fields, equal to each other and
+the configured exact owner session. Missing/conflicting event session metadata
+fails closed; a channel which omits it cannot use this bridge until its trusted
+mapping is established. Support-agent sessions are independently rejected even
+when sender/account/chat otherwise match. Outbound review correlation also
+requires the exact ctx.sessionKey, without an event-only fallback.
+
+This is authenticated host-metadata route isolation, NOT the native owner-scoped
+command capability. Migration to registerCommand with requiredScopes and native
+owner assertions remains UNIMPLEMENTED for these product/social bridges. Do not
+invent senderIsOwner on before_dispatch or claim fresh live channel acceptance.
+The shared product bridge enforces these checks for the social bridge too.

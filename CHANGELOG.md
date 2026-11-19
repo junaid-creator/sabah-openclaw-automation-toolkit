@@ -1,3 +1,7 @@
+# Recovery increment — 2026-11-19
+
+Recovered saved native install, startup checks and audit classifications. Added bounded social recovery/outbox assembly, acquisition/billing monitoring, native owner support/send/event integration and executable startup fencing. Hardened acceptance result capture and explicit Chromium selection. Coverage remains 5 portable / 46 partial; see [recovery release](docs/recovery-release.md).
+
 # Changelog
 
 ## 0.3.0 — platform and procedural expansion

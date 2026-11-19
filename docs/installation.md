@@ -1,3 +1,19 @@
+## Current recovery installation requirements
+
+Use Python 3.12+ and Node 24 for the complete pinned acceptance environment.
+Run `tests/fresh_install.py` with a new external environment and private report path;
+it records each command separately and does not inherit provider credentials.
+For real local render/workflow acceptance, install compatible Chromium separately
+and pass `--chromium /absolute/path/to/chrome` to `tests/social_render_acceptance.py`.
+A fresh HOME has no implicit Playwright browser cache.
+
+OpenClaw 2026.11.5 configuration, 24/0 skill discovery and network-denied boot/health
+were accepted in a reused disposable installation. Plugins remain opt-in source;
+SDK registration tests are not live channel activation. Do not copy production
+profiles or run automatic repair. See [recovery release](recovery-release.md),
+[native support](native-control-recovery.md), [social recovery](social-recovery.md),
+[acquisition](acquisition-workflow.md) and [startup fencing](startup-fence.md).
+
 # Installation
 
 ## Standalone (offline example execution after dependency installation)

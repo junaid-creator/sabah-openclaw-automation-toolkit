@@ -101,7 +101,14 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:bear-notes",
@@ -232,7 +239,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:clawhub",
@@ -398,7 +413,14 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:gemini",
@@ -440,7 +462,14 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:gh-issues",
@@ -554,7 +583,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:goplaces",
@@ -686,7 +723,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:nano-pdf",
@@ -906,7 +951,14 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "skill:private-mobile-gateway-pairing",
@@ -928,7 +980,14 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:python-debugpy",
@@ -967,7 +1026,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:sag",
@@ -1006,7 +1073,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:sherpa-onnx-tts",
@@ -1064,7 +1139,14 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "skill:smgc-social-media",
@@ -1086,7 +1168,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:songsee",
@@ -1198,7 +1288,14 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "skill:system-management-model-routing",
@@ -1220,7 +1317,14 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:things-mac",
@@ -1350,7 +1454,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "skill:woocommerce-catalog-reconciliation",
@@ -1375,7 +1487,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "skill:woocommerce-price-display-audit",
@@ -1397,7 +1517,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "skill:woocommerce-product-content-seo",
@@ -1420,7 +1548,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "skill:wordpress-additive-content-update",
@@ -1442,7 +1578,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "skill:wordpress-child-theme-readiness",
@@ -1464,7 +1608,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "skill:wordpress-page-style-correction",
@@ -1486,7 +1638,15 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "blocked:wordpress-rest-api-clean",
@@ -1547,7 +1707,14 @@
         ]
       },
       "limitation": "Server HTML audit plus actual desktop/mobile local Chromium visibility/text/count checks verified. Live cart/checkout, JavaScript hydration and authenticated website operations remain separate acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Actual target-site authenticated cart/hydration acceptance and selectors; local browser checks already exist.",
+      "engineering_remaining": false
     },
     {
       "id": "seo-blog-engine",
@@ -1618,7 +1785,16 @@
         ]
       },
       "limitation": "Integrated inventory/research/article/image-task/three-WebP/CMS-draft/validation/owner-receipt pipeline added. Three-tab tracker schema, SEO-plugin fields, inline media URL rewriting, semantic/source quality and native provider adapters remain deployment-specific. Dedicated configurable multi-tab GOG tracker now executes social draft sync and three-tab SEO sync before owner reporting, with durable per-tab uncertainty/readback. Existing private publisher/source schemas still need explicit mapping; formula cells and live Google acceptance remain excluded.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Native research/image task adapters and site-specific SEO/inline-media mapping; configure private Sheet schema and verify authorized CMS/Google/reporting workflow.",
+      "engineering_remaining": true
     },
     {
       "id": "social-scheduling",
@@ -1669,7 +1845,14 @@
         ]
       },
       "limitation": "Signed exact-content/time approval, revocation, due/grace admission and no-repeat dispatch added. No timer activation; native routing and provider worker acceptance required.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "remaining_reason_detail": "Install disabled scheduler binding and verify trusted owner ingress and platform worker on target; exact-content local schedule admission already exists.",
+      "engineering_remaining": true
     },
     {
       "id": "deployment-specific-utilities",
@@ -1737,7 +1920,14 @@
         ]
       },
       "limitation": "Independent Login Kit and Business Accounts v1.3 exchange/rotation with private stores and publisher token-provider integration. Business consent URL needs operator-reviewed app configuration; live OAuth, revocation and encrypted vault acceptance required.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "App-specific consent/callback host, credentials, verified scopes and real OAuth/refresh/revocation acceptance; not an inferred token-family defect.",
+      "engineering_remaining": false
     },
     {
       "id": "social-publishing",
@@ -1773,7 +1963,8 @@
       "implementation": [
         "toolkit/approval_ledger.py",
         "toolkit/meta_publisher.py",
-        "toolkit/tiktok_publisher.py"
+        "toolkit/tiktok_publisher.py",
+        "toolkit/social_recovery.py"
       ],
       "tests": {
         "suite": "unittest offline fixtures + Node tests where applicable",
@@ -1782,11 +1973,21 @@
         "paths": [
           "tests/test_engines.py",
           "tests/test_meta_publisher.py",
-          "tests/test_platform_adapters.py"
+          "tests/test_platform_adapters.py",
+          "tests/test_social_recovery.py"
         ]
       },
-      "limitation": "FB/IG adapter, TikTok adapter and durable approval/revocation are implemented. The original multi-platform Engine worker, exact visual/asset binding and autonomous recovery dispatcher still require a portable integrated harness.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "limitation": "Shared-ledger bounded multi-platform recovery, immutable-byte check callback, revocation rechecks and idempotent result-outbox preparation implemented. Native scheduled worker/service binding, complete aggregate Sheet reconciliation, configured immutable hosting verifier and real platform acceptance remain.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Shared-ledger bounded multi-platform recovery, immutable-byte check callback, revocation rechecks and idempotent result-outbox preparation implemented. Native scheduled worker/service binding, complete aggregate Sheet reconciliation, configured immutable hosting verifier and real platform acceptance remain.",
+      "engineering_remaining": true
     },
     {
       "id": "notification-delivery",
@@ -1810,7 +2011,8 @@
         "toolkit/reply_recovery.py",
         "toolkit/report_outbox.py",
         "toolkit/seo_workflow.py",
-        "toolkit/trusted_bridge.py"
+        "toolkit/trusted_bridge.py",
+        "toolkit/social_recovery.py"
       ],
       "tests": {
         "suite": "unittest offline fixtures + Node tests where applicable",
@@ -1823,11 +2025,19 @@
           "tests/test_product_workflow.py",
           "tests/test_reply_recovery.py",
           "tests/test_seo_workflow.py",
-          "tests/test_trusted_bridge.py"
+          "tests/test_trusted_bridge.py",
+          "tests/test_social_recovery.py"
         ]
       },
-      "limitation": "Exact owner/customer receipt correlation and unknown-send fencing integrated. Native transport/account delivery remain live acceptance required; missing notification proof never authorizes republishing.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "limitation": "Recovery now prepares sanitized idempotent per-platform status events in the existing durable outbox; mocked drains and unknown-send fences are tested. Supported native sender/receipt lookup bindings and live channel delivery remain.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "remaining_reason_detail": "Recovery now prepares sanitized idempotent per-platform status events in the existing durable outbox; mocked drains and unknown-send fences are tested. Supported native sender/receipt lookup bindings and live channel delivery remain.",
+      "engineering_remaining": true
     },
     {
       "id": "product-catalog",
@@ -1872,7 +2082,15 @@
         ]
       },
       "limitation": "Native MEDIA plan/review/confirm/execute/revoke, rights/hash-bound upload, source/formula snapshot and exact Sheet mirror added. Configured source adapter/exclusive writer and live storefront/native acceptance required; SQL restore is not safely equivalent to REST.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Configure source/formula and exclusive-writer adapters; disposable WooCommerce and native account acceptance. Full SQL restoration is not equivalent to REST snapshots.",
+      "engineering_remaining": true
     },
     {
       "id": "watchdog",
@@ -1891,18 +2109,28 @@
         283
       ],
       "implementation": [
-        "toolkit/watchdog.py"
+        "toolkit/watchdog.py",
+        "plugins/support-guards/native.mjs"
       ],
       "tests": {
         "suite": "unittest offline fixtures + Node tests where applicable",
         "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
         "fresh_live_e2e": false,
         "paths": [
-          "tests/test_watchdog.py"
+          "tests/test_watchdog.py",
+          "tests/test_watchdog_ingestion.py",
+          "tests/test_support_guards.mjs"
         ]
       },
-      "limitation": "Task lifecycle, stalls, endpoint health and inquiry failure reader are implemented. Native runtime-event ingestion and production-specific result watchers/delivery daemon remain outside the standalone adapter.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "limitation": "Actual SDK lifecycle/tool metadata subscription invokes the Python CLI for atomic deduplicated SQLite ingestion with stale-execution rejection. Native replay/backfill is unavailable; business-result watchers, typed quota interpretation, installed stall-scan and alert-dispatch wiring remain.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "remaining_reason_detail": "Actual SDK lifecycle/tool metadata subscription invokes the Python CLI for atomic deduplicated SQLite ingestion with stale-execution rejection. Native replay/backfill is unavailable; business-result watchers, typed quota interpretation, installed stall-scan and alert-dispatch wiring remain.",
+      "engineering_remaining": true
     },
     {
       "id": "apify-budgeted-acquisition",
@@ -1915,7 +2143,8 @@
       ],
       "implementation": [
         "toolkit/apify_budget.py",
-        "toolkit/apify_client.py"
+        "toolkit/apify_client.py",
+        "toolkit/acquisition_workflow.py"
       ],
       "tests": {
         "suite": "unittest offline fixtures + Node tests where applicable",
@@ -1924,11 +2153,21 @@
         "paths": [
           "tests/test_acquisition.py",
           "tests/test_apify_pagination.py",
-          "tests/test_engines.py"
+          "tests/test_engines.py",
+          "tests/test_acquisition_workflow.py"
         ]
       },
-      "limitation": "Capped start/collection and independent policy/credit guards are implemented and mocked. Complete account inventory now uses bounded pagination (100 rows/page, 20 pages), validates metadata and run states, and rechecks the head before admission. Histories exceeding 2,000 runs, changing/unknown inventory and active runs fail closed. Scheduled owner billing-evidence monitoring and native routing remain unported; concurrent starts by other clients cannot be atomically excluded.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "limitation": "Capped acquisition now has independent billing-evidence expiry/change monitoring and bounded acquisition/qualification/approved-Sheet/report orchestration. Native scheduled activation and authorized billing refresh/account acceptance remain; no automatic paid consent or uncertain-start replay.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Capped acquisition now has independent billing-evidence expiry/change monitoring and bounded acquisition/qualification/approved-Sheet/report orchestration. Native scheduled activation and authorized billing refresh/account acceptance remain; no automatic paid consent or uncertain-start replay.",
+      "engineering_remaining": true
     },
     {
       "id": "social-draft-review",
@@ -1964,7 +2203,16 @@
         ]
       },
       "limitation": "Durable six-template create/revise/review/exact approval plus native owner hook/command executable added. Exact native receipt renewal, revocation and command isolation tested. Owned HTTPS static hosting, Sheets synchronization, natural-language/image-generation adapters, publication worker wiring and live native/provider acceptance remain partial. Dedicated configurable multi-tab GOG tracker now executes social draft sync and three-tab SEO sync before owner reporting, with durable per-tab uncertainty/readback. Existing private publisher/source schemas still need explicit mapping; formula cells and live Google acceptance remain excluded.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Native natural-language/image task adapters, owned hosting and publication worker wiring remain; configure existing Sheet tracker and accounts before target acceptance.",
+      "engineering_remaining": true
     },
     {
       "id": "poster-generation",
@@ -2018,7 +2266,14 @@
         ]
       },
       "limitation": "Six templates rendered through durable draft/review/approval dispatch with simulated hosting/publication; 18 language renders passed. Genuine QR/semantic review, brand rights, public hosting and real provider acceptance required. Public Template 5 now reproduces the current original full-hero correction; actual unaffected-template JPEGs are byte-identical. Genuine campaign semantic/QR/live acceptance is not inferred.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Six renderers work locally; licensed brand/font/media assets, real QR, independent semantic review and hosting/provider acceptance remain.",
+      "engineering_remaining": false
     },
     {
       "id": "blog-image-recovery",
@@ -2051,7 +2306,15 @@
         ]
       },
       "limitation": "Receipt-bound three-image validation/recovery is implemented. Provider-task capture/replay bridge and original marker/crop quality reviewer depend on host-owned task and artifact contracts not ported.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Native task receipt capture/replay and original marker/crop quality-review adapter remain; host task contract and authorized artifacts required.",
+      "engineering_remaining": true
     },
     {
       "id": "lead-acquisition",
@@ -2066,7 +2329,8 @@
         "toolkit/google_sheets.py",
         "toolkit/lead_qualification.py",
         "toolkit/lead_sheet_merge.py",
-        "toolkit/overture_adapter.py"
+        "toolkit/overture_adapter.py",
+        "toolkit/acquisition_workflow.py"
       ],
       "tests": {
         "suite": "unittest offline fixtures + Node tests where applicable",
@@ -2075,11 +2339,21 @@
         "paths": [
           "tests/test_acquisition.py",
           "tests/test_core.py",
-          "tests/test_google_sheets.py"
+          "tests/test_google_sheets.py",
+          "tests/test_acquisition_workflow.py"
         ]
       },
-      "limitation": "Overture acquisition, conversion, qualification, dedup and approved Google lead merge/readback are implemented. Original verified-site/geography-specific enrichment and weekly notification orchestration are not generalized.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "limitation": "Bounded weekly acquisition/qualification/dedup/exact approved Sheet merge/readback/report preparation is executable. Geography-specific verified-site enrichment and installed scheduler/native reporting bindings remain unported.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Bounded weekly acquisition/qualification/dedup/exact approved Sheet merge/readback/report preparation is executable. Geography-specific verified-site enrichment and installed scheduler/native reporting bindings remain unported.",
+      "engineering_remaining": true
     },
     {
       "id": "campaign-language",
@@ -2123,7 +2397,14 @@
         ]
       },
       "limitation": "Authenticated REST read/update/media functionality is provided by the portable WordPress client; production-bound shell invocation and credentials are intentionally not copied. Live account integration is NOT TESTED.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Configure canonical site, application password, allowed REST fields and target read/write acceptance; REST client itself is executable.",
+      "engineering_remaining": false
     },
     {
       "id": "google-sheets-adapter",
@@ -2151,7 +2432,14 @@
         ]
       },
       "limitation": "Stable source rows/formulas, mapped product requests and no-replay exact Sheet mirror added. Private multi-tab schemas are not assumed; authenticated account and exclusive writer acceptance required. Dedicated configurable multi-tab GOG tracker now executes social draft sync and three-tab SEO sync before owner reporting, with durable per-tab uncertainty/readback. Existing private publisher/source schemas still need explicit mapping; formula cells and live Google acceptance remain excluded.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "C",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Configure exact account/schema/formula ownership and exclusive-writer contract; live Google acceptance remains, not a missing generic tracker.",
+      "engineering_remaining": false
     },
     {
       "id": "seo-local-tools",
@@ -3439,7 +3727,14 @@
         ]
       },
       "limitation": "Independent alert-only HTTP probe, durable incident/unknown-send fencing and optional configured Telegram transport plus inert service templates are executable. Actual natural service invocation and owner delivery NOT TESTED; no Gateway control.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "remaining_reason_detail": "Install inert service template on target and verify natural invocation plus owner alert receipt; no service activation authorized here.",
+      "engineering_remaining": true
     },
     {
       "id": "deployment-adapters",
@@ -3466,11 +3761,21 @@
         "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
         "fresh_live_e2e": false,
         "paths": [
-          "tests/test_trusted_bridge.py"
+          "tests/test_trusted_bridge.py",
+          "tests/test_support_control.py",
+          "tests/test_native_owner_sdk.py"
         ]
       },
-      "limitation": "Original service/timer definitions contain host-specific executables, identities and environment bindings. They remain excluded from automatic installation; no production schedules are activated. Inert two-workspace scaffolder implemented and tested; no fresh Gateway or service installation acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "limitation": "Separate OpenClaw 2026.11.5 installation reused and validated: exact 24 main/0 support skill discovery, configuration and network-denied boot/health passed. Target source-bound service/native activation and credentialed agent isolation remain unaccepted; seven inaccessible paths still limit parity.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E",
+        "F"
+      ],
+      "remaining_reason_detail": "Separate OpenClaw 2026.11.5 installation reused and validated: exact 24 main/0 support skill discovery, configuration and network-denied boot/health passed. Target source-bound service/native activation and credentialed agent isolation remain unaccepted; seven inaccessible paths still limit parity.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream:openclaw-runtime",
@@ -3510,7 +3815,15 @@
         ]
       },
       "limitation": "Executable locale/intent-bound reviewed phrase policy plus durable reply path. Arbitrary free-form semantic correctness is not certified by static rules; classifier/reviewer and fresh-agent acceptance remain required.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Reviewed phrase policy is not general semantic support; independent classifier/reviewer and native routing/dispatch integration need engineering and target acceptance.",
+      "engineering_remaining": true
     },
     {
       "id": "skill:public-toolkit-release",
@@ -3529,7 +3842,14 @@
         ]
       },
       "limitation": "Original procedural skill package and resources are published; native tools/accounts and associated engine integration must be configured. Static/helper tests are not full fresh-agent workflow acceptance.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Procedural package is available for native loading; its documented engine/tool bindings and target-specific evidence/configuration must be supplied and the actual procedure accepted. Static loading does not prove the procedure works.",
+      "engineering_remaining": true
     },
     {
       "id": "local-speech-recognition",
@@ -3548,7 +3868,15 @@
         ]
       },
       "limitation": "Executable adapter and synthetic subprocess tests; actual model/license/accuracy/native attachment acceptance NOT TESTED.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E",
+        "F"
+      ],
+      "remaining_reason_detail": "Install separately licensed executable/model and native attachment binding; test real transcription accuracy on authorized audio.",
+      "engineering_remaining": true
     },
     {
       "id": "local-voice-synthesis",
@@ -3567,7 +3895,15 @@
         ]
       },
       "limitation": "No model or voice redistributed. Actual model quality/licensing, native voice reply and audio/text priority NOT TESTED.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E",
+        "F"
+      ],
+      "remaining_reason_detail": "Install separately licensed voice/binary and native voice reply/audio-text priority binding; real synthesis quality untested.",
+      "engineering_remaining": true
     },
     {
       "id": "voice-runtime-control",
@@ -3588,7 +3924,14 @@
         ]
       },
       "limitation": "Executable opt-in isolated voice settings, merge/CAS/history rollback and local_voice configuration. No Gateway configuration activation; native model quality/licensing and channel acceptance required.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "remaining_reason_detail": "Local configuration CAS/rollback works; merge into supported target voice runtime and verify real channel/model behavior.",
+      "engineering_remaining": true
     },
     {
       "id": "customer-support-control",
@@ -3596,18 +3939,28 @@
       "source_records": 2,
       "legacy_records": [],
       "implementation": [
-        "plugins/support-guards/guards.mjs"
+        "plugins/support-guards/guards.mjs",
+        "plugins/support-guards/native.mjs",
+        "plugins/support-guards/index.mjs"
       ],
       "tests": {
         "suite": "unittest offline fixtures + Node tests where applicable",
         "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
         "fresh_live_e2e": false,
         "paths": [
-          "tests/test_support_guards.mjs"
+          "tests/test_support_guards.mjs",
+          "tests/test_support_control.py"
         ]
       },
-      "limitation": "Local mode state is executable. Original authenticated owner command/config-patch integration and exact native send-policy merge are not ported or fresh-host validated.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "limitation": "Native owner/admin-scoped exact owner command, revisioned HUMAN/AUTO/RESUME, dedup and exact native send cancellation implemented against the SDK. Historical config-patch parity is not implemented because inspected send-policy matching lacks exact account/session predicates and owned rule IDs. Actual chat/transport acceptance remains.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "remaining_reason_detail": "Native owner/admin-scoped exact owner command, revisioned HUMAN/AUTO/RESUME, dedup and exact native send cancellation implemented against the SDK. Historical config-patch parity is not implemented because inspected send-policy matching lacks exact account/session predicates and owned rule IDs. Actual chat/transport acceptance remains.",
+      "engineering_remaining": true
     },
     {
       "id": "integrity-guard",
@@ -3615,18 +3968,28 @@
       "source_records": 4,
       "legacy_records": [],
       "implementation": [
-        "toolkit/gateway_monitor.py"
+        "toolkit/gateway_monitor.py",
+        "toolkit/startup_fence.py"
       ],
       "tests": {
         "suite": "unittest offline fixtures + Node tests where applicable",
         "boundary": "Consult acceptance report for exact counts; no fresh live external workflow accepted",
         "fresh_live_e2e": false,
         "paths": [
-          "tests/test_gateway_monitor.py"
+          "tests/test_gateway_monitor.py",
+          "tests/test_startup_integrity.py",
+          "tests/test_startup_fence.py"
         ]
       },
-      "limitation": "Generic manifest checks exist. Native plugin source attestation, exact DB schemas, startup fencing and deliberate stop-policy service adapter remain unported; no stop/restart behavior added.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "limitation": "Exact hash/plugin/SQLite contract and executable native-discovery prestart fence implemented. CLI metadata is not running-hook proof; target prestart/drop-in and deliberate stop-policy integration/acceptance remain.",
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "remaining_reason_detail": "Exact hash/plugin/SQLite contract and executable native-discovery prestart fence implemented. CLI metadata is not running-hook proof; target prestart/drop-in and deliberate stop-policy integration/acceptance remain.",
+      "engineering_remaining": true
     },
     {
       "id": "native-rate-limit",
@@ -3688,7 +4051,14 @@
         ]
       },
       "limitation": "Durable inquiry/task/final-result correlation and exact delivery reconciliation added. Authorized native result-reader and messaging callbacks remain deployment integrations; no private transcript reading or guessed API.",
-      "live_acceptance": "LIVE ACCEPTANCE REQUIRED"
+      "live_acceptance": "LIVE ACCEPTANCE REQUIRED",
+      "remaining_reason_codes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "remaining_reason_detail": "Bind authorized native result reader, submission and native delivery/reconciliation callbacks; end-to-end supported host integration remains unfinished.",
+      "engineering_remaining": true
     },
     {
       "id": "upstream-patched-whatsapp",
@@ -3750,5 +4120,16 @@
       "limitation": "Source identity observed but behavior/ownership not fully traced; NOT TESTED. No completeness claim.",
       "live_acceptance": "Not claimed; see functional scope"
     }
-  ]
+  ],
+  "remaining_reason_taxonomy": {
+    "A": "Missing executable integration",
+    "B": "Missing fresh-install wiring",
+    "C": "Missing external account authorization",
+    "D": "Missing live end-to-end verification",
+    "E": "Missing private configuration or assets",
+    "F": "Unresolved licensing or source access",
+    "G": "Remaining implementation defect"
+  },
+  "closure_status": "PUBLIC RELEASE ENGINEERING INCOMPLETE",
+  "recovery_report": "docs/recovery-release.md"
 }

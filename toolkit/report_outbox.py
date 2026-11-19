@@ -21,7 +21,7 @@ class Outbox:
         required = {'title','post_id','topic','keyword','status','url','sheets','blocker'}
         if not required <= payload.keys():
             raise ValueError('Missing owner report fields')
-        if payload['status'] not in {'Published','Draft','Blocked','Failed'}:
+        if payload['status'] not in {'Published','Draft','Blocked','Failed','Completed'}:
             raise ValueError('Invalid report status')
         key = run_id
         def apply(data):

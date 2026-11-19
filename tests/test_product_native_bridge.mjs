@@ -5,9 +5,9 @@ import assert from 'node:assert/strict';
 import { createHmac } from 'node:crypto';
 import { createBridge,canonical,hash,ownerRoute } from '../plugins/product-owner-bridge/bridge.mjs';
 const key='synthetic-host-key-not-a-secret-000000';
-const route={channel:'telegram',account:'test-account',peer:'test-owner',role:'owner',chatAliases:['telegram:test-owner']};
-const ctx={channelId:'telegram',accountId:'test-account',senderId:'test-owner',conversationId:'telegram:test-owner',messageId:'in-1',sessionKey:'test-session'};
-const event=content=>({isGroup:false,channel:'telegram',messageId:'in-1',content});
+const route={channel:'telegram',account:'test-account',peer:'test-owner',role:'owner',agent:'main',sessionKey:'agent:main:telegram:test-account:direct:test-owner',chatAliases:['telegram:test-owner']};
+const ctx={channelId:'telegram',accountId:'test-account',senderId:'test-owner',conversationId:'telegram:test-owner',messageId:'in-1',sessionKey:route.sessionKey};
+const event=content=>({isGroup:false,channel:'telegram',messageId:'in-1',sessionKey:route.sessionKey,content});
 class Memory {
   data=new Map();async init(){}async get(k){return this.data.get(k)??null;}
   async replace(k,v){this.data.set(k,v);}
@@ -15,15 +15,15 @@ class Memory {
 }
 function fixture(run,options={}) {
   const store=new Memory();const calls=[];
-  const bridge=createBridge({stateDir:'/unused',signingKeyEnv:'TEST_SIGNING_KEY',routes:[route],...options},
+  const bridge=createBridge({stateDir:'/unused',signingKeyEnv:'TEST_SIGNING_KEY',routes:[route],supportAgentIds:['support'],...options},
     {store,environment:{TEST_SIGNING_KEY:key},clock:()=>1000000,run:async e=>{calls.push(e);return run?run(e):{state:'CHECKED'};}});
   return {store,calls,bridge};
 }
 test('owner route comes only from trusted hook fields',()=>{
-  assert.ok(ownerRoute(event('PRODUCT STATUS x'),ctx,[route]));
-  for(const change of [{senderId:'customer'},{accountId:'other'},{conversationId:'group'}])assert.equal(ownerRoute(event('PRODUCT STATUS x'),{...ctx,...change},[route]),null);
-  assert.equal(ownerRoute({...event('PRODUCT STATUS x'),isGroup:true},ctx,[route]),null);
-  assert.equal(ownerRoute({...event('PRODUCT STATUS x'),messageId:'forged'},ctx,[route]),null);
+  assert.ok(ownerRoute(event('PRODUCT STATUS x'),ctx,[route],['support']));
+  for(const change of [{senderId:'customer'},{accountId:'other'},{conversationId:'group'}])assert.equal(ownerRoute(event('PRODUCT STATUS x'),{...ctx,...change},[route],['support']),null);
+  assert.equal(ownerRoute({...event('PRODUCT STATUS x'),isGroup:true},ctx,[route],['support']),null);
+  assert.equal(ownerRoute({...event('PRODUCT STATUS x'),messageId:'forged'},ctx,[route],['support']),null);
 });
 test('signed event binds canonical route and exact command',async()=>{
   const f=fixture();await f.bridge.before(event('PRODUCT STATUS product-test'),ctx);
@@ -136,4 +136,39 @@ test('review replacement is durable and refuses symlink state',async()=>{
     await fs.symlink(path.join(root,'review-a.json'),path.join(root,'review-b.json'));
     await assert.rejects(()=>store.replace('review-b',{revision:3}),/PRIVATE_STATE_REQUIRED/);
   } finally {await fs.rm(root,{recursive:true,force:true});}
+});
+
+test('owner session is mandatory and exact in both trusted hook objects',()=>{
+  for(const sessionKey of [undefined,'','agent:main:other','agent:support:telegram:test-account:direct:test-owner']) {
+    assert.equal(ownerRoute({...event('PRODUCT STATUS x'),sessionKey},ctx,[route],['support']),null);
+    assert.equal(ownerRoute(event('PRODUCT STATUS x'),{...ctx,sessionKey},[route],['support']),null);
+  }
+});
+test('legacy or conflicting owner policy fails registration rather than falling back',()=>{
+  assert.throws(()=>fixture(null,{supportAgentIds:undefined}),/SESSION_POLICY_REQUIRED/);
+  assert.throws(()=>fixture(null,{supportAgentIds:[]}),/SESSION_POLICY_REQUIRED/);
+  assert.throws(()=>fixture(null,{routes:[{...route,agent:undefined}]}),/INVALID_OWNER_SESSION_ROUTE/);
+  assert.throws(()=>fixture(null,{routes:[{...route,sessionKey:undefined}]}),/INVALID_OWNER_SESSION_ROUTE/);
+  assert.throws(()=>fixture(null,{routes:[{...route,agent:'other'}]}),/INVALID_OWNER_SESSION_ROUTE/);
+  assert.throws(()=>fixture(null,{supportAgentIds:['main']}),/INVALID_OWNER_SESSION_ROUTE/);
+});
+for(const engineModule of ['toolkit.product_commands','toolkit.social_commands'])test(engineModule+' independently rejects support session with otherwise valid owner metadata',async()=>{
+  const f=fixture(null,{engineModule});const command=engineModule.includes('social')?'SOCIAL STATUS x':'PRODUCT STATUS x';
+  const sessionKey='agent:support:telegram:test-account:direct:test-owner';
+  const reply=await f.bridge.before({...event(command),sessionKey},{...ctx,sessionKey});
+  assert.match(reply.text,/rejected/);assert.equal(f.calls.length,0);
+  const missing=await f.bridge.before({...event(command),sessionKey:undefined},ctx);
+  assert.match(missing.text,/rejected/);assert.equal(f.calls.length,0);
+});
+test('support exclusion rejects even a maliciously repinned owner route',()=>{
+  const bad={...route,agent:'support',sessionKey:'agent:support:owner'};
+  assert.equal(ownerRoute({...event('PRODUCT STATUS x'),sessionKey:bad.sessionKey},{...ctx,sessionKey:bad.sessionKey},[bad],['support']),null);
+});
+test('review receipt cannot cross owner session or fall back to event session',async()=>{
+  const job='product-'+'e'.repeat(24);const f=fixture(()=>({job_id:job,binding:{job}}));
+  const reply=await f.bridge.before(event('PRODUCT PLAN {}'),ctx);
+  for(const sessionKey of [undefined,'agent:support:owner','agent:main:other'])await f.bridge.sent({success:true,messageId:'out',content:reply.text,to:'test-owner',sessionKey:route.sessionKey},{...ctx,sessionKey});
+  assert.equal(await f.store.get('review-'+job),null);
+  await f.bridge.sent({success:true,messageId:'out',content:reply.text,to:'test-owner',sessionKey:'agent:main:conflict'},ctx);
+  assert.equal(await f.store.get('review-'+job),null);
 });

@@ -1,3 +1,5 @@
+> Recovery update: [2026-11-19 release](docs/recovery-release.md) and [current evidence](docs/recovery-acceptance.json) supersede older test counts and native-install claims below. Coverage remains partial.
+
 # Complete setup guide — PARTIAL functional reproduction
 
 This is a complete installation guide for the **published subset**, not a claim that every production capability is ported. See [feature matrix](FEATURE-REPLICATION-MATRIX.md). No fresh OpenClaw/VPS end-to-end acceptance is available. The inert scaffold and standalone libraries are tested locally.

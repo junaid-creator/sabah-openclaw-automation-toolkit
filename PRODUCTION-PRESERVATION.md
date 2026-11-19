@@ -1,3 +1,5 @@
+> Recovery update: [2026-11-19 release](docs/recovery-release.md) and [current evidence](docs/recovery-acceptance.json) supersede older test counts and native-install claims below. Coverage remains partial.
+
 # Final bounded production preservation
 
 This final readback supersedes any interpretation of earlier successful source

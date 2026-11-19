@@ -16,10 +16,25 @@ function sort(value) {
 export const hash = value => createHash('sha256').update(typeof value==='string'?value:canonical(value)).digest('hex');
 const safeId = value => typeof value==='string' && /^[a-zA-Z0-9_-]{1,100}$/.test(value);
 
-export function ownerRoute(event, ctx, routes) {
+const boundedRouteValue = value => typeof value==='string' && value.length>0 && value.length<=512 && !/[\x00-\x1f\x7f]/.test(value);
+export function validateOwnerRoutes(routes,supportAgentIds) {
+  if(!Array.isArray(supportAgentIds)||!supportAgentIds.length||!supportAgentIds.every(safeId)||!Array.isArray(routes)||!routes.length)throw Error('EXPLICIT_OWNER_AND_SUPPORT_SESSION_POLICY_REQUIRED');
+  const seen=new Set();
+  for(const r of routes) {
+    if(!r || r.role!=='owner'||!safeId(r.agent)||supportAgentIds.includes(r.agent)||!['channel','account','peer','sessionKey'].every(k=>boundedRouteValue(r[k]))||!r.sessionKey.startsWith('agent:'+r.agent+':'))throw Error('INVALID_OWNER_SESSION_ROUTE');
+    for(const k of ['senderAliases','chatAliases'])if(r[k]!==undefined&&(!Array.isArray(r[k])||!r[k].every(boundedRouteValue)))throw Error('INVALID_OWNER_ROUTE_ALIASES');
+    const key=canonical([r.channel,r.account,r.peer,r.sessionKey]);
+    if(seen.has(key))throw Error('DUPLICATE_OWNER_SESSION_ROUTE');seen.add(key);
+  }
+}
+export function ownerRoute(event, ctx, routes, supportAgentIds) {
+  try{validateOwnerRoutes(routes,supportAgentIds);}catch{return null;}
   if (event?.isGroup!==false || typeof ctx?.messageId!=='string' || !ctx.messageId || ctx.messageId.length>256) return null;
+  // before_dispatch has no agentId or owner assertion: do not invent either.
+  if(!boundedRouteValue(ctx.sessionKey)||!boundedRouteValue(event.sessionKey)||event.sessionKey!==ctx.sessionKey)return null;
+  if(supportAgentIds.some(a=>ctx.sessionKey.startsWith('agent:'+a+':')||event.sessionKey.startsWith('agent:'+a+':')))return null;
   if ((event.channel!==undefined && event.channel!==ctx.channelId) || (event.messageId!==undefined && event.messageId!==ctx.messageId)) return null;
-  const matches=routes.filter(r=>r.role==='owner' && r.channel===ctx.channelId && r.account===ctx.accountId &&
+  const matches=routes.filter(r=>r.role==='owner' && r.sessionKey===ctx.sessionKey && ctx.sessionKey.startsWith('agent:'+r.agent+':') && !supportAgentIds.includes(r.agent) && r.channel===ctx.channelId && r.account===ctx.accountId &&
     [r.peer,...(r.senderAliases??[])].includes(ctx.senderId) && [r.peer,...(r.chatAliases??[])].includes(ctx.conversationId));
   return matches.length===1 ? matches[0] : null;
 }
@@ -88,6 +103,7 @@ export function runEngine(envelope, config, environment=process.env, spawnFn=spa
 
 export function createBridge(config,{store=new Store(config.stateDir),run=env=>runEngine(env,config),environment=process.env,clock=()=>Date.now(),logger={warn(){}}}={}) {
   if(!Array.isArray(config.routes)||!config.routes.length||typeof config.signingKeyEnv!=='string')throw Error('EXPLICIT_OWNER_ROUTES_REQUIRED');
+  validateOwnerRoutes(config.routes,config.supportAgentIds);
   const key=environment[config.signingKeyEnv];
   if(typeof key!=='string'||Buffer.byteLength(key)<32)throw Error('HOST_SIGNING_KEY_REQUIRED');
   const pending=[];
@@ -101,7 +117,7 @@ export function createBridge(config,{store=new Store(config.stateDir),run=env=>r
     const relevant=typeof text==='string' && (text.startsWith('CONFIRM ') || (social?text.startsWith('SOCIAL '):(text.startsWith('PRODUCT ')||text.startsWith('MEDIA '))));
     if(!relevant)return undefined;
     if(text.length>60000 || /[\x00-\x1f\x7f]/.test(text))return {handled:true,text:'Product command rejected: one bounded exact command required.'};
-    const route=ownerRoute(event,ctx,config.routes);
+    const route=ownerRoute(event,ctx,config.routes,config.supportAgentIds);
     if(!route)return {handled:true,text:'Product command rejected: trusted direct owner route required.'};
     try {
       await store.init();
@@ -134,11 +150,12 @@ export function createBridge(config,{store=new Store(config.stateDir),run=env=>r
     }
   }
   async function sent(event,ctx) {
+    if(!boundedRouteValue(ctx?.sessionKey)||config.supportAgentIds.some(a=>ctx.sessionKey.startsWith('agent:'+a+':'))||(event?.sessionKey!==undefined&&event.sessionKey!==ctx.sessionKey))return;
     if(event?.success!==true || typeof event.messageId!=='string' || !event.messageId || typeof event.content!=='string')return;
     const fresh=pending.filter(p=>clock()-p.created<=300000);
     pending.splice(0,pending.length,...fresh);
     const matches=pending.filter(p=>p.digest===hash(event.content) && p.route.channel===ctx?.channelId && p.route.account===ctx.accountId &&
-      [p.route.peer,...(p.route.chatAliases??[])].includes(event.to) && (!p.session||p.session===(ctx.sessionKey??event.sessionKey)));
+      [p.route.peer,...(p.route.chatAliases??[])].includes(event.to) && p.session===ctx.sessionKey);
     if(matches.length!==1)return;
     const p=matches[0];
     const proof={delivered:true,message_id:event.messageId,binding_digest:hash(p.binding),channel:p.route.channel,account:p.route.account,peer:p.route.peer};

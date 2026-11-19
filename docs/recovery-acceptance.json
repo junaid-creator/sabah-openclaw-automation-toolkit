@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-19",
+  "status": "PUBLIC RELEASE ENGINEERING INCOMPLETE",
+  "baseline": "6266894ad05e74f0b2003bff3b9eaf8a7640407c",
+  "coverage": {
+    "original_groups": 51,
+    "portable": 5,
+    "partial": 46,
+    "legacy_mappings": 460,
+    "source_records": 399,
+    "skills": 24,
+    "python_modules": 64,
+    "excluded_license_security_groups": 3
+  },
+  "recovered_native": {
+    "version": "2026.11.5",
+    "reinstalled": false,
+    "configuration": "PASS",
+    "main_skill_count": 24,
+    "support_toolkit_skill_count": 0,
+    "exact_skill_set": true,
+    "boot_health": "PASS",
+    "external_network": "OS namespace denied",
+    "production_filesystem": "read-only during native reacceptance",
+    "schedules": false,
+    "tools": "deny *",
+    "explicit_teardown": true,
+    "provider_workflow_acceptance": false,
+    "linked_owner_plugins": "disabled; metadata discovery only",
+    "disabled_agent_schedule": "BLOCKED: route-compatible model authentication absent; not retried"
+  },
+  "fresh_install": {
+    "steps_passed": 9,
+    "python_at_install": 469,
+    "node_at_install": 25,
+    "provider_credentials_inherited": false,
+    "final_regression": {
+      "python": 500,
+      "python_skipped": 0,
+      "node": 42,
+      "node_skipped": 0,
+      "unique_python_ids": 500,
+      "duplicate_test_ids": 0,
+      "source_gate_files": 291,
+      "source_gate_errors": 0,
+      "actual_sdk_entries": 3,
+      "network": "OS namespace denied",
+      "all_command_exit_codes": 0,
+      "timeouts": 0
+    }
+  },
+  "render_workflow": {
+    "actual_templates": 6,
+    "simulated_review_receipts": 6,
+    "simulated_platform_submissions": 18,
+    "replay_submissions": 0,
+    "network": "OS namespace denied",
+    "genuine_qr": "NOT TESTED; fixture placeholder",
+    "semantic_review": "LIVE ACCEPTANCE REQUIRED"
+  },
+  "security": {
+    "toolkit_pinned_packages": 10,
+    "toolkit_known_vulnerabilities": 0,
+    "native_npm": {
+      "total": 26,
+      "moderate": 24,
+      "high": 2,
+      "critical": 0,
+      "scope": "upstream runtime dependency findings; no audit fix applied"
+    },
+    "source_secret_scan_findings": 0,
+    "final_source_history_scans": {
+      "source_findings": 0,
+      "public_history_findings": 0,
+      "scanner": "gitleaks",
+      "redacted": true
+    },
+    "final_commit_ci": "Verify against published commit; not inferred from baseline",
+    "dependency_licenses": [
+      {
+        "name": "requests",
+        "version": "2.34.2",
+        "license": "Apache-2.0",
+        "requires_python": ">=3.10"
+      },
+      {
+        "name": "certifi",
+        "version": "2026.10.23",
+        "license": "MPL-2.0",
+        "requires_python": ">=3.7"
+      },
+      {
+        "name": "charset-normalizer",
+        "version": "3.5.2",
+        "license": "MIT",
+        "requires_python": ">=3.7"
+      },
+      {
+        "name": "idna",
+        "version": "3.20",
+        "license": "BSD-3-Clause",
+        "requires_python": ">=3.9"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.8.0",
+        "license": "MIT",
+        "requires_python": ">=3.10"
+      },
+      {
+        "name": "Pillow",
+        "version": "13.0.0",
+        "license": "MIT-CMU",
+        "requires_python": ">=3.11"
+      },
+      {
+        "name": "playwright",
+        "version": "1.64.0",
+        "license": "Apache-2.0",
+        "requires_python": ">=3.10"
+      },
+      {
+        "name": "pyee",
+        "version": "14.0.0",
+        "license": "MIT",
+        "requires_python": ">=3.12"
+      },
+      {
+        "name": "greenlet",
+        "version": "3.5.6",
+        "license": "MIT AND PSF-2.0",
+        "requires_python": ">=3.10"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.16.0",
+        "license": "PSF-2.0",
+        "requires_python": ">=3.9"
+      }
+    ]
+  },
+  "preservation": {
+    "original_manifest_files": 388,
+    "drift_present_before_recovery": 5,
+    "drift_reverted": false,
+    "service_pid_unchanged_at_resume": true,
+    "final_comparison": {
+      "checked": 388,
+      "additional_changes_since_resume": 0,
+      "read_errors": 0,
+      "service_pid": 948932,
+      "service_restarts": 0,
+      "service_start_unchanged": true
+    }
+  },
+  "failures_retained": [
+    "Original provider WebSocket closed 1000",
+    "Retired heartbeat configuration caused exit 78 in original lab",
+    "Original shell batches masked intermediate failures",
+    "Disabled agent schedule authentication blocker",
+    "Original hot reload shared-state schema policy failure",
+    "New readiness observer expected obsolete log phrase; corrected health passed",
+    "New render fixture lacked browser in fresh HOME; explicit existing Chromium passed",
+    "First pip-audit flags invalid; exact pin audit corrected"
+  ],
+  "external_business_workflows_accepted": 0
+}

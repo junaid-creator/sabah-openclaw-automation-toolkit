@@ -13,7 +13,8 @@
       "engineState",
       "signingKeyEnv",
       "environmentKeys",
-      "routes"
+      "routes",
+      "supportAgentIds"
     ],
     "properties": {
       "stateDir": {
@@ -43,8 +44,58 @@
       "routes": {
         "type": "array",
         "items": {
-          "type": "object"
-        }
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "channel",
+            "account",
+            "peer",
+            "role",
+            "agent",
+            "sessionKey"
+          ],
+          "properties": {
+            "channel": {
+              "type": "string",
+              "minLength": 1
+            },
+            "account": {
+              "type": "string",
+              "minLength": 1
+            },
+            "peer": {
+              "type": "string",
+              "minLength": 1
+            },
+            "role": {
+              "const": "owner"
+            },
+            "agent": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{1,100}$"
+            },
+            "sessionKey": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 512
+            },
+            "senderAliases": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "chatAliases": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "minItems": 1
       },
       "allowNetwork": {
         "type": "boolean",
@@ -53,6 +104,15 @@
       "allowWrites": {
         "type": "boolean",
         "default": false
+      },
+      "supportAgentIds": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9_-]{1,100}$"
+        }
       }
     }
   }

@@ -657,6 +657,8 @@ class MetaPublisher:
             self.logger.emit("meta_publish_started", {"job_id": job_id, "platform": platform.value,
                                                         "attempt": str(attempt)})
             try:
+                if not self.approval_gate.authorize(job_id, platform.value):
+                    raise MetaIntegrationError("Owner approval revoked before submission")
                 response = (self._publish_facebook(media_url, caption) if platform == Platform.FACEBOOK
                             else self._publish_instagram(job_id, media_url, caption))
                 break
@@ -749,6 +751,8 @@ class MetaPublisher:
             raise MetaIntegrationError("Meta Instagram container response lacked an ID")
         self.ledger.update(job_id, "instagram", "CONTAINER_CREATED", remote_id=container_id)
         try:
+            if not self.approval_gate.authorize(job_id, "instagram"):
+                raise MetaIntegrationError("Owner approval revoked before Instagram publication")
             published = self._api_request("POST", f"{base}/{self.settings.instagram_user_id}/media_publish", token,
                                           form={"creation_id": container_id})
         except MetaIntegrationError as exc:

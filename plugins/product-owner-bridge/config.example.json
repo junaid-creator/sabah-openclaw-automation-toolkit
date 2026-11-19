@@ -22,7 +22,9 @@
       "role": "owner",
       "chatAliases": [
         "telegram:owner-peer"
-      ]
+      ],
+      "agent": "main",
+      "sessionKey": "agent:main:telegram:shop-account:direct:owner-peer"
     },
     {
       "channel": "whatsapp",
@@ -34,7 +36,12 @@
       ],
       "chatAliases": [
         "configured-owner-jid"
-      ]
+      ],
+      "agent": "main",
+      "sessionKey": "agent:main:whatsapp:second-shop-account:direct:configured-owner-phone"
     }
+  ],
+  "supportAgentIds": [
+    "customer-support"
   ]
 }

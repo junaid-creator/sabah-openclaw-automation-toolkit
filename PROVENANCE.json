@@ -815,5 +815,103 @@
     "source_mapping": "docs/complete-capability-audit.json",
     "changes": "Original configurable dedicated-tab reconstruction using existing GOG adapter; no private spreadsheet schema/config/state copied",
     "ownership": "Owner-authorized original implementation under repository license"
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "toolkit/social_recovery.py",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "toolkit/acquisition_workflow.py",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "toolkit/startup_fence.py",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "tests/test_social_recovery.py",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "tests/test_acquisition_workflow.py",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "tests/test_startup_integrity.py",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "tests/test_startup_fence.py",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "tests/test_watchdog_ingestion.py",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "tests/test_support_control.py",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "tests/test_native_owner_sdk.py",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "plugins/support-guards/native.mjs",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "plugins/support-guards/index.mjs",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "plugins/support-guards/package.json",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
+  },
+  {
+    "source": "Original recovery engineering against public toolkit and documented SDK contracts",
+    "destination": "plugins/support-guards/openclaw.plugin.json",
+    "source_sha256": null,
+    "changes": "Add bounded portable integration or isolated acceptance; no upstream implementation or private operational state copied",
+    "ownership": "Owner-requested new release implementation under repository license; upstream dependencies remain separately distributed."
   }
 ]

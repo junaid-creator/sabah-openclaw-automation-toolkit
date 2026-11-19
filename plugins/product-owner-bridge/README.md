@@ -6,7 +6,7 @@ OpenClaw SDK contract. It is NOT a model-callable tool. It signs only exact
 commands received on an explicitly configured trusted direct-owner route.
 
 This package closes the earlier missing source-level native adapter gap, but its
-live registration/channel behavior remains NOT TESTED. Ten Node fixture tests
+live registration/channel behavior remains NOT TESTED. Node fixture tests
 cover trusted admission, forgery/group/account rejection, HMAC binding, exact real
 receipt matching, uncertain/ambiguous delivery, replay, output bounds, fixed argv,
 environment isolation and UTF-8 streaming. They do not prove a connected channel.
@@ -66,6 +66,33 @@ correlation is memory-only and expires after five minutes; reload/ambiguous or
 uncertain delivery blocks approval. Do not reset receipt files to force replay.
 Recover oversized/lost review through a separately reviewed delivery adapter.
 
-Native hook docs were inspected on OpenClaw 2026.9.8. Other versions need contract
+Native hook declarations were rechecked read-only on OpenClaw 2026.11.5. Other versions need contract
 checks. This release did not load the plugin into the production Gateway, restart
 services, connect a fresh customer channel, deliver a real preview or publish.
+
+## Required migration: exact owner session isolation (2026.11.5)
+
+Existing configurations must be migrated before loading this revision. There is
+no compatibility fallback: missing policy rejects registration. In BOTH plugin
+configs, add an explicit nonempty supportAgentIds array containing every deployed
+support-agent ID. Each owner route must add agent (the owner agent ID) and the
+exact host-observed sessionKey beginning with agent:<agent>:. Owner agents must
+be disjoint from supportAgentIds. Keep the existing channel/account/peer/alias
+restrictions. Use config.example.json as a shape only; do not guess session keys.
+Preserve private signing keys, engine configuration, receipt state and all
+unrelated settings. No receipt migration/reset or live activation is authorized.
+
+The inspected 2026.11.5 before_dispatch contract supplies ctx.sessionKey and
+optional event.sessionKey, but no ctx.agentId, senderIsOwner or owner-current
+assertion. This bridge requires BOTH sessionKey fields, equal to each other and
+the configured exact owner session. Missing/conflicting event session metadata
+fails closed; a channel which omits it cannot use this bridge until its trusted
+mapping is established. Support-agent sessions are independently rejected even
+when sender/account/chat otherwise match. Outbound review correlation also
+requires the exact ctx.sessionKey, without an event-only fallback.
+
+This is authenticated host-metadata route isolation, NOT the native owner-scoped
+command capability. Migration to registerCommand with requiredScopes and native
+owner assertions remains UNIMPLEMENTED for these product/social bridges. Do not
+invent senderIsOwner on before_dispatch or claim fresh live channel acceptance.
+The shared product bridge enforces these checks for the social bridge too.

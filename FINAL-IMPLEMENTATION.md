@@ -1,3 +1,5 @@
+> Recovery update: [2026-11-19 release](docs/recovery-release.md) and [current evidence](docs/recovery-acceptance.json) supersede older test counts and native-install claims below. Coverage remains partial.
+
 # Implementation continuation — verified release, partial reproduction
 
 This continues the existing repository, not a replacement inventory. The current machine-readable source register is [complete-capability-audit.json](docs/complete-capability-audit.json); earlier canonical/acceptance reports are historical snapshots. All 460 legacy discovery mappings and 399 bounded source records remain. No newly discovered original groups were added.

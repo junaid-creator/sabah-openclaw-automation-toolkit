@@ -55,3 +55,34 @@ export function authorizeAndHandoff(file,customer,handoff) {
     db.exec('COMMIT');active=false;return pending;
   } finally{if(active)db.exec('ROLLBACK');db.close();}
 }
+
+/** Read only the current customer mode and its durable revision. */
+export function getMode(file,customer) {
+  id(customer);const db=connect(file);
+  try{return modeSnapshot(db,customer);}finally{db.close();}
+}
+function modeSnapshot(db,customer) {
+  const mode=db.prepare('SELECT mode FROM customer_mode WHERE customer=?').get(customer)?.mode??'UNSET';
+  const revision=db.prepare('SELECT COALESCE(MAX(id),0) AS revision FROM mode_events WHERE customer=?').get(customer).revision;
+  return {mode,revision};
+}
+/** Trusted native command handler only. CAS prevents stale AUTO/HUMAN replay. */
+export function applyControl(file,{customer,mode,expectedRevision,requestId,owner},now=Date.now()) {
+  id(customer);id(owner);
+  if(!['AUTO','HUMAN'].includes(mode)||!Number.isSafeInteger(expectedRevision)||expectedRevision<0||
+     !/^[A-Za-z0-9_-]{16,64}$/.test(requestId)||!Number.isSafeInteger(now))throw Error('INVALID_CONTROL');
+  const db=connect(file);let active=false;
+  try {
+    db.exec('CREATE TABLE IF NOT EXISTS support_commands(owner TEXT, request_id TEXT, payload TEXT NOT NULL, result TEXT NOT NULL, PRIMARY KEY(owner,request_id)); BEGIN IMMEDIATE');active=true;
+    const payload=JSON.stringify({customer,mode,expectedRevision});
+    const prior=db.prepare('SELECT payload,result FROM support_commands WHERE owner=? AND request_id=?').get(owner,requestId);
+    if(prior){if(prior.payload!==payload)throw Error('COMMAND_IDENTITY_CONFLICT');db.exec('COMMIT');active=false;return {...JSON.parse(prior.result),replayed:true,current:modeSnapshot(db,customer)};}
+    const old=modeSnapshot(db,customer);
+    if(old.revision!==expectedRevision)throw Error('STALE_MODE_REVISION');
+    db.prepare('INSERT INTO customer_mode VALUES(?,?) ON CONFLICT(customer) DO UPDATE SET mode=excluded.mode').run(customer,mode);
+    db.prepare('INSERT INTO mode_events(customer,mode,at) VALUES(?,?,?)').run(customer,mode,now);
+    const result=modeSnapshot(db,customer);
+    db.prepare('INSERT INTO support_commands VALUES(?,?,?,?)').run(owner,requestId,payload,JSON.stringify(result));
+    db.exec('COMMIT');active=false;return {...result,replayed:false};
+  }finally{if(active)db.exec('ROLLBACK');db.close();}
+}

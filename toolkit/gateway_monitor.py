@@ -185,6 +185,53 @@ class TelegramSender:
             return {'confirmed':False}
 
 
+
+def startup_integrity(config, *, plugin_source_reader):
+    """Read-only startup gate; no service control or arbitrary SQL/commands.
+
+    The host supplies an authenticated plugin-source lookup. Exact file hashes,
+    source paths and required SQLite columns must all match operator evidence.
+    This is independent of monitor alert suppression and raises on any failure.
+    """
+    import re
+    if not isinstance(config, dict) or set(config) != {'sha256', 'plugins', 'databases'}:
+        raise ValueError('Exact startup integrity configuration required')
+    if not integrity(config['sha256']):
+        raise PermissionError('Source integrity failed')
+    if not isinstance(config['plugins'], list) or not config['plugins']:
+        raise ValueError('Explicit plugin attestations required')
+    for item in config['plugins']:
+        if set(item) != {'id', 'source'} or not re.fullmatch(r'[a-z0-9_-]{1,100}', item['id']):
+            raise ValueError('Invalid plugin attestation')
+        expected = Path(item['source'])
+        if not expected.is_absolute() or expected.resolve() != expected or str(expected) not in config['sha256']:
+            raise ValueError('Plugin source must be an exact hashed regular path')
+        if plugin_source_reader(item['id']) != str(expected):
+            raise PermissionError('Active plugin source mismatch')
+    if not isinstance(config['databases'], list) or not config['databases']:
+        raise ValueError('Explicit database contracts required')
+    for item in config['databases']:
+        if set(item) != {'path', 'tables'} or not isinstance(item['tables'], dict) or not item['tables']:
+            raise ValueError('Invalid database contract')
+        path = Path(item['path'])
+        if not path.is_absolute() or path.resolve() != path or not path.is_file():
+            raise ValueError('Existing regular database required')
+        if path.stat().st_uid != os.geteuid() or path.stat().st_mode & 0o077:
+            raise PermissionError('Private owned database required')
+        with sqlite3.connect(path.as_uri() + '?mode=ro', uri=True, timeout=5) as db:
+            if db.execute('PRAGMA quick_check').fetchall() != [('ok',)]:
+                raise PermissionError('Database integrity failed')
+            for table, columns in item['tables'].items():
+                if not re.fullmatch(r'[A-Za-z_][A-Za-z0-9_]{0,63}', table) or not isinstance(columns, list) or not columns:
+                    raise ValueError('Explicit safe table/column contract required')
+                if any(not isinstance(c,str) or not re.fullmatch(r'[A-Za-z_][A-Za-z0-9_]{0,63}', c) for c in columns):
+                    raise ValueError('Invalid column contract')
+                actual = {row[1] for row in db.execute('PRAGMA table_info("' + table + '")')}
+                if not set(columns) <= actual:
+                    raise PermissionError('Database schema mismatch')
+    return {'verified': True, 'files': len(config['sha256']), 'plugins': len(config['plugins']),
+            'databases': len(config['databases']), 'service_action': None}
+
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--config',required=True)

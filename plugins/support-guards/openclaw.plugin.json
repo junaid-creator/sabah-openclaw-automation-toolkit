@@ -1,0 +1,157 @@
+{
+  "id": "toolkit-support-guards",
+  "name": "Toolkit Support Guards",
+  "description": "Owner-only support control, exact native send admission and watchdog ingestion. No automatic activation.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "database",
+      "owners",
+      "customers",
+      "supportAgentIds"
+    ],
+    "properties": {
+      "database": {
+        "type": "string"
+      },
+      "owners": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "channel",
+            "account",
+            "sender",
+            "from",
+            "to",
+            "agent",
+            "sessionKey"
+          ],
+          "properties": {
+            "channel": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "account": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "sender": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "from": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "to": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "agent": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "sessionKey": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            }
+          }
+        }
+      },
+      "customers": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "channel",
+            "account",
+            "peer",
+            "agent",
+            "sessionKey"
+          ],
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "channel": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "account": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "peer": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "agent": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "sessionKey": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            }
+          }
+        }
+      },
+      "supportAgentIds": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string"
+        }
+      },
+      "watchdog": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "python",
+          "checkout",
+          "database",
+          "allowedAgentIds"
+        ],
+        "properties": {
+          "python": {
+            "type": "string"
+          },
+          "checkout": {
+            "type": "string"
+          },
+          "database": {
+            "type": "string"
+          },
+          "allowedAgentIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

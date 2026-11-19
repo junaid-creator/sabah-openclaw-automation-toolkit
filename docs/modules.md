@@ -151,3 +151,10 @@ python -m toolkit.knowledge_snapshot --base-url https://example.com --currency U
 ## Reproducibility batch
 
 Added toolkit.trusted_bridge (signed ingress, single confirmation, recipient-bound support receipts) and toolkit.setup_scaffold (inert private workspace setup). See [bridge](trusted-bridge.md) and [setup](../COMPLETE-SETUP-GUIDE.md). These are original application integrations, not native OpenClaw APIs.
+
+## Recovery integration modules
+
+- `toolkit.social_recovery`: bounded caller-driven approved-content recovery across the existing platform clients; shared ledger, explicit media hash verifier, activation and account contracts required. Run `tests/test_social_recovery.py`; see [assembly and limits](social-recovery.md). No scheduler or sender installation.
+- `toolkit.acquisition_workflow`: billing expiry/change observation and stable-ID weekly acquisition/qualification/approved-Sheet/report preparation; pass configured adapters and exact approved digests. Run `tests/test_acquisition_workflow.py`; see [configuration and output](acquisition-workflow.md). No paid consent, enrichment or scheduler inferred.
+- `toolkit.startup_fence`: native plugin-discovery/source/SQLite prestart check; run `python -m toolkit.startup_fence --config /absolute/private/fence.json`. Exit 0 accepts the bounded contract; failures are nonzero. See [private schema and tests](startup-fence.md). No service control.
+- Native support plugin and `toolkit.watchdog ingest-runtime`: actual SDK command/send/event bindings with exact owner/support separation; see [native integration](native-control-recovery.md). Runtime completion is not business success.

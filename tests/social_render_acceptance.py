@@ -8,7 +8,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from toolkit.social_review import Controller,LocalRenderer
 from toolkit.trusted_bridge import Bridge,canonical,fingerprint
 from toolkit.approval_ledger import Ledger
-p=argparse.ArgumentParser();p.add_argument('--config',required=True);p.add_argument('--output',required=True);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--config',required=True);p.add_argument('--output',required=True);p.add_argument('--chromium');a=p.parse_args()
 cfg=json.loads(Path(a.config).read_text());root=Path(a.output).absolute();root.mkdir(mode=0o700,parents=True,exist_ok=False)
 route={'channel':'fixture','account':'owner','peer':'owner','role':'owner'};key=b'synthetic-social-acceptance-key-000000';now=1000
 bridge=Bridge(root/'bridge.sqlite',key,[route],clock=lambda:now);ledger=Ledger(root/'publication.sqlite');sent=[];posts=[]
@@ -26,7 +26,7 @@ def publish(job,binding,store):
   result[platform]={'status':'VERIFIED','url':url}
  return result
 (root/'renders').mkdir(mode=0o700)
-renderer=LocalRenderer(brand=cfg['brand'],fonts=cfg['fonts'],atlas=cfg['atlas'],output_root=root/'renders',host=lambda path,sha,key:'https://fixture.example/media/'+key+'.jpg')
+renderer=LocalRenderer(brand=cfg['brand'],fonts=cfg['fonts'],atlas=cfg['atlas'],output_root=root/'renders',chromium=a.chromium,host=lambda path,sha,key:'https://fixture.example/media/'+key+'.jpg')
 controller=Controller(root,bridge=bridge,ledger=ledger,renderer=renderer,sender=sender);results=[]
 for template in range(1,7):
  campaign={'template':template,'content':cfg['content'],'targets':['facebook','instagram','tiktok'],'captions':{p:'Synthetic acceptance only' for p in ('facebook','instagram','tiktok')}}
